@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.5",
+    "bootstrap": "^4.0.0-beta.2",
+    "gatsby": "^2.0.79",
+    "gatsby-plugin-emotion": "^4.0.1",
+    "gatsby-plugin-typography": "^2.2.4",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "reactstrap": "^7.0.2",
+    "typography": "^0.16.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
