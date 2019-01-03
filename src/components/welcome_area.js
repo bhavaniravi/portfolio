@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import CountUp from 'react-countup';
 
 class NumericalAchieveMent extends Component{
     render(){
@@ -6,7 +7,9 @@ class NumericalAchieveMent extends Component{
             <div className="col-md-4">
                 <div className="wel_item">
                     <i className="lnr lnr-database"></i>
-                    <h4>{this.props.count}</h4>
+                    <h4>
+                        <CountUp end={this.props.count} duration={this.props.count/10}></CountUp>
+                    </h4>
                     <p>{this.props.achievement}</p>
                 </div>
             </div>
@@ -42,8 +45,8 @@ export default class WelcomeArea extends Component{
                                 <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
                                 <div className="row">
                                     <NumericalAchieveMent count={10} achievement="Talks"></NumericalAchieveMent>
-                                    <NumericalAchieveMent count={10} achievement="Talks"></NumericalAchieveMent>
-                                    <NumericalAchieveMent count={10} achievement="Talks"></NumericalAchieveMent>
+                                    <NumericalAchieveMent count={20} achievement="Workshops"></NumericalAchieveMent>
+                                    <NumericalAchieveMent count={30} achievement="Projects"></NumericalAchieveMent>
                                     
                                 </div>
                             </div>

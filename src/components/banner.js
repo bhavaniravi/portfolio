@@ -21,6 +21,8 @@ export default class Banner extends React.Component{
 										<li><a href="#"><i className="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i className="fa fa-twitter"></i></a></li>
 										<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+										<li><a href="#"><i className="fa fa-github"></i></a></li>
+										<li><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
 									</ul>
 								</div>
 							</div>

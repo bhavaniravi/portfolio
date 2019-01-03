@@ -19,7 +19,6 @@ class MenuItem extends React.Component{
 class ExtendedNavbar extends React.Component{
     constructor(props) {
         super(props);
-    
         this.toggle = this.toggle.bind(this);
         this.state = {
           isOpen: false
@@ -34,7 +33,7 @@ class ExtendedNavbar extends React.Component{
 
     render(){
         return (
-            <Navbar className="navbar navbar-expand-lg navbar-light">
+            <Navbar className="navbar-expand-lg" light={true}>
                 <div className="container box_1620">
                     <NavbarBrand href="index.html">
                     {/* <img src="img/logo.png" alt=""/> */}
@@ -61,9 +60,36 @@ class ExtendedNavbar extends React.Component{
 }
 
 export default class Header extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            isScroll: false
+        };
+      }
+
+    listenScrollEvent = e => {
+        var scroll = window.scrollY; 
+        console.log(scroll)
+        if (scroll >= 150 ) {
+            this.setState({
+                isScroll: true
+            });
+        }
+        else{
+            this.setState({
+                isScroll: false
+            });
+        }
+      }
+    
+      componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+      }
+
     render(){
         return (
-            <header className="header_area">
+            
+            <header id="header_area" className={this.state.isScroll ? 'header_area navbar_fixed': "header_area"}>
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>

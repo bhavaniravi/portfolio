@@ -9,6 +9,8 @@ import Helemt from "react-helmet";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+let about_me = "🔸 Building @kissflow at @orangescape \n 🔸 Code - Speak - Write \n 🔸 Python - Chatbots - ML \n 🔸  womenintech  🔸"
+let tagline = "The Geekette"
 export default () => (
   <div>
     <Helemt>
@@ -32,7 +34,7 @@ export default () => (
         
       <Header></Header>
         
-      <Banner title={"Bhavani Ravi"} about_me={"I am Bhavani the great"} tagline={"Be the best"}/>
+      <Banner title={"Bhavani Ravi"} about_me={about_me} tagline={tagline}/>
       <WelcomeArea></WelcomeArea>
       <TimeLine></TimeLine>
       <BlogArea></BlogArea>
