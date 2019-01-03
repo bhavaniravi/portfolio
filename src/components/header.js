@@ -69,7 +69,6 @@ export default class Header extends React.Component{
 
     listenScrollEvent = e => {
         var scroll = window.scrollY; 
-        console.log(scroll)
         if (scroll >= 150 ) {
             this.setState({
                 isScroll: true

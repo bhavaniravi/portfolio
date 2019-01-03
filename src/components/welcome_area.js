@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import CountUp from 'react-countup';
+import {Progress} from "reactstrap";
 
 class NumericalAchieveMent extends Component{
     render(){
@@ -22,11 +23,7 @@ class SkillItem extends Component{
         return (
             <div className="skill_item">
                 <h4>{this.props.skill} <span className="counter">{this.props.percentage}</span>%</h4>
-                <div className="progress_br">
-                    <div className="progress">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
+                <Progress value={this.props.percentage}/>
             </div>
         )
     }
@@ -54,10 +51,10 @@ export default class WelcomeArea extends Component{
                         <div className="col-lg-6">
                             <div className="tools_expert">
                                 <div className="skill_main">
-                                    <SkillItem skill={"python"} percentage={85}></SkillItem>
+                                    <SkillItem skill={"python"} percentage={80}></SkillItem>
                                     <SkillItem skill={"chatbots"} percentage={85}></SkillItem>
-                                    <SkillItem skill={"Django/Flask"} percentage={85}></SkillItem>
-                                    <SkillItem  skill={"MongoDB"} percentage={85}>></SkillItem>
+                                    <SkillItem skill={"Django/Flask"} percentage={95}></SkillItem>
+                                    <SkillItem  skill={"MongoDB"} percentage={95}>></SkillItem>
                                 </div>
                             </div>
                         </div>
