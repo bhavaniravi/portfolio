@@ -3000,13 +3000,20 @@ h6 {
   text-align: center;
   cursor: pointer;
   transition: all 300ms linear 0s;
-}
-.white_bg_btn:hover {
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   color: #fff;
   border: none;
+}
+.white_bg_btn:hover {
+  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  color: #fff;
+  border: none; */
+  background: #f9f9ff;
+  color: #222222;
 }
 
 .black_btn {
