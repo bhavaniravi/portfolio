@@ -11,7 +11,7 @@ class MenuItem extends React.Component{
     render(){
         return (
             <NavItem>
-                <NavLink href="${this.props.href}">{this.props.title}</NavLink>
+                <NavLink href={this.props.href}>{this.props.title}</NavLink>
             </NavItem>
         )}
 }
@@ -47,9 +47,9 @@ class ExtendedNavbar extends React.Component{
                     <Collapse isOpen={this.state.isOpen} navbar id="navbarSupportedContent">
                         <Nav className="nav navbar-nav menu_nav ml-auto" navbar>
                             <MenuItem href="/" title="Home"></MenuItem>
+                            <MenuItem href="blogs" title="Blogs"></MenuItem>
                             <MenuItem href="#about_me" title="About Me"></MenuItem>
                             <MenuItem href="#experience" title="Experience"></MenuItem>
-                            <MenuItem href="#blogs" title="Blogs"></MenuItem>
                             <MenuItem href="#contact_me" title="Contact Me"></MenuItem>
                         </Nav>
                     </Collapse>
