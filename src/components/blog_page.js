@@ -1,56 +1,65 @@
 import {StaticQuery} from "gatsby"
 import React, { Component } from "react";
+// import styled from 'styled-components';
 
-const mediumCDNUrl = `https://cdn-images-1.medium.com/max/150/`
+const mediumCDNUrl = `https://miro.medium.com/fit/c/1400/420/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
 
-class Article extends Component{
+
+class MediumBlogPost extends Component{
     render(){
-        console.log(this.props.post)
         return (
-            <article class="row blog_item">
-            <div class="col-md-3">
-                <div class="blog_info text-right">
-                     <div class="post_tag">
-                     {this.props.post.node.virtuals.tags.slice(0, 3).map(tag => (
-                        <a href="#">{tag.name}, </a>
-                    ))}
-                     </div>
-                     <ul class="blog_meta list">
-                         <li><a href="#">{this.props.post.node.author.name}<i class="lnr lnr-user"></i></a></li>
-                         <li><a href="#">{this.props.post.node.createdAt}<i class="lnr lnr-calendar-full"></i></a></li>
-                         <li><a href="#">{this.props.post.node.virtuals.totalClapCount}<i class="lnr lnr-thumbs-up"></i></a></li>
-                         <li><a href="#">{this.props.post.node.virtuals.responsesCreatedCount}<i class="lnr lnr-bubble"></i></a></li>
-                     </ul>
-                 </div>
+            <div className="med_post">
+                <div className="med_dummy_div_iniside_post">
+                    <div className="med_writer_flex">
+                        <div>
+                        <a target="_blank" href={mediumBlogUrl}>
+                            <img src="https://miro.medium.com/fit/c/80/80/1*L26oIAuooT4cIFJeeY8c4w.jpeg" 
+                            alt="" className="med_profile_pic"></img>
+                        </a>
+                        </div>
+                        <div className="med_blog_info_div">
+                            <span className="med_blog_info med_author_in_pub">
+                                <div>
+                                    <a target="_blank" href={mediumBlogUrl}>{this.props.post.node.author.name}</a>
+                                    {/* <span> in <a href="#">Hacker Noon</a></span> */}
+                                </div>
+                            </span>
+                            <span className="med_blog_info med_date_read_time">
+                            <div><a>{this.props.post.node.createdAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
+                        </div>
+                    </div>
+                    <a target="_blank" href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`}>
+                        <div>
+                            <section className="med_preview_section">
+                                <figure className="med_preview_img">
+                                    <div className="med_preview_img_container">
+                                    <div className="med_img_padding"></div>
+                                    <img alt="" 
+                                    src={`${mediumCDNUrl}/${this.props.post.node.virtuals.previewImage.imageId}`} 
+                                    className="med_preview_img"/>
+                                    </div>
+                                </figure>
+                                <h1 className="med_title">{this.props.post.node.title}</h1>
+                                <h2 className="med_subtitle">{this.props.post.node.virtuals.subtitle}</h2>
+                            </section>
+                        </div>
+                    </a>
+                </div>
             </div>
-             <div class="col-md-9">
-                 <div class="blog_post">
-                     <img src={`${mediumCDNUrl}/${this.props.post.node.virtuals.previewImage.imageId}`} alt=""/>
-                     <div class="blog_details">
-                         <a href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`}
-                            target="_blank" >
-                            <h2>{this.props.post.node.title}</h2></a>
-                         <p>{this.props.post.node.virtuals.subtitle}</p>
-                         <a href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`} 
-                            target="_blank" 
-                            class="white_bg_btn">Read Blog</a>
-                     </div>
-                 </div>
-             </div>
-         </article>
         )
     }
 }
 
+
+
 class BlogPageList extends Component{
     render(){
         const posts = this.props.data
-        console.log(posts)
         return (
-            <div>
+            <div className="med_blog_list_container">
                 {posts.map(post_data => (
-                    <Article post={post_data}></Article>
+                    <MediumBlogPost post={post_data}></MediumBlogPost>
                 ))}
             </div>
         )
@@ -61,26 +70,22 @@ export default ({ props }) => (
 	<StaticQuery
 	  query={graphql`
       query {
-        allMediumPost(filter: {type:{eq:"Post"}}, sort: { fields: [createdAt], order: DESC }) {
+        allMediumPost(limit:10, filter: {type:{eq:"Post"}}, sort: { fields: [createdAt], order: DESC }) {
           edges {
             node{
               id
               uniqueSlug
               title
+              createdAt
               virtuals {
-                  previewImage {
-                        imageId
-                        originalWidth
-                        originalHeight
-                  }
                 totalClapCount
                 subtitle
-                tags {
-                  name
-                }
+                readingTime
                 responsesCreatedCount
+                previewImage {
+                        imageId
+                }
               }
-                  createdAt
               author {
                 id
                 name
