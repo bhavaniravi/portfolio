@@ -226,6 +226,11 @@
 	.profile_inner .personal_text {
 		padding-top: 30px;
 	}
+
+	/* My custom css */
+	.med_blog_list_container {
+		margin-top: 130px !important;
+	}
 }
 @media (max-width:767px){
 	.home_banner_area {
