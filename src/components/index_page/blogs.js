@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import {StaticQuery} from "gatsby";
 
-const mediumCDNUrl = `https://cdn-images-1.medium.com/max/150/`
+const mediumCDNUrl = `https://cdn-images-1.medium.com/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
 
 class BlogCategoriesTab extends Component{
