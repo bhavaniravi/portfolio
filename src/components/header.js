@@ -37,7 +37,7 @@ class ExtendedNavbar extends React.Component{
                 <div className="container box_1620">
                     <NavbarBrand href="index.html">
                     {/* <img src="img/logo.png" alt=""/> */}
-                    <span color="white">Bhavani Ravi</span>
+                    {/* <span color="white">Bhavani Ravi</span> */}
                     </NavbarBrand>
                     <NavbarToggler className="navbar-toggler" onClick={this.toggle}>
                         <span className="icon-bar"></span>
