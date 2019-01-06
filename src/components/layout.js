@@ -13,17 +13,20 @@ export default ({ children }) => (
         <title>Bhavani Ravi's Portfolio</title>
         
         
-        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="vendors/linericon/style.css"/>
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css"/>
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css"/>
-        <link rel="stylesheet" href="vendors/animate-css/animate.css"/>
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css"/>
-
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
+        <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/vendors/linericon/style.css"/>
+        <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="/vendors/lightbox/simpleLightbox.css"/>
+        <link rel="stylesheet" href="/vendors/nice-select/css/nice-select.css"/>
+        <link rel="stylesheet" href="/vendors/animate-css/animate.css"/>
+        <link rel="stylesheet" href="/vendors/popup/magnific-popup.css"/>
+        
+        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="/css/responsive.css"/>
+        <link rel="stylesheet" href="/css/medium_blog.css"/>
+       
+        
     </Helemt>
         
       <Header></Header>
