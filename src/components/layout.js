@@ -35,7 +35,7 @@ export default ({ children }) => (
       <FooterArea></FooterArea>  
 
       
-        <script src="js/jquery-3.3.1.min.js"></script>
+        {/* <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/stellar.js"></script>
@@ -49,6 +49,6 @@ export default ({ children }) => (
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+        <script src="js/theme.js"></script>  */}
         </div>
 )

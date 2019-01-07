@@ -13,6 +13,6 @@ export default () => (
       <Banner/>
       <WelcomeArea></WelcomeArea>
       <TimeLine></TimeLine>
-      <BlogArea></BlogArea>
+      {/* <BlogArea></BlogArea> */}
   </Layout>
 )

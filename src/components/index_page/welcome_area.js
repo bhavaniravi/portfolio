@@ -22,7 +22,7 @@ class SkillItem extends Component{
     render(){
         return (
             <div className="skill_item">
-                <h4>{this.props.skill} <span className="counter">{this.props.percentage}</span>%</h4>
+                <h4>{this.props.skill} <span className="counter"></span></h4>
                 <Progress value={this.props.percentage}/>
             </div>
         )
@@ -51,8 +51,8 @@ export default class WelcomeArea extends Component{
                         <div className="col-lg-6">
                             <div className="tools_expert">
                                 <div className="skill_main">
-                                    <SkillItem skill={"python"} percentage={80}></SkillItem>
-                                    <SkillItem skill={"chatbots"} percentage={85}></SkillItem>
+                                    <SkillItem skill={"Python"} percentage={80}></SkillItem>
+                                    <SkillItem skill={"Chatbots"} percentage={85}></SkillItem>
                                     <SkillItem skill={"Django/Flask"} percentage={95}></SkillItem>
                                     <SkillItem  skill={"MongoDB"} percentage={95}>></SkillItem>
                                 </div>
