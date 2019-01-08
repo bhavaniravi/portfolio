@@ -93,7 +93,7 @@ button:focus {
 }
 
 .p_120 {
-  padding-top: 120px;
+  padding-top: 75px;
   padding-bottom: 120px;
 }
 
@@ -163,7 +163,6 @@ button:focus {
   left: 0;
   z-index: 99;
   transition: background 0.4s, all 0.3s linear;
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
 }
 .header_area .navbar {
   background: transparent;
@@ -363,7 +362,9 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-color: #80808012;
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   margin-bottom: 200px;
 }
 .home_banner_area .box_1620 {
@@ -3067,6 +3068,7 @@ h6 {
   border: 1px solid #eeeeee;
   padding: 20px 20px;
   border-radius: 5px;
+  background-color: #80808024;
 }
 .wel_item i {
   font-size: 24px;
@@ -3123,10 +3125,9 @@ h6 {
   border-radius: 5px;
   vertical-align: middle;
   align-self: center;
-  background-color: #2222228f;
-  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); 
 }
 
 /* End Welcome Area css
@@ -3322,7 +3323,6 @@ h6 {
 .personal_text h6 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
   letter-spacing: 2.1px;
   font-weight: normal;
   margin-bottom: 12px;
@@ -3338,9 +3338,9 @@ h6 {
 }
 .personal_text h3 {
   font-size: 48px;
-  text-transform: uppercase;
   margin-bottom: 15px;
   color: #222222;
+  font-family: "Nutrino", sans-serif;
 }
 .personal_text p {
   font-family: "Roboto", sans-serif;
@@ -3638,16 +3638,21 @@ h6 {
 }
 .news_widget .input-group .sub-btn {
   border-radius: 0px;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
   outline: none !important;
   box-shadow: none !important;
   padding: 0px;
   border: none;
   width: 42px;
   cursor: pointer;
-  color: #fff;
+  color: #222222;
+  background-color: #fff;
+}
+
+.sub-btn .lnr-arrow-right{
+  font-weight: bolder !important;
 }
 
 .social_widget p {
@@ -3663,7 +3668,7 @@ h6 {
 }
 .social_widget .list li a {
   color: #cccccc;
-  font-size: 14px;
+  font-size: 18px;
   transition: all 300ms linear 0s;
 }
 .social_widget .list li:last-child {

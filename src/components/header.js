@@ -60,35 +60,35 @@ class ExtendedNavbar extends React.Component{
 }
 
 export default class Header extends React.Component{
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         isScroll: false
-    //     };
-    //   }
+    constructor(props) {
+        super(props);
+        this.state = {
+            isScroll: this.props.nav_fixed
+        };
+      }
 
-    // listenScrollEvent = e => {
-    //     var scroll = window.scrollY; 
-    //     if (scroll >= 150 ) {
-    //         this.setState({
-    //             isScroll: true
-    //         });
-    //     }
-    //     else{
-    //         this.setState({
-    //             isScroll: false
-    //         });
-    //     }
-    //   }
+    listenScrollEvent = e => {
+        var scroll = window.scrollY; 
+        if (scroll >= 150 ) {
+            this.setState({
+                isScroll: true
+            });
+        }
+        else{
+            this.setState({
+                isScroll: this.props.nav_fixed
+            });
+        }
+      }
     
-    //   componentDidMount() {
-    //     window.addEventListener('scroll', this.listenScrollEvent)
-    //   }
+      componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+      }
 
     render(){
         return (
-            <header id="header_area" className='header_area navbar_fixed'>
-            {/* <header id="header_area" className={this.state.isScroll ? 'header_area navbar_fixed': "header_area"}> */}
+            // <header id="header_area" className='header_area navbar_fixed'></header>
+            <header id="header_area" className={this.state.isScroll ? 'header_area navbar_fixed': "header_area"}>
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>

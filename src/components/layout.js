@@ -1,10 +1,16 @@
-import React from "react"
+import React, { Component } from "react"
 import Helemt from "react-helmet";
 import FooterArea from "./footer";
 import Header from "./header"
 import { withPrefix } from 'gatsby'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+class LayoutHeader extends Component{
+    render(){
+        console.log(this.props.children.props);
+        return (<Header nav_fixed={this.props.children.props.nav_fixed}></Header>)
+    }
+}
 export default ({ children }) => (
     <div>
     <Helemt>
@@ -29,8 +35,7 @@ export default ({ children }) => (
        
         
     </Helemt>
-        
-      <Header></Header>
+      <LayoutHeader children={children}></LayoutHeader>
       {children}
       <FooterArea></FooterArea>  
 

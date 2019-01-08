@@ -6,6 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default () => (
     <Layout>
-        <BlogPageList></BlogPageList>
+        <BlogPageList nav_fixed={true}></BlogPageList>
     </Layout>
   )
