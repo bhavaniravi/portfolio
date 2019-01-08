@@ -9,7 +9,7 @@ import TimeLine from "../components/index_page/timeline";
 import BlogArea from "../components/index_page/blogs";
 
 export default () => (
-  <Layout>
+  <Layout navFixed={false}>
       <Banner/>
       <WelcomeArea></WelcomeArea>
       <TimeLine></TimeLine>

@@ -63,7 +63,7 @@ export default class Header extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            isScroll: this.props.nav_fixed
+            isScroll: false
         };
       }
 
@@ -76,7 +76,7 @@ export default class Header extends React.Component{
         }
         else{
             this.setState({
-                isScroll: this.props.nav_fixed
+                isScroll: false
             });
         }
       }
@@ -88,7 +88,7 @@ export default class Header extends React.Component{
     render(){
         return (
             // <header id="header_area" className='header_area navbar_fixed'></header>
-            <header id="header_area" className={this.state.isScroll ? 'header_area navbar_fixed': "header_area"}>
+            <header id="header_area" className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed': "header_area"}>
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>
