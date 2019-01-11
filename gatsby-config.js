@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: `/portfolio2018`,
+    // pathPrefix: `/portfolio2018`,
     siteMetadata: {
         "title":"Bhavani Ravi",
         "about_me": "🔸 Building @kissflow at @orangescape \n 🔸 Code - Speak - Write \n 🔸 Python - Chatbots - ML \n 🔸  womenintech  🔸",

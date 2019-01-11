@@ -281,7 +281,7 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background: #000;
+  background: #222;
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -1044,7 +1044,7 @@ button:focus {
 }
 .single-post-area .navigation-area .nav-left .thumb {
   margin-right: 20px;
-  background: #000;
+  background: #222;
 }
 .single-post-area .navigation-area .nav-left .thumb img {
   transition: all 300ms linear 0s;
@@ -1070,7 +1070,7 @@ button:focus {
 }
 .single-post-area .navigation-area .nav-right .thumb {
   margin-left: 20px;
-  background: #000;
+  background: #222;
 }
 .single-post-area .navigation-area .nav-right .thumb img {
   transition: all 300ms linear 0s;
@@ -3135,9 +3135,10 @@ h6 {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-color: #5a8fff;
+  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
 }
 
 .tabs_inner .nav.nav-tabs {
@@ -3387,11 +3388,11 @@ h6 {
   font-size: 16px;
   
   background: #e8e8e8;
-  color: #000;
+  color: #222;
 }
 .personal_text .personal_social li:hover a {
   color: #e8e8e8;
-  background-color: #000;
+  background-color: #222;
   }
 
 /* End Personal Profile Area css
@@ -3560,7 +3561,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #000;
+  background: #222;
 }
 
 .f_title {
@@ -3605,7 +3606,7 @@ h6 {
   width: 80%;
   border: none;
   padding: 0px 15px;
-  border: 1px solid #1e233b;
+  border: 1px solid #eee;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #cccccc;

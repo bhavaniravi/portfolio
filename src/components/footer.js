@@ -62,9 +62,11 @@ class NewsLetter extends Component{
                     </div>
                     <p>Stay updated with my recent blogs</p>
                     <div id="mc_embed_signup">
-                        <form target="_blank" action="#mail_chimp_url_goes_here" method="get" className="subscribe_form relative">
+                        <form action="https://bhavaniravi.us19.list-manage.com/subscribe/post" method="POST" className="subscribe_form relative">
                             <div className="input-group d-flex flex-row">
-                                <input name="EMAIL" 
+                                <input type="hidden" name="u" value="d20357716d3689cee26657b8a"/>
+                                <input type="hidden" name="id" value="189cad7f10"></input>
+                                <input name="MERGE0" id="MERGE0" 
                                 placeholder={this.state.placeholder} 
                                 onFocus={this._on_focus}
                                 onBlur={this._on_blur}

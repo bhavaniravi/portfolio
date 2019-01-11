@@ -33,7 +33,7 @@ class SkillItem extends Component{
 export default class WelcomeArea extends Component{
     render(){
         return (
-            <section className="welcome_area p_120">
+            <section className="welcome_area p_120" id="about_me">
                 <div className="container">
                     <div className="row welcome_inner">
                         <div className="col-lg-6">

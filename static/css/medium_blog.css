@@ -103,10 +103,10 @@
         margin-bottom: -0.28em;
         margin-top: 0.72em;
         letter-spacing: -0.022em;
-        line-height: 2.00;
+        line-height: 1.35;
         font-size: 24px; 
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 35px;
+        padding-right: 30px;
         font-weight: 600;
         color: rgba(0, 0, 0, 0.84);
         font-style: normal;
@@ -115,13 +115,13 @@
 
 .med_subtitle{
     margin-bottom: -0.31em;
-    margin-top: 0.48em;
+    margin-top: 0.50em;
     line-height: 1.18;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     letter-spacing: -0.022em;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 35px;
+    padding-right: 30px;
     color: rgba(0, 0, 0, 0.54);
     font-style: normal;
     font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;

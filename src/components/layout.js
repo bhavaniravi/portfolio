@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import Helemt from "react-helmet";
 import FooterArea from "./footer";
 import Header from "./header"

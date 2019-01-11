@@ -26,7 +26,7 @@ class MediumBlogPost extends Component{
                                 </div>
                             </span>
                             <span className="med_blog_info med_date_read_time">
-                            <div><a>{this.props.post.node.createdAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
+                            <div><a>{this.props.post.node.latestPublishedAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
                         </div>
                     </div>
                     <a target="_blank" href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`}>
@@ -51,8 +51,6 @@ class MediumBlogPost extends Component{
     }
 }
 
-
-
 class BlogPageList extends Component{
     render(){
         const posts = this.props.data
@@ -70,13 +68,13 @@ export default ({ props }) => (
 	<StaticQuery
 	  query={graphql`
       query {
-        allMediumPost(limit:10, filter: {type:{eq:"Post"}}, sort: { fields: [createdAt], order: DESC }) {
+        allMediumPost(limit:10, filter: {type:{eq:"Post"}}, sort: { fields: [latestPublishedAt], order: DESC }) {
           edges {
             node{
               id
               uniqueSlug
               title
-              createdAt
+              latestPublishedAt
               virtuals {
                 totalClapCount
                 subtitle
