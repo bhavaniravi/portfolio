@@ -24,9 +24,7 @@ export default ({ navFixed, children }) => (
         <link rel="stylesheet" href={withPrefix("vendors/popup/magnific-popup.css")}/>
         <link rel="stylesheet" href={withPrefix("css/style.css")}/>
         <link rel="stylesheet" href={withPrefix("css/responsive.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/>
-       
-        
+        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/>        
     </Helmet>
     <Header navFixed={navFixed}></Header>
       {children}

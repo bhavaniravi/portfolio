@@ -1,7 +1,17 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
+
+class SocialIcon extends React.Component{
+	render(){
+		return (
+			<li><a target="_blank" href="#"><i className="fa fa-twitter"></i></a></li>
+		)
+	}
+}
+
 class Banner extends React.Component{
+	
     render(){
         return (
           <section id="home_banner_area" className="home_banner_area">
@@ -19,10 +29,9 @@ class Banner extends React.Component{
                                     <h4>{this.props.tagline}</h4>
 																		<p><a href="https://twitter.com/geeky_bhavani?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @geeky_bhavani</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 									<ul className="list personal_social">
-										<li><a href="#"><i className="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-										<li><a href="#"><i className="fa fa-github"></i></a></li>
-										<li><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
+									{this.props.social_icons.map(social => (
+                    <li><a target="_blank" href="#"><i className={`fa ${social.className}`}></i></a></li>
+                	))}
 									</ul>
 								</div>
 							</div>
@@ -30,8 +39,11 @@ class Banner extends React.Component{
 					</div>
 				</div>
             </div>
+
         </section>
-        )}
+				
+				)}
+				
 }
 
 export default ({ props }) => (
@@ -42,7 +54,11 @@ export default ({ props }) => (
 			siteMetadata {
 			  title,
 			  about_me,
-			  tagline
+				tagline,
+				social_icons{
+					url
+					className
+				}
 			}
 		  }
 		}
@@ -50,4 +66,5 @@ export default ({ props }) => (
   }
 	  render={({ site }) => <Banner {...site.siteMetadata} {...props} />}
 	/>
-  );
+	);
+	

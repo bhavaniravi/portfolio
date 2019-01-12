@@ -25,7 +25,8 @@ class Social extends Component{
                     <ul className="list">
                         <p><a href="https://twitter.com/geeky_bhavani?ref_src=twsrc%5Etfw" 
                         class="twitter-follow-button" 
-                        data-show-count="true">Follow me</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+                        data-show-count="true">Follow me</a>
+                        </p>
                     </ul>
                 </aside>
             </div>
@@ -109,4 +110,5 @@ export default class FooterArea extends Component{
         </footer>
         )
     }
+    
 }
