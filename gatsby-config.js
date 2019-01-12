@@ -3,7 +3,7 @@ module.exports = {
     siteMetadata: {
         "title":"Bhavani Ravi",
         "about_me": "🔸 Building @kissflow at @orangescape \n 🔸 Code - Speak - Write \n 🔸 Python - Chatbots - ML \n 🔸  womenintech  🔸",
-        "tagline": "The Geekette"
+        "tagline": "Backend Engineer with Crazy Passion for Products"
       },
     plugins: [
         {

@@ -3224,7 +3224,6 @@ h6 {
 .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
   color: #fff;
   font-size: 21px;
-  text-transform: uppercase;
   margin-bottom: 20px;
 }
 .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
@@ -3333,13 +3332,13 @@ h6 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
-  color: #222222;
+  color: #22222266;
 }
 .personal_text h3 {
   font-size: 48px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   color: #222222;
   font-family: "Nutrino", sans-serif;
 }

@@ -61,12 +61,12 @@ export default class TimeLine extends Component{
                                 Experience
                             </NavLink>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink className={classnames({ active: this.state.activeTab === '2' })}
                                     onClick={() => { this.toggle('2'); }}>
                                 Education
                             </NavLink>
-                        </NavItem>
+                        </NavItem> */}
                     </Nav>
                     <TabContent activeTab={this.state.activeTab}>
                         <TabPane tabId="1">
@@ -74,6 +74,7 @@ export default class TimeLine extends Component{
                                 <TimeLineItem time={"May 2018 to Present"} title={"Software Engineer @ Orangescape"}></TimeLineItem>  
                                 <TimeLineItem time={"Jan 2018 to Present"} title={"Community Lead @ Build2Learn"}></TimeLineItem>
                                 <TimeLineItem time={"May 2016 to Apr 2018"} title={"Product Development Engineer @ FFI"}></TimeLineItem>
+                                <TimeLineItem time={"Aug 2012 to Apr 2016"} title={"B.E CSE @ KCG College Of Technology"}></TimeLineItem>
                             </ul>
                         </TabPane>
                     </TabContent>
