@@ -3135,10 +3135,10 @@ h6 {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-color: #5a8fff;
-  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  /* background-color: #5a8fff; */
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); 
 }
 
 .tabs_inner .nav.nav-tabs {
