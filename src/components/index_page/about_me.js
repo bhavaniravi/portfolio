@@ -17,7 +17,7 @@ class Banner extends React.Component{
 									{/* <h6>Hello Everybody, I'm</h6> */}
                                     <h3>{this.props.title}</h3>
                                     <h4>{this.props.tagline}</h4>
-																		{/* <p><a href="https://twitter.com/geeky_bhavani?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @geeky_bhavani</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p> */}
+																		<p><a href="https://twitter.com/geeky_bhavani?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @geeky_bhavani</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 									<ul className="list personal_social">
 										<li><a href="#"><i className="fa fa-twitter"></i></a></li>
 										<li><a href="#"><i className="fa fa-linkedin"></i></a></li>

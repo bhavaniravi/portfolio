@@ -47,11 +47,11 @@ class ExtendedNavbar extends React.Component{
                     <Collapse isOpen={this.state.isOpen} navbar id="navbarSupportedContent">
                         <Nav className="nav navbar-nav menu_nav ml-auto" navbar>
                             <MenuItem href="/" title="Home"></MenuItem>
-                            <MenuItem href="/blogs" title="Blogs"></MenuItem>
-                            <MenuItem href="/resume" title="Resume"></MenuItem>
                             <MenuItem href="#about_me" title="About Me"></MenuItem>
                             <MenuItem href="#experience" title="Experience"></MenuItem>
-                            <MenuItem href="#contact_me" title="Contact Me"></MenuItem>
+                            <MenuItem href="/blogs" title="Blogs"></MenuItem>
+                            <MenuItem href="/resume" title="Resume"></MenuItem>
+                            {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>
                 </div>
