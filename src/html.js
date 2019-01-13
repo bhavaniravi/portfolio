@@ -18,6 +18,10 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <meta property="og:title" content="Bhavani Ravi's Portfolio" />
+          <meta property="og:description" content="A Backend engineer with crazy passion for products" />
+          <meta property="og:image" content="img/pp.jpeg"/>
+          <link rel="shortcut icon" href="img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
