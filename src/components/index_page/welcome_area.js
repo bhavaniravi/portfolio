@@ -49,17 +49,17 @@ class WelcomeArea extends Component{
                                 <h4>About Myself</h4>
                                 <p>{this.props.about_me}</p>
                                 <div className="row">
-                                    <NumericalAchieveMent count={10} 
+                                    <NumericalAchieveMent count={6} 
                                                         achievement="Code" 
                                                         label="Projects"
                                                         icon="rocket">
                                     </NumericalAchieveMent>
-                                    <NumericalAchieveMent count={20} 
+                                    <NumericalAchieveMent count={18} 
                                                         achievement="Speak" 
                                                         label="Talks"
                                                         icon="mic">
                                     </NumericalAchieveMent>
-                                    <NumericalAchieveMent count={30} 
+                                    <NumericalAchieveMent count={40} 
                                                             achievement="Write" 
                                                             label="blogs"
                                                             icon="book">
