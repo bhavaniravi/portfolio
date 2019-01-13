@@ -1,16 +1,17 @@
 import React, {Component} from "react"
+import {TwitterFollowButton} from 'react-twitter-embed'
 
-class SocialLink extends Component{
-    render(){
-        return(
-            <li>
-                <a target="_blank" 
-                rel="noopener noreferrer" 
-                href={this.props.social_url}>
-                <i className={`fa ${this.props.social_icon_class}`}></i></a></li>
-        )
-    }
-}
+// class SocialLink extends Component{
+//     render(){
+//         return(
+//             <li>
+//                 <a target="_blank" 
+//                 rel="noopener noreferrer" 
+//                 href={this.props.social_url}>
+//                 <i className={`fa ${this.props.social_icon_class}`}></i></a></li>
+//         )
+//     }
+// }
 
 
 class Social extends Component{
@@ -23,10 +24,7 @@ class Social extends Component{
                     </div>
                     <p>Let us be social</p>
                     <ul className="list">
-                        <p><a href="https://twitter.com/geeky_bhavani?ref_src=twsrc%5Etfw" 
-                        class="twitter-follow-button" 
-                        data-show-count="true">Follow me</a>
-                        </p>
+                    <TwitterFollowButton screenName={'geeky_bhavani'}/>
                     </ul>
                 </aside>
             </div>

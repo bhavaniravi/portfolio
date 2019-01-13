@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import FooterArea from "./footer";
 import Header from "./header"
 import { withPrefix } from 'gatsby'
-import '!style-loader!css-loader!bootstrap/dist/css/bootstrap.min.css';
+// import '!style-loader!css-loader!bootstrap/dist/css/bootstrap.min.css';
 
 export default ({ navFixed, children }) => (
     <div>
@@ -14,7 +14,7 @@ export default ({ navFixed, children }) => (
         <title>Bhavani Ravi's Portfolio</title>
         
         
-        <link rel="stylesheet" href={withPrefix("bootstrap/dist/css/bootstrap.min.css")}/>
+        <link rel="stylesheet" href={withPrefix("css/bootstrap.min.css")}/>
         <link rel="stylesheet" href={withPrefix("vendors/linericon/style.css")}/>
         <link rel="stylesheet" href={withPrefix("css/font-awesome.min.css")}/>
         <link rel="stylesheet" href={withPrefix("vendors/owl-carousel/owl.carousel.min.css")}/>

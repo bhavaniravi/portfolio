@@ -2,6 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default class HTML extends React.Component {
+  // componentDidMount() {
+  //   if (typeof twttr.widgets !== 'undefined') {
+  //     twttr.widgets.load()
+  //   }
+  // }
+
   render() {
     return (
       <html {...this.props.htmlAttributes}>
@@ -23,7 +29,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <script
+        {/* <script
                 dangerouslySetInnerHTML={{
                     __html: `window.twttr = (function(d, s, id) {
                         var js, fjs = d.getElementsByTagName(s)[0],
@@ -42,7 +48,7 @@ export default class HTML extends React.Component {
                         return t;
                     }(document, "script", "twitter-wjs"));`,
                 }}
-            />
+            /> */}
       </html>
     )
   }

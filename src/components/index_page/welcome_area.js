@@ -2,17 +2,24 @@ import React, { Component } from "react"
 import CountUp from 'react-countup';
 import {Progress} from "reactstrap";
 import {StaticQuery} from "gatsby";
+import { graphql } from 'gatsby';
 
 class NumericalAchieveMent extends Component{
     render(){
         return (
             <div className="col-md-4">
                 <div className="wel_item">
-                    <i className="lnr lnr-database"></i>
+                    <i className={`lnr lnr-${this.props.icon}`}>
+                    {` ${this.props.achievement}`}
+                    </i>
+
+                    <div>
                     <h4>
-                        <CountUp end={this.props.count} duration={this.props.count/10}></CountUp>
+                        <CountUp end={this.props.count} 
+                        duration={this.props.count/10}  
+                        suffix={` ${this.props.label}`}/> 
                     </h4>
-                    <p>{this.props.achievement}</p>
+                    </div>
                 </div>
             </div>
         )
@@ -42,9 +49,21 @@ class WelcomeArea extends Component{
                                 <h4>About Myself</h4>
                                 <p>{this.props.about_me}</p>
                                 <div className="row">
-                                    <NumericalAchieveMent count={10} achievement="Talks"></NumericalAchieveMent>
-                                    <NumericalAchieveMent count={20} achievement="Workshops"></NumericalAchieveMent>
-                                    <NumericalAchieveMent count={30} achievement="Projects"></NumericalAchieveMent>
+                                    <NumericalAchieveMent count={10} 
+                                                        achievement="Code" 
+                                                        label="Projects"
+                                                        icon="rocket">
+                                    </NumericalAchieveMent>
+                                    <NumericalAchieveMent count={20} 
+                                                        achievement="Speak" 
+                                                        label="Talks"
+                                                        icon="mic">
+                                    </NumericalAchieveMent>
+                                    <NumericalAchieveMent count={30} 
+                                                            achievement="Write" 
+                                                            label="blogs"
+                                                            icon="book">
+                                    </NumericalAchieveMent>
                                     
                                 </div>
                             </div>

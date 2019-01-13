@@ -8,11 +8,17 @@ import WelcomeArea from "../components/index_page/welcome_area"
 import TimeLine from "../components/index_page/timeline";
 // import BlogArea from "../components/index_page/blogs";
 
-export default () => (
-  <Layout navFixed={false}>
-      <Banner/>
-      <WelcomeArea></WelcomeArea>
-      <TimeLine></TimeLine>
-      {/* <BlogArea></BlogArea> */}
-  </Layout>
-)
+class IndexComponent extends React.Component{
+  render(){
+    return (
+      <Layout navFixed={false}>
+        <Banner/>
+        <WelcomeArea></WelcomeArea>
+        <TimeLine></TimeLine>
+        {/* <BlogArea></BlogArea> */}
+      </Layout>
+    )
+  }
+}
+
+export default IndexComponent;

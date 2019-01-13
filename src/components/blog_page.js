@@ -1,6 +1,7 @@
 import {StaticQuery} from "gatsby"
 import React, { Component } from "react";
 // import styled from 'styled-components';
+import { graphql } from 'gatsby';
 
 const mediumCDNUrl = `https://miro.medium.com/fit/c/1400/420/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`

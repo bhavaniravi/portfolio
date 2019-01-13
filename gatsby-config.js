@@ -13,13 +13,15 @@ module.exports = {
         ]
       },
     plugins: [
-        `gatsby-plugin-twitter`,
         {
             resolve: `gatsby-source-medium`,
             options: {
               username: `@bhavaniravi`,
               limit: 200,
             },
-        }
+        },
+        'gatsby-plugin-sass',
+        `gatsby-plugin-styled-components`
+   
     ]
 }

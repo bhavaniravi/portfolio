@@ -1,6 +1,6 @@
-
 import React, { Component } from "react";
 import {StaticQuery} from "gatsby";
+import { graphql } from 'gatsby';
 
 const mediumCDNUrl = `https://cdn-images-1.medium.com/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
