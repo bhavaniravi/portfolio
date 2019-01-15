@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import {TwitterFollowButton} from 'react-twitter-embed'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 // class SocialLink extends Component{
 //     render(){
@@ -36,7 +37,15 @@ class NewsLetter extends Component{
     constructor(props){
         // props.placeholder = "Email Address" 
         super(props);
-        this.state = {"placeholder": "Email Address"}
+        this.state = {
+            "placeholder": "Email Address",
+            "email":"",
+            "submit_message":""
+        }
+    }
+
+    _handleEmailChange = e => {
+        this.setState({ email: e.target.value })
     }
 
     _on_blur = (e) => {
@@ -52,8 +61,18 @@ class NewsLetter extends Component{
 
     }
 
+    // 2. via `async/await`
+    _handleSubmit = async (e) => {
+        e.preventDefault();
+        const result = await addToMailchimp(this.state.email)
+        console.log(result)
+        this.setState({"submit_message":result.msg})
+        console.log(this.state);
+        // I recommend setting `result` to React state
+        // but you can do whatever you want
+    }
+
     render(){
-        console.log(this.state.placeholder)
         return (
             <div className="col-lg-5 col-sm-6">
                 <aside className="f_widget news_widget">
@@ -61,19 +80,21 @@ class NewsLetter extends Component{
                         <h3>Newsletter</h3>
                     </div>
                     <p>Stay updated with my recent blogs</p>
+                    
                     <div id="mc_embed_signup">
-                        <form action="https://bhavaniravi.us19.list-manage.com/subscribe/post" method="POST" className="subscribe_form relative">
+                        <form onSubmit={this._handleSubmit} method="POST" className="subscribe_form relative">
                             <div className="input-group d-flex flex-row">
                                 <input type="hidden" name="u" value="d20357716d3689cee26657b8a"/>
-                                <input type="hidden" name="id" value="189cad7f10"></input>
-                                <input name="MERGE0" id="MERGE0" 
+                                <input type="hidden"  name="id" value="189cad7f10"></input>
+                                <input name="email" id="email" 
                                 placeholder={this.state.placeholder} 
                                 onFocus={this._on_focus}
                                 onBlur={this._on_blur}
+                                onChange={this._handleEmailChange}
                                 required="" type="email"/>
                                 <button className="btn sub-btn"><span className="lnr lnr-arrow-right"></span></button>		
                             </div>				
-                            <div className="mt-10 info"></div>
+                            <div className="mt-10 info">{this.state.submit_message}</div>
                         </form>
                     </div>
                 </aside>

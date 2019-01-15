@@ -10,11 +10,11 @@ export default ({ navFixed, children }) => (
     <Helmet>
         <meta charSet="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link rel="icon" href="static/img/favicon.png" type="image/png"/>
+        {/* <link rel="icon" href="static/img/favicon.png" type="image/png"/> */}
         <title>Bhavani Ravi's Portfolio</title>
         
         
-        <link rel="stylesheet" href={withPrefix("css/bootstrap.min.css")}/>
+        {/* <link rel="stylesheet" href={withPrefix("css/bootstrap.css")}/>
         <link rel="stylesheet" href={withPrefix("vendors/linericon/style.css")}/>
         <link rel="stylesheet" href={withPrefix("css/font-awesome.min.css")}/>
         <link rel="stylesheet" href={withPrefix("vendors/owl-carousel/owl.carousel.min.css")}/>
@@ -24,7 +24,7 @@ export default ({ navFixed, children }) => (
         <link rel="stylesheet" href={withPrefix("vendors/popup/magnific-popup.css")}/>
         <link rel="stylesheet" href={withPrefix("css/style.css")}/>
         <link rel="stylesheet" href={withPrefix("css/responsive.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/>        
+        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/>         */}
     </Helmet>
     <Header navFixed={navFixed}></Header>
       {children}

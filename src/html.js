@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import {withPrefix} from "gatsby"
 
 export default class HTML extends React.Component {
   // componentDidMount() {
@@ -22,9 +23,23 @@ export default class HTML extends React.Component {
           <meta name="description" content="A Backend engineer with crazy passion for products" />
           <meta property="og:title" content="Bhavani Ravi's Portfolio" />
           <meta property="og:description" content="A Backend engineer with crazy passion for products" />
-          <meta property="og:image" content="img/pp.jpeg"/>
-          <link rel="shortcut icon" href="img/preview_icon/favicon.ico" type="image/x-icon" />
+          <meta property="og:image" content="/img/pp.jpeg"/>
+          <link rel="shortcut icon" href="/img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
+
+
+        <link rel="stylesheet" href={withPrefix("css/bootstrap.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/linericon/style.css")}/>
+        <link rel="stylesheet" href={withPrefix("css/font-awesome.min.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/owl-carousel/owl.carousel.min.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/lightbox/simpleLightbox.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/nice-select/css/nice-select.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/animate-css/animate.css")}/>
+        <link rel="stylesheet" href={withPrefix("vendors/popup/magnific-popup.css")}/>
+        <link rel="stylesheet" href={withPrefix("css/style.css")}/>
+        <link rel="stylesheet" href={withPrefix("css/responsive.css")}/>
+        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/> 
+
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

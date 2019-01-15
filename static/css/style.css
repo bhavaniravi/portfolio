@@ -1549,10 +1549,10 @@ button:focus {
 }
 
 .info {
-  background: #38a4ff;
+  background: #222222;
 }
 .info:before {
-  background: #298cdf;
+  background: #222222;
 }
 
 .warning {
