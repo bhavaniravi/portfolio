@@ -28,17 +28,10 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
 
 
-        <link rel="stylesheet" href={withPrefix("css/bootstrap.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/linericon/style.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/font-awesome.min.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/owl-carousel/owl.carousel.min.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/lightbox/simpleLightbox.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/nice-select/css/nice-select.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/animate-css/animate.css")}/>
-        <link rel="stylesheet" href={withPrefix("vendors/popup/magnific-popup.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/style.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/responsive.css")}/>
-        <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/> 
+        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="/css/responsive.css"/>
+        
 
         </head>
         <body {...this.props.bodyAttributes}>

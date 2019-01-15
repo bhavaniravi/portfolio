@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
+import {Helmet} from "react-helmet";
 
 const mediumCDNUrl = `https://cdn-images-1.medium.com/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
@@ -17,6 +18,9 @@ class BlogBox extends Component{
     render(){
         return(
             <div className="col-lg-6 col-md-6 col-sm-6 brand manipul design print">
+                <Helmet>
+                    <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/> 
+                </Helmet>
                 <div className="h_gallery_item">
                     <div className="g_img_item">
                         <img className="img-fluid"
