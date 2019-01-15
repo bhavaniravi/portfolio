@@ -1,5 +1,5 @@
 module.exports = {
-    pathPrefix: `/portfolio2018`,
+    // pathPrefix: `/portfolio2018`,
     siteMetadata: {
         "title":"Bhavani Ravi",
         "about_me": "🔸 Building @kissflow at @orangescape \n 🔸 Code - Speak - Write \n 🔸 Python - Chatbots - ML \n 🔸  womenintech  🔸",
@@ -20,6 +20,12 @@ module.exports = {
               limit: 200,
             },
         },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              trackingId: "UA-79887847-2",
+            },
+          },
         'gatsby-plugin-sass',
         `gatsby-plugin-styled-components`
    
