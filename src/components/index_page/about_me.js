@@ -22,7 +22,7 @@ class Banner extends React.Component{
 											
 									<ul className="list personal_social">
 									{this.props.social_icons.map(social => (
-                    <li><a target="_blank" href="#"><i className={`fa ${social.className}`}></i></a></li>
+                    <li><a target="_blank" href={social.url}><i className={`fa ${social.className}`}></i></a></li>
                 	))}
 									</ul>
 								</div>
