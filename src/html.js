@@ -31,6 +31,13 @@ export default class HTML extends React.Component {
         <link rel="stylesheet" href="/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="/css/style.css"/>
         <link rel="stylesheet" href="/css/responsive.css"/>
+        <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/css/medium_blog.css"/> 
+        <link rel="stylesheet" href="/vendors/linericon/style.css"/>
+
+        {/* <link rel="preload" href="/css/bootstrap.min.css"/>
+        <link rel="preload" href="/css/style.css"/>
+        <link rel="preload" href="/css/responsive.css"/> */}
         
 
         </head>

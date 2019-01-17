@@ -18,9 +18,6 @@ class BlogBox extends Component{
     render(){
         return(
             <div className="col-lg-6 col-md-6 col-sm-6 brand manipul design print">
-                <Helmet>
-                    <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/> 
-                </Helmet>
                 <div className="h_gallery_item">
                     <div className="g_img_item">
                         <img className="img-fluid"

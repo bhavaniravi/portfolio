@@ -7,10 +7,8 @@ import { withPrefix } from 'gatsby'
 
 export default ({ navFixed, children }) => (
     <div>
-    <Helmet>
-      <link rel="stylesheet" href={withPrefix("css/font-awesome.min.css")}/>
-      <link rel="stylesheet" href={withPrefix("css/medium_blog.css")}/> 
-      <link rel="stylesheet" href={withPrefix("vendors/linericon/style.css")}/>
+    {/* <Helmet>
+      
       
       <link rel="stylesheet" href={withPrefix("vendors/owl-carousel/owl.carousel.min.css")}/>
       <link rel="stylesheet" href={withPrefix("vendors/lightbox/simpleLightbox.css")}/>
@@ -18,7 +16,7 @@ export default ({ navFixed, children }) => (
       <link rel="stylesheet" href={withPrefix("vendors/animate-css/animate.css")}/>
       <link rel="stylesheet" href={withPrefix("vendors/popup/magnific-popup.css")}/>
         
-    </Helmet>
+    </Helmet> */}
     <Header navFixed={navFixed}></Header>
       {children}
       <FooterArea></FooterArea>  
