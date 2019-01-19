@@ -28,16 +28,13 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
 
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/css/style.css"/>
-        <link rel="stylesheet" href="/css/responsive.css"/>
-        <link rel="stylesheet" href="/css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="/css/medium_blog.css"/> 
-        <link rel="stylesheet" href="/vendors/linericon/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
 
-        {/* <link rel="preload" href="/css/bootstrap.min.css"/>
-        <link rel="preload" href="/css/style.css"/>
-        <link rel="preload" href="/css/responsive.css"/> */}
+
+        {/* <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css"/> */}
+    
         
 
         </head>
@@ -50,26 +47,11 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        {/* <script
-                dangerouslySetInnerHTML={{
-                    __html: `window.twttr = (function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0],
-                            t = window.twttr || {};
-                        if (d.getElementById(id)) return t;
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = "https://platform.twitter.com/widgets.js";
-                        fjs.parentNode.insertBefore(js, fjs);
-                    
-                        t._e = [];
-                        t.ready = function(f) {
-                            t._e.push(f);
-                        };
-                    
-                        return t;
-                    }(document, "script", "twitter-wjs"));`,
-                }}
-            /> */}
+
+        <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/medium_blog.css"/>
+        <link rel="stylesheet" href="/vendors/flaticon/flaticon.css"></link> 
+        <link rel="stylesheet" href="/vendors/linericon/style.css"/>
       </html>
     )
   }

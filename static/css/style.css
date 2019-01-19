@@ -64,6 +64,10 @@ a:focus {
   margin: 0px;
 }
 
+*{
+  font-display: swap;
+}
+
 body {
   line-height: 26px;
   font-size: 16px;
@@ -72,12 +76,8 @@ body {
   color: #777777;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 
+.h1, .h2, .h3, .h4, .h5, .h6{
   font-family: "Heebo", sans-serif;
   font-weight: bold;
 }
@@ -164,6 +164,7 @@ button:focus {
   z-index: 99;
   transition: background 0.4s, all 0.3s linear;
 }
+
 .header_area .navbar {
   background: transparent;
   padding: 0px;
@@ -275,6 +276,7 @@ button:focus {
 .header_area .navbar .search i {
   font-weight: 600;
 }
+
 .header_area.navbar_fixed .main_menu {
   position: fixed;
   width: 100%;
@@ -3064,6 +3066,11 @@ h6 {
   margin-bottom: 40px;
 }
 
+.well_item_a:hover{
+  /* color: #0056b3; */
+  text-decoration: none;
+}
+
 .wel_item {
   border: 1px solid #eeeeee;
   padding: 20px 20px;
@@ -3076,6 +3083,7 @@ h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .wel_item h4 {
   font-size: 18px;
   font-family: "Heebo", sans-serif;
@@ -3286,7 +3294,6 @@ h6 {
   font-family: "Heebo", sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 .feature_item p {
   margin-bottom: 0px;
@@ -3332,7 +3339,7 @@ h6 {
 }
 .personal_text h4 {
   font-size: 16px;
-  font-weight: 500;
+  /* font-weight: 500; */
   font-family: "Roboto", sans-serif;
   /* text-transform: uppercase; */
   margin-bottom: 20px;

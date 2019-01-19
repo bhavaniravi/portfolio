@@ -8,6 +8,7 @@ class NumericalAchieveMent extends Component{
     render(){
         return (
             <div className="col-md-4">
+            <a className="well_item_a" href={this.props.link}>
                 <div className="wel_item">
                     <i className={`lnr lnr-${this.props.icon}`}>
                     {` ${this.props.achievement}`}
@@ -21,6 +22,7 @@ class NumericalAchieveMent extends Component{
                     </h4>
                     </div>
                 </div>
+            </a>
             </div>
         )
     }
@@ -49,17 +51,21 @@ class WelcomeArea extends Component{
                                 <h4>About Myself</h4>
                                 <p>{this.props.about_me}</p>
                                 <div className="row">
-                                    <NumericalAchieveMent count={6} 
+                                    
+                                    <NumericalAchieveMent count={6}
+                                                        link="#projects"
                                                         achievement="Code" 
                                                         label="Projects"
                                                         icon="rocket">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent count={18} 
+                                                        link="#talks"
                                                         achievement="Speak" 
                                                         label="Talks"
                                                         icon="mic">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent count={40} 
+                                                            link="blogs"
                                                             achievement="Write" 
                                                             label="blogs"
                                                             icon="book">
@@ -102,4 +108,4 @@ export default ({ props }) => (
   }
 	  render={({ site }) => <WelcomeArea {...site.siteMetadata} {...props} />}
 	/>
-  );
+);
