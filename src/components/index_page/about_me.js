@@ -15,14 +15,19 @@ class Banner extends React.Component{
 							</div>
 							<div className="media-body">
 								<div className="personal_text">
-									{/* <h6>Hello Everybody, I'm</h6> */}
+									<h6>Who I am I?</h6>
 											<h3>{this.props.title}</h3>
 											<h4>{this.props.tagline}</h4>
 											<TwitterFollowButton screenName={'geeky_bhavani'}/>
 											
 									<ul className="list personal_social">
 									{this.props.social_icons.map(social => (
-                    <li><a target="_blank" href={social.url}><i className={`fa ${social.className}`}></i></a></li>
+										<li><a target="_blank"
+														rel="noopener noreferrer" 
+														href={social.url}>
+														<i className={`fa ${social.className}`}></i>
+												{social.name}
+												</a></li>
                 	))}
 									</ul>
 								</div>

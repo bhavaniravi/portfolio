@@ -8,7 +8,10 @@ class NumericalAchieveMent extends Component{
     render(){
         return (
             <div className="col-md-4">
-            <a className="well_item_a" href={this.props.link}>
+            <a className="well_item_a" 
+                rel="noopener noreferrer"
+                target={this.props.target} 
+                href={this.props.link}>
                 <div className="wel_item">
                     <i className={`lnr lnr-${this.props.icon}`}>
                     {` ${this.props.achievement}`}
@@ -17,7 +20,7 @@ class NumericalAchieveMent extends Component{
                     <div>
                     <h4>
                         <CountUp end={this.props.count} 
-                        duration={this.props.count/10}  
+                        duration={this.props.count/20}  
                         suffix={` ${this.props.label}`}/> 
                     </h4>
                     </div>
@@ -48,8 +51,8 @@ class WelcomeArea extends Component{
                     <div className="row welcome_inner">
                         <div className="col-lg-6">
                             <div className="welcome_text">
-                                <h4>About Myself</h4>
-                                <p>{this.props.about_me}</p>
+                                <h4>What do I do?</h4>
+                                <p>{`${this.props.about_me}`}</p>
                                 <div className="row">
                                     
                                     <NumericalAchieveMent count={6}
@@ -58,14 +61,17 @@ class WelcomeArea extends Component{
                                                         label="Projects"
                                                         icon="rocket">
                                     </NumericalAchieveMent>
-                                    <NumericalAchieveMent count={18} 
-                                                        link="#talks"
+                                    <NumericalAchieveMent
+                                                        target="_blank"  
+                                                        count={18} 
+                                                        link="https://speakerdeck.com/bhavaniravi"
                                                         achievement="Speak" 
                                                         label="Talks"
                                                         icon="mic">
                                     </NumericalAchieveMent>
-                                    <NumericalAchieveMent count={40} 
-                                                            link="blogs"
+                                    <NumericalAchieveMent target="_blank" 
+                                                            count={40} 
+                                                            link="https://medium.com/@bhavaniravi"
                                                             achievement="Write" 
                                                             label="blogs"
                                                             icon="book">

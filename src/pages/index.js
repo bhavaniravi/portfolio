@@ -5,6 +5,7 @@ import Banner from "../components/index_page/about_me"
 import WelcomeArea from "../components/index_page/welcome_area"
 import TimeLine from "../components/index_page/timeline";
 import ProjectsArea from "../components/index_page/projects";
+import TalksArea from "../components/index_page/talks";
 
 class IndexComponent extends React.Component{
   render(){
@@ -12,8 +13,11 @@ class IndexComponent extends React.Component{
       <Layout navFixed={false}>
         <Banner/>
         <WelcomeArea></WelcomeArea>
-        <ProjectsArea></ProjectsArea>
         <TimeLine></TimeLine>
+        <ProjectsArea></ProjectsArea>
+        {/* <TalksArea/> */}
+        
+        
       </Layout>
     )
   }
