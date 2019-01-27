@@ -52,9 +52,11 @@ class WelcomeArea extends Component{
                         <div className="col-lg-6">
                             <div className="welcome_text">
                                 <h4>What do I do?</h4>
+                                {/* {this.props.about_me.map(me => (
+                                    <p>{me}</p>
+                                ))} */}
                                 <p>{`${this.props.about_me}`}</p>
                                 <div className="row">
-                                    
                                     <NumericalAchieveMent count={6}
                                                         link="#projects"
                                                         achievement="Code" 
