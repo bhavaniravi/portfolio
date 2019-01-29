@@ -24,6 +24,7 @@ export default class HTML extends React.Component {
           <meta property="og:title" content="Bhavani Ravi's Portfolio" />
           <meta property="og:description" content="A Backend engineer with crazy passion for products" />
           <meta property="og:image" content="/img/pp.jpeg"/>
+          <meta property="og:type" content="twitter:card"/>
           <link rel="shortcut icon" href="/img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
 
