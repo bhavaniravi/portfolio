@@ -15,7 +15,7 @@ class Banner extends React.Component{
 							</div>
 							<div className="media-body">
 								<div className="personal_text">
-									<h6>Who I am I?</h6>
+									<h6>Who am I? 🤔 </h6>
 											<h3>{this.props.title}</h3>
 											<h4>{this.props.tagline}</h4>
 											<TwitterFollowButton screenName={'geeky_bhavani'}/>
