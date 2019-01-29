@@ -21,10 +21,12 @@ export default class HTML extends React.Component {
           />
           <title>Bhavani's Portfolio</title>
           <meta name="description" content="A Backend engineer with crazy passion for products" />
-          <meta property="og:title" content="Bhavani Ravi's Portfolio" />
+          <meta property="og:title" content="Bhavani Ravi" />
           <meta property="og:description" content="A Backend engineer with crazy passion for products" />
           <meta property="og:image" content="/img/pp.jpeg"/>
-          <meta property="og:type" content="twitter:card"/>
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@geeky_bhavani" />
+          <meta name="twitter:creator" content="@geeky_bhavani" />
           <link rel="shortcut icon" href="/img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
 
