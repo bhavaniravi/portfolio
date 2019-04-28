@@ -1,6 +1,7 @@
 import {StaticQuery} from "gatsby"
 import React, { Component } from "react";
 // import styled from 'styled-components';
+import {CSVDownload} from "react-csv";
 import { graphql } from 'gatsby';
 
 const mediumCDNUrl = `https://miro.medium.com/fit/c/1400/420/`
@@ -55,6 +56,7 @@ class MediumBlogPost extends Component{
 class BlogPageList extends Component{
     render(){
         const posts = this.props.data
+        console.log(posts)
         return (
             <div className="med_blog_list_container">
                 {posts.map(post_data => (
@@ -69,7 +71,7 @@ export default ({ props }) => (
 	<StaticQuery
 	  query={graphql`
       query {
-        allMediumPost(limit:10, filter: {type:{eq:"Post"}}, sort: { fields: [latestPublishedAt], order: DESC }) {
+        allMediumPost(limit:100, filter: {type:{eq:"Post"}}, sort: { fields: [latestPublishedAt], order: DESC }) {
           edges {
             node{
               id

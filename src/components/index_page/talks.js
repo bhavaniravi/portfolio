@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Badge} from "reactstrap";
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
+import SectionTitle from "../section_title";
 
 class TalkBox extends Component{
     render(){
@@ -11,26 +12,21 @@ class TalkBox extends Component{
                 backgroundColor:"#f9f9ff"
             }}>
                     <div className="row feature_title">
-                        <i className={`fa col-sm-2 ${this.props.talk.icon_path}`}></i>
-                        <h4 className="col-sm-10"
-                            style={{
-                                paddingTop:"20px",
-                                paddingLeft:"40px"
-                            }}
-                        >{this.props.talk.name}</h4>
+                        {/* <i className={`fa col-sm-2 ${this.props.talk.icon_path}`}></i> */}
+                        <h4 className="col-sm-12">{this.props.talk.name}</h4>
                     </div>
                     <p>{this.props.talk.description}</p>
                     <br/>
-                    {/* {this.props.talk.skills.map(skill => (
+                    {this.props.talk.skills.map(skill => (
                         <Badge color="secondary" style={{
                             marginRight:"5px",
                             fontSize: "90%",
                             color: "#222",
                             backgroundColor:"#e8e8e8"
                         }}>{skill}</Badge>
-                    ))} */}
+                    ))}
                     <div>
-                        <div>
+                        <div style={{marginTop:"20px"}}>
                             {this.props.talk.location}
                         </div>
                         <div>
@@ -51,12 +47,8 @@ class TalksArea extends Component{
             <section className="feature_area p_120" id="talks" style={{
                 backgroundColor:"white"
             }}>
-        	<div className="container">
-        		<div className="main_title">
-        			<h2>Talks</h2>
-        			<p>Learning multiplies when you share what you know</p>
-        		</div>
-        	</div>
+            <SectionTitle title="Talks" 
+            sub_title="Learning multiplies when you share what you know."></SectionTitle>
         	<div className="container">
         		<div className="feature_inner row">
                
@@ -86,6 +78,7 @@ export default ({ props }) => (
                   icon_path
                   location
                   date
+                  skills
               }
 			}
 		  }

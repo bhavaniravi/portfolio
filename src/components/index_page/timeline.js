@@ -1,6 +1,8 @@
 import React,  { Component } from "react";
 import {Nav, NavLink, NavItem, TabContent, TabPane} from "reactstrap";
 import classnames from 'classnames';
+import {StaticQuery} from "gatsby";
+import { graphql } from 'gatsby';
 
 // class TimeLineTab extends Component{
 //     render(){
@@ -32,7 +34,7 @@ class TimeLineItem extends Component{
 }
 
 
-export default class TimeLine extends Component{
+class TimeLine extends Component{
     constructor(props) {
         super(props);
         this.state = {
@@ -71,10 +73,9 @@ export default class TimeLine extends Component{
                     <TabContent activeTab={this.state.activeTab}>
                         <TabPane tabId="1">
                             <ul className="list">
-                                <TimeLineItem time={"May 2018 to Present"} title={"Software Engineer @ Orangescape"}></TimeLineItem>  
-                                <TimeLineItem time={"Jan 2018 to Present"} title={"Community Lead @ Build2Learn"}></TimeLineItem>
-                                <TimeLineItem time={"May 2016 to Apr 2018"} title={"Product Development Engineer @ FFI"}></TimeLineItem>
-                                <TimeLineItem time={"Aug 2012 to Apr 2016"} title={"B.E CSE @ KCG College Of Technology"}></TimeLineItem>
+                                {this.props.experience.map(timeline_data => (
+                                    <TimeLineItem time={timeline_data.time} title={timeline_data.title}></TimeLineItem>
+                                ))}
                             </ul>
                         </TabPane>
                     </TabContent>
@@ -91,3 +92,22 @@ export default class TimeLine extends Component{
         )
     }
 }
+
+export default ({ props }) => (
+	<StaticQuery
+	  query={graphql`
+		query {
+		  site {
+			siteMetadata {
+			  experience{
+                  time
+                  title
+              }
+			}
+		  }
+		}
+	  `
+  }
+	  render={({ site }) => <TimeLine {...site.siteMetadata} {...props} />}
+	/>
+  );

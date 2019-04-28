@@ -2,41 +2,82 @@ module.exports = {
     // pathPrefix: `/portfolio2018`,
     siteMetadata: {
         "title":"Bhavani Ravi",
-        "about_me": `🔸 Building KiSSFLOW at Orangescape 🔸
+        "about_me": `🔸 Building Kissflow at Orangescape 🔸
                      🔸 Python - Chatbots - Machine Learning 🔸
                      🔸 Lead - Google WomenTechMakers Chennai 🔸
                      🔸 Organizer - Build2Learn.in 🔸`,
         "tagline": `A Backend Engineer with Crazy Passion for Products`,
         "social_icons":[
-            {"name":"Twitter", "className": "fa-twitter", "url": "https://twitter.com/geeky_bhavani"},
-            {"name":"Medium", "className": "fa-medium",  "url": "https://medium.com/@bhavaniravi"},
-            {"name":"LinkedIn", "className": "fa-linkedin","url": "https://linkedin.com/in/bhavanir"},
-            {"name":"Github", "className": "fa-github",  "url": "https://github.com/bhavaniravi"},
-            {"name":"StackOverflow", "className": "fa-stack-overflow", "url": "https://stackoverflow.com/users/6340775/bhavani-ravi?tab=profile"},
+            {"name":"Twitter", 
+            "className": "fa-twitter", 
+            "url": "https://twitter.com/geeky_bhavani"},
+            
+            {"name":"Medium", 
+            "className": "fa-medium",  
+            "url": "https://medium.com/@bhavaniravi"},
+            
+            {"name":"LinkedIn", 
+            "className": "fa-linkedin",
+            "url": "https://linkedin.com/in/bhavanir"},
+            
+            {"name":"Github", 
+            "className": "fa-github",  
+            "url": "https://github.com/bhavaniravi"},
+            
+            {"name":"StackOverflow", 
+            "className": "fa-stack-overflow", 
+            "url": "https://stackoverflow.com/users/6340775/bhavani-ravi?tab=profile"},
         ],
         "talks":[
             {"name":"ML Behind Chatbots", 
             "description": "My quest to build a chatbot engine and what I understood by demystifying an opensource chatbot engine", 
             "url": "", 
             "icon_path":"fa-table", 
-            "slides_link": "",
-            "location":"School of AI Chennai",
-            "date":"Sep 2017"
+            "slides_link": "http://bit.ly/ml_behind_chatbots",
+            "location":"Global Azure BootCamp",
+            "date":"May 2019",
+            "skills": ["Python", "RasaNLU", "Machine Learning", "Sklearn", "Spacy"]
         },
         {   
             "name":"DialogFlow & Free Text", 
-            "description": `I was designing iKeepLog has a unique requirement where you can’t be sure what the user is going to type — it is what I call a “free-text”. 
-                           the talk covers the hacks I found to acheive it with Dialogflow`,
+            "description": `When you build a todo chatbot, you can’t be sure what the user is going to type — a “free-text”. 
+                           the talk covers the hacks to acheive it with Dialogflow`,
             "url": "", 
-            "icon_path":"fa-table", 
+            // "icon_path":"fa-table", 
             "slides_link": "",
-            "location":"Womentechmakers IWD Chennai"
+            "location":"Womentechmakers IWD Chennai",
+            "date":"Mar 2017",
+            "skills": ["Python", "Dialogflow"]
+        },
+        {   
+            "name":"Chatbots 101 Worshop", 
+            "description": `A 3 hour workshop that walks you through 0 to 1 of building chatbot. We build an echo bot, google search bot then a draw bot incorportating NLP the workshop intensifies`,
+            "url": "", 
+            // "icon_path":"fa-table", 
+            "slides_link": "",
+            "location":"PyConf Hyderabad",
+            "date":"2017",
+            "skills": ["Python", "RasaNLU", "Dialogflow"]
         },
 
         ],
         "projects":[
-            {"name":"KiSSFLOW Reports", 
-            "description": "A reporting platform that enables users to create reports out of the workflow apps created using KiSSFLOW", 
+            {"name":"Kissflow Case", 
+            "description": "A Case management module that comes with Kissflow Suite", 
+            "url": "https://kissflow.com", 
+            "github_url": "", 
+            "icon_path":"fa-tasks", 
+            "skills":[ "Flask", "MongoDB", "Docker"]},    
+            
+            {"name":"Kissflow Projects", 
+            "description": "A Project management module that comes with Kissflow Suite", 
+            "url": "https://kissflow.com", 
+            "github_url": "", 
+            "icon_path":"fa-list", 
+            "skills":[ "Flask", "MongoDB", "Docker"]},
+            
+            {"name":"Kissflow Reports", 
+            "description": "A reporting platform that enables users to create reports out of the workflow apps created using Kissflow", 
             "url": "https://kissflow.com", 
             "github_url": "", 
             "icon_path":"fa-table", 
@@ -58,34 +99,40 @@ module.exports = {
             "skills":[ "Flask", "ReactJS", "Slack API", "Dialogflow"]},
             
             {"name":"Rasa Site Bot", 
-            "description": `A bot that scrapes your sites FAQ page and creates a 
-                            chatbot out of it`, 
+            "description": `A bot that answers the FAQ questions that you get. It was built as a demo for PyConf Hyderbad by scraping their event details.`, 
             "url": "https://github.com/bhavaniravi/rasa-site-bot", 
             "github_url": "", 
             "icon_path":"fa-user", 
             "skills":[ "Flask", "NLP", "RasaHQ"]},
 
-            {"name":"ML Behind Chatbots", 
-            "description": "A Research project, where I read the whole code base of RasaNLU and created a blog series", 
-            "url": "https://medium.com/series/nlp-behind-chatbots-demystifying-rasanlu-318a8adb39ed", 
-            "github_url": "", 
-            "icon_path":"fa-search", 
-            "skills":[ "RasaNLU"]},
+            // {"name":"ML Behind Chatbots", 
+            // "description": "A Research project, where I read the whole code base of RasaNLU and created a blog series", 
+            // "url": "https://medium.com/series/nlp-behind-chatbots-demystifying-rasanlu-318a8adb39ed", 
+            // "github_url": "", 
+            // "icon_path":"fa-search", 
+            // "skills":[ "RasaNLU"]},
 
-            {"name":"QMiner", 
-            "description": `A scraper app that goes through MCQ questions 
-                            and creates a knowledge base for chatbots. 
-                            It was my first python project.`, 
-            "url": "https://interviewbots.com", 
-            "github_url": "", 
-            "icon_path":"fa-question-circle", 
-            "skills":["Python", "BeautifulSoup", "MySQL"]},
+            // {"name":"QMiner", 
+            // "description": `A scraper app that goes through MCQ questions 
+            //                 and creates a knowledge base for chatbots. 
+            //                 It was my first python project.`, 
+            // "url": "https://interviewbots.com", 
+            // "github_url": "", 
+            // "icon_path":"fa-question-circle", 
+            // "skills":["Python", "BeautifulSoup", "MySQL"]},
         ],
         "skills":[
             {"name": "Python", "percentage": 85},
             {"name": "Flask/Django", "percentage": 85},
             {"name": "Chatbots & NLP", "percentage": 80},
             {"name": "MongoDB", "percentage": 70}
+        ],
+        "experience":[
+            {"time": "May 2018 to Present", "title": "Software Engineer @ Orangescape"},
+            {"time": "Sep 2018 to Present", "title":"Community Lead - WomenTechMakers"},
+            {"time": "Jan 2018 to present", "title": "Community Lead - Build2Learn"},
+            {"time": "May 2016 to Apr 2018", "title": "Product Developement Engineer @ Focus Infotech"},
+            {"time": "Aug 2012 to Apr 2016", "title": "Computer Science Engineering @ KCG College of technology"}
         ]
       },
     plugins: [

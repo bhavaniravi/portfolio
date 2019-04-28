@@ -15,9 +15,7 @@ class IndexComponent extends React.Component{
         <WelcomeArea></WelcomeArea>
         <TimeLine></TimeLine>
         <ProjectsArea></ProjectsArea>
-        {/* <TalksArea/> */}
-        
-        
+        <TalksArea/>
       </Layout>
     )
   }

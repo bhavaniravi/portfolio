@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {Badge} from "reactstrap";
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
+import SectionTitle from "../section_title"
 
 class ProjectBox extends Component{
     render(){
@@ -34,12 +35,8 @@ class ProjectsArea extends Component{
         console.log(this.props)
         return(
             <section className="feature_area p_120" id="projects">
-        	<div className="container">
-        		<div className="main_title">
-        			<h2>Projects</h2>
-        			<p>Everything I have worked on, Learned and Experienced</p>
-        		</div>
-        	</div>
+            <SectionTitle title="Projects" 
+            sub_title="Things I have worked on, Learned and Experienced"/>
         	<div className="container">
         		<div className="feature_inner row">
                
