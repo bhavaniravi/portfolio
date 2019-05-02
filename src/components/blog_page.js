@@ -7,10 +7,12 @@ import SectionTitle from "./section_title";
 
 const mediumCDNUrl = `https://miro.medium.com/fit/c/1400/420/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
-
+const DATE_OPTIONS = { year: 'numeric', month: 'short', day: 'numeric' };
 
 class MediumBlogPost extends Component{
+    
     render(){
+        console.log(this.props.post.node.createdAt)
         return (
             <div className="med_post">
                 <div className="med_dummy_div_iniside_post">
@@ -29,7 +31,10 @@ class MediumBlogPost extends Component{
                                 </div>
                             </span>
                             <span className="med_blog_info med_date_read_time">
-                            <div><a>{this.props.post.node.createdAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
+                            <div style={{"font-size": "12px"}}
+                                ><a>{new Date(this.props.post.node.createdAt).toLocaleDateString('en-US', DATE_OPTIONS)}
+                                </a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins
+                            </div></span>
                         </div>
                     </div>
                     <a target="_blank" href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`}>
