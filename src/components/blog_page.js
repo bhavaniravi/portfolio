@@ -29,7 +29,7 @@ class MediumBlogPost extends Component{
                                 </div>
                             </span>
                             <span className="med_blog_info med_date_read_time">
-                            <div><a>{this.props.post.node.latestPublishedAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
+                            <div><a>{this.props.post.node.createdAt}</a> . {Math.round(this.props.post.node.virtuals.readingTime)} mins</div></span>
                         </div>
                     </div>
                     <a target="_blank" href={`${mediumBlogUrl}/${this.props.post.node.uniqueSlug}`}>
@@ -85,13 +85,14 @@ export default ({ props }) => (
       query {
         allMediumPost(limit:100, 
             filter: {type:{eq:"Post"}}, 
-            sort: { fields: [latestPublishedAt], order: DESC }) {
+            sort: { fields: [createdAt], order: DESC }) {
           edges {
             node{
               id
               uniqueSlug
               title
               latestPublishedAt
+              createdAt
               virtuals {
                 totalClapCount
                 subtitle
