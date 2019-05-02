@@ -14,14 +14,14 @@ class NumericalAchieveMent extends Component{
                 href={this.props.link}>
                 <div className="wel_item">
                     <i className={`lnr lnr-${this.props.icon}`}>
-                    {` ${this.props.achievement}`}
+                    {` ${this.props.achievement}`} 
                     </i>
 
                     <div>
                     <h4>
                         <CountUp end={this.props.count} 
-                        duration={this.props.count/20}  
-                        suffix={` ${this.props.label}`}/> 
+                        duration={this.props.count/20}
+                        suffix={`+ ${this.props.label}`}/> 
                     </h4>
                     </div>
                 </div>
@@ -66,16 +66,16 @@ class WelcomeArea extends Component{
                                     <NumericalAchieveMent
                                                         target="_blank"  
                                                         count={18} 
-                                                        link="https://speakerdeck.com/bhavaniravi"
+                                                        link="#speak"
                                                         achievement="Speak" 
                                                         label="Talks"
                                                         icon="mic">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent target="_blank" 
-                                                            count={40} 
+                                                            count={45} 
                                                             link="https://medium.com/@bhavaniravi"
                                                             achievement="Write" 
-                                                            label="blogs"
+                                                            label="Blogs"
                                                             icon="book">
                                     </NumericalAchieveMent>
                                     

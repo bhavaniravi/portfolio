@@ -5,8 +5,12 @@ module.exports = {
         "about_me": `🔸 Building Kissflow at Orangescape 🔸
                      🔸 Python - Chatbots - Machine Learning 🔸
                      🔸 Lead - Google WomenTechMakers Chennai 🔸
-                     🔸 Organizer - Build2Learn.in 🔸`,
+                     🔸 Community Head - Build2Learn.in 🔸`,
         "tagline": `A Backend Engineer with Crazy Passion for Products`,
+
+        twitterHandle: '@geeky_bhavani',
+        url: 'https://bhavaniravi.com',
+        
         "social_icons":[
             {"name":"Twitter", 
             "className": "fa-twitter", 
@@ -38,23 +42,25 @@ module.exports = {
             "date":"May 2019",
             "skills": ["Python", "RasaNLU", "Machine Learning", "Sklearn", "Spacy"]
         },
+        
         {   
             "name":"DialogFlow & Free Text", 
             "description": `When you build a todo chatbot, you can’t be sure what the user is going to type — a “free-text”. 
                            the talk covers the hacks to acheive it with Dialogflow`,
             "url": "", 
             // "icon_path":"fa-table", 
-            "slides_link": "",
+            "slides_link": "https://speakerdeck.com/bhavaniravi",
             "location":"Womentechmakers IWD Chennai",
             "date":"Mar 2017",
             "skills": ["Python", "Dialogflow"]
         },
+
         {   
             "name":"Chatbots 101 Worshop", 
             "description": `A 3 hour workshop that walks you through 0 to 1 of building chatbot. We build an echo bot, google search bot then a draw bot incorportating NLP the workshop intensifies`,
             "url": "", 
             // "icon_path":"fa-table", 
-            "slides_link": "",
+            "slides_link": "https://speakerdeck.com/bhavaniravi",
             "location":"PyConf Hyderabad",
             "date":"2017",
             "skills": ["Python", "RasaNLU", "Dialogflow"]
@@ -128,11 +134,20 @@ module.exports = {
             {"name": "MongoDB", "percentage": 70}
         ],
         "experience":[
-            {"time": "May 2018 to Present", "title": "Software Engineer @ Orangescape"},
-            {"time": "Sep 2018 to Present", "title":"Community Lead - WomenTechMakers"},
-            {"time": "Jan 2018 to present", "title": "Community Lead - Build2Learn"},
-            {"time": "May 2016 to Apr 2018", "title": "Product Developement Engineer @ Focus Infotech"},
-            {"time": "Aug 2012 to Apr 2016", "title": "Computer Science Engineering @ KCG College of technology"}
+            {"time": "May 2018 to Present", 
+            "title": "Software Engineer @ Orangescape"},
+            
+            {"time": "Sep 2018 to Present", 
+            "title":"Community Lead - WomenTechMakers"},
+            
+            {"time": "Jan 2018 to present", 
+            "title": "Community Lead - Build2Learn"},
+            
+            {"time": "May 2016 to Apr 2018", 
+            "title": "Product Developement Engineer @ Focus Infotech"},
+            
+            {"time": "Aug 2012 to Apr 2016", 
+            "title": "Computer Science Engineering @ KCG College of technology"}
         ]
       },
     plugins: [
@@ -142,6 +157,9 @@ module.exports = {
               username: `@bhavaniravi`,
               limit: 200,
             },
+        },
+        {
+            resolve: `gatsby-plugin-sass`,
         },
         {
             resolve: `gatsby-plugin-google-analytics`,

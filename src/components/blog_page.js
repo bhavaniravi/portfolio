@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // import styled from 'styled-components';
 import {CSVDownload} from "react-csv";
 import { graphql } from 'gatsby';
+import SectionTitle from "./section_title";
 
 const mediumCDNUrl = `https://miro.medium.com/fit/c/1400/420/`
 const mediumBlogUrl = `https://medium.com/@bhavaniravi`
@@ -16,7 +17,7 @@ class MediumBlogPost extends Component{
                     <div className="med_writer_flex">
                         <div>
                         <a target="_blank" href={mediumBlogUrl}>
-                            <img src="https://miro.medium.com/fit/c/80/80/1*L26oIAuooT4cIFJeeY8c4w.jpeg" 
+                            <img src="https://miro.medium.com/fit/c/240/240/1*kdolELlJHa7S3-RJ7GMy4Q.png" 
                             alt="" className="med_profile_pic"></img>
                         </a>
                         </div>
@@ -44,6 +45,16 @@ class MediumBlogPost extends Component{
                                 </figure>
                                 <h1 className="med_title">{this.props.post.node.title}</h1>
                                 <h2 className="med_subtitle">{this.props.post.node.virtuals.subtitle}</h2>
+                                {/* <Share
+                                    socialConfig={{
+                                        twitterHandle,
+                                        config: {
+                                            url: `${url}${slug}`,
+                                            title,
+                                        },
+                                    }}
+                                    tags={tags}
+			                    /> */}
                             </section>
                         </div>
                     </a>
@@ -59,6 +70,7 @@ class BlogPageList extends Component{
         console.log(posts)
         return (
             <div className="med_blog_list_container">
+                <SectionTitle title="Bhavani's Blogs" sub_title="A Sneak Peak into my head"></SectionTitle>
                 {posts.map(post_data => (
                     <MediumBlogPost post={post_data}></MediumBlogPost>
                 ))}
@@ -71,7 +83,9 @@ export default ({ props }) => (
 	<StaticQuery
 	  query={graphql`
       query {
-        allMediumPost(limit:100, filter: {type:{eq:"Post"}}, sort: { fields: [latestPublishedAt], order: DESC }) {
+        allMediumPost(limit:100, 
+            filter: {type:{eq:"Post"}}, 
+            sort: { fields: [latestPublishedAt], order: DESC }) {
           edges {
             node{
               id

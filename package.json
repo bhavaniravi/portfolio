@@ -12,11 +12,13 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.79",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-mailchimp": "^4.0.0",
-    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-plugin-well-known": "^1.0.0",
     "gatsby-source-medium": "^2.0.2",
@@ -27,6 +29,7 @@
     "react-csv": "^1.1.1",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
+    "react-share": "^2.4.0",
     "react-twitter-embed": "^2.0.4",
     "react-twitter-widgets": "^1.7.1",
     "reactstrap": "^7.0.2",
