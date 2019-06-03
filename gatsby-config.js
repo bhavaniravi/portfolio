@@ -2,13 +2,17 @@ module.exports = {
     // pathPrefix: `/portfolio2018`,
     siteMetadata: {
         "title":"Bhavani Ravi",
+        "author":"Bhavani Ravi",
         "about_me": `🔸 Building Kissflow at Orangescape 🔸
                      🔸 Python - Chatbots - Machine Learning 🔸
                      🔸 Lead - Google WomenTechMakers Chennai 🔸
                      🔸 Community Head - Build2Learn.in 🔸`,
+        social: {
+            twitter: `geeky_bhavani`,
+        },
         "tagline": `A Backend Engineer with Crazy Passion for Products`,
-
-        twitterHandle: '@geeky_bhavani',
+        "description": "Here is where you find the professional walk of Ms. Bhavani Ravi",
+        "twitterHandle": '@geeky_bhavani',
         url: 'https://bhavaniravi.com',
         
         "social_icons":[
@@ -159,6 +163,20 @@ module.exports = {
             },
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              path: `${__dirname}/data/blogs/`,
+              name: `images`,
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              path: `${__dirname}/static//media/`,
+              name: `images`,
+            },
+        },
+        {
             resolve: `gatsby-plugin-sass`,
         },
         {
@@ -173,6 +191,21 @@ module.exports = {
               endpoint: "https://bhavaniravi.us19.list-manage.com/subscribe/post?u=d20357716d3689cee26657b8a&amp;id=189cad7f10"
             },
         },
-   
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                gfm: true,
+                plugins: [],
+              },
+        },
+        `gatsby-remark-copy-linked-files`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-remark-images`,
+            options: {
+                maxWidth: 1080,
+            }
+        },
     ]
 }

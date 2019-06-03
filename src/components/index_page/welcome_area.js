@@ -64,14 +64,14 @@ class WelcomeArea extends Component{
                                                         icon="rocket">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent
-                                                        target="_blank"  
+                                                        target="_blank" 
                                                         count={18} 
                                                         link="#speak"
                                                         achievement="Speak" 
                                                         label="Talks"
                                                         icon="mic">
                                     </NumericalAchieveMent>
-                                    <NumericalAchieveMent target="_blank" 
+                                    <NumericalAchieveMent target="_blank"
                                                             count={45} 
                                                             link="https://medium.com/@bhavaniravi"
                                                             achievement="Write" 
