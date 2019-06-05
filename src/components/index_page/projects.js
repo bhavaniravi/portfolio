@@ -32,7 +32,6 @@ class ProjectBox extends Component{
 class ProjectsArea extends Component{
     render(){
         const projects = this.props.projects
-        console.log(this.props)
         return(
             <section className="feature_area p_120" id="projects">
             <SectionTitle title="Projects" 

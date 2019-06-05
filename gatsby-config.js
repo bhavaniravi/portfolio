@@ -11,6 +11,7 @@ module.exports = {
         social: {
             twitter: `geeky_bhavani`,
         },
+        "previewImgUrl": "img/pp.jpeg",
         "tagline": `A Backend Engineer with Crazy Passion for Products`,
         "description": "Here is where you find the professional walk of Ms. Bhavani Ravi",
         "twitterHandle": '@geeky_bhavani',

@@ -23,7 +23,8 @@ class BlogPostTemplate extends React.Component {
       <article style={{"margin-top":"130px"}}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={post.frontmatter.subtitle || post.frontmatter.description}
+          previewImgUrl={post.frontmatter.previewImgUrl}
         />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
