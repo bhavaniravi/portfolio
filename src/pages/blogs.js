@@ -4,17 +4,62 @@ import {InBuiltBlogPost} from "../components/blogs/blog_preview"
 import SectionTitle from "../components/section_title"
 import Layout from "../components/layout"
 
+import "../css/medium_blog.css"
+
+if (typeof window !== `undefined`) {
+  window.postsToShow = 6
+}
 
 export default class BlogIndex extends React.Component {
+  constructor(props) {
+    super(props)
+    let postsToShow = 6
+    if (typeof window !== `undefined`) {
+
+      postsToShow = window.postsToShow
+    }
+
+    this.state = {
+      showingMore: true,
+      postsToShow,
+    }
+  }
+
+  update() {
+      const distanceToBottom =
+        document.documentElement.offsetHeight -
+        (window.scrollY + window.innerHeight)
+      if (this.state.showingMore && distanceToBottom < 100) {
+        this.setState({ postsToShow: this.state.postsToShow + 6 })
+      }
+      this.ticking = false
+  }
+
+  handleScroll = () => {
+      if (!this.ticking) {
+        this.ticking = true
+        requestAnimationFrame(() => this.update())
+      }
+  }
+
+  componentDidMount() {
+      window.addEventListener(`scroll`, this.handleScroll)
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener(`scroll`, this.handleScroll)
+      window.postsToShow = this.state.postsToShow
+  }
+
   render() {
     const { data } = this.props
     const posts = data.allMarkdownRemark.edges
-    console.log(posts[0])
+    console.log(this.state.postsToShow)
     return (
       <Layout navFixed={true}>
           <div className="med_blog_list_container">
                   <SectionTitle title="Bhavani's Blogs" sub_title="A Sneak Peak into my head"></SectionTitle>
-                  {posts.map(post_data => (
+                  {posts.slice(0, this.state.postsToShow).map(post_data => (
                       <InBuiltBlogPost key={post_data.node.frontmatter.slug}
                       post={post_data.node}></InBuiltBlogPost>
                   ))}

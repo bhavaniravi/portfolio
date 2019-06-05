@@ -7,10 +7,18 @@ import TimeLine from "../components/index_page/timeline";
 import ProjectsArea from "../components/index_page/projects";
 import TalksArea from "../components/index_page/talks";
 
+import "../css/flaticon/_flaticon.css"
+import "../css/linericon/style.css"
+import "../css/font-awesome.min.css"
+import "../css/bootstrap.min.css"
+import "../css/style.css"
+import "../css/responsive.css"
+
 class IndexComponent extends React.Component{
   render(){
     return (
       <Layout navFixed={false}>
+      
         <Banner/>
         <WelcomeArea></WelcomeArea>
         <TimeLine></TimeLine>
