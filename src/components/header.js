@@ -11,7 +11,9 @@ class MenuItem extends React.Component{
     render(){
         return (
             <NavItem>
-                <NavLink target={this.props.target} href={this.props.href}>{this.props.title}</NavLink>
+                <NavLink 
+                target={this.props.target} 
+                href={this.props.href}>{this.props.title}</NavLink>
             </NavItem>
         )}
 }
@@ -38,7 +40,7 @@ class ExtendedNavbar extends React.Component{
                     <NavbarBrand href="index.html">
                         {/* <img src="img/preview_icon/favicon.ico" alt=""/> */}
                     </NavbarBrand>
-                    <NavbarToggler className="navbar-toggler" onClick={this.toggle}>
+                    <NavbarToggler araia-label="Toggle For Menu" className="navbar-toggler" onClick={this.toggle}>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
@@ -52,7 +54,7 @@ class ExtendedNavbar extends React.Component{
                             {/* <MenuItem target="_blank" href="https://medium.com/@bhavaniravi" title="Blogs"></MenuItem> */}
                             <MenuItem href="/blogs" title="Blogs"></MenuItem>
                             <MenuItem href="/#talks" title="Talks"></MenuItem>
-                            <MenuItem target="_blank" href="https://docs.google.com/document/d/1yAXaG5ShDuPKKp4gEoNQujXp8d5eb6y41kZiu6fWoRc/edit?usp=sharing" title="Resume"></MenuItem>
+                            <MenuItem target="_blank"  rel="noopener noreferrer" href="https://docs.google.com/document/d/1yAXaG5ShDuPKKp4gEoNQujXp8d5eb6y41kZiu6fWoRc/edit?usp=sharing" title="Resume"></MenuItem>
                             {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>

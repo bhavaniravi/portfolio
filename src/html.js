@@ -1,14 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import {withPrefix} from "gatsby"
 
 export default class HTML extends React.Component {
-  // componentDidMount() {
-  //   if (typeof twttr.widgets !== 'undefined') {
-  //     twttr.widgets.load()
-  //   }
-  // }
-
   render() {
     return (
       <html {...this.props.htmlAttributes}>
@@ -32,15 +25,6 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
 
 
-        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
-
-
-        {/* <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css"/> */}
-    
-        
-
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
@@ -51,11 +35,6 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-
-        <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
-        <link rel="stylesheet" type="text/css" href="/css/medium_blog.css"/>
-        <link rel="stylesheet" href="/vendors/flaticon/flaticon.css"></link> 
-        <link rel="stylesheet" href="/vendors/linericon/style.css"/>
       </html>
     )
   }

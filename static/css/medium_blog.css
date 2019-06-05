@@ -69,8 +69,8 @@
 }
 
 .med_date_read_time{
-    color: rgba(0, 0, 0, 0.54);
-    fill: rgba(0, 0, 0, 0.54);
+    color: rgba(0, 0, 0, 0.37);
+    fill: rgba(0, 0, 0, 0.37);
 
 }
 
@@ -80,9 +80,10 @@
 }
 
 .med_preview_img{
-    /* margin-top: 20px; */
-    padding-left: 20px;
-    padding-right: 20px;
+    width:100%;
+    height: 100%;
+    max-height: 300px;
+    object-fit: cover
 }
 
 .med_preview_img_container{
@@ -94,8 +95,9 @@
 .med_img_padding{
     padding-bottom: 30px;
 }
-.med_preview_img{
-    width:100%;
+
+.image_tag{
+    width: 100%;
     height: 100%;
 }
 
@@ -125,4 +127,21 @@
     color: rgba(0, 0, 0, 0.54);
     font-style: normal;
     font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.img_container {
+    height: 210px;
+    width: 700px;
+    position: relative;
+}
+
+.padding_div{
+    width: 100%;
+    height: 100%;
+    padding: 30px; 
+}
+
+.img_div {
+    height: 100%;
+    width: 100%;
 }

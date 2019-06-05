@@ -42,7 +42,6 @@ class TalkBox extends Component{
 class TalksArea extends Component{
     render(){
         const talks = this.props.talks
-        console.log(this.props)
         return(
             <section className="feature_area p_120" id="talks" style={{
                 backgroundColor:"white"

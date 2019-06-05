@@ -49,23 +49,23 @@
 	}
 	/* End Home Banner Area css
 	============================================================================================ */
-	.banner_content .media{
+	.banner_content media{
 		display: block;
 	}
 	.home_banner_area .banner_content{
 		max-width: 500px;
 		margin: auto;
 	}
-	.home_banner_area .banner_inner .banner_content .media .d-flex {
+	.home_banner_area .banner_inner .banner_content media .d-flex {
 		padding-right: 0px;
 		display: block;
 		width: 100%;
 	}
-	.home_banner_area .banner_inner .banner_content .media .d-flex img {
+	.home_banner_area .banner_inner .banner_content media .d-flex img {
 		width: 100%;
 		height: 100%;
 	}
-	.home_banner_area .banner_inner .banner_content .media .media-body {
+	.home_banner_area .banner_inner .banner_content media media-body {
 		margin-top: 30px;
 	}
 	.home_banner_area .box_1620 {
@@ -428,11 +428,11 @@
 	.tabs_inner .tab-content .tab-pane .list::before {
 		display: none;
 	}
-	.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
+	.tabs_inner .tab-content .tab-pane .list li media .d-flex {
 		padding-right: 0px;
 		padding-bottom: 18px;
 	}
-	.tabs_inner .tab-content .tab-pane .list li .media {
+	.tabs_inner .tab-content .tab-pane .list li media {
 		display: block;
 	}
 	.tabs_inner .tab-content .tab-pane .list li span {

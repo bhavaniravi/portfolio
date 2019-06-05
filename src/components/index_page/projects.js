@@ -9,7 +9,7 @@ class ProjectBox extends Component{
         return(
             <div className="col-lg-4 col-md-6">
                 <div className="feature_item">
-                    <a href={this.props.project.url} target="_blank">
+                    <a href={this.props.project.url} target="_blank"  rel="noopener noreferrer">
                         <i className={`fa ${this.props.project.icon_path}`}></i>
                         <h4>{this.props.project.name}</h4>
                         <p style={{color:"#222"}}>{this.props.project.description}</p>
