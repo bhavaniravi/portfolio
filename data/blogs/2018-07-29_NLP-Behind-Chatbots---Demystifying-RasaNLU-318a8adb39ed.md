@@ -12,6 +12,6 @@ Newbie to Chatbots?
 tags: []
 featuredImgPath: /media/demystifying-rasa-nlu-1-training-featured.png
 ---
-## NLP Behind Chatbots — Demystifying RasaNLU
+# NLP Behind Chatbots — Demystifying RasaNLU
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

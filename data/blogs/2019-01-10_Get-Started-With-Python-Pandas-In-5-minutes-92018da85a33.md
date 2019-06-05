@@ -14,7 +14,7 @@ In this blog, I am going to take you through Pandas functionalities by cracking 
 tags: [Python,Machine Learning,Data Science,Data Visualization,Deep Learning]
 featuredImgPath: /media/python-pandas-tutorial-featured.png
 ---
-## Get Started With Pandas In 5 mins
+# Get Started With Pandas In 5 mins
 
 ### A tutorial walkthrough of Python Pandas Library
 
@@ -284,4 +284,4 @@ df.pivot_table(index=["Country"],
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

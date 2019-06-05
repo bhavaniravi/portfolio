@@ -20,7 +20,7 @@ featuredImgPath: .${data.featuredImgPath}
 ---
 ${data.body}
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+
 `;
   
       return template;

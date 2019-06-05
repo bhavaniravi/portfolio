@@ -14,7 +14,7 @@ A meetup where we connected, created and celebrated women in tech.
 tags: [Women In Tech,Software,Women Techmakers,Tech,User Experience]
 featuredImgPath: /media/google-womentechmakers-chennai-sep-2018-featured.png
 ---
-## Google WomenTechmakers Chennai — Sep 2018
+# Google WomenTechmakers Chennai — Sep 2018
 
 A meetup where we connected, created and celebrated women in tech…
 
@@ -63,4 +63,4 @@ A few points from the networking session.
 9.  How a family’s dream for a girl starts out and shrinks as she grows up.
 10.  How a man in the room agreed to every point discussed above.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

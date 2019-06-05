@@ -12,8 +12,8 @@ A story about the emojis
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Emoji Emotions
+# Emoji Emotions
 
 A story about the emojis
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

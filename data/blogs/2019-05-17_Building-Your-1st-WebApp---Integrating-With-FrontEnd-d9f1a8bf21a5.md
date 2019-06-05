@@ -12,7 +12,7 @@ How to Integrate Backend APIs to ReactJS Frontend.
 tags: [JavaScript,Learning To Code,Programming,Reactjs,Front End Development]
 featuredImgPath: /media/building-your-1st-webapp-integrating-with-frontend-featured.png
 ---
-## Building Your 1st WebApp — Integrating With FrontEnd
+# Building Your 1st WebApp — Integrating With FrontEnd
 
 _How to Integrate Backend APIs to ReactJS Frontend._
 
@@ -138,4 +138,4 @@ So we redid the 4 major functions which contribute to the data part of the todo.
 
 Here is the repo I forked and integrated with the backend, go ahead clone it and plug it in with the backend we wrote last time.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

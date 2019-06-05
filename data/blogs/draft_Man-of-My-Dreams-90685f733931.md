@@ -12,7 +12,7 @@ As I dump my sorrows on you with dampness in my eyes,
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Man of My Dreams
+# Man of My Dreams
 
 As I dump my sorrows on you with dampness in my eyes,
 
@@ -26,4 +26,4 @@ As I trying to discover the leaps and bounds I could travel
 
 You were there doing nothing but supporting me
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

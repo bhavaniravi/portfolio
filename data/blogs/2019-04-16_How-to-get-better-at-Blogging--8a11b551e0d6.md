@@ -12,7 +12,7 @@ The Ali Spittel way
 tags: [Blogging,Writing,Writing Tips,Blog,Writer]
 featuredImgPath: /media/how-to-get-better-at-blogging-featured.png
 ---
-## How to get Better at Blogging
+# How to get Better at Blogging
 
 Here are the answers to that — The [Ali Spittel](https://medium.com/u/10780f3e5ed5) way.
 
@@ -54,4 +54,4 @@ In this blog, I am going to answer some of those common questions. Some of these
 *   Yes, the internet is liable to people judging you and commenting on it. But there will be n others who will be valuing your work
 *   All you have to keep in mind is there is only one version of you. What needs to be told by you should be told by you in your own way
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

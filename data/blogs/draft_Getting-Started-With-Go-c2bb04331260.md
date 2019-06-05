@@ -12,7 +12,7 @@ A step by step guide pointing to the resources that helped me learn GoLang.
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Getting Started With Go
+# Getting Started With Go
 
 A step by step guide pointing to the resources that helped me learn GoLang.
 
@@ -34,4 +34,4 @@ _See the release history for more information about Go releases._golang.org](htt
 
 2\. “Hello” World
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

@@ -14,7 +14,7 @@ In this blog we will start with what is a chatbot? and why do we need them?. Fro
 tags: [Bots,Chatbots,Machine Learning,NLP]
 featuredImgPath: /media/chatbots-101-architecture-and-terminologies-featured.jpg
 ---
-## Chatbots 101— Architecture & Terminologies
+# Chatbots 101— Architecture & Terminologies
 
 <figure>
 
@@ -55,13 +55,13 @@ Chatbot architecture is very similar to the architecture of a web application. I
 
 In a web application, when you fill a form the data structure is constructed by the client in such a way that your server understands but, when it comes to chatbots, the client gets a raw text from a messaging interface(slack, FB messenger, etc.,). In this case, you need a middle layer to parse the text and derive insights and call the respective backend API that performs the intended action.
 
-### **Bot Building Platforms**
+### Bot Building Platforms
 
 Bot building platforms provide tools that help you design unique conversation scenarios, define corresponding actions and analyze interactions.
 
 They use a mixture of **AI and machine learning algorithms** to make the bots understand Natural language **(NLU — Natural language understanding)**, process the conversation text and extracts information **(NLP — Natural Language Processing)** and respond to the user preserving the context of the conversation **(NLG — Natural Language Generation).**
 
-### **Few Bot building platforms**
+### Few Bot building platforms
 
 *   [DialogFlow ](http://dialogflow.com/)— Google
 *   Wit.ai — Facebook
@@ -71,7 +71,7 @@ They use a mixture of **AI and machine learning algorithms** to make the bots un
 
 ## Common Terminologies
 
-### **Intents**
+### Intents
 
 An Intent is a collection of expressions(what the user says) that mean the same thing but are constructed differently. Each intent corresponds to one action your user wants to perform.
 
@@ -111,4 +111,4 @@ No theoretical knowledge is useful unless you apply it and see things working fo
 
 ## [Natural Language Processing Behind Chatbots](https://medium.com/@bhavaniravi/demystifying-rasa-nlu-1-training-91a08429c9fb)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

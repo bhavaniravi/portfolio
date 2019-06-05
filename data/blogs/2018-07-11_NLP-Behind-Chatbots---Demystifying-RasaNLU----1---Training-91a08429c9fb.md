@@ -14,7 +14,7 @@ This blog is for the ones who want to understand the ML concepts that drive the 
 tags: [Machine Learning,NLP,Chatbots,Bots,Artificial Intelligence]
 featuredImgPath: /media/demystifying-rasa-nlu-1-training-featured.png
 ---
-## NLP Behind Chatbots — Demystifying RasaNLU — #1 — Training
+# NLP Behind Chatbots — Demystifying RasaNLU — #1 — Training
 
 <figure>
 
@@ -278,4 +278,4 @@ model_metadata.json
 
 [_In the_ **_next part,_** _I will cover how Rasa NLU enables you to consume these ML models via an API._](https://hackernoon.com/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-7704afc74d1f)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

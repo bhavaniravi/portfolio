@@ -12,7 +12,7 @@ From my personal experience
 tags: [Feminism,Empowerment,Women]
 featuredImgPath: /media/a-feminists-enemy-featured.png
 ---
-## A Feminist’s Enemy
+# A Feminist’s Enemy
 
 _From my personal experience_
 
@@ -65,4 +65,4 @@ Starting from what to wear to the way I walk, speak laugh, the society has restr
 
 So far what I covered was very personalized to what I had faced in my life. It is all built upon my belief system and experiences. Every religion, region, country faces a different set of problems. Why go that far? The methods that had helped me go through all these might not work for the girl next to me. The ingrained habit of looking at the world through our experience is another enemy I am fighting with.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

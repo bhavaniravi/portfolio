@@ -12,7 +12,7 @@ Sign up for an End to End hands-on training on how to build full-stack applicati
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Wanna Learn Full-Stack Development?
+# Wanna Learn Full-Stack Development?
 
 [Sign up for an End to End hands-on training on how to build full-stack applications.](https://forms.gle/njvi2Z1iFT3ND5b9A)
 
@@ -96,4 +96,4 @@ _Signing up is just to let us know that you are interested and not confirms a sp
 
 > [**(bhavaniravi.com)**](https://bhavaniravi.com)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

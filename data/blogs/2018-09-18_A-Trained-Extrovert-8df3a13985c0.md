@@ -14,7 +14,7 @@ How a mentor can come by and cast the magic spell and make you do things you nev
 tags: [Mentorship,Self Improvement,Introvert,Confidence]
 featuredImgPath: /media/a-trained-extrovert-featured.jpg
 ---
-## A Trained Extrovert
+# A Trained Extrovert
 
 Importance of a mentor in your life
 
@@ -74,4 +74,4 @@ Sometimes I tell him that he failed to train me for an imperfect world. “_Now 
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

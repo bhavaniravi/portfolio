@@ -10,9 +10,9 @@ subtitle: "
 Hit rock bottom, You will find some Diamonds.
 "
 tags: [Life Lessons,Self Improvement,Motivation,Poetry,Poetry On Medium]
-featuredImgPath: /media/a-trained-extrovert-featured.jpg
+featuredImgPath: /media/hitting-rock-bottom-0.png
 ---
-## The Beauty of Hitting Rock Bottom
+# The Beauty of Hitting Rock Bottom
 
 <figure>
 
@@ -40,4 +40,4 @@ You know how to stand up
 
 Because you have already hit rock bottom.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

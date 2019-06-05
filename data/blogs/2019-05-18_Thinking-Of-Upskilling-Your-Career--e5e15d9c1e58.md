@@ -12,7 +12,7 @@ Career is a major part of everyone’s life. Both in terms of time and passion, 
 tags: [Skills Development,Skills,Learning,Education,Software]
 featuredImgPath: /media/thinking-of-upskilling-your-career-featured.jpeg
 ---
-## Thinking Of Upskilling Your Career?
+# Thinking Of Upskilling Your Career?
 
 Career is a major part of everyone’s life. Both in terms of time and passion, career is where most of our life experiences revolve around. Hence making career choices seems critical and the most daunting thing in everybody’s life.
 
@@ -52,4 +52,4 @@ Look for complementary skills to master instead of looking for skills that make 
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

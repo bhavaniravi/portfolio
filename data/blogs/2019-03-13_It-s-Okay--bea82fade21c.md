@@ -12,7 +12,7 @@ Sometimes it’s Ok to do things that are not Ok.
 tags: [Domestic Violence,Abuse,Women,Mental Health,Relationships]
 featuredImgPath: /media/its-okay-featured.png
 ---
-## It’s Okay.
+# It’s Okay.
 
 _Sometimes it’s Ok to do things that are not Ok._
 
@@ -52,4 +52,4 @@ When you are stabbed at the heart, not by cupid arrow
 
 When you are drained not because of a long day of work
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

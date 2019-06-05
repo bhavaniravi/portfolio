@@ -12,7 +12,7 @@ Internals of a chatbot engine — Intent Classification
 tags: [Machine Learning,Chatbots,Bots,Artificial Intelligence,Software Development]
 featuredImgPath: /media/intent-classification-demystifying-rasanlu-part-4-featured.png
 ---
-## Intent Classification — Demystifying RasaNLU — Part 4
+# Intent Classification — Demystifying RasaNLU — Part 4
 
 Internals of a [chatbot](https://chatbotslife.com/) engine — Intent Classification
 
@@ -144,4 +144,4 @@ One major thing that we need to keep in mind while deploying the ML model is tha
 
 Now how does RasaNLU keeps these configurations intact? [Checkout Part 2](https://medium.com/p/7704afc74d1f) where we cover more about meta-data configuration.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

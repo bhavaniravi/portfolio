@@ -12,7 +12,7 @@ Penning down the pain that people fear to talk about.
 tags: [Depression,Periods,Women,Health,Healthcare]
 featuredImgPath: /media/unclassified-pain-featured.jpeg
 ---
-## Unclassified Pain
+# Unclassified Pain
 
 Penning down the pain that people fear to talk about.
 
@@ -41,4 +41,4 @@ That’s how she got herself out of the mess. It was all [PMS](https://www.healt
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

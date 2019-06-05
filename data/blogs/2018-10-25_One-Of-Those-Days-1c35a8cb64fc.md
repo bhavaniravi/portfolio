@@ -12,7 +12,7 @@ One of those days, where you can’t afford to fall sick.
 tags: [Love,Writing,Poetry,Motivation]
 featuredImgPath: /media/one-of-those-days-featured.png
 ---
-## One Of Those Days
+# One Of Those Days
 
 One of those days, where you can’t afford to fall sick.
 
@@ -42,4 +42,4 @@ One of those days, where you can parade through your problems.
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

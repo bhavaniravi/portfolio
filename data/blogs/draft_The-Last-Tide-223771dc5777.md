@@ -12,7 +12,7 @@ The last tide for the year has visited
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## The Last Tide
+# The Last Tide
 
 The last tide for the year has visited
 
@@ -46,4 +46,4 @@ Just like every other time
 
 There was a stirred up brain and sinful thoughts
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

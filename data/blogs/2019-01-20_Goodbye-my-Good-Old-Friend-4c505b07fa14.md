@@ -12,7 +12,7 @@ It is not what you think it is.
 tags: [Short Story,Fiction,Stories,Writing,Storytelling]
 featuredImgPath: /media/goodbye-my-good-old-friend-featured.png
 ---
-## Goodbye my Good Old Friend
+# Goodbye my Good Old Friend
 
 _It is not what you think it is._
 
@@ -32,4 +32,4 @@ Weeks passed by. The little ones started growing gradually and in a few weeks, t
 
 _The pigeons in my bathroom window — Goodbye my Good Old Freind. Now I have to shut the window from the outside. Just so, no other pigeons enter._
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

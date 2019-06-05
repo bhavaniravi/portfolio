@@ -12,7 +12,7 @@ I just finished reading this book called Death by meetings. I am officially anno
 tags: [Leadership,Meetings,People,Management,Teamwork]
 featuredImgPath: /media/death-by-meeting-a-book-reflection-featured.png
 ---
-## Death By Meeting — A Book Reflection
+# Death By Meeting — A Book Reflection
 
 I just finished reading this book called [Death by meetings](https://www.amazon.in/gp/product/8126506768/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=8126506768&linkCode=as2&tag=bhavaniravi00-21&linkId=d149da2cb1c4f90d8d29e848ac348a51). I am officially announcing Patrick Lencioni as my favorite author. I also read his [5 Dysfunctions of a team](https://www.amazon.in/gp/product/B006960LQW/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B006960LQW&linkCode=as2&tag=bhavaniravi00-21&linkId=1bc9b9c354f6455b5357a445ae48d27d) and I loved it.
 
@@ -57,4 +57,4 @@ I hear you screaming _“That is way too many meetings”._ I hear you. The book
 
 Meetings can be boring, but this book taught me It doesn’t have to be and Why it should not be. As a team lead/executive if you have your team whispering about your meeting as a waste of productive time this book is for you. If you are a person who is aspiring to run great teams(like me) this book is for you too. [Grab your copy here.](https://www.amazon.in/gp/product/8126506768/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=8126506768&linkCode=as2&tag=bhavaniravi00-21&linkId=d149da2cb1c4f90d8d29e848ac348a51)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

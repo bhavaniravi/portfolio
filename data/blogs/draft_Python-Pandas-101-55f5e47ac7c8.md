@@ -12,6 +12,6 @@ Part -1 Basics To Beyond
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Python Pandas 101
+# Python Pandas 101
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

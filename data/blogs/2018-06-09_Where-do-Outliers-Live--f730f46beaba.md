@@ -10,9 +10,9 @@ subtitle: "
 Are you an outlier? You are going to love this blog
 "
 tags: [Entrepreneurship,Women In Tech,Outliers,Empowerment,Motivation]
-featuredImgPath: /media/chatbots-101-architecture-and-terminologies-featured.jpg
+featuredImgPath: /media/where-do-outliers-live-0.png
 ---
-## Where do Outliers Live?
+# Where do Outliers Live?
 
 Are you an outlier? You are going to love this blog
 
@@ -60,4 +60,4 @@ It may look like you live in a crazy island all by yourself. The truth is you ar
 
 The moment you picture yourself as an outlier living in the center, you become a magnet grabbing a lot of attention. Instead of shying away from it, we need to focus on understanding and expressing your thoughts to the world around you. When your force gets strong enough, you will have people joining you to take part in your mission.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

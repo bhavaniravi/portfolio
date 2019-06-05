@@ -12,7 +12,7 @@ Depression in the room
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Pitch Dark & Perfect Smoke
+# Pitch Dark & Perfect Smoke
 
 Depression in the room
 
@@ -24,4 +24,4 @@ Darkness deep inside and of course the outside
 
 Beetles beats and the burning eyes
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

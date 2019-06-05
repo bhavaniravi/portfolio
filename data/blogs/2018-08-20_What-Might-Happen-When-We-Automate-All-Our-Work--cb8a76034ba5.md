@@ -12,7 +12,7 @@ Have you ever imagined a world where things get done for you rather than having 
 tags: [Life Lessons,Automation,Thoughts]
 featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
-## What Might Happen When We Automate All Our Work?
+# What Might Happen When We Automate All Our Work?
 
 Have you ever imagined a world where things get done for you rather than having to do it yourself? You might be like, _“I am already in a world like that. My father/mother/wife does everything for me.”_ Or you’re on the other side of the spectrum who does these things, you may be like _“Yeah, I would love that world.”_ The real question is, will we love living in a world like that? I thought about it a bit more, and I found that I couldn’t relate. Here’s why.
 
@@ -38,4 +38,4 @@ In the process of evolution, we built up a system that made us focus on our own 
 
 Is that really the case? In my mind, it feels like complete and utter chaos. What do you think about it?
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

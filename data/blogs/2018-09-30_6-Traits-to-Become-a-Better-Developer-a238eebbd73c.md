@@ -12,7 +12,7 @@ Developers’ deficiency
 tags: [Programming,Developer,Software,Software Development,Work Life Balance]
 featuredImgPath: /media/developers-deficiency-featured.png
 ---
-## 6 Traits to Become a Better Developer
+# 6 Traits to Become a Better Developer
 
 Developers’ deficiency
 
@@ -62,4 +62,4 @@ It might be the industry or the passion factor; developers are often frowned upo
 
 These kids on becoming CTO of their new startup expect their employees to spend their days and nights for work just like they did at college, ending up scaring off or firing their employees.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

@@ -12,7 +12,7 @@ People judge. I was not an exception. We are culturally trained to comment on th
 tags: [Empathy,Self Realization,Worldview,Mindfulness]
 featuredImgPath: /media/wear-that-critique-hat-featured.png
 ---
-## Before You Wear That Critique Hat
+# Before You Wear That Critique Hat
 
 People judge. I was not an exception. We are culturally trained to comment on things that happen in front of us. My most common one is, _“How dumb can a person be to drive that slow?”_ In my defense under-speed is a thing and it irritates me. Coming back to the point, we are all bound to pass some comments on things, and I was no different until one day…
 
@@ -36,4 +36,4 @@ A lot of times in our lives, we often become critiques of the situation, without
 
 Let’s take the IRCTC website for example. We all would have cursed the pain of booking train tickets on IRCTC. But in reality, IRCTC doesn’t need to give its users a feel-good experience like Facebook or Twitter. It already has enough traffic.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

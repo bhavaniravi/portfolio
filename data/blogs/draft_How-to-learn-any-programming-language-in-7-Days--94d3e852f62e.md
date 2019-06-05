@@ -10,8 +10,8 @@ subtitle: ""
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-##   
+#   
 
 ## How to learn any programming language in 7 Days?
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

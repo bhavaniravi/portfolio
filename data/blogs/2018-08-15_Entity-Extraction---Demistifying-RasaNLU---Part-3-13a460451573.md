@@ -14,7 +14,7 @@ In this blog will drill down through the entity extraction step in RasaNLU. This
 tags: [Machine Learning,NLP,Chatbots,Bots,Artificial Intelligence]
 featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
-## Entity Extraction — Demystifying Rasa NLU — Part 3
+# Entity Extraction — Demystifying Rasa NLU — Part 3
 
 How does RasaNLU perform entity extraction?
 
@@ -297,4 +297,4 @@ After prediction, we will get a list with the probability of a particular token 
 [{'start': 8, 'end': 14, 'value': 'chines', 'entity': 'cuisine', 'confidence': 0.848068806858813}, {'start': 34, 'end': 39, 'value': 'north', 'entity': 'location', 'confidence': 0.9334140282928288}]
 ```
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

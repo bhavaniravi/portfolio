@@ -14,7 +14,7 @@ Find and do those little things that will make you happy, and keep your energy u
 tags: [Productivity,Task Management,Goals,Work,Procrastination]
 featuredImgPath: /media/driving-drives-productivity-featured.png
 ---
-## Driving Drives Productivity
+# Driving Drives Productivity
 
 ### Wondering what’s stopping you from accomplishing your tasks. This could be it.
 
@@ -78,4 +78,4 @@ The key point you have to notice here is, Do you have a backup plan when somethi
 
 Everything starts with you. Are you feeling like driving today? I am not talking about procrastination here. There are a few days where you feel like doing nothing but lay on your bed. No matter how much you push yourself and get yourself to drive to work, you would end up accomplishing nothing.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

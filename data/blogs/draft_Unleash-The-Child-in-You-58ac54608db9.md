@@ -10,6 +10,6 @@ subtitle: ""
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Unleash The Child in You
+# Unleash The Child in You
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

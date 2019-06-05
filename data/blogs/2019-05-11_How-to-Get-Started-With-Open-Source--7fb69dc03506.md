@@ -12,7 +12,7 @@ With a video walkthrough where I actually make a PR.
 tags: [Open Source,Programming,Technology,Community,Software]
 featuredImgPath: /media/how-to-get-started-with-open-source-featured.png
 ---
-## How to Get Started With Open Source?
+# How to Get Started With Open Source?
 
 With a video walkthrough where I actually make a PR.
 
@@ -32,4 +32,4 @@ Watch the tutorial video, where I walk you through how to pick a problem and act
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

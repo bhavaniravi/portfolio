@@ -12,7 +12,7 @@ A new age dance show
 tags: [Poetry,Writing,Poetry On Medium,Writer,Writers On Writing]
 featuredImgPath: /media/click-and-tap-featured.png
 ---
-## Click and Tap
+# Click and Tap
 
 A new age dance show
 
@@ -38,4 +38,4 @@ A dance that goes click and tap
 
 It’s your fingers over the **keypad**
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

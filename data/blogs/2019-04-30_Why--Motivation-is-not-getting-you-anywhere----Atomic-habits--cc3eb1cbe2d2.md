@@ -12,7 +12,7 @@ Focus On the Start, Not the End.
 tags: [Habit Building,Habits,Motivation,Self Motivation,Discipline]
 featuredImgPath: /media/why-motivation-alone-is-not-getting-you-anywhere-atomic-habits-featured.png
 ---
-## Why Motivation is Not Getting You Anywhere — Atomic Habits
+# Why Motivation is Not Getting You Anywhere — Atomic Habits
 
 Focus On the Start, Not the End.
 
@@ -28,4 +28,4 @@ The second huge revelation was that we often feel motivated because we are excit
 
 In the excitement of reaping the benefits, we often forget to see the road that will take us there. The change of perception to look at motivation as a start of something is truly great.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

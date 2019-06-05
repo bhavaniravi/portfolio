@@ -12,7 +12,7 @@ Deploying chatbot NLP model
 tags: [Machine Learning,Chatbots,NLP,Artificial Intelligence,Bots]
 featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
-## NLP Behind Chatbots — Demystifying RasaNLU — #2 — Serve
+# NLP Behind Chatbots — Demystifying RasaNLU — #2 — Serve
 
 Deploying [chatbot](https://chatbotslife.com/) NLP model
 
@@ -271,4 +271,4 @@ The final output is your intent and entity predicted and given to you in the for
 **Was this post useful to you?   
 **_Hold the clap button and give a shout out to me on_ [_twitter_](https://twiiter.com/@geeky_bhavani)_. ❤️_
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

@@ -12,7 +12,7 @@ Writers’ workshop started out as an experiment to bring out the voice of Orang
 tags: [Writing,Learning,Training,Leadership,Writers On Writing]
 featuredImgPath: /media/orangescapes-famous-writer-s-workshop-featured.jpg
 ---
-## OrangeScape’s Famous Writer’s Workshop
+# OrangeScape’s Famous Writer’s Workshop
 
 <figure>
 
@@ -79,4 +79,4 @@ Yes, the writer’s workshop is the beginning of a 100Days writing challenge. Fo
 
 _I am taking up the 100DaysOfWriting Challenge for the second time now. The first time,_ [_It exposed everything I had in me_](https://twitter.com/i/moments/1033782131342753792)_. This time I hope it shapes me into a better person._
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

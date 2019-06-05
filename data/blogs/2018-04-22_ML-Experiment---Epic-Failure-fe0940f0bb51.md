@@ -10,9 +10,9 @@ subtitle: "
 I always love to write about my failed experiments so that people who experiment a lot will know that they are not alone. This blog is one…
 "
 tags: [Machine Learning,Sklearn,Python,Deep Learning,Ml Experiment]
-featuredImgPath: /media/chatbots-101-architecture-and-terminologies-featured.jpg
+featuredImgPath: /media/ml-experiment-epic-failure-0.png
 ---
-## ML Experiment & Epic Failure
+# ML Experiment & Epic Failure
 
 > _I always love to write about my failed experiments so that people who experiment a lot will know that they are not alone. This blog is one of those ML experiments that show how not to do certain things._
 
@@ -101,4 +101,4 @@ Hence I came to a most intuitive understanding of a Machine learning concept:
 
 > [_You can’t perform KMeans clustering on categorical data_](https://datascience.stackexchange.com/questions/22/k-means-clustering-for-mixed-numeric-and-categorical-data?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

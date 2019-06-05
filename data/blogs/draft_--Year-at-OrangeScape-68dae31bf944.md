@@ -10,6 +10,6 @@ subtitle: ""
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## ! Year at OrangeScape
+# ! Year at OrangeScape
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

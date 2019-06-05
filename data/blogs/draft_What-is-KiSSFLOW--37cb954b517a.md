@@ -12,7 +12,7 @@ Automate Work and Reduce Chaos
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## What is KiSSFLOW?
+# What is KiSSFLOW?
 
 Automate Work and Reduce Chaos
 
@@ -54,4 +54,4 @@ How many times have you filled one of those above forms and ran behind teachers 
 
 Now let’s come back to KiSSFLOW. If your college management one fine day wakes up to the reality and realizes that they are wasting students time and decided to use KiSSFLOW to automate the above process. All you will be doing is, opening the KiSSFLOW app, initiate the respective No due or Leave form, with information life days, or no of classes, the reason etc., and on submission, it will be sent to your class in charge and travels through the hierarchy to the HOD and reaches you back with an Approval or Rejection.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

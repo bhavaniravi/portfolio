@@ -12,7 +12,7 @@ Why should you speak up?
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Speak Up. But First Speak.
+# Speak Up. But First Speak.
 
 Why should you speak up?
 
@@ -22,4 +22,4 @@ Similarly, when someone enters your organization there are few explicit things t
 
 Hence it is important to voice these unwritten rules, that leaving a million cues for them to pick up
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

@@ -12,7 +12,7 @@ Love is overrated
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Voids have a Voice
+# Voids have a Voice
 
 Love is overrated
 
@@ -46,4 +46,4 @@ In your head we dwell
 
 As we break open our shell
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

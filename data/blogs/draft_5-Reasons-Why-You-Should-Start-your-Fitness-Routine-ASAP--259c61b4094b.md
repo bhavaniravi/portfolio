@@ -12,7 +12,7 @@ subtitle: "
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## 5 Reasons Why You Should Start your Fitness Routine ASAP?
+# 5 Reasons Why You Should Start your Fitness Routine ASAP?
 
   
 
@@ -32,4 +32,4 @@ For eg., loosing to a 60kg when you are 65kg is much easier then when your are 8
 
 ## 5\. It’s not just physical strength
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

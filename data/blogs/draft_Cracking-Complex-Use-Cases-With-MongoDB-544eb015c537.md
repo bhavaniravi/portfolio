@@ -12,7 +12,7 @@ How I mastered MongoDB in 3 months.
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## Cracking Complex Use-Cases With MongoDB
+# Cracking Complex Use-Cases With MongoDB
 
 How I mastered MongoDB in 3 months.
 
@@ -126,4 +126,4 @@ db.collection("User").aggregate([
 
 ##
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

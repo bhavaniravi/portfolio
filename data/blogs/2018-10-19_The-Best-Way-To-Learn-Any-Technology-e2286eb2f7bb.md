@@ -12,7 +12,7 @@ How to crack programming languages within weeks.
 tags: [Programming,Software Development,Learning To Code,100daysofcode,Learning]
 featuredImgPath: /media/the-best-way-to-learn-any-technology-featured.png
 ---
-## The Best Way To Learn Any Technology
+# The Best Way To Learn Any Technology
 
 How to crack programming languages within weeks.
 
@@ -86,4 +86,4 @@ Teaching others can sharpen your skills at a different level. Just like how I ex
 
 Propose to give talks about things you have learned at meetups. When we learned about chatbots, we conducted a series of workshops and sprints. It opened a wide range of possibilities that could be achieved with chatbots. Only by sharing what you know, you will realize where you stand.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

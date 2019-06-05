@@ -12,7 +12,7 @@ Micro products to open source
 tags: [Open Source,Github,Programming,Software Development,Community]
 featuredImgPath: /media/build2learn-hacktoberfest-special-edition-featured.jpg
 ---
-## Build2Learn Hacktoberfest Special Edition
+# Build2Learn Hacktoberfest Special Edition
 
 From Micro products to open source
 
@@ -70,4 +70,4 @@ Buckle up and [**sign up for hacktoberfest**](https://goo.gl/forms/o9EcoEBAc7JkA
 
 <figcaption><a href="https://photos.app.goo.gl/bJvpvbuE4t3cGygSA" class="figcaption-link">Link to event photos</a></figcaption></figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

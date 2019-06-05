@@ -14,7 +14,7 @@ n this blog, I am going to take you through a step by step guided tutorial on Ho
 tags: [Python,Flask,Web Development,Rest,Programming]
 featuredImgPath: /media/build-your-1st-python-web-app-with-flask-featured.png
 ---
-## Build Your 1st Python Web App With Flask
+# Build Your 1st Python Web App With Flask
 
 Step-by-Step tutorial to build your first web application with Python.
 
@@ -391,4 +391,4 @@ I have run the code 4 times and on hitting the `/todo` API with GET method I get
 
 </figure>
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

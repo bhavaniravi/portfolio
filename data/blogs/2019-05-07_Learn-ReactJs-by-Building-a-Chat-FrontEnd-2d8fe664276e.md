@@ -12,7 +12,7 @@ Building a Chat application from scratch using ReactJs
 tags: [JavaScript,React,Front End Development,Learning To Code,Programming]
 featuredImgPath: /media/learn-reactjs-by-building-a-chat-frontend-featured.jpg
 ---
-## Learn ReactJs by Building a Chat FrontEnd
+# Learn ReactJs by Building a Chat FrontEnd
 
 Building a Chat application from scratch using ReactJs
 
@@ -76,6 +76,7 @@ In the above picture, we can see around 4–5 UI elements. These are wrapped int
 ![](/media/learn-reactjs-by-building-a-chat-frontend-1.png)
 
 </figure>
+
 ```
 class SendButton extends Component{  
     render(){  
@@ -94,6 +95,7 @@ class SendButton extends Component{
 ![](/media/learn-reactjs-by-building-a-chat-frontend-2.png)
 
 </figure>
+
 ```
 class MessageTextBoxContainer extends Component{  
   render(){  
@@ -137,6 +139,7 @@ The `MessageBox` component has an `Avatar` component in it. For each message, we
 ![](/media/learn-reactjs-by-building-a-chat-frontend-4.png)
 
 </figure>
+
 ```
 class MessageBox extends Component{  
   render(){  
@@ -317,4 +320,4 @@ render() {
 
 Like you see in the snippet we define the `event_handlers` and the state & props at the parent component level and delegate it to the child components.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

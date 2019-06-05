@@ -12,7 +12,7 @@ An important factor of a career choice
 tags: [Work Life Balance,Work,Development,Personal Development,Self Improvement]
 featuredImgPath: /media/worklife-balance-featured.png
 ---
-## Work-Life — You Need Balance
+# Work-Life — You Need Balance
 
 Why is it an essential factor in a career choice?
 
@@ -54,4 +54,4 @@ Focusing on other hobbies than your actual domain is the birthplace of new ideas
 
 Something that is more important than learning new things is taking time to reflect on your everyday events. Tracking your day will let you course correct the path towards your goal and let you create the kind of life you want.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

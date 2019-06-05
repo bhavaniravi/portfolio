@@ -12,7 +12,7 @@ Using buttons? You got them all here
 tags: [Web Development,Front End Development,Reactjs,Learn,Learn To Code]
 featuredImgPath: /media/reactjs-buttons-cheatsheet-featured.jpg
 ---
-## ReactJS Buttons CheatSheet
+# ReactJS Buttons CheatSheet
 
 ### Using buttons? You got them all here
 
@@ -31,6 +31,7 @@ npx create-react-app react_button_cheatsheet
 ![](/media/reactjs-buttons-cheatsheet-0.png)
 
 </figure>
+
 ```
 class UpgradedButton extends React.Component{  
      render(){  
@@ -46,6 +47,7 @@ class UpgradedButton extends React.Component{
 ![](/media/reactjs-buttons-cheatsheet-1.png)
 
 </figure>
+
 ```
 const StyledButton = styled.button`  
     position: absolute;  
@@ -66,8 +68,8 @@ const StyledButton = styled.button`
 `
 ```
 ```
-**// change this line in UpgradedButton  
-**// <button>Submit</button>  
+// change this line in UpgradedButton  
+// <button>Submit</button>  
 <StyledButton>Submit</StyledButton>
 ```
 
@@ -80,6 +82,7 @@ Add this to the style components’ CSS string
 ![](/media/reactjs-buttons-cheatsheet-2.png)
 
 </figure>
+
 ```
 const StyledButton = styled.button`  
     ...  
@@ -99,6 +102,7 @@ const StyledButton = styled.button`
 ![](/media/reactjs-buttons-cheatsheet-3.png)
 
 </figure>
+
 ```
 handleClick = () => {  
     console.log("Button clicked...")  
@@ -172,4 +176,4 @@ export default class UpgradedButton extends React.Component{
 }
 ```
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

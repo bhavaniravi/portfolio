@@ -12,7 +12,7 @@ Watch out for these problems, or raise issues and fix them!
 tags: [Data Science,Python,Pandas,Data Visualization,Analytics]
 featuredImgPath: /media/whats-wrong-with-python-pandas-featured.png
 ---
-## What’s Wrong With Python Pandas?
+# What’s Wrong With Python Pandas?
 
 Watch out for these problems, or raise issues and fix them!
 
@@ -104,6 +104,7 @@ Going by the hunch we got from using the default `to_dict` method, if we use `or
 ![](/media/whats-wrong-with-python-pandas-6.png)
 
 </figure>
+
 ```
 'records' : list like [{column -> value}, … , {column -> value}]
 ```
@@ -125,6 +126,7 @@ On looking up the Pandas documentation `orient="index"` will suit the requiremen
 ![](/media/whats-wrong-with-python-pandas-7.png)
 
 </figure>
+
 ```
 **Structure 2 - All the totals and Quatities**  
 {'Total': {'Africa': 460000, ...}, "Quantity":{"Africa":..}}  
@@ -231,4 +233,4 @@ df["node.virtuals.previewImage.imageId"]
 *   What if you want to normalize only specific keys
 *   What if you want to start normalizing data at a particular level. (eg., create a DataFrame with virtuals alone)
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

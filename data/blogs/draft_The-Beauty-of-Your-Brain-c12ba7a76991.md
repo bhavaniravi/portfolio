@@ -12,7 +12,7 @@ A brain is a master machine, that you can tweak into whatever you want.
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
-## The Beauty of Your Brain
+# The Beauty of Your Brain
 
 A brain is a master machine, that you can tweak into whatever you want.
 
@@ -46,4 +46,4 @@ Why? Because your senses are a two street. You don’t see because the eye sees 
 
 The world has not stopped talking about empathy and emotional intelligence after the book — _Hit Refresh by Satya Nadella._ But your brain had mastered that skill even before you could add the “empathy” label to it. Though we all feel like an independent entity in this world we are also closely coupled. The social interactions and human’s around plays an important role in your social, emotional and intellectual well being. Studies supporting this had subjects away from human contact. Over a time period, they lose a sense of empathy and understanding others feelings. Your brain just loses that skill. You constantly learn and improve from the people around you. Having an idea to find a cave in the Himalayas? Drop it right now.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

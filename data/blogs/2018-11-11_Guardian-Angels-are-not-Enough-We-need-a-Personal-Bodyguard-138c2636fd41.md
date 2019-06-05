@@ -12,7 +12,7 @@ Guardian angels keep us secure and make sure we are alright, it’s time that we
 tags: [Life,Personal Development,Writing,Self Improvement]
 featuredImgPath: /media/guardian-angels-are-not-enough-we-need-a-personal-bodyguard-featured.png
 ---
-## Guardian Angels are not Enough We need a Personal Bodyguard
+# Guardian Angels are not Enough We need a Personal Bodyguard
 
 We are in a century where life haunts us the most than the vicious. Though guardian angels make us feel safe and secure, it’s time that we all need a personal bodyguard. Here’s why.
 
@@ -38,4 +38,4 @@ The bodyguard lies in yourself. Always waiting to guard you. It is for you to un
 
 My personal bodyguard _“inavahb”_ — The evil me 😈
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+

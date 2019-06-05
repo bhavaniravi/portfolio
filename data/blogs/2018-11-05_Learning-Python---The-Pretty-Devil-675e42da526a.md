@@ -12,7 +12,7 @@ Common problems that beginners face while learning Python
 tags: [Programming,Coding,Learning,Python,Software Development]
 featuredImgPath: /media/learning-python-the-pretty-devil-featured.png
 ---
-## Learning Python — The Pretty Devil
+# Learning Python — The Pretty Devil
 
 Hurdles faced by people learning python
 
@@ -66,4 +66,4 @@ There were other problems too. Like how to operate over the dictionary. How to f
 2.  If they have never seen programming in life, a turtle graphics program will inculcate more interest than a _“hello world”_ program.
 3.  Python is not a difficult language to learn, but it needs a high-level view and an open mind to suck it all, especially if you’re from Java or C++’s of the world.
 
-This blog was originally published in [medium.com/@bhavaniravi](https://medium.com/@bhavaniravi)
+
