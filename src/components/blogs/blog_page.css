@@ -71,7 +71,7 @@ article > .aside {
     font-size: 0.8em;
 }
 
-img {
+figure > p > img {
     width: 50%;
     max-height: 50%;
 }

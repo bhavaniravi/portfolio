@@ -61,5 +61,3 @@ The world has not stopped talking about empathy and emotional intelligence after
 
 Just like how I started this blog, your brain is indeed a master machine with exceptional capabilities to learn and expand. Do not waste it on social media fights, gossips, sterotyping and the million other things we do in the name of "doing good".
 
-> Liked my blog give me a thumbs up on twitter @geeky_bhavani
-
