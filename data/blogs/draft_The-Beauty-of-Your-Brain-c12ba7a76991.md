@@ -1,5 +1,5 @@
 ---
-slug: "the-beauty-of-yourbrainit-just-got-interestingarticles-for-you-toread"
+slug: "the-beauty-of-your-brain"
 published_date: 2019-06-06T12:30:00.748Z
 created_date: 2019-06-06T12:30:00.748Z
 title: "The Beauty of Your Brain"
