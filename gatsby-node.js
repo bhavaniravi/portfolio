@@ -34,7 +34,10 @@ exports.onCreateWebpackConfig = ({
           allMarkdownRemark(
             sort: { fields: [frontmatter___published_date], order: DESC }
             limit: 1000
-            filter:{frontmatter:{draft:{eq: false}}}
+            filter:{frontmatter:{draft:{eq: false},
+                                 published_date:{gt: "2019-06-04"}        
+                                }
+                    }
           ) {
             edges {
               node {
@@ -61,9 +64,8 @@ exports.onCreateWebpackConfig = ({
       posts.forEach((post, index) => {
         const previous = index === posts.length - 1 ? null : posts[index + 1].node
         const next = index === 0 ? null : posts[index - 1].node
-        console.log(post)
         createPage({
-          path: post.node.frontmatter.slug,
+          path: "/blog/" + post.node.frontmatter.slug,
           component: blogPost,
           context: {
             slug: post.node.fields.slug,

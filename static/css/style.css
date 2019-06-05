@@ -390,11 +390,11 @@ button:focus {
   align-self: center;
   text-align: left;
 }
-.home_banner_area .banner_inner .banner_content media .d-flex {
+.home_banner_area .banner_inner .banner_content .media .d-flex {
   padding-right: 75px;
   padding-left: 25px;
 }
-.home_banner_area .banner_inner .banner_content media media-body {
+.home_banner_area .banner_inner .banner_content .media .media-body {
   vertical-align: middle;
   align-self: center;
 }
@@ -807,22 +807,22 @@ button:focus {
 .blog_right_sidebar .author_widget .social_icon a:hover {
   color: #766dff;
 }
-.blog_right_sidebar .popular_post_widget .post_item media-body {
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
   justify-content: center;
   align-self: center;
   padding-left: 20px;
 }
-.blog_right_sidebar .popular_post_widget .post_item media-body h3 {
+.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
   margin-bottom: 4px;
   transition: all 0.3s linear;
 }
-.blog_right_sidebar .popular_post_widget .post_item media-body h3:hover {
+.blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
   color: #766dff;
 }
-.blog_right_sidebar .popular_post_widget .post_item media-body p {
+.blog_right_sidebar .popular_post_widget .post_item .media-body p {
   font-size: 12px;
   line-height: 21px;
   margin-bottom: 0px;
@@ -2731,8 +2731,8 @@ h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center
-    center/cover;
+  /* background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover; */
   border: none;
 }
 
@@ -3224,20 +3224,20 @@ h6 {
 .tabs_inner .tab-content .tab-pane .list li:last-child {
   margin-bottom: 0px;
 }
-.tabs_inner .tab-content .tab-pane .list li media .d-flex {
+.tabs_inner .tab-content .tab-pane .list li .media .d-flex {
   padding-right: 100px;
 }
-.tabs_inner .tab-content .tab-pane .list li media .d-flex p {
+.tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0px;
   padding-top: 20px;
 }
-.tabs_inner .tab-content .tab-pane .list li media media-body h4 {
+.tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
   color: #fff;
   font-size: 21px;
   margin-bottom: 20px;
 }
-.tabs_inner .tab-content .tab-pane .list li media media-body p {
+.tabs_inner .tab-content .tab-pane .list li .media .media-body p {
   color: rgba(255, 255, 255, 0.75);
   margin-bottom: 0px;
 }

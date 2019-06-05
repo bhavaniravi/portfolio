@@ -7,6 +7,7 @@ module.exports = {
                      🔸 Python - Chatbots - Machine Learning 🔸
                      🔸 Lead - Google WomenTechMakers Chennai 🔸
                      🔸 Community Head - Build2Learn.in 🔸`,
+        twitterHandle: "@geeky_bhavani",
         social: {
             twitter: `geeky_bhavani`,
         },
@@ -14,6 +15,7 @@ module.exports = {
         "description": "Here is where you find the professional walk of Ms. Bhavani Ravi",
         "twitterHandle": '@geeky_bhavani',
         url: 'https://bhavaniravi.com',
+        siteUrl: 'https://bhavaniravi.com',
         
         "social_icons":[
             {"name":"Twitter", 
@@ -201,6 +203,8 @@ module.exports = {
         `gatsby-remark-copy-linked-files`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
+        "gatsby-plugin-sitemap",
+        'gatsby-plugin-robots-txt',
         {
             resolve: `gatsby-remark-images`,
             options: {
