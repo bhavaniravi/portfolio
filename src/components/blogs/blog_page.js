@@ -1,45 +1,49 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import SEO from "../seo"
+import Share from "../share/share"
 import Layout from "../layout"
 import "./blog_page.css"
-// import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
   render() {
+    const canonical = ''
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    if(post.frontmatter.is_medium){
+        canonical = (<p>The blog was originally publushed in 
+            <a href={this.post.frontmatter.medium_url}></a>
+            </p>)
+     }
+    const title = post.frontmatter.title
     const { previous, next } = this.props.pageContext
-    console.log("Something here..")
+    const twitterHandle = this.props.data.site.siteMetadata.twitterHandle
     return (
-        <Layout navFixed={true}>
-      <article>
+    <Layout navFixed={true}>
+    <div className="article_div">
+      <article style={{"margin-top":"130px"}}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-        //   style={{
-        //     ...scale(-1 / 5),
-        //     display: `block`,
-        //     marginBottom: rhythm(1),
-        //     marginTop: rhythm(-1),
-        //   }}
-        >
-          {post.frontmatter.date}
-        </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-        //   style={{
-        //     marginBottom: rhythm(1),
-        //   }}
-        />
-
-        <ul
+        <hr/>
+        <Share
+            socialConfig={{
+                twitterHandle,
+                config: {
+                    url: `${this.props.data.site.siteMetadata.url}/${post.frontmatter.slug}`,
+                    title,
+                },
+            }}
+            tags={post.frontmatter.tags}
+		/> 
+        {canonical}
+        <hr/>       
+      </article>
+      <ul
           style={{
-            display: `flex`,
-            flexWrap: `wrap`,
+            display: `grid`,
+            "grid-template-columns": "1fr 1fr",
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
@@ -60,7 +64,8 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-      </article>
+        </div>
+       
       </Layout>
     )
   }
@@ -74,6 +79,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        twitterHandle
+        url
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -84,6 +91,7 @@ export const pageQuery = graphql`
         title
         published_date(formatString: "MMMM DD, YYYY")
         description
+        slug
       }
     }
   }

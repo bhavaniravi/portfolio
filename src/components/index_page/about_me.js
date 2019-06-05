@@ -11,7 +11,7 @@ class Banner extends React.Component{
 					<div className="banner_content">
 						<div className="media">
 							<div className="d-flex">
-								<img src="img/pp.jpeg" alt=""/>
+								<img src="/img/pp.jpeg" alt=""/>
 							</div>
 							<div className="media-body">
 								<div className="personal_text">

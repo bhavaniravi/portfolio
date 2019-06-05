@@ -65,9 +65,7 @@ class NewsLetter extends Component{
     _handleSubmit = async (e) => {
         e.preventDefault();
         const result = await addToMailchimp(this.state.email)
-        console.log(result)
         this.setState({"submit_message":result.msg})
-        console.log(this.state);
         // I recommend setting `result` to React state
         // but you can do whatever you want
     }
@@ -86,13 +84,16 @@ class NewsLetter extends Component{
                             <div className="input-group d-flex flex-row">
                                 <input type="hidden" name="u" value="d20357716d3689cee26657b8a"/>
                                 <input type="hidden"  name="id" value="189cad7f10"></input>
-                                <input name="email" id="email" 
+                                <input name="email" id="email" araia-label="Email"
                                 placeholder={this.state.placeholder} 
                                 onFocus={this._on_focus}
                                 onBlur={this._on_blur}
                                 onChange={this._handleEmailChange}
                                 required="" type="email"/>
-                                <button className="btn sub-btn"><span className="lnr lnr-arrow-right"></span></button>		
+                                <button className="btn sub-btn" aria-label="SignUp">
+                                    <span className="lnr lnr-arrow-right">
+                                    </span>
+                                </button>		
                             </div>				
                             <div className="mt-10 info">{this.state.submit_message}</div>
                         </form>
