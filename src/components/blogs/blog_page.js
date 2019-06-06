@@ -20,7 +20,7 @@ class BlogPostTemplate extends React.Component {
     return (
     <Layout navFixed={true}>
     <div className="article_div">
-      <article style={{"margin-top":"130px"}}>
+      <article style={{"marginTop":"130px"}}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.subtitle || post.frontmatter.description}
@@ -44,7 +44,7 @@ class BlogPostTemplate extends React.Component {
       <ul
           style={{
             display: `grid`,
-            "grid-template-columns": "1fr 1fr",
+            "gridTemplateColumns": "1fr 1fr",
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,

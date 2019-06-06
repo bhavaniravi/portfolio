@@ -16,6 +16,7 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
       query {
         site {
           siteMetadata {
+            url
             title
             description
             author
@@ -25,6 +26,7 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
       }
     `
   )
+  let siteUrl = site.siteMetadata.url
 
   return (
     <Helmet
@@ -34,14 +36,6 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        {
-          name: "twitter:image:src",
-          content: previewImgUrl
-        },
-        {
-          name: "og:image",
-          content: previewImgUrl
-        },
         {
           name: `description`,
           content: description,
@@ -80,7 +74,19 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
         },
         {
           name: `twitter:image`,
-          content: previewImgUrl,
+          content: `${siteUrl}${previewImgUrl}`,
+        },
+        {
+          name: `twitter:image:src`,
+          content: `${siteUrl}${previewImgUrl}`,
+        },
+        {
+          name: `twitter:image:alt`,
+          content: title,
+        },
+        {
+          name: `og:image`,
+          content: `${siteUrl}${previewImgUrl}`,
         },
       ].concat(meta)}
     />
