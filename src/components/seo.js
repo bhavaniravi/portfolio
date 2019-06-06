@@ -19,13 +19,12 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
             title
             description
             author
+            previewImgUrl
           }
         }
       }
     `
   )
-
-  const metaDescription = description || site.siteMetadata.description
 
   return (
     <Helmet
@@ -61,10 +60,14 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
+          content: "@geeky_bhavani",
+        },
+        {
+          name: `twitter:site`,
           content: "@geeky_bhavani",
         },
         {
@@ -74,6 +77,10 @@ function SEO({ description, lang, meta, title, previewImgUrl }) {
         {
           name: `twitter:description`,
           content: description,
+        },
+        {
+          name: `twitter:image`,
+          content: previewImgUrl,
         },
       ].concat(meta)}
     />

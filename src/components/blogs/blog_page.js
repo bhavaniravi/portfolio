@@ -24,7 +24,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.subtitle || post.frontmatter.description}
-          previewImgUrl={post.frontmatter.previewImgUrl}
+          previewImgUrl={post.frontmatter.featuredImgPath}
         />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
@@ -90,6 +90,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
+        featuredImgPath
         published_date(formatString: "MMMM DD, YYYY")
         description
         slug
