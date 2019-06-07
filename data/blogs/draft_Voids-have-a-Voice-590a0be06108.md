@@ -5,7 +5,7 @@ created_date: null
 title: "Voids have a Voice"
 template: "post"
 draft: true
-description: "Love is overrated. “Voids have a Voice” is published by Bhavani Ravi"
+description: "Your Voids have a Voice"
 subtitle: "
 Love is overrated
 "
@@ -14,31 +14,17 @@ featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.p
 ---
 # Voids have a Voice
 
-Love is overrated
+Love is overrated, So is hate.
 
-So is hate,
+Before I could fit you in that grey spot, I lost you to my fate.
 
-Before I could fit you in that grey spot
+With the ripples of your warmth, creating a crack in my soul.
 
-I lost you to my fate.
+The muses of your heart, becoming the curse of my life.
 
-The ripples of warmth, 
+The void that in you left, making the memories of my soul.
 
-Is creating a crack in my soul.
-
-The muses of the master,
-
-Is becoming a curse
-
-For the void that people leave in your life
-
-becomes the memories of your soul.
-
-For the voices of people living in your head
-
-becomes the treasure of your spirit.
-
-  
+The voices of your dreams, treasuring of my spirit.
 
 ## Random Crap
 
