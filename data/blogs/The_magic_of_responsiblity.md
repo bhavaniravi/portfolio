@@ -9,6 +9,7 @@ description: "Do you want people to act mature? Trust them and give them the res
 subtitle: "Do you want people to act mature? Trust them and give them the responsibility!"
 tags: ["Responsibility", "Trust", "Leadership", "Motivation", "Mentor"]
 featuredImgPath: https://images.pexels.com/photos/220320/pexels-photo-220320.jpeg
+isexternal: true
 ---
 # The Magic of Responsibility — A Story
 

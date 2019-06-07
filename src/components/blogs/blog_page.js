@@ -25,6 +25,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.subtitle || post.frontmatter.description}
           previewImgUrl={post.frontmatter.featuredImgPath}
+          isexternal={post.frontmatter.isexternal}
         />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
@@ -95,6 +96,7 @@ export const pageQuery = graphql`
         published_date(formatString: "MMMM DD, YYYY")
         description
         slug
+        isexternal
       }
     }
   }
