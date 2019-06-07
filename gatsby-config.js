@@ -205,6 +205,7 @@ module.exports = {
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         "gatsby-plugin-sitemap",
+        `gatsby-plugin-feed`,
         'gatsby-plugin-robots-txt',
         {
             resolve: `gatsby-remark-images`,
