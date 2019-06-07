@@ -4,7 +4,7 @@ const DATE_OPTIONS = { year: 'numeric', month: 'short', day: 'numeric' };
 
 export class InBuiltBlogPost extends Component{
     render(){
-        const blog_url = `/blog/` + this.props.post.frontmatter.slug
+        const blog_url = `/blog/` + this.props.post.frontmatter.slug + "/"
         return (
             <div className="med_post">
                 <div className="med_dummy_div_iniside_post">
