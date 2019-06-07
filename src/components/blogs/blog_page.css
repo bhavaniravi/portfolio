@@ -45,10 +45,6 @@ article > div > h1 {
     font-style: normal;
 }
 
-article > div > h2{
-    font-family: "medium-content-title-font,Georgia,Cambria,Times New Roman,Times,serif"
-}
-
 article > div > p, li, p > * {    
     --x-height-multiplier: 0.375;
     --baseline-multiplier: 0.17;
