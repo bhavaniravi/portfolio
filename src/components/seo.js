@@ -27,8 +27,8 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
       }
     `
   )
-  let featureImg = isexternal ? previewImgUrl : `${siteUrl}${previewImgUrl}`
   let siteUrl = site.siteMetadata.url
+  let featureImg = isexternal ? previewImgUrl : `${siteUrl}${previewImgUrl}`
   
   return (
     <Helmet
@@ -93,6 +93,22 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
         {
           property: `og:image`,
           content: featureImg,
+        },
+        {
+          property: `og:image:url`,
+          content: featureImg,
+        },
+        {
+          property: `og:image:secure_url`,
+          content: featureImg,
+        },
+        {
+          property: `og:image:width`,
+          content: 400,
+        },
+        {
+          property: `og:image:height`,
+          content: 300,
         },
       ].concat(meta)}
     />
