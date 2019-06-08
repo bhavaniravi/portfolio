@@ -56,7 +56,19 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
         },
         {
           property: `og:type`,
-          content: `article`,
+          content: `blog`,
+        },
+        {
+          property: `og:image`,
+          content: featureImg,
+        },
+        {
+          property: `og:image:width`,
+          content: 400,
+        },
+        {
+          property: `og:image:height`,
+          content: 300,
         },
         {
           name: `twitter:card`,
@@ -89,26 +101,6 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
         {
           name: `twitter:image:alt`,
           content: title,
-        },
-        {
-          property: `og:image`,
-          content: featureImg,
-        },
-        {
-          property: `og:image:url`,
-          content: featureImg,
-        },
-        {
-          property: `og:image:secure_url`,
-          content: featureImg,
-        },
-        {
-          property: `og:image:width`,
-          content: 400,
-        },
-        {
-          property: `og:image:height`,
-          content: 300,
         },
       ].concat(meta)}
     />
