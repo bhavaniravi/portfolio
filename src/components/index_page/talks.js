@@ -55,9 +55,6 @@ class TalksArea extends Component{
                     <TalkBox talk={talk_data}></TalkBox>
                 ))}
         		</div>
-        		{/* <div className="more_btn">
-        			<a className="main_btn" href="blogs">View All</a>
-        		</div> */}
         	</div>
         </section>
         )
