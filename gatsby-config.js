@@ -259,6 +259,7 @@ module.exports = {
         `gatsby-plugin-sharp`,
         "gatsby-plugin-sitemap",
         'gatsby-plugin-robots-txt',
+        "gatsby-plugin-react-helmet",
         {
             resolve: `gatsby-remark-images`,
             options: {
