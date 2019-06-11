@@ -45,7 +45,6 @@ Pick one only one. Finish it with all your heart.
 Now that you have learnt the concepts, it has to stick, how to do that? Try working on a project.
 
 1. Web Scraping.
-
 2. Todo app.
 3. Draw shapes with python.
 4. A tic tac toe game.
