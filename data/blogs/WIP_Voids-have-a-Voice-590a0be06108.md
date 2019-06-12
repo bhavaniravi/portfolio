@@ -1,5 +1,5 @@
 ---
-slug: "voids-have-avoice"
+slug: "voids-have-a-voice"
 published_date: null
 created_date: null
 title: "Voids have a Voice"
