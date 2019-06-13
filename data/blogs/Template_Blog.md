@@ -15,4 +15,10 @@ featuredImgPath:
 
 _Subtitle_
 
+<figure>
+
+![](/media/demystifying-rasa-nlu-1-training-featured.png)
+
+</figure>
+
 
