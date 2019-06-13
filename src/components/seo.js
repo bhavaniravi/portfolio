@@ -63,10 +63,6 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
           content: featureImg,
         },
         {
-          property: `og:url`,
-          content: featureImg,
-        },
-        {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
