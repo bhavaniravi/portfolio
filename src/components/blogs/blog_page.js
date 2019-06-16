@@ -33,7 +33,7 @@ class BlogPostTemplate extends React.Component {
             socialConfig={{
                 twitterHandle,
                 config: {
-                    url: `${this.props.data.site.siteMetadata.url}/${post.frontmatter.slug}`,
+                    url: `${this.props.data.site.siteMetadata.url}/blog/${post.frontmatter.slug}`,
                     title,
                 },
             }}
