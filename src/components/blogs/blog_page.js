@@ -29,12 +29,10 @@ class BlogPostTemplate extends React.Component {
         />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
-        <p>
-          <em>_I recently moved my blogs from medium. Find more of my writing 
-            <a target="_blank" href="https://medium.com/@bhavaniravi">here</a>  
-            and <a target="_blank" href="/blogs">here</a>  
-          </em>
-        </p>
+        <em>I recently moved my blogs from medium. Find more of my writing 
+          <a target="_blank" href="https://medium.com/@bhavaniravi"> here.</a>
+        </em>
+
         <Share
             socialConfig={{
                 twitterHandle,

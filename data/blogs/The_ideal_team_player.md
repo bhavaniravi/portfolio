@@ -2,9 +2,9 @@
 slug: "the-ideal-team-player-book-review"
 published_date: "2019-06-19"
 created_date: "2019-06-19"
-title: "The Ideal Team Player - Book Takeaways"
+title: "Are you an Ideal Team Player?"
 template: "post"
-draft: true
+draft: false
 description: "What makes a person an ideal team player and how to find one?"
 subtitle: "What makes a person an ideal team player and how to find one?"
 tags: ["Leadership", "Team Player", "Team", "Culture", "Work"]
@@ -13,11 +13,14 @@ featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/5174ox9CxwL.jp
 
 # Are you an Ideal Team Player?
 
-_Let's see What makes a person an ideal team player and how to find one?_
+_what makes a person an ideal team player and how to find one?_
 
-Come on, list down qualities that you have that makes you an ideal team player. Passionate, humble, helpful, expressive, empowering, motivating. Isn't that too many adjectives. Well, it sounds cool when you tag yourself with those adjectives but what if you are building a team and want cool people to join your team. How will you compose all those fancy adjectives into your HR let alone inserting these values into a job description? The ones who really want to build great teams try to do this for a couple of times and gives up because it gets too complex to find a person with all the above qualities. What questions can we ask that checks all the items we have. There has got to be a better way right?
+Let's start by listing down the qualities that makes you an ideal team player. 
+Passionate, humble, helpful, expressive, empowering, motivating... The list can go on and on. Isn't that too many adjectives?. Well, what's wrong with that? The more the merrier right? 
 
-Well, I was in the same place as you are. I thought ideal team players are a rare breed and it's difficult to find one. Unlike other times, I did nothing about it. Until I stumbled upon the topic of "Ideal team player" from our Orangescape leadership program. Finding that the topics discussed during the session were from my favorite author, I got the book from Abhishek and read it. Turns out there is only three, just attributes that will make a great team player.  
+Though it sounds cool when you tag yourself with those adjectives, what if you are building a team and want to hire those kinds. How will you compose all those fancy adjectives into your HR? How will you insert these values into a job description? What questions can we ask that checks all the items we have?. If you really want to build great teams you may try to do this for a couple of times, but there is a good chance for you to give up because it is too complex.  There has got to be a better way right?
+
+Well, I was in the same place as you are. I thought ideal team players are a rare breed and it's difficult to find one. Unlike other times, I did nothing about it. Until I stumbled upon the term "The Ideal team player" during our Orangescape leadership program. Finding that the topics discussed during the session were from my favorite author, I got the book from Abhishek and read it end to end. Turns out there is only three, just attributes that describes great team player.  
 
 <figure>
 
@@ -25,31 +28,33 @@ Well, I was in the same place as you are. I thought ideal team players are a rar
 
 </figure>
 
-> _Yes, it is that simple_
+_Yes, it is that simple_
 
 ## The Ideal Team Player
 
 Humble, Hungry and Smart. Three attributes, eight combinations. Let's see the pros and cons they bring to the team.
 
-> A word of caution: Don't start tagging people in your team as you read the blog. You won't know for sure. If you are curious run an assessment. We will discuss it later in the blog.
+> A word of caution: Don't start tagging people in your team as you read the blog. You won't know for sure. If you are curious run an assessment. We will discuss it later in the blog. But don't start judging right away.
 
 ### Humble - The Pawn
 
 The humble ones are those who do their work and doesn't expect a lot of attention to it. They hold no egos with the team and will be the person who always got your back. 
 
-The disadvantage of having a person who is **just humble** is that he gets used by the people in the other segments. The book calls the person "A pawn". If a team is filled with a bunch of people who are humble then you won't have much of a problem, because you will have a bunch of individual contributors. The problem occurs when humble people work with the "Hungry" and "Smarts" of the team.
+The disadvantage of having a person who is **just humble** is that he gets used by the people in the other segments. The person does not take initatives is always a passive worker, "A pawn" and easy to replace. A humble person might be good for working in conveyer belts, but not for creative and motivated teams.
 
 ### Hungry - The Bulldozer
 
-Passionate, motivated, self-driven are the attributes that would define a hungry person. A hungry person goes an extra mile to get things done. They are the high-productive master minds in a team. They get things done no matter what. (Stop tagging your team already)
+Passionate, motivated, self-driven are mostly used define a hungry person. A hungry person goes an extra mile to get things done. They are the high-productive master minds in a team. They get things done no matter what. (Stop tagging your team already.)
 
-The disadvantage of a hungry person is that in the advent of getting the work done the person forgets to carry the people along with them. They make wonderful individual contributors but when it comes to a team, they may make feel low to get things done their way.
+Here is the disadvantage, in the advent of getting the work done the person forgets to carry the people along with them. They make wonderful individual contributors but when it comes to a team, they go to any extreme to get things done their way.
 
 ### Smart - Charmer
 
-People smart. The ones who get their way by knowing how to work with people. While this is a great quality to have, when a smart person starts using it to their advantage, they start growing up the ladder by manipulating others. 
+People smart. The ones who get their way by knowing how to work with people. While this is a great quality to have, the problem arises when a smart person starts using it to their advantage, they start growing up the ladder by manipulating others. 
 
 While humble and Hungry people are easy to spot. Smart survives the battle much longer. Until their work starts speaking for them and slowly wearing out the charm they earned by manipulating people.
+
+## The Combinations
 
 ### Hungry and Humble - The Accidental Mess Maker
 
