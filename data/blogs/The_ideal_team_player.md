@@ -9,6 +9,7 @@ description: "What makes a person an ideal team player and how to find one?"
 subtitle: "What makes a person an ideal team player and how to find one?"
 tags: ["Leadership", "Team Player", "Team", "Culture", "Work"]
 featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/5174ox9CxwL.jpg
+isexternal: true
 ---
 
 # Are you an Ideal Team Player?
