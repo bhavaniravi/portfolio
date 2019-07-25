@@ -1,7 +1,7 @@
 ---
 slug: "a-world-where-women-in-tech-rules"
-published_date: "24-07-2019"
-created_date: "15-07-2019"
+published_date: 2019-07-25
+created_date: 2019-07-15
 title: "A World Where WomenInTech Rules"
 template: "post"
 draft: false
@@ -11,7 +11,6 @@ tags: ["womenintech", "technology", "empowerment", "Womenwhocode"]
 featuredImgPath: "https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg"
 isexternal: true
 ---
-
 
 # A World Where WomenInTech Leads
 _What are the socital changes an empowered womenintech will bring_
