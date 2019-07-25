@@ -15,7 +15,7 @@ isexternal: true
 # A World Where WomenInTech Leads
 _What are the socital changes an empowered womenintech will bring_
 
-I was at Google's India Community Summit over the last weekend. (ICS2019)[https://twitter.com/hashtag/ICS2019] is an annual conference for all GDG, WomenTechMakers and GDGC leads from all over India. It is a space for us to meet, collaborate and share ideas. You can think of it as a meetup for people who organize your meetups. 
+I was at Google's India Community Summit over the last weekend. [ICS2019][https://twitter.com/hashtag/ICS2019] is an annual conference for all GDG, WomenTechMakers and GDGC leads from all over India. It is a space for us to meet, collaborate and share ideas. You can think of it as a meetup for people who organize your meetups. 
 
 On the 2nd day of the summit we had a special workshop for womentechmakers leaders. During the workshop we were asked to brainstrom on an ideal world where womenintech are paid and treated equally where we no longer have to struggle for what we deserve. 
 

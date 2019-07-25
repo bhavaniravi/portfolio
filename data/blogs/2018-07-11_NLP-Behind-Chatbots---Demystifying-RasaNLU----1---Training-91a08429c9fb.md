@@ -1,7 +1,7 @@
 ---
 slug: "demystifying-rasa-nlu-1-training"
-published_date: 2018-07-11T11:57:31.000Z
-created_date: 2018-07-11T11:57:31.000Z
+published_date: 2018-07-11
+created_date: 2018-07-11
 title: "NLP Behind Chatbots - Demystifying RasaNLU - #1 - Training"
 template: "post"
 draft: false
