@@ -44,7 +44,7 @@ module.exports = {
             "description": "My quest to build a chatbot engine and what I understood by demystifying an opensource chatbot engine", 
             "url": "", 
             "icon_path":"fa-table", 
-            "slides_link": "http://bit.ly/ml_behind_chatbots",
+            "slides_link": "https://bit.ly/ml_behind_chatbots",
             "location":"Global Azure BootCamp",
             "date":"May 2019",
             "skills": ["Python", "RasaNLU", "Machine Learning", "Sklearn", "Spacy"]
