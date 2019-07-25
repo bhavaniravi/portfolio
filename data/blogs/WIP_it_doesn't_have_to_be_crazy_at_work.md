@@ -1,7 +1,7 @@
 ---
 slug: "it-doesn't-have-to-be-crazy-at-work"
-published_date: "24-07-2019"
-created_date: "24-07-2019"
+published_date: 2019-07-24
+created_date: 2019-07-24
 title: "It Doesn't Have to be Crazy at Work"
 template: "post"
 draft: true
