@@ -16,7 +16,6 @@ import "../css/responsive.css"
 
 class IndexComponent extends React.Component{
   render(){
-    console.log(this, this.props)
     const site = this.props.data.site
     return (
       <Layout navFixed={false}>
