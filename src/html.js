@@ -18,16 +18,18 @@ export default class HTML extends React.Component {
           <meta name="twitter:creator" content="@geeky_bhavani" />
           <link rel="shortcut icon" href="/img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
-
-          <script>
-            (function(h,e,a,t,m,p) {
+          <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(h,e,a,t,m,p) 
+            {
             m=e.createElement(a);
-            m.async=!0;
-            m.src=t;
+            m.async=!0;m.src=t;
             p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
             })(window,document,'script','https://u.heatmap.it/log.js');
-</script>
-
+                `,
+          }}
+        />
 
         </head>
         <body {...this.props.bodyAttributes}>
