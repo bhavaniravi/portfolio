@@ -195,8 +195,11 @@ You might often confused between the terms `Redis`, `Celery` and `RabbitMQ`. The
 **Worker**
 
 When you start a `celery worker` it creates a supervisor process which in turn spins up a bunch of other `executors` these are called `execution pool`. The number of tasks that can be executed by a celery worker depends on the number of processes in the execution pool
+
 <figure>
+
 ![](http://2.bp.blogspot.com/-iAwTD0E_wjw/VhDg3edfHmI/AAAAAAAAAYg/SxaJTBKHgl4/s1600/django_celery_architecture.png)
+
 </figure>
 
 **Scheduling Tasks in Celery**
