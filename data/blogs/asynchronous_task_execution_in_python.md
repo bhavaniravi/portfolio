@@ -13,135 +13,22 @@ featuredImgPath: /media/async-task-python.png
 
 # Asynchronous Task Execution In Python
 
-Schedulers are a beautiful piece of code. In computer systems it is as old as a OS and in terms of real world it is as old as our alarm clocks. In the world of  computers, programmers used to schedule an appointment with a operator(a person) to run their code. Later when programmers wanted to take operator out of their job they wrote scheduling algorithms.
+Schedulers are a beautiful piece of code. In computer systems it is as old as a OS and in terms of real world it is as old as our alarm clocks. In the world of  computers, programmers used to schedule an appointment with a operator(a person) to run their code. Later when programmers wanted to take `operator` out of their job they wrote scheduling algorithms.
 
-So when Operating systems came into picture, instead of computer operators it was schedulers that fed programs into the CPU for its execution. Over the years, the number of processing core increased so did the complexity of schduling algorthims. The layers of hardware cache, RAM and hard-disks brought up the need for different kinds of scheduling long, medium and short term. 
+When Operating systems came into picture, instead of computer operators it was schedulers that fed programs into the CPU for its execution. Over the years, the number of processing core increased so did the complexity of schduling algorthims. The layers of hardware cache, RAM and hard-disks brought up the need for different kinds of scheduling long, medium and short term. 
 
-Now, we are in the era of cloud and distrubuted systems, where thousands of servers sitting in the cloud is involved in bringing you the information. Schedulers became major architechtural component of any software that we use, these asynchrous task executors are behind the emails and notifications, the pop up that greets us on logging in, the reports that gets sent to your email and so on.
+Now, in the era of cloud and distrubuted systems, Schedulers became an indisposable architechtural component of any software system. These asynchrous task executors are behind the emails and notifications, the pop up that greets us on logging in, the reports that gets sent to your email and so on.
 
-Celery, RabbitMQ, Redis, Google Task Queue API, Amazon's SQS are different technologies available these days that help us achieve scheduling in distributed environment. 
+Celery, RabbitMQ, Redis, Google Task Queue API, Amazon's SQS are major players of task scheduling in distributed environment. 
 
-In the rest of the blog we will try to understand and dig deeper into various concepts of these scheduling services and what each of these services do differently.
-
-<figure>
-
-![](/media/async-task-python.png)
-
-</figure>
-
-## Code Example - Treasure Hunt
-1. We have a treasure hunt program with 10000 files with one file containing a treasure.
-2. The goal of the program is to go through the files and find the treasure. 
-
-```
-# Create treasure
-def creating_treasure():  
-    """  
-    Creates N files with treasure randomly set in one of the files       
-    """  
-    treasure_in = randint(1, N)  
-    for i in range(0, N):  
-        logging.debug(i)  
-        with open(f"treasure_data/file_{i}.txt", "w") as f:  
-            if i != treasure_in:  
-                f.writelines(["Not a treasure\n"] * N)  
-            else:  
-                f.writelines(["Treasure\n"] * N)  
-    print (f"treasure is in {treasure_in}")  
-creating_treasure()
-```
+The rest of the blog sheds light on conventional task queue systems and where asyncio stands and finally covering the pros on cons of the major players.
 
 ## Traditional Task Schedulers
-Conventional tasks queues are nothing but databases. For every task an entry is made in the database with a flag `NotStarted`, `Running`, `Completed`, `Failed` and so on. At any point task workers(say a never ending python program) will query this DB and look for incomplete tasks and starts running it. It is a merly simple implementation but has some disadvantages.
+Conventional tasks queues has 2 programs(a producer and a consumer) with a database acting as a queue. For every task created by the producer an entry is made in the database with a flag `NotStarted`, `Running`, `Completed`, `Failed` and so on. At any point task workers(say a never ending python program) will query this DB and look for incomplete tasks and starts running it. It is a merly simple implementation but has some disadvantages.
 
 **Disadvantage**
-- Table grows too fast
-- Querying is costy
-
-## Asynchronous Python
-
-Asynchronous python is getting it's popularity after the release of asyncio. Though it has got nothing to do with task schedulers, It is important to understand where it stands in comparison to them
-
-### Threading
-Python threading is an age old story. Though it gives newbies an idea of running multiple threads simultaneously in reality it doesn't. Why? Becasue cpython has GIL(Global intepreter locks). Unless your program has a lot of waiting over external (I/O) events using threading is not of much use. Even when your laptop of multiple cores, you would often find them idle on CPU intensive tasks due to GIL.
-
-```
-import logging  
-import threading  
-import time   
-  
-N = 10000   
-treasure_found = False  
-
-def find_treasure(start, end):  
-    logging.debug(f"{start}, {end}")  
-    global treasure_found  
-    for i in range(start, end):  
-        if treasure_found:  
-            return  
-		with open(f"treasure_data/file_{i}.txt", "r") as f:  
-            if f.readlines()[0] == "Treasure\n":  
-                treasure_found = i  
-                return  
-  
-num_of_process = 50  
-count = int(N/num_of_process)
-start_time = time.time()  
-
-threads = [threading.Thread(target=find_treasure, args=[i, i+count])  
-           for i in range(0, N, count)]  
-[thread.start() for thread in threads]  
-[thread.join() for thread in threads]  
-  
-print("--- %s seconds ---" % (time.time() - start_time))  
-print (f"Found treasure {treasure_found}")
-```
-
-### Multiprocessing
-
-Multiprocessing module enables us to overcome the disadvantage of threading. Simplest way to understand this is GIL applies only to threads and not to processes, thereby providing us a way to achieve parallelism.
-
-Multiprocessing also works well on CPU intensive tasks as we can use all the cores available independently. When designing a multi processing problem they often share a queue from where processes can load tasks for its next execution.
-
-```
-num_of_process = 100  
-
-start_time = time.time()  
-processes = [Process(target=find_treasure, args=[i, int(i+N/num_of_process)])  
-             for i in range(0, N, int(N/num_of_process))]  
-             
-[process.start() for process in processes]  
-[process.join() for process in processes]  
-  
-print("--- %s seconds ---" % (time.time() - start_time))  
-print (f"Found treasure {treasure_found}")
-```
-
-### Asyncio
-
-In the above two examples, the switching between the threads are processes is handled by the CPU. It might add overhead to our execution since context switching is expensive. Now the major distiction comes when instead of spinning up processes or threads it let's the developer decide when a program can halt and leave way for the execution of tother tasks.
-```
-async def find_treasure(start, end):  
-    global treasure_found  
-    for i in range(start, end):  
-        logging.debug(i)  
-        if treasure_found:  
-            logging.info("Returning....")  
-            return  
-        # Await until file is read
-		await read_file(i)  
-  
-  
-async def main():  
-    tasks = [find_treasure(i, i+count)  
-            for i in range(0, N, count)]  
-    await asyncio.gather(  
-            *tasks  
-    )  
-
-asyncio.run(main())  
-```
-
+- Maintaing tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much and brings in the problem of scaling.
+- Querying a DB is costly. For every worker that's free it querys DB with task flag `Scheduled`
 ## Cron
 
 Cron is the simplest software utility that enables you to run tasks asynchrously at a given time. The utiliy maintains a single file(a table) called **crontab**.  The utily itself is a scheduled job that runs every minute takes a log of every comand that is scheduled to run in the current minute and run it. How cool is that?
@@ -182,6 +69,116 @@ When a script fails on executing a cron job, the error is just logged on the cro
 	- What if the number tasks to be executed at a given time is very large?
 	- What if a single tasks occupies most memory?
 
+## Code Example - Treasure Hunt
+I will be using a treasure hunter program as an example to explain the concepts in the blog. The problem statement is simple.
+
+1. We have a treasure hunt program with 10000 files with one file containing a word `treasure`.
+2. The goal of the program is to go through the files and find the treasure. 
+
+```
+# Create treasure
+def creating_treasure():  
+    """  
+    Creates N files with treasure randomly set in one of the files       
+    """  
+    treasure_in = randint(1, N)  
+    for i in range(0, N):  
+        logging.debug(i)  
+        with open(f"treasure_data/file_{i}.txt", "w") as f:  
+            if i != treasure_in:  
+                f.writelines(["Not a treasure\n"] * N)  
+            else:  
+                f.writelines(["Treasure\n"] * N)  
+    print (f"treasure is in {treasure_in}")  
+creating_treasure()
+```
+
+
+## Asynchronous Python
+
+Asynchronous python is getting it's popularity after the release of asyncio. Though it has got nothing to do with task schedulers, It is important to understand where it stands.
+
+### Threading
+Python threading is an age old story. Though it gives an idea of running multiple threads simultaneously in reality it doesn't. Why? Becasue cpython has GIL(Global intepreter locks). Unless your program has a lot of waiting over external (I/O) events using threading is not of much use. Even when your laptop of multiple cores, you would often find them idle on CPU intensive tasks due to GIL.
+
+The `treasure_hunter` program implemented using threading would have threads looking through different ranges of file. 
+
+```
+N = 10000   
+treasure_found = False  
+num_of_threads = 10  
+count = int(N/num_of_threads)
+```
+
+We have a common flag `treasure_found` for all threads to set. 
+
+```
+def find_treasure(start, end):  
+    logging.debug(f"{start}, {end}")  
+    global treasure_found  
+    for i in range(start, end):  
+        if treasure_found:  
+            return  
+		with open(f"treasure_data/file_{i}.txt", "r") as f:  
+            if f.readlines()[0] == "Treasure\n":  
+                treasure_found = i  
+                return  
+  
+
+start_time = time.time()  
+
+threads = [threading.Thread(target=find_treasure, args=[i, i+count])  
+           for i in range(0, N, count)]  
+[thread.start() for thread in threads]  
+[thread.join() for thread in threads]  
+  
+print("--- %s seconds ---" % (time.time() - start_time))  
+print (f"Found treasure {treasure_found}")
+```
+
+### Multiprocessing
+
+Multiprocessing module enables us to overcome the disadvantage of threading. Simplest way to understand this is GIL applies only to threads and not to processes, thereby providing us a way to achieve parallelism.
+
+Multiprocessing also works well on CPU intensive tasks as we can use all the cores available independently. When designing a multi processing problem they often share a queue from where processes can load tasks for its next execution.
+
+```
+num_of_process = 100  
+
+start_time = time.time()  
+processes = [Process(target=find_treasure, args=[i, int(i+N/num_of_process)])  
+             for i in range(0, N, int(N/num_of_process))]  
+             
+[process.start() for process in processes]  
+[process.join() for process in processes]  
+  
+print("--- %s seconds ---" % (time.time() - start_time))  
+print (f"Found treasure {treasure_found}")
+```
+
+### Asyncio
+
+In the above two examples, the switching between the threads are processes is handled by the CPU. In certain cases the developer might be more aware of when a context switch can happen over CPU. Instead of spinning up processes or threads it let's the program(developer) decide when a program can halt and leave way for the execution of tother tasks.
+```
+async def find_treasure(start, end):  
+    global treasure_found  
+    for i in range(start, end):  
+        if treasure_found:   
+            return  
+        # Await until file is read
+		await read_file(i)  
+  
+  
+async def main():  
+    tasks = [find_treasure(i, i+count)  
+            for i in range(0, N, count)]  
+    await asyncio.gather(  
+            *tasks  
+    )  
+
+asyncio.run(main())  
+```
+
 ## Celery
 
 > Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.
@@ -195,7 +192,6 @@ You might often confused between the terms `Redis`, `Celery` and `RabbitMQ`. The
 **Worker**
 
 When you start a `celery worker` it creates a supervisor process which in turn spins up a bunch of other `executors` these are called `execution pool`. The number of tasks that can be executed by a celery worker depends on the number of processes in the execution pool
-
 <figure>
 
 ![](http://2.bp.blogspot.com/-iAwTD0E_wjw/VhDg3edfHmI/AAAAAAAAAYg/SxaJTBKHgl4/s1600/django_celery_architecture.png)
@@ -282,6 +278,7 @@ While PubSub is close to asynchrous execution, Google Pub Sub primarily focuses 
 
 At this point it is valid to ask, why can't we implement the pub sub model with task queue since both are asynchronous and executes tasks. Google provides us with a clear distinction
 
+# Choosing between Cloud Tasks and Cloud Pub/Sub
 
 Both  [Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview)  and  [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/overview)  can be used to implement message passing and asynchronous integration. Although they are conceptually similar, each is designed for different set of use cases. This page helps you choose the right product for your use case.
 
