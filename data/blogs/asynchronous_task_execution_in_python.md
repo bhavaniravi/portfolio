@@ -23,6 +23,12 @@ Celery, RabbitMQ, Redis, Google Task Queue API, Amazon's SQS are major players o
 
 The rest of the blog sheds light on conventional task queue systems and where asyncio stands and finally covering the pros on cons of the major players.
 
+<figure>
+
+![](/media/async-task-python.png)
+
+</figure>
+
 ## Traditional Task Schedulers
 Conventional tasks queues has 2 programs(a producer and a consumer) with a database acting as a queue. For every task created by the producer an entry is made in the database with a flag `NotStarted`, `Running`, `Completed`, `Failed` and so on. At any point task workers(say a never ending python program) will query this DB and look for incomplete tasks and starts running it. It is a merly simple implementation but has some disadvantages.
 
