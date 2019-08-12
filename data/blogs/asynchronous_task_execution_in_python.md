@@ -287,7 +287,7 @@ It is valid to ask, why can’t we implement the pub sub-model with task queue s
 
 Both [Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview) and [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/overview) can be used to implement message passing and asynchronous integration. Although they are conceptually similar, each is designed for a different set of use cases. [This page](https://cloud.google.com/pubsub/docs/tasks-vs-pubsub) helps you choose the right product for your use case.
 
-## Key Differences
+### Key Differences
 
 The core difference between Cloud Pub/Sub and Cloud Tasks is in the notion of implicit vs. explicit invocation.
 
