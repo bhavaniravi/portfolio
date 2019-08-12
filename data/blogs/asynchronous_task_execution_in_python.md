@@ -35,6 +35,7 @@ Conventional tasks queues have 2 programs(a producer and a consumer) with a data
 **Disadvantages**
 - Maintaing tasks on a DB table means that the table grows based on the number of tasks. It becomes complicated when the DB grows so much that we have to deal the problem of scaling.
 - For every consumer that's free it queries the DB with task flag `Scheduled`, to fetch a scheduled task that it can run. The querying becomes costly as the size of the DB grows.
+
 ## Cron
 
 Cron is the simplest software utility that enables you to run a task asynchronously at a given time. The utiliy maintains a single file (a table) called **crontab**.  The utily itself is a scheduled job that runs every minute, takes a log of every command that is scheduled to run in the current minute, and runs each command. How cool is that?
@@ -243,7 +244,11 @@ RabbitMQ is just a queuing system. It is built over AMQP protocol. In comparison
 
 #### Architechture
 
+<figure>
+
 ![exchanges-topic-fanout-direct](https://i2.wp.com/blog.knoldus.com/wp-content/uploads/2018/12/exchanges-topic-fanout-direct.png?resize=810%2C494&ssl=1)
+
+</figure>
 
 ### Components
 

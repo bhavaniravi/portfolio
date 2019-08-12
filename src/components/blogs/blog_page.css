@@ -75,7 +75,7 @@ article > .aside {
 
 figure > p > img {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     object-fit: cover;
 }
 
@@ -109,4 +109,10 @@ figure figcaption {
     color: #666;
     font-style: italic;
     font-size: 0.8em;
+}
+
+@media (max-width: 575px){
+.article_div {
+    grid-template-columns: 1fr 1fr 10px 80% 10px 1fr 1fr
+}
 }
