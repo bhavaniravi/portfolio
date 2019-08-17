@@ -2,7 +2,7 @@
 slug: "go-to-guide-to-run-communities"
 published_date: 2019-08-16
 created_date: 2019-08-10
-title: "A go-to Guide to run a community"
+title: "A Go to Guide to run a community"
 template: "post"
 draft: false
 description: "Community helps a lot of people, and as a lead it is your job to keep the community alive and motivated. But, recently I went throught a burn out, nothing so bad but I was not in a position to keep the communities alive. I took a step back from the communities I run and became more of an observer over a contributor. "
@@ -13,7 +13,7 @@ isexternal: true
 ---
 
 
-# A go-to Guide to run community
+# A Go to Guide to run community
 
 Communities are an integral component of the tech industry. Communities put out these amazing meetups and conferences where you get to meet people, collaborate, share ideas and inspire and get inspired. I have been running tech communities in Chennai for the past 3 years. I actively run [Build2learn](build2learn.in) and [WomenTechMakers Chennai](twitter.com/wtmchennai).
 
