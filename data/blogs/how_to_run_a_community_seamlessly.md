@@ -92,7 +92,7 @@ What to do in such a case was not in any of my logs. That’s when you need to j
 
 Speakers have the power to make or break an event, and some communities struggle to get new speakers. This is when you operate with what you have in hand. Start with your peers, convince them to give a talk. Tell them there is always a first time. Attend other meetups and poach the speakers. Ask your participants whether they want to give a talk in future events. For WTM, we put a field in registration form asking if they can speak at our event and we have 30 speakers lined up for our future events.
 
-## Quality > Count
+## Quality > Quantity
 
 Like I said, initially it is hard for people to understand your work. Always keep up on delivering quality to attain your mission and people will make time to consume it. Word of mouth is powerful, you want your audience to be telling their peers “they learned something new; they got inspired; and motivated”. They should be a part of a big community and so on.
 
