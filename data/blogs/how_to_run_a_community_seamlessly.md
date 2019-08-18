@@ -8,7 +8,7 @@ draft: false
 description: "Community helps a lot of people, and as a lead it is your job to keep the community alive and motivated. But, recently I went throught a burn out, nothing so bad but I was not in a position to keep the communities alive. I took a step back from the communities I run and became more of an observer over a contributor. "
 subtitle: "Take a step back and Strategize"
 tags: ["community", "meetups", "technology", "womenintech", "collaboration"]
-featuredImgPath: "https://pbs.twimg.com/media/EBl3n1UU4AAgBW1?format=jpg&name=4096x4096"
+featuredImgPath: "https://tinyurl.com/y5a2ss2e"
 isexternal: true
 ---
 
@@ -27,7 +27,7 @@ In the rest of the blog, I will share the strategies, hacks, and approaches you 
 
 <figure>
 
-![](https://pbs.twimg.com/media/EBl3n1UU4AAgBW1?format=jpg&name=4096x4096)
+![](https://tinyurl.com/y5a2ss2e)
 
 </figure>
 
