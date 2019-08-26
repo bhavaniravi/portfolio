@@ -223,22 +223,28 @@ module.exports = {
                     })
                   },
                   query: `
-                    {
-                      allMarkdownRemark(
-                        sort: { order: DESC, fields: [frontmatter___published_date] },
-                      ) {
-                        edges {
-                          node {
-                            excerpt
-                            html
-                            fields { slug }
-                            frontmatter {
-                              title
-                              published_date
-                            }
+                  {
+                    allMarkdownRemark(
+                      sort: { order: DESC, fields: [frontmatter___published_date] },
+                      limit:100,
+                      filter:{frontmatter:{draft:{eq: false},
+                                       published_date:{gt: "2019-06-04"}        
+                                      }
+                      }
+                  
+                    ) {
+                      edges {
+                        node {
+                          excerpt
+                          html
+                          fields { slug }
+                          frontmatter {
+                            title
+                            published_date
                           }
                         }
                       }
+                    }
                     }
                   `,
                   output: "/rss.xml",
