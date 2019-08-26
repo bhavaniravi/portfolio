@@ -173,6 +173,13 @@ module.exports = {
             },
         },
         {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            path: `${__dirname}/static//img/`,
+            name: `images`,
+          },
+        },
+        {
             resolve: `gatsby-plugin-sass`,
         },
         {
@@ -254,16 +261,11 @@ module.exports = {
             },
         },
         `gatsby-remark-copy-linked-files`,
-        `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         "gatsby-plugin-sitemap",
         'gatsby-plugin-robots-txt',
         "gatsby-plugin-react-helmet",
-        {
-            resolve: `gatsby-remark-images`,
-            options: {
-                maxWidth: 1080,
-            }
-        },
+        `gatsby-transformer-sharp`, 
+        `gatsby-plugin-sharp`,
     ]
 }

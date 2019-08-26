@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import {TwitterFollowButton} from 'react-twitter-embed'
+import HomeImage from "../image_components/profile_img_in_home"
+
 
 class Banner extends React.Component{
     render(){
@@ -11,7 +13,7 @@ class Banner extends React.Component{
 					<div className="banner_content">
 						<div className="media">
 							<div className="d-flex">
-								<img src="/img/pp.jpeg" alt=""/>
+								<HomeImage></HomeImage>
 							</div>
 							<div className="media-body">
 								<div className="personal_text">
