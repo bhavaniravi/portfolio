@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import ProfileImage from "../image_components/profile_img_in_blog_preview"
+
+
 const DATE_OPTIONS = { year: 'numeric', month: 'short', day: 'numeric' };
 
 
@@ -11,8 +14,7 @@ export class InBuiltBlogPost extends Component{
                     <div className="med_writer_flex">
                         <div>
                         <a href={`${blog_url}`}>
-                            <img src="/img/pp.jpeg" widht="240" height="240"
-                            alt="" className="med_profile_pic"></img>
+                            <ProfileImage className="med_profile_pic"></ProfileImage>
                         </a>
                         </div>
                         <div className="med_blog_info_div">

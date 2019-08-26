@@ -26,7 +26,7 @@ const Share = ({ socialConfig, tags }) => (
 			aria-label="Share on Facebook" 
 			url={socialConfig.config.url} 
 			className="button is-outlined is-rounded facebook"
-			title={socialConfig.config.title}>
+			quote={socialConfig.config.title}>
 			<i className="icon fa fa-facebook-square">
 			</i>
 		</FacebookShareButton>
