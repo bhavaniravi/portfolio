@@ -3,6 +3,7 @@ import {Nav, NavLink, NavItem, TabContent, TabPane} from "reactstrap";
 import classnames from 'classnames';
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
+import SectionTitle from "../section_title"
 
 // class TimeLineTab extends Component{
 //     render(){
@@ -56,20 +57,16 @@ class TimeLine extends Component{
         <section id="experience" className="mytabs_area p_120">
         	<div className="container">
         		<div className="tabs_inner">
-                    <Nav tabs>
+                <SectionTitle title="Experience"  
+                sub_title="The Path I Travelled."/>
+                    {/* <Nav tabs>
                         <NavItem>
                             <NavLink className={classnames({ active: this.state.activeTab === '1' })}
                                     onClick={() => { this.toggle('1'); }}>
                                 Experience
                             </NavLink>
                         </NavItem>
-                        {/* <NavItem>
-                            <NavLink className={classnames({ active: this.state.activeTab === '2' })}
-                                    onClick={() => { this.toggle('2'); }}>
-                                Education
-                            </NavLink>
-                        </NavItem> */}
-                    </Nav>
+                    </Nav> */}
                     <TabContent activeTab={this.state.activeTab}>
                         <TabPane tabId="1">
                             <ul className="list">

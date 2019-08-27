@@ -6,7 +6,7 @@ class HomeImage extends React.Component {
     render(){
         console.log(this.props.data)
         return (
-            <Img fixed={this.props.data.file.childImageSharp.fixed}/>
+            <Img fixed={this.props.data.file.childImageSharp.fluid}/>
         )
     }
 }
@@ -20,8 +20,8 @@ export default () => (
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
-            fixed(width: 600, height: 600) {
-              ...GatsbyImageSharpFixed
+            fluid(maxWidth: 600, maxHeight: 600) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

@@ -394,7 +394,14 @@ button:focus {
 .home_banner_area .banner_inner .banner_content .media .d-flex {
   padding-right: 75px;
   padding-left: 25px;
+  width: 650px;
+  height: 650px;
 }
+
+.home_banner_area .banner_inner .banner_content .media .d-flex .gatsby-image-wrapper {
+  width: 100%
+}
+
 .home_banner_area .banner_inner .banner_content .media .media-body {
   vertical-align: middle;
   align-self: center;
