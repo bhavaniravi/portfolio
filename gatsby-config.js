@@ -40,6 +40,35 @@ module.exports = {
             "url": "https://stackoverflow.com/users/6340775/bhavani-ravi?tab=profile"},
         ],
         "talks":[
+          {   
+            "name": "Stand Out as a Developer", 
+            "description": `Software devs are so common that to Stand out as a developer, coding is not enough. The talk shed light on the complementary skills that helps you to stand out in a developer crowd.`,
+            "url": "https://hackernoon.com/developers-deficiency-a238eebbd73c",
+            // "icon_path":"fa-table", 
+            "slides_link": "https://docs.google.com/presentation/d/1ZcnAOPtY1I2NZZX7zQBru9Njr8JYiqly0ASDLM2z7n8/edit?usp=sharing",
+            "location":"Guvi Chennai",
+            "date":"Aug 2019",
+            "skills": ["Software Developer", "Skill Development"]
+        },
+          {   
+            "name": "Combat Unconsious Bias", 
+            "description": `Unconsious bias are ingrained in our everyday decisions. To create Acceptance, Awarness and Action on how to combat and bring more diversity in our teams`,
+            "url": "https://medium.com/@saran_io/global-diversity-cfp-day-chennai-chapter-a2640dc50e7a", 
+            // "icon_path":"fa-table", 
+            "slides_link": "https://speakerdeck.com/bhavaniravi",
+            "location":"Global Diversity CFP Day : Chennai",
+            "date":"Aug 2019",
+            "skills": ["WomenInTech", "Diversity"]
+        },
+        {   
+          "name": "WomenInTech - Be the Outlier", 
+          "description": `The talk is used to orient and motivate women coding clubs across engineering colleges. It sheds light on what it is to be a womenintech how to have a successful career in the tech industry`,
+          "url": "https://medium.com/womenintech-chennai",
+          "slides_link": "https://speakerdeck.com/bhavaniravi",
+          "location":"Hindustan University, KCG, St.Joseph's",
+          "date":"Aug 2019",
+          "skills": ["WomenInTech", "Diversity"]
+      },
             {"name":"ML Behind Chatbots", 
             "description": "My quest to build a chatbot engine and what I understood by demystifying an opensource chatbot engine", 
             "url": "", 
@@ -63,15 +92,16 @@ module.exports = {
         },
 
         {   
-            "name":"Chatbots 101 Worshop", 
+            "name": "Chatbots 101 Worshop", 
             "description": `A 3 hour workshop that walks you through 0 to 1 of building chatbot. We build an echo bot, google search bot then a draw bot incorportating NLP the workshop intensifies`,
             "url": "", 
             // "icon_path":"fa-table", 
             "slides_link": "https://speakerdeck.com/bhavaniravi",
             "location":"PyConf Hyderabad",
-            "date":"2017",
+            "date": "2017",
             "skills": ["Python", "RasaNLU", "Dialogflow"]
         },
+        
 
         ],
         "projects":[
