@@ -55,14 +55,14 @@ class BlogPostTemplate extends React.Component {
             padding: 0,
           }}
         >
-          <li>
+          <li style={{"textAlign": "left"}}>
             {previous && (
               <Link to={"/blog/" + previous.frontmatter.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
-          <li>
+          <li style={{"textAlign": "right"}}>
             {next && (
               <Link to={"/blog/" + next.frontmatter.slug} rel="next">
                 {next.frontmatter.title} →
