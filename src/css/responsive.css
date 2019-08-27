@@ -233,6 +233,11 @@
 	.med_blog_list_container {
 		margin-top: 130px !important;
 	}
+
+	.post-social {
+		display: grid;
+		grid-template-columns: 40% repeat(4,10%);
+	}
 }
 @media (max-width:767px){
 	.home_banner_area {
@@ -304,9 +309,7 @@
 		margin-bottom: 30px;
 	}
 }
-@media (max-width:600px){
-	
-}
+
 @media (max-width:575px){
 	.top_menu {
 		display: none;
@@ -395,6 +398,10 @@
 		padding-top: 70px;
 		padding-bottom: 70px;
 	}
+	.post-social {
+		display: grid;
+		grid-template-columns: 40% repeat(4,10%);
+	}
 }
 
 @media (max-width:480px){
@@ -450,5 +457,10 @@
 	.home_banner_area .banner_inner .banner_content .media .d-flex {
 		width: 250px;
 		height: 250px;
+	}
+
+	.post-social {
+		display: grid;
+		grid-template-columns: 40% repeat(4,10%);
 	}
 }
