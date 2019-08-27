@@ -64,7 +64,6 @@ class WelcomeArea extends Component{
                                                         icon="rocket">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent
-                                                        target="_blank" 
                                                         count={18} 
                                                         link="#speak"
                                                         achievement="Speak" 
