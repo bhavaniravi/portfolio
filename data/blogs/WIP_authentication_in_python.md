@@ -13,8 +13,6 @@ featuredImgPath: /media/auth_systems/featured.png
 
 # All About Authentication Systems
 
-## What is Authenticaiton?
-
 Authentication systems are the protective barrier of any software. It makes sure that right people enters the system and access the right information. 
 
 
@@ -25,16 +23,16 @@ When thinking about authentication, the common imagery people have is a login HT
 
 
 1. Types of Authentication
-	 - [Basic](#basic-authentication) 
-	 - [Digest Based Authentication ](#digest-based-authentication) 
-	 - [Cookie/Session Based](#cookiesession-based-authentication)
-	 - [Token Based](#token-based-authentication)
-	 - [SSO](#sso)
-	 - [Oauth2](oauth2)
-	 - [Two Factor Authentication](#two-factor-authentication)
+	- [Basic](#basic-authentication) 
+	- [Digest Based Authentication ](#digest-based-authentication) 
+	- [Cookie/Session Based](#cookiesession-based-authentication)
+	- [Token Based](#token-based-authentication)
+	- [SSO](#sso)
+	- [Oauth2](oauth2)
+	- [Two Factor Authentication](#two-factor-authentication)
 2. [Authorization](#authorization)
-	 - Access Control
-	 - Types Of Access Control
+	- Access Control
+	- Types Of Access Control
 3. [Which authentication method to use?](#which-authentication-method-should-you-choose)
 4. [Designing a distributed auth system](#authentication-in-a-distributed-system)
 
@@ -49,7 +47,9 @@ Before we move on…
 > All data sent to clients over public links should be considered “tainted” and all input should be rigorously checked. SSL will not solve problems of authentication nor will it protect data once it has reached the client. Consider all input hostile until proven otherwise and code accordingly.
 
 
+
 ## Basic Authentication
+
 It is the simplest of authentication mechanisms. It is  a part of HTTP protocol. It is a challenge response scheme where the server challenges the client to provide necessary information to access the resource
 
 ### How does it work?
@@ -77,6 +77,8 @@ It is the simplest of authentication mechanisms. It is  a part of HTTP protocol.
 1. Basic Auth implemented in a non-SSL (HTTPS) network is a huge security vulnerability.It is easy to decode an Base64 string since it is an universally known algorithm
 2. HTTP is stateless that means you need to send the auth headers along with every HTTP request which is an overhead when designing a huge application
 3. Sending passwords over all the HTTP request provides a pool of requests for attackers to pick passwords from. Once they crack one the system becomes open for attacks.
+
+
 
 ## Digest Based Authentication
 
@@ -107,6 +109,7 @@ It is an upgraded version of Basic auth. It overcomes the security vulnerabiliti
 2. Client has to make 2 calls to get a resource, one to get digest information and another to login 
 
 
+
 ## Cookie/Session Based Authentication
 Cookie/Session based authentication is the most commonly used in web apps. Yes, both session and cookie are not exactly the same but the conceptually either the client uses a cookie/session to identify itself as a logged in.
 
@@ -119,8 +122,6 @@ Cookie/Session based authentication is the most commonly used in web apps. Yes, 
 5. The client then uses this cookie/session to make future requests.
 
 <figure>
-
-
 
 ![Image result for cookie authentication](/media/auth_systems/cookie.png)
 
@@ -136,6 +137,8 @@ Cookie/Session based authentication is the most commonly used in web apps. Yes, 
 - Cookie based authentication is suitable only for Single domain system. If you want both a web and a mobile app or may be a separate client server, then you got to deal with CSRF.
 - Prone to XSS and CSRF attacks since the cookie is available for other apps to read
 - You need to store the session information in a DB which also brings in the question of scale
+
+
 
 ## Token Based Authentication
 Token Based Authentication is a form of stateless authentication. Instead of sending email and password over for authentication we use a server generated token. Oauth, JWT, Open ID all comes under token based authentication
@@ -163,6 +166,8 @@ Token Based Authentication is a form of stateless authentication. Instead of sen
 1. Cannot revoke the access to a user.
 2. The safety of the token relies on the consumer of the token.
 
+
+
 ### OAuth2
 
 Oauth2 is an advanced version of Token based authorization. Often we use Facebook/Google/Twitter to sign-in to an application. These are the examples of OAuth2.  
@@ -181,6 +186,8 @@ Oauth2 is an advanced version of Token based authorization. Often we use Faceboo
 
 </figure>
 
+
+
 ### SSO
 Personal computers are classic examples of an SSO system i.e., you enter password once and get access to all the apps. Google is another classic example you login to Gmail and get to use all the GDrive apps that comes along with it.
 
@@ -188,6 +195,8 @@ Personal computers are classic examples of an SSO system i.e., you enter passwor
 1. Let’s say you are trying to access Google forms. Google sends a request to the forms, the forms of service inturns calls an authentication service to make sure that the current user is logged in
 2. if the person is already logged in present with the information
 3. If not show him a login screen to authenticate the user.
+
+
 
 ## Oauth Vs SSO
 
@@ -201,6 +210,9 @@ This sounds similar to oauth but, the major difference is Oauth allows only spec
 1. Single point of failure: When an authentication service goes down all the app relying on it cannot be accessed
 2. Any security breach in the authentication system will open access to a wide set of apps and data.
 
+
+
+
 ## Two Factor Authentication
 Two Factor authentication is a subset of multi-factor authentication. There are 5 broad classification of these factors
 1. Knowledge Factors - Which city are your from?
@@ -208,6 +220,8 @@ Two Factor authentication is a subset of multi-factor authentication. There are 
 3. Inherent factor - finger print, eye ball scan
 4. Location Factor - GPay
 5. Time Factor - When system is allowed to access only at a specific time
+
+
 
 ## Authorization
 Authorization is something that happens once the user logs into the system. Does an user have access to a specific information? For example, in a library the lenders need not know the billing/vendor information related to each book. In a system that involves more than one type of stakeholders, the authorization is as important of authentication.
@@ -220,12 +234,16 @@ Authorization is achieved using access control, you can imagine it as a “Restr
 2. **MAC - Mandatory Access Control** - High security systems avail these kinds of access control
 3. **DBAC - Discretionary Access Control** - The business data decides which information is available for a specific user. E.g., A library lender can only see books lent by themselves.
 
+
+
 ## Which Authentication Method Should You Choose?
 1. Only Web Application - Cookie/Session Based
 2. Expose APIs to user - Token Based
 3. Web + Mobile Apps - Cookie and Token Based
 4. Letting users login easily Oauth
 5. Building apps on top of Google/Facebook - SSO
+
+
 
 ## Authentication In a Distributed System
 
