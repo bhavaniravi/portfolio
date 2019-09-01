@@ -8,7 +8,7 @@ draft: false
 description: "Authentication is a concept of ensuring that the right people gets access to the information. The age old concept of lock and key has evolved into todays multi-variant authentication systems"
 subtitle: "A blog to help you understand authentication systems in detail"
 tags: ["Python", "Authnetication", "Distributed Systems", "Authorization", "Security"]
-featuredImgPath: "/media/auth_systems/featured.png"
+featuredImgPath: /media/auth_systems/featured.png
 ---
 
 # All About Authentication Systems
@@ -61,7 +61,7 @@ It is the simplest of authentication mechanisms. It is  a part of HTTP protocol.
 
 <figure>
 
-![](/media/basic.png)
+![](/media/auth_systems/basic.png)
 
 </figure>
 
@@ -88,7 +88,7 @@ It is an upgraded version of Basic auth. It overcomes the security vulnerabiliti
 
 <figure>
 
-![](/media/digest.png)
+![](/media/auth_systems/digest.png)
 
 </figure>
 
@@ -122,7 +122,7 @@ Cookie/Session based authentication is the most commonly used in web apps. Yes, 
 
 
 
-![Image result for cookie authentication](/media/cookie.png)
+![Image result for cookie authentication](/media/auth_systems/cookie.png)
 
 </figure>
 
@@ -150,7 +150,7 @@ Token Based Authentication is a form of stateless authentication. Instead of sen
 
 <figure>
 
-![Image result for token authentication](/media/token.png)
+![Image result for token authentication](/media/auth_systems/token.png)
 
 </figure>
 
@@ -177,7 +177,7 @@ Oauth2 is an advanced version of Token based authorization. Often we use Faceboo
 
 <figure>
 
-![OAuth/SSO Illustration](/media/sso.png)
+![OAuth/SSO Illustration](/media/auth_systems/sso.png)
 
 </figure>
 
