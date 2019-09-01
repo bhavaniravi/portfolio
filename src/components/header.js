@@ -53,7 +53,7 @@ class ExtendedNavbar extends React.Component{
                             <MenuItem href="/#experience" title="Experience"></MenuItem>
                             <MenuItem href="/blog" title="Blogs"></MenuItem>
                             <MenuItem href="/#talks" title="Talks"></MenuItem>
-                            <MenuItem target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/file/d/1zELoZaHud6aOn6PYaf7jEINrZPdpQm7o/view?usp=sharing" title="Resume"></MenuItem>
+                            <MenuItem target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/file/d/1ugn7i7-yROjR71apChhz_3tUXQEBDoAp/view" title="Resume"></MenuItem>
                             {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>
