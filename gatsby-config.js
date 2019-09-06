@@ -221,7 +221,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-mailchimp',
             options: {
-              endpoint: "https://bhavaniravi.us19.list-manage.com/subscribe/post?u=d20357716d3689cee26657b8a&amp;id=189cad7f10"
+              endpoint: "https://bhavaniravi.us19.list-manage.com/subscribe/post?u=d20357716d3689cee26657b8a&amp;id=189cad7f10",
             },
         },
         {

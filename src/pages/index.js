@@ -7,6 +7,8 @@ import TimeLine from "../components/index_page/timeline";
 import ProjectsArea from "../components/index_page/projects";
 import TalksArea from "../components/index_page/talks";
 import SEO from "../components/seo"
+import {graphql} from "gatsby"
+
 import "../css/flaticon/_flaticon.css"
 import "../css/linericon/style.css"
 import "../css/font-awesome.min.css"
@@ -34,7 +36,7 @@ class IndexComponent extends React.Component{
   }
 }
 
-export default IndexComponent;
+export default IndexComponent; 
 
 export const pageQuery = graphql`
 query {

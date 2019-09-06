@@ -27,7 +27,7 @@ exports.onCreateWebpackConfig = ({
 
     const { createPage } = actions
   
-    const blogPost = path.resolve(`./src/components/blogs/blog_page.js`)
+    const BlogPost = path.resolve(`./src/components/blogs/blog_page.js`)
     return graphql(
       `
         {
@@ -64,9 +64,10 @@ exports.onCreateWebpackConfig = ({
       posts.forEach((post, index) => {
         const previous = index === posts.length - 1 ? null : posts[index + 1].node
         const next = index === 0 ? null : posts[index - 1].node
+        console.log("/blog/" + post.node.frontmatter.slug)
         createPage({
           path: "/blog/" + post.node.frontmatter.slug,
-          component: blogPost,
+          component: BlogPost,
           context: {
             slug: post.node.fields.slug,
             previous,

@@ -15,7 +15,6 @@ featuredImgPath: /media/auth_systems/featured.png
 
 Authentication systems are the protective barrier of any software. It makes sure that right people enters the system and access the right information. 
 
-
 Though being the major component of an application, the chances of you building one from the scratch in the industries less, Unless you are working on a project from scratch. That being said, the most common advice in a hackathon is to not waste time implementing login page. Now as years go by and as you grow up the career ladder, it is important to understand how the whole system works to elevate yourself as an architect and make more educated design decisions.
 
 ## The Common Misconception
@@ -54,7 +53,6 @@ It is the simplest of authentication mechanisms. It is  a part of HTTP protocol.
 
 ### How does it work?
 
-
 1. Get the username and password from user 
 2. Encode it using `base64` algorithm 
 3. Set it in the Authorization header and send it along each HTTP Request. 
@@ -74,9 +72,8 @@ It is the simplest of authentication mechanisms. It is  a part of HTTP protocol.
 2. APIs are faster since there is no complex encryption/decryption involved
 
 ### Disadvantages
-1. Basic Auth implemented in a non-SSL (HTTPS) network is a huge security vulnerability.It is easy to decode an Base64 string since it is an universally known algorithm
-2. HTTP is stateless that means you need to send the auth headers along with every HTTP request which is an overhead when designing a huge application
-3. Sending passwords over all the HTTP request provides a pool of requests for attackers to pick passwords from. Once they crack one the system becomes open for attacks.
+1. Basic Auth implemented in a non-SSL (HTTPS) network is a huge security vulnerability.It is easy to decode an Base64.
+2. Sending passwords over all the HTTP request provides a pool of requests for attackers to pick passwords from. Once they crack one the system becomes open for attacks.
 
 
 
@@ -168,11 +165,11 @@ Token Based Authentication is a form of stateless authentication. Instead of sen
 
 
 
-### OAuth2
+## OAuth2
 
 Oauth2 is an advanced version of Token based authorization. Often we use Facebook/Google/Twitter to sign-in to an application. These are the examples of OAuth2.  
 
-#### How does it work?
+### How does it work?
 
 1. User sends an authentication request to say Google/Facebook.
 2. On finding that the user has an account on Google, the Google server responds with an authorization grant.
@@ -188,7 +185,7 @@ Oauth2 is an advanced version of Token based authorization. Often we use Faceboo
 
 
 
-### SSO
+## SSO
 Personal computers are classic examples of an SSO system i.e., you enter password once and get access to all the apps. Google is another classic example you login to Gmail and get to use all the GDrive apps that comes along with it.
 
 ### How does it work?
@@ -230,9 +227,9 @@ Authorization is something that happens once the user logs into the system. Does
 Authorization is achieved using access control, you can imagine it as a “Restricted Area” sign with a guard. 
 
 #### Types of Access Control
-1. **RBAC - Role Based Access Control** - A user with specific roles can access specific data.
+1. **RBAC - Role Based Access Control** - A user with specific roles can access specific data. E.g., Only a SuperAdmin can change the Locale of the system.
 2. **MAC - Mandatory Access Control** - High security systems avail these kinds of access control
-3. **DBAC - Discretionary Access Control** - The business data decides which information is available for a specific user. E.g., A library lender can only see books lent by themselves.
+3. **DBAC - Discretionary Access Control** - The business data decides which information is available for a specific user. E.g., According to the business logic of a library application, only a library lender can only see books lent by themselves.
 
 
 
