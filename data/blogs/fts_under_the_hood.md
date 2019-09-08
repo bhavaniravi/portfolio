@@ -107,10 +107,10 @@ For example, the Levenshtein distance between the words “ax” and “axe” i
 Indexes are built based on the data in the databases. In any real time system the data changes frequently. For e.g., An item might go out of stock or the prices might vary and so on. In this case the index becomes invalid and searching over it often gives wrong results. This can be handled in 2 ways
 
 1. Drop the index and rebuild it for the newly available data
-     - It is time consuming 
-     - User can’t do FTS until the whole index is rebuilt again
+	- It is time consuming 
+	- User can’t do FTS until the whole index is rebuilt again
 2. Keep track of all the updates and inserts to the DB and update the index asynchronously
-     - The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
+	- The only drawback in this method is the inconsistency in data, which is much better when compared to shutting off the feature for few minutes.
 
 ## Full-Text-Search In Distributed Systems
 As the system scales and when you adapt to a microservices architecture next set of challenges occurs. 

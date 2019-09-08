@@ -13,7 +13,8 @@ const Share = ({ socialConfig, tags }) => (
 		<div className="button is-outlined is-rounded">
 			Share blog on
 		</div>
-		<TwitterShareButton aria-label="Share on Twitter" 
+		<TwitterShareButton 
+			aria-label="Share on Twitter" 
 			url={socialConfig.config.url} 
 			className="button is-outlined is-rounded twitter" 
 			title={socialConfig.config.title} 
