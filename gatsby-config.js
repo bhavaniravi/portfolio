@@ -171,7 +171,10 @@ module.exports = {
             {"name": "MongoDB", "percentage": 70}
         ],
         "experience":[
-            {"time": "May 2018 to Present", 
+          {"time": "October 2019 to Present", 
+          "title": "Research Engineer @ Saama Technologies"},
+
+            {"time": "May 2018 to Aug 2019", 
             "title": "Software Engineer @ Orangescape"},
             
             {"time": "Sep 2018 to Present", 
