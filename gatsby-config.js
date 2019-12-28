@@ -3,9 +3,8 @@ module.exports = {
     siteMetadata: {
         "title":"Bhavani Ravi",
         "author":"Bhavani Ravi",
-        "about_me": `🔸 Building Kissflow at Orangescape 🔸
-                     🔸 Python - Chatbots - Machine Learning 🔸
-                     🔸 Lead - Google WomenTechMakers Chennai 🔸
+        "about_me": `🔸 Backend Systems - Chatbots - Machine Learning 🔸
+                     🔸 Ambassador - WomenTechMakers Chennai 🔸
                      🔸 Community Head - Build2Learn.in 🔸`,
         twitterHandle: "@geeky_bhavani",
         social: {
