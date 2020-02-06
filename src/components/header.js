@@ -1,39 +1,42 @@
 import React from "react"
-import {Navbar, 
-        NavbarToggler, 
-        NavItem,
-        NavbarBrand, 
-        Collapse, 
-        Nav, 
-        NavLink} from "reactstrap"
+import {
+    Navbar,
+    NavbarToggler,
+    NavItem,
+    NavbarBrand,
+    Collapse,
+    Nav,
+    NavLink
+} from "reactstrap"
 
-class MenuItem extends React.Component{
-    render(){
+class MenuItem extends React.Component {
+    render() {
         return (
             <NavItem>
-                <NavLink 
-                target={this.props.target} 
-                href={this.props.href}>{this.props.title}</NavLink>
+                <NavLink
+                    target={this.props.target}
+                    href={this.props.href}>{this.props.title}</NavLink>
             </NavItem>
-        )}
+        )
+    }
 }
 
-class ExtendedNavbar extends React.Component{
+class ExtendedNavbar extends React.Component {
     constructor(props) {
         super(props);
         this.toggle = this.toggle.bind(this);
         this.state = {
-          isOpen: false
+            isOpen: false
         };
-      }
+    }
 
     toggle() {
         this.setState({
-          isOpen: !this.state.isOpen
+            isOpen: !this.state.isOpen
         });
     }
 
-    render(){
+    render() {
         return (
             <Navbar className="navbar-expand-lg" light={true}>
                 <div className="container box_1620">
@@ -53,9 +56,9 @@ class ExtendedNavbar extends React.Component{
                             <MenuItem href="/#experience" title="Experience"></MenuItem>
                             <MenuItem href="/blog" title="Blogs"></MenuItem>
                             <MenuItem href="/#talks" title="Talks"></MenuItem>
-                            <MenuItem target="_blank"  rel="noopener noreferrer" 
-                            href="https://drive.google.com/file/d/1ugn7i7-yROjR71apChhz_3tUXQEBDoAp/vies" 
-                            title="Resume"></MenuItem>
+                            <MenuItem target="_blank" rel="noopener noreferrer"
+                                href="https://drive.google.com/file/d/1bYZexJDCfm4dGuk4BPWfF7_UsrtIAjFd/view?usp=sharing"
+                                title="Resume"></MenuItem>
                             {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>
@@ -65,36 +68,36 @@ class ExtendedNavbar extends React.Component{
     }
 }
 
-export default class Header extends React.Component{
+export default class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             isScroll: false
         };
-      }
+    }
 
     listenScrollEvent = e => {
-        var scroll = window.scrollY; 
-        if (scroll >= 150 ) {
+        var scroll = window.scrollY;
+        if (scroll >= 150) {
             this.setState({
                 isScroll: true
             });
         }
-        else{
+        else {
             this.setState({
                 isScroll: false
             });
         }
-      }
-    
-      componentDidMount() {
-        window.addEventListener('scroll', this.listenScrollEvent)
-      }
+    }
 
-    render(){
+    componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+    }
+
+    render() {
         return (
             // <header id="header_area" className='header_area navbar_fixed'></header>
-            <header id="header_area" className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed': "header_area"}>
+            <header id="header_area" className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed' : "header_area"}>
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>
