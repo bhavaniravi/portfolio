@@ -1,15 +1,19 @@
 ---
-slug: "one-of-those-days"
+slug: one-of-those-days
 published_date: 2018-10-25T20:24:11.293Z
 created_date: 2018-10-25T20:24:11.293Z
-title: "One Of Those Days"
-template: "post"
+title: One Of Those Days
+template: post
 draft: false
-description: "One of those days, where you can’t afford to fall sick. “One Of Those Days” is published by Bhavani Ravi in Fiction Flows"
-subtitle: "
-One of those days, where you can’t afford to fall sick.
-"
-tags: [Love,Writing,Poetry,Motivation]
+description: >-
+  One of those days, where you can’t afford to fall sick. “One Of Those Days” is
+  published by Bhavani Ravi in Fiction Flows
+subtitle: ' One of those days, where you can’t afford to fall sick. '
+tags:
+  - love
+  - writing
+  - poetry
+  - motivation
 featuredImgPath: /media/one-of-those-days-featured.png
 ---
 # One Of Those Days

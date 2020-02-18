@@ -1,14 +1,14 @@
 ---
-slug: "standout-as-an-engineer"
-published_date: 2019-08-26
-created_date: 2019-08-26
-title: "5 Ways to Stand Out as an Engineer"
-template: "post"
+slug: standout-as-an-engineer
+published_date: 2019-08-26T00:00:00.000Z
+created_date: 2019-08-26T00:00:00.000Z
+title: 5 Ways to Stand Out as an Engineer
+template: post
 draft: true
-description: ""
-subtitle: ""
+description: ''
+subtitle: ''
 tags: []
-featuredImgPath: ""
+featuredImgPath: ''
 isexternal: true
 ---
 

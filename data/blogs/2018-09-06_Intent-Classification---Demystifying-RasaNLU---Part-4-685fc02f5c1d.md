@@ -1,15 +1,21 @@
 ---
-slug: "intent-classification-demystifying-rasanlu-part-4"
+slug: intent-classification-demystifying-rasanlu-part-4
 published_date: 2018-09-06T17:45:20.801Z
 created_date: 2018-09-06T17:45:20.801Z
-title: "Intent Classification — Demystifying RasaNLU — Part 4"
-template: "post"
+title: Intent Classification — Demystifying RasaNLU — Part 4
+template: post
 draft: false
-description: "The series, Demystifying RasaNLU started with an aim of understanding what happens underneath a chatbot engine. RasaNLU being an open source framework, I could read through the code to understand its…"
-subtitle: "
-Internals of a chatbot engine — Intent Classification
-"
-tags: [Machine Learning,Chatbots,Bots,Artificial Intelligence,Software Development]
+description: >-
+  The series, Demystifying RasaNLU started with an aim of understanding what
+  happens underneath a chatbot engine. RasaNLU being an open source framework, I
+  could read through the code to understand its…
+subtitle: ' Internals of a chatbot engine — Intent Classification '
+tags:
+  - machine learning
+  - chatbots
+  - bots
+  - artificial intelligence
+  - software development
 featuredImgPath: /media/intent-classification-demystifying-rasanlu-part-4-featured.png
 ---
 # Intent Classification — Demystifying RasaNLU — Part 4

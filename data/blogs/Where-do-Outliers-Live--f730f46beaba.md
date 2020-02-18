@@ -1,15 +1,21 @@
 ---
-slug: "where-do-outliers-live"
+slug: where-do-outliers-live
 published_date: 2018-06-09T16:40:58.000Z
 created_date: 2018-06-09T16:40:58.000Z
-title: "Where do Outliers Live?"
-template: "post"
+title: Where do Outliers Live?
+template: post
 draft: false
-description: "Are you here because you read and loved the book Outliers? Yes, I have read that too. Just setting the expectations right, this blog got nothing to do with the book Outliers. I have been an outlier…"
-subtitle: "
-Are you an outlier? You are going to love this blog
-"
-tags: [Entrepreneurship,Women In Tech,Outliers,Empowerment,Motivation]
+description: >-
+  Are you here because you read and loved the book Outliers? Yes, I have read
+  that too. Just setting the expectations right, this blog got nothing to do
+  with the book Outliers. I have been an outlier…
+subtitle: ' Are you an outlier? You are going to love this blog '
+tags:
+  - entrepreneurship
+  - women in tech
+  - outliers
+  - empowerment
+  - motivation
 featuredImgPath: /media/where-do-outliers-live-0.png
 ---
 # Where do Outliers Live?

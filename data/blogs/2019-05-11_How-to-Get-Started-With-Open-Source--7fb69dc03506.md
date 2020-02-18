@@ -1,15 +1,20 @@
 ---
-slug: "how-to-get-started-with-open-source"
+slug: how-to-get-started-with-open-source
 published_date: 2019-05-11T18:07:33.336Z
 created_date: 2019-05-11T18:07:33.336Z
-title: "How to Get Started With Open Source?"
-template: "post"
+title: How to Get Started With Open Source?
+template: post
 draft: false
-description: "With a video walkthrough where I actually make a PR. “How to Get Started With Open Source?” is published by Bhavani Ravi"
-subtitle: "
-With a video walkthrough where I actually make a PR.
-"
-tags: [Open Source,Programming,Technology,Community,Software]
+description: >-
+  With a video walkthrough where I actually make a PR. “How to Get Started With
+  Open Source?” is published by Bhavani Ravi
+subtitle: ' With a video walkthrough where I actually make a PR. '
+tags:
+  - open source
+  - programming
+  - technology
+  - community
+  - software
 featuredImgPath: /media/how-to-get-started-with-open-source-featured.png
 ---
 # How to Get Started With Open Source?

@@ -1,16 +1,22 @@
 ---
-slug: "guardian-angels-are-not-enough-we-need-a-personal-bodyguard"
+slug: guardian-angels-are-not-enough-we-need-a-personal-bodyguard
 published_date: 2018-11-11T15:51:27.137Z
 created_date: 2018-11-11T15:51:27.137Z
-title: "Guardian Angels are not Enough We need a Personal Bodyguard"
-template: "post"
+title: Guardian Angels are not Enough We need a Personal Bodyguard
+template: post
 draft: false
-description: "We are in a century where life haunts us the most than the vicious. Though guardian angels make us feel safe and secure, it’s time that we all need a personal bodyguard. Here’s why. When the going…"
-subtitle: "
-Guardian angels keep us secure and make sure we are alright, it’s time that we need a personal bodyguard. Here’s why.
-"
-tags: [Life,Personal Development,Writing,Self Improvement]
-featuredImgPath: /media/guardian-angels-are-not-enough-we-need-a-personal-bodyguard-featured.png
+description: >-
+  We are in a century where life haunts us the most than the vicious. Though
+  guardian angels make us feel safe and secure, it’s time that we all need a
+  personal bodyguard. Here’s why. When the going…
+subtitle: ' Guardian angels keep us secure and make sure we are alright, it’s time that we need a personal bodyguard. Here’s why. '
+tags:
+  - life
+  - personal development
+  - writing
+  - self improvement
+featuredImgPath: >-
+  /media/guardian-angels-are-not-enough-we-need-a-personal-bodyguard-featured.png
 ---
 # Guardian Angels are not Enough We need a Personal Bodyguard
 

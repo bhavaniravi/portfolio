@@ -1,18 +1,25 @@
 ---
-slug: "entity-extraction-demistifying-rasanlu-part-3"
+slug: entity-extraction-demistifying-rasanlu-part-3
 published_date: 2018-08-15T18:29:25.179Z
 created_date: 2018-08-15T18:29:25.179Z
-title: "Entity Extraction - Demistifying RasaNLU - Part 3"
-template: "post"
+title: Entity Extraction - Demistifying RasaNLU - Part 3
+template: post
 draft: false
-description: "In this blog will drill down through the entity extraction step in RasaNLU. This blog concentrates on the structuring of data and building an ML model."
-subtitle: "
-How does RasaNLU perform EntityExtraction?
-
-In this blog will drill down through the entity extraction step in RasaNLU. This blog concentrates on the structuring of data and building an ML model.
-"
-tags: [Machine Learning,NLP,Chatbots,Bots,Artificial Intelligence]
-featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
+description: >-
+  In this blog will drill down through the entity extraction step in RasaNLU.
+  This blog concentrates on the structuring of data and building an ML model.
+subtitle: >2-
+   How does RasaNLU perform EntityExtraction?
+  In this blog will drill down through the entity extraction step in RasaNLU.
+  This blog concentrates on the structuring of data and building an ML model. 
+tags:
+  - machine learning
+  - nlp
+  - chatbots
+  - bots
+  - artificial intelligence
+featuredImgPath: >-
+  /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
 # Entity Extraction — Demystifying Rasa NLU — Part 3
 

@@ -1,14 +1,15 @@
 ---
-slug: "wanna-learn-full-stack-development"
+slug: wanna-learn-full-stack-development
 published_date: null
 created_date: null
-title: "Wanna Learn Full-Stack Development?"
-template: "post"
+title: Wanna Learn Full-Stack Development?
+template: post
 draft: true
-description: "The course will be taken by a small group of 4–5 people which means special focus to each one of you. The 5 people will actually work as a remote software team. No. You will have something better…"
-subtitle: "
-Sign up for an End to End hands-on training on how to build full-stack applications.
-"
+description: >-
+  The course will be taken by a small group of 4–5 people which means special
+  focus to each one of you. The 5 people will actually work as a remote software
+  team. No. You will have something better…
+subtitle: ' Sign up for an End to End hands-on training on how to build full-stack applications. '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

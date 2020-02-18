@@ -1,15 +1,19 @@
 ---
-slug: "a-feminists-enemy"
+slug: a-feminists-enemy
 published_date: 2018-08-22T10:53:08.947Z
 created_date: 2018-08-22T10:53:08.947Z
-title: "A Feminist’s Enemy"
-template: "post"
+title: A Feminist’s Enemy
+template: post
 draft: false
-description: "I didn’t tag myself as a Feminist until recently. The judgmental comments that people pass while expressing my ambitious goals was good enough to keep me mute. For me to follow my dreams as a woman…"
-subtitle: "
-From my personal experience
-"
-tags: [Feminism,Empowerment,Women]
+description: >-
+  I didn’t tag myself as a Feminist until recently. The judgmental comments that
+  people pass while expressing my ambitious goals was good enough to keep me
+  mute. For me to follow my dreams as a woman…
+subtitle: ' From my personal experience '
+tags:
+  - feminism
+  - empowerment
+  - women
 featuredImgPath: /media/a-feminists-enemy-featured.png
 ---
 # A Feminist’s Enemy

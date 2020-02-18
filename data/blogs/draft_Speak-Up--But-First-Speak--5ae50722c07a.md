@@ -1,14 +1,15 @@
 ---
-slug: "speak-up-but-firstspeak"
+slug: speak-up-but-firstspeak
 published_date: null
 created_date: null
-title: "Speak Up. But First Speak."
-template: "post"
+title: Speak Up. But First Speak.
+template: post
 draft: true
-description: "Remember the first day I played TT and no one was up to tell me the rules. They were clearly not comfortable but at the same time not comfortable to express as well. As someone who is good at facial…"
-subtitle: "
-Why should you speak up?
-"
+description: >-
+  Remember the first day I played TT and no one was up to tell me the rules.
+  They were clearly not comfortable but at the same time not comfortable to
+  express as well. As someone who is good at facial…
+subtitle: ' Why should you speak up? '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

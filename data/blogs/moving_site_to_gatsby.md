@@ -1,14 +1,19 @@
 ---
-slug: "moving-site-to-gatsby"
+slug: moving-site-to-gatsby
 published_date: 2019-02-18T10:31:00.813Z
 created_date: 2019-02-18T10:31:00.813Z
-title: "Planning to Switch Site From Html to Gatsby?"
-template: "post"
+title: Planning to Switch Site From Html to Gatsby?
+template: post
 draft: false
-description: "List of problems I faced when I built my portfolio with Gatsby and ReactJS"
-subtitle: "AList of problems I faced when I built my portfolio with Gatsby and ReactJS"
-tags: ["Javascript", "frontend", "portfolio", "ReactJs", "Gatsby"]
-featuredImgPath: https://cdn-images-1.medium.com/max/1200/1*h1pmDDz3GBKLcgZCPHl4dw.png
+description: List of problems I faced when I built my portfolio with Gatsby and ReactJS
+subtitle: AList of problems I faced when I built my portfolio with Gatsby and ReactJS
+tags:
+  - javascript
+  - frontend
+  - portfolio
+  - reactjs
+  - gatsby
+featuredImgPath: 'https://cdn-images-1.medium.com/max/1200/1*h1pmDDz3GBKLcgZCPHl4dw.png'
 ---
 # Planning to Switch Site From Html to Gatsby?
 > _List of problems I faced when I built my portfolio with Gatsby and ReactJS_

@@ -1,15 +1,21 @@
 ---
-slug: "reactjs-buttons-cheatsheet"
+slug: reactjs-buttons-cheatsheet
 published_date: 2019-05-19T13:46:45.147Z
 created_date: 2019-05-19T13:46:45.147Z
-title: "ReactJS Buttons CheatSheet"
-template: "post"
+title: ReactJS Buttons CheatSheet
+template: post
 draft: false
-description: "Most frontend devs life revolves around creating components and styling them. Me as a backend dev, found myself going through 4–5 StackOverflow links before I could get a single button component up…"
-subtitle: "
-Using buttons? You got them all here
-"
-tags: [Web Development,Front End Development,Reactjs,Learn,Learn To Code]
+description: >-
+  Most frontend devs life revolves around creating components and styling them.
+  Me as a backend dev, found myself going through 4–5 StackOverflow links before
+  I could get a single button component up…
+subtitle: ' Using buttons? You got them all here '
+tags:
+  - web development
+  - front end development
+  - reactjs
+  - learn
+  - learn to code
 featuredImgPath: /media/reactjs-buttons-cheatsheet-featured.jpg
 ---
 # ReactJS Buttons CheatSheet

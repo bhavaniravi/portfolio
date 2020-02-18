@@ -1,15 +1,20 @@
 ---
-slug: "wear-that-critique-hat"
+slug: wear-that-critique-hat
 published_date: 2018-10-08T17:40:27.975Z
 created_date: 2018-10-08T17:40:27.975Z
-title: "Before You Wear That Critique Hat"
-template: "post"
+title: Before You Wear That Critique Hat
+template: post
 draft: false
-description: "People judge. I was not an exception. We are culturally trained to comment on things that happen in front of us. My most common one is, “How dumb can a person be to drive that slow?” In my defense…"
-subtitle: "
-People judge. I was not an exception. We are culturally trained to comment on things that happen in front of us. My most common one is…
-"
-tags: [Empathy,Self Realization,Worldview,Mindfulness]
+description: >-
+  People judge. I was not an exception. We are culturally trained to comment on
+  things that happen in front of us. My most common one is, “How dumb can a
+  person be to drive that slow?” In my defense…
+subtitle: ' People judge. I was not an exception. We are culturally trained to comment on things that happen in front of us. My most common one is… '
+tags:
+  - empathy
+  - self realization
+  - worldview
+  - mindfulness
 featuredImgPath: /media/wear-that-critique-hat-featured.png
 ---
 # Before You Wear That Critique Hat

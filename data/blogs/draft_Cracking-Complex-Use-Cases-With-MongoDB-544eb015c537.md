@@ -1,14 +1,15 @@
 ---
-slug: "cracking-complex-use-cases-withmongodb"
+slug: cracking-complex-use-cases-withmongodb
 published_date: null
 created_date: null
-title: "Cracking Complex Use-Cases With MongoDB"
-template: "post"
+title: Cracking Complex Use-Cases With MongoDB
+template: post
 draft: true
-description: "The primary question would be. Why would someone choose mongo over an age-old SQL? If you’re a newbie, you might think it is because MySQL is old, but that’s not the case. Google is filled with…"
-subtitle: "
-How I mastered MongoDB in 3 months.
-"
+description: >-
+  The primary question would be. Why would someone choose mongo over an age-old
+  SQL? If you’re a newbie, you might think it is because MySQL is old, but
+  that’s not the case. Google is filled with…
+subtitle: ' How I mastered MongoDB in 3 months. '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

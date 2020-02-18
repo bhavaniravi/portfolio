@@ -1,14 +1,15 @@
 ---
-slug: "getting-started-withgo"
+slug: getting-started-withgo
 published_date: null
 created_date: null
-title: "Getting Started With Go"
-template: "post"
+title: Getting Started With Go
+template: post
 draft: true
-description: "For me, it’s just the love for programming and curiosity to learn another programming language after python. But this blog has good enough reasons to get you started with Go. "
-subtitle: "
-A step by step guide pointing to the resources that helped me learn GoLang.
-"
+description: >-
+  For me, it’s just the love for programming and curiosity to learn another
+  programming language after python. But this blog has good enough reasons to
+  get you started with Go. 
+subtitle: ' A step by step guide pointing to the resources that helped me learn GoLang. '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

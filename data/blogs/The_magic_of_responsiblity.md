@@ -1,13 +1,18 @@
 ---
-slug: "the-magic-of-responsiblity"
-published_date: 2019-06-07
-created_date: 2019-06-07
-title: "The Magic of Responsibility — A Story"
-template: "post"
+slug: the-magic-of-responsiblity
+published_date: 2019-06-07T00:00:00.000Z
+created_date: 2019-06-07T00:00:00.000Z
+title: "The Magic of Responsibility — A\_Story"
+template: post
 draft: false
-description: "Do you want people to act mature? Trust them and give them the responsibility!"
-subtitle: "Do you want people to act mature? Trust them and give them the responsibility!"
-tags: ["Responsibility", "Trust", "Leadership", "Motivation", "Mentor"]
+description: Do you want people to act mature? Trust them and give them the responsibility!
+subtitle: Do you want people to act mature? Trust them and give them the responsibility!
+tags:
+  - responsibility
+  - trust
+  - leadership
+  - motivation
+  - mentor
 featuredImgPath: /media/magic_of_responsiblity.jpeg
 isexternal: false
 ---

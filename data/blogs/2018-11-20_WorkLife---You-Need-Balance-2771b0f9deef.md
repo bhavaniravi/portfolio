@@ -1,15 +1,21 @@
 ---
-slug: "worklife-balance"
+slug: worklife-balance
 published_date: 2018-11-20T18:07:01.697Z
 created_date: 2018-11-20T18:07:01.697Z
-title: "WorkLife — You Need Balance"
-template: "post"
+title: WorkLife — You Need Balance
+template: post
 draft: false
-description: "The so-called experts would tell you to work hard until you’re 60 so that you can chill for the rest of your life. It was not a straightforward suggestion from a specific person, but I heard the same…"
-subtitle: "
-An important factor of a career choice
-"
-tags: [Work Life Balance,Work,Development,Personal Development,Self Improvement]
+description: >-
+  The so-called experts would tell you to work hard until you’re 60 so that you
+  can chill for the rest of your life. It was not a straightforward suggestion
+  from a specific person, but I heard the same…
+subtitle: ' An important factor of a career choice '
+tags:
+  - work life balance
+  - work
+  - development
+  - personal development
+  - self improvement
 featuredImgPath: /media/worklife-balance-featured.png
 ---
 # Work-Life — You Need Balance

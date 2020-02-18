@@ -1,15 +1,21 @@
 ---
-slug: "death-by-meeting-a-book-reflection"
+slug: death-by-meeting-a-book-reflection
 published_date: 2019-03-17T17:59:04.262Z
 created_date: 2019-03-17T17:59:04.262Z
-title: "Death By Meeting — A Book Reflection"
-template: "post"
+title: Death By Meeting — A Book Reflection
+template: post
 draft: false
-description: "I just finished reading this book called Death by meetings. I am officially announcing Patrick Lencioni as my favorite author. I also read his 5 Dysfunctions of a team and I loved it. Most of us…"
-subtitle: "
-I just finished reading this book called Death by meetings. I am officially announcing Patrick Lencioni as my favorite author. I also read…
-"
-tags: [Leadership,Meetings,People,Management,Teamwork]
+description: >-
+  I just finished reading this book called Death by meetings. I am officially
+  announcing Patrick Lencioni as my favorite author. I also read his 5
+  Dysfunctions of a team and I loved it. Most of us…
+subtitle: ' I just finished reading this book called Death by meetings. I am officially announcing Patrick Lencioni as my favorite author. I also read… '
+tags:
+  - leadership
+  - meetings
+  - people
+  - management
+  - teamwork
 featuredImgPath: /media/death-by-meeting-a-book-reflection-featured.png
 ---
 # Death By Meeting — A Book Reflection

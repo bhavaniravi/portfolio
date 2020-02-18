@@ -1,15 +1,21 @@
 ---
-slug: "goodbye-my-good-old-friend"
+slug: goodbye-my-good-old-friend
 published_date: 2019-01-20T15:17:25.894Z
 created_date: 2019-01-20T15:17:25.894Z
-title: "Goodbye my Good Old Friend"
-template: "post"
+title: Goodbye my Good Old Friend
+template: post
 draft: false
-description: "I used to have a friend. A roommate of sorts. Just like every other time and every other thing, I was attached. I was attached because it was nice to have company. From waking up in the morning to…"
-subtitle: "
-It is not what you think it is.
-"
-tags: [Short Story,Fiction,Stories,Writing,Storytelling]
+description: >-
+  I used to have a friend. A roommate of sorts. Just like every other time and
+  every other thing, I was attached. I was attached because it was nice to have
+  company. From waking up in the morning to…
+subtitle: ' It is not what you think it is. '
+tags:
+  - short story
+  - fiction
+  - stories
+  - writing
+  - storytelling
 featuredImgPath: /media/goodbye-my-good-old-friend-featured.png
 ---
 # Goodbye my Good Old Friend

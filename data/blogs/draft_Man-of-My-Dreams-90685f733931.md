@@ -1,14 +1,14 @@
 ---
-slug: "man-of-mydreams"
+slug: man-of-mydreams
 published_date: null
 created_date: null
-title: "Man of My Dreams"
-template: "post"
+title: Man of My Dreams
+template: post
 draft: true
-description: "As I dump my sorrows on you with dampness in my eyes, “Man of My Dreams” is published by Bhavani Ravi"
-subtitle: "
-As I dump my sorrows on you with dampness in my eyes,
-"
+description: >-
+  As I dump my sorrows on you with dampness in my eyes, “Man of My Dreams” is
+  published by Bhavani Ravi
+subtitle: ' As I dump my sorrows on you with dampness in my eyes, '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

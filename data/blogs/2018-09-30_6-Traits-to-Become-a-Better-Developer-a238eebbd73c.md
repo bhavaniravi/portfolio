@@ -1,15 +1,21 @@
 ---
-slug: "developers-deficiency"
+slug: developers-deficiency
 published_date: 2018-09-30T09:03:00.205Z
 created_date: 2018-09-30T09:03:00.205Z
-title: "6 Traits to Become a Better Developer"
-template: "post"
+title: 6 Traits to Become a Better Developer
+template: post
 draft: false
-description: "Software developers are one of a kind. They are the most celebrated crowd in every organization. Other teams look at them as if they have landed from an alien land. Questions like “How can you stare…"
-subtitle: "
-Developers’ deficiency
-"
-tags: [Programming,Developer,Software,Software Development,Work Life Balance]
+description: >-
+  Software developers are one of a kind. They are the most celebrated crowd in
+  every organization. Other teams look at them as if they have landed from an
+  alien land. Questions like “How can you stare…
+subtitle: ' Developers’ deficiency '
+tags:
+  - programming
+  - developer
+  - software
+  - software development
+  - work life balance
 featuredImgPath: /media/developers-deficiency-featured.png
 ---
 # 6 Traits to Become a Better Developer

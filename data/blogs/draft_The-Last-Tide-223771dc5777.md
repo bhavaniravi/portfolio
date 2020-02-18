@@ -1,14 +1,14 @@
 ---
-slug: "the-lasttide"
+slug: the-lasttide
 published_date: null
 created_date: null
-title: "The Last Tide"
-template: "post"
+title: The Last Tide
+template: post
 draft: true
-description: "The last tide for the year has visited. “The Last Tide” is published by Bhavani Ravi"
-subtitle: "
-The last tide for the year has visited
-"
+description: >-
+  The last tide for the year has visited. “The Last Tide” is published by
+  Bhavani Ravi
+subtitle: ' The last tide for the year has visited '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

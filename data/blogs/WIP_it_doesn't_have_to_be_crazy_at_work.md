@@ -1,14 +1,20 @@
 ---
-slug: "it-doesn't-have-to-be-crazy-at-work"
-published_date: 2019-07-24
-created_date: 2019-07-24
-title: "It Doesn't Have to be Crazy at Work"
-template: "post"
+slug: it-doesn't-have-to-be-crazy-at-work
+published_date: 2019-07-24T00:00:00.000Z
+created_date: 2019-07-24T00:00:00.000Z
+title: It Doesn't Have to be Crazy at Work
+template: post
 draft: true
-description: ""
-subtitle: "Guideliness from the book for founders and CEO's on how to run a company without chaos"
-tags: ["Productivity", "Chaos", "Collaboration","Worklifebalance"]
-featuredImgPath: https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg
+description: ''
+subtitle: >-
+  Guideliness from the book for founders and CEO's on how to run a company
+  without chaos
+tags:
+  - productivity
+  - chaos
+  - collaboration
+  - work life balance
+featuredImgPath: 'https://images-na.ssl-images-amazon.com/images/I/81nvF-p7odL.jpg'
 isexternal: true
 ---
 

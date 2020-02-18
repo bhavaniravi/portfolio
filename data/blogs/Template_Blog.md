@@ -1,14 +1,14 @@
 ---
-slug: ""
+slug: ''
 published_date: null
 created_date: null
-title: ""
-template: "post"
+title: ''
+template: post
 draft: true
-description: 
-subtitle: 
+description: null
+subtitle: null
 tags: []
-featuredImgPath: 
+featuredImgPath: null
 ---
 
 # Title

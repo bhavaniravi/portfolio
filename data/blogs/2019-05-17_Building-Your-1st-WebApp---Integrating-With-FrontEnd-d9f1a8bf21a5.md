@@ -1,15 +1,21 @@
 ---
-slug: "building-your-1st-webapp-integrating-with-frontend"
+slug: building-your-1st-webapp-integrating-with-frontend
 published_date: 2019-05-17T02:53:27.342Z
 created_date: 2019-05-17T02:53:27.342Z
-title: "Building Your 1st WebApp — Integrating With FrontEnd"
-template: "post"
+title: Building Your 1st WebApp — Integrating With FrontEnd
+template: post
 draft: false
-description: "This is the 3rd blog in Building Your 1st WebApp with Python series. In the first blog, we saw how to orchestrate and design a backend system, write Python Flask code to expose REST APIs followed by…"
-subtitle: "
-How to Integrate Backend APIs to ReactJS Frontend.
-"
-tags: [JavaScript,Learning To Code,Programming,Reactjs,Front End Development]
+description: >-
+  This is the 3rd blog in Building Your 1st WebApp with Python series. In the
+  first blog, we saw how to orchestrate and design a backend system, write
+  Python Flask code to expose REST APIs followed by…
+subtitle: ' How to Integrate Backend APIs to ReactJS Frontend. '
+tags:
+  - javascript
+  - learning to code
+  - programming
+  - reactjs
+  - front end development
 featuredImgPath: /media/building-your-1st-webapp-integrating-with-frontend-featured.png
 ---
 # Building Your 1st WebApp — Integrating With FrontEnd

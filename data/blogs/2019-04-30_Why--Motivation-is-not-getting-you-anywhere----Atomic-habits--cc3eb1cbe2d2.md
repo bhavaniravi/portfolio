@@ -1,16 +1,23 @@
 ---
-slug: "why-motivation-alone-is-not-getting-you-anywhere-atomic-habits"
+slug: why-motivation-alone-is-not-getting-you-anywhere-atomic-habits
 published_date: 2019-04-30T11:28:24.261Z
 created_date: 2019-04-30T11:28:24.261Z
-title: "Why  Motivation is not getting you anywhere  — Atomic habits."
-template: "post"
+title: Why  Motivation is not getting you anywhere  — Atomic habits.
+template: post
 draft: false
-description: "It sounds like the universal truth. You might be nodding your head right now. Most of us are motivated to accomplish something but are also the masters of procrastinating things forever…"
-subtitle: "
-Focus On the Start, Not the End.
-"
-tags: [Habit Building,Habits,Motivation,Self Motivation,Discipline]
-featuredImgPath: /media/why-motivation-alone-is-not-getting-you-anywhere-atomic-habits-featured.png
+description: >-
+  It sounds like the universal truth. You might be nodding your head right now.
+  Most of us are motivated to accomplish something but are also the masters of
+  procrastinating things forever…
+subtitle: ' Focus On the Start, Not the End. '
+tags:
+  - habit building
+  - habits
+  - motivation
+  - self motivation
+  - discipline
+featuredImgPath: >-
+  /media/why-motivation-alone-is-not-getting-you-anywhere-atomic-habits-featured.png
 ---
 # Why Motivation is Not Getting You Anywhere — Atomic Habits
 
