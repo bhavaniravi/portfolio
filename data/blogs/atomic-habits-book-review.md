@@ -82,11 +82,7 @@ When trying to incorporate new habits don't push yourself but stretch yourself j
 
 To get beyond procrastination break good habits into 2-minute chunks 
 
-> “Read before bed each night” becomes “Read one page.”
-    “Do thirty minutes of yoga” becomes “Take out my yoga mat.”
-    “Study for class” becomes “Open my notes.”
-    “Fold the laundry” becomes “Fold one pair of socks.”
-    “Run three miles” becomes “Tie my running shoes.”
+> “Read before bed each night” becomes “Read one page.” <br> “Do thirty minutes of yoga” becomes “Take out my yoga mat< <br> “Study for class” becomes “Open my notes.” <br> “Fold the laundry” becomes “Fold one pair of socks.” <br> “Run three miles” becomes “Tie my running shoes.”
 
 ## Parallel Ideas
 
