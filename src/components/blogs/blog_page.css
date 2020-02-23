@@ -112,7 +112,31 @@ figure figcaption {
 }
 
 @media (max-width: 575px){
-.article_div {
-    grid-template-columns: 1fr 1fr 10px 80% 10px 1fr 1fr
+    .article_div {
+        grid-template-columns: 1fr 1fr 10px 80% 10px 1fr 1fr
+    }
 }
+
+article > div > h1, h2, h3, h4, h5, h6 {
+    line-height: 1.18;
 }
+
+article > div > h2 + h3 {
+    padding-top: 20px;
+}
+
+article > div > h2, h3 {
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-weight: 600;
+}
+
+article > div > h2 {
+    font-size: 26px;
+}
+
+article > div > h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+

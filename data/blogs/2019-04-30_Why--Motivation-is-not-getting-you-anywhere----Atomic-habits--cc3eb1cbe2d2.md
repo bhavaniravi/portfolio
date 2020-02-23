@@ -9,7 +9,7 @@ description: "It sounds like the universal truth. You might be nodding your head
 subtitle: "
 Focus On the Start, Not the End.
 "
-tags: [Habit Building,Habits,Motivation,Self Motivation,Discipline]
+tags: ["book-review"]
 featuredImgPath: /media/why-motivation-alone-is-not-getting-you-anywhere-atomic-habits-featured.png
 ---
 # Why Motivation is Not Getting You Anywhere — Atomic Habits

@@ -9,69 +9,69 @@ class BlogPostTemplate extends React.Component {
   render() {
     const canonical = ''
     const post = this.props.data.markdownRemark
-    if(post.frontmatter.is_medium){
-        canonical = (<p>The blog was originally publushed in 
+    if (post.frontmatter.is_medium) {
+      canonical = (<p>The blog was originally publushed in
             <a href={this.post.frontmatter.medium_url}></a>
-            </p>)
-     }
+      </p>)
+    }
     const title = post.frontmatter.title
     const { previous, next } = this.props.pageContext
     const twitterHandle = this.props.data.site.siteMetadata.twitterHandle
     return (
-    <Layout navFixed={true}>
-    <div className="article_div">
-      <article style={{"marginTop":"130px"}}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.subtitle || post.frontmatter.description}
-          previewImgUrl={post.frontmatter.featuredImgPath}
-          isexternal={post.frontmatter.isexternal}
-        />
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr/>
-        <em>I recently moved my blogs from medium. Find more of my writing 
-          <a target="_blank" href="https://medium.com/@bhavaniravi"> here.</a>
-        </em>
+      <Layout navFixed={true}>
+        <div className="article_div">
+          <article style={{ "marginTop": "130px" }}>
+            <SEO
+              title={post.frontmatter.title}
+              description={post.frontmatter.subtitle || post.frontmatter.description}
+              previewImgUrl={post.frontmatter.featuredImgPath}
+              isexternal={post.frontmatter.isexternal}
+            />
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <hr />
+            <em>I recently moved my blogs from medium. Find more of my writing
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@bhavaniravi"> here.</a>
+            </em>
 
-        <Share
-            socialConfig={{
+            <Share
+              socialConfig={{
                 twitterHandle,
                 config: {
-                    url: `${this.props.data.site.siteMetadata.url}/blog/${post.frontmatter.slug}`,
-                    title,
+                  url: `${this.props.data.site.siteMetadata.url}/blog/${post.frontmatter.slug}`,
+                  title,
                 },
+              }}
+              tags={post.frontmatter.tags}
+            />
+            {canonical}
+            <hr />
+          </article>
+          <ul
+            style={{
+              display: `grid`,
+              "gridTemplateColumns": "1fr 1fr",
+              justifyContent: `space-between`,
+              listStyle: `none`,
+              padding: 0,
             }}
-            tags={post.frontmatter.tags}
-		/> 
-        {canonical}
-        <hr/>       
-      </article>
-      <ul
-          style={{
-            display: `grid`,
-            "gridTemplateColumns": "1fr 1fr",
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li style={{"textAlign": "left"}}>
-            {previous && (
-              <Link to={"/blog/" + previous.frontmatter.slug} rel="prev">
-                ← {previous.frontmatter.title}
+          >
+            <li style={{ "textAlign": "left" }}>
+              {previous && (
+                <Link to={"/blog/" + previous.frontmatter.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li style={{ "textAlign": "right" }}>
+              {next && (
+                <Link to={"/blog/" + next.frontmatter.slug} rel="next">
+                  {next.frontmatter.title} →
               </Link>
-            )}
-          </li>
-          <li style={{"textAlign": "right"}}>
-            {next && (
-              <Link to={"/blog/" + next.frontmatter.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+              )}
+            </li>
+          </ul>
         </div>
-       
+
       </Layout>
     )
   }
