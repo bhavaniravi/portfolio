@@ -23,6 +23,11 @@ module.exports = {
         "className": "fa-twitter",
         "url": "https://twitter.com/geeky_bhavani"
       },
+      {
+        "name": "Youtube",
+        "className": "fa-youtube",
+        "url": "https://youtube.com/bhavaniravi"
+      },
 
       {
         "name": "Medium",
