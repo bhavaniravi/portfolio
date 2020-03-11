@@ -89,6 +89,7 @@ query {
           tags
           draft
           featuredImgPath
+          isexternal
         }
       }
     }

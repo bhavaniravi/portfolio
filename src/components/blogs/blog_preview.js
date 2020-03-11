@@ -8,6 +8,10 @@ const DATE_OPTIONS = { year: 'numeric', month: 'short', day: 'numeric' };
 export class InBuiltBlogPost extends Component{
     render(){
         const blog_url = `/blog/` + this.props.post.frontmatter.slug + "/"
+        let referer = "no-referrer noopener"
+        if (!this.props.post.frontmatter.isexternal){
+            referer = "origin"
+        }
         return (
             <div className="med_post">
                 <div className="med_dummy_div_iniside_post">
@@ -37,6 +41,7 @@ export class InBuiltBlogPost extends Component{
                                     <div className="padding_div">
                                         <img alt="" 
                                         src={`${this.props.post.frontmatter.featuredImgPath}`} 
+                                        rel={referer}
                                         className="med_preview_img"/>
                                     </div>
                                 </div>

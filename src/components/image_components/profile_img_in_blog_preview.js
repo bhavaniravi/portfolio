@@ -9,7 +9,6 @@ class ProfileImage extends React.Component {
             "display": "block",
             "verticalAlign": "middle"
         }
-        console.log(this.props.data)
         return (
             <Img fixed={this.props.data.file.childImageSharp.fixed} 
             imgStyle={style}/>

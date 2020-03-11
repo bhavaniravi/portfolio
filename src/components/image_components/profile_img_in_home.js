@@ -4,7 +4,6 @@ import Img from "gatsby-image"
 
 class HomeImage extends React.Component {
     render(){
-        console.log(this.props.data)
         return (
             <Img fixed={this.props.data.file.childImageSharp.fluid}/>
         )
