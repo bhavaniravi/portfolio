@@ -271,7 +271,6 @@ module.exports = {
       options: {
         gfm: true,
         plugins: [
-          `gatsby-remark-autolink-headers`,
           {
             resolve: "gatsby-remark-embed-video",
             options: {
