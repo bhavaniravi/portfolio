@@ -1,0 +1,30 @@
+backend:
+    name: gitlab
+    repo: bhava/portfolio2018
+    branch: netlify
+    auth_type: implicit
+    app_id: 99f63d523c6b4c68b834ff9a1eb7a3e1d0e0def3b35ba58ff537e8ec6180e5fc
+  
+media_folder: static/media
+public_folder: /media
+  
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "data/blogs"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+    - { label: "Title", name: "title", widget: "string" }
+    - { label: "Sub Title", name: "sub_title", widget: "string" }
+    - { label: "Slug", name: "slug", widget: "string" }
+    - { label: "Tags", name: "tags", widget: "list" }
+    - { label: "Image", name: "featuredImgPath", widget: "string" }
+    - { label: "Is External", name: "isexternal", widget: "boolean" }
+    - { label: "Publish Date", name: "published_date", widget: "date", format: 'YYYY-MM-DD' }
+    - { label: "Created Date", name: "created_date", widget: "date", format: 'YYYY-MM-DD' }
+    - { label: "Description", name: "description", widget: "string" }
+    - { label: "Body", name: "body", widget: "markdown" }
+    - { label: "Is Draft", name: "draft", widget: "boolean", default: true }

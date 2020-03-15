@@ -8,11 +8,11 @@ draft: false
 description: ""
 subtitle: "The underdogs, misfits and the art of battling giants"
 tags: ["book-summary"]
-featuredImgPath: "media/david-and-golaith.png"
+featuredImgPath: "/media/david-and-golaith.png"
 isexternal: false
 ---
 
-# David & Goliath
+# David and Goliath Book Summary
 ## The underdogs, misfits and the art of battling giants
 
 David and Goliath is the 3rd book I read in 2020. I am a big fan of Malcolm Gladwell, so this blog could be biased.  Like his every other book, Malcolm questions the obvious. Be it Outliers, Talking to strangers, or David and Goliath, he makes us look at the world the way we would have never thought of before. 
