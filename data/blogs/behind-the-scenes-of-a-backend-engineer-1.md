@@ -75,7 +75,9 @@ For example, The current project involves a total of 7 components/services. We g
 Sounds easy, right? Now that I look at it, yes, it is not so hard. But two weeks back, I had the tiniest clue what the six components did, whether they had the necessary functionality. It took me two weeks to understand if the six components match the requirement. The flow diagram on the paper had gone through 4 iterations last week. 
 
 <figure>
+
 ![](https://lh3.googleusercontent.com/4iHQ374d8I1Pa49P6rG7Jdki8kZuV1Z5sVzx-cBTMEDquoRjYEKobkE7LpNRU3TQk5QIwtmDu1vm6AfKtvm7SDeyjFeJ5pCj0nvX6ixP02FqRG7Zr0Ts23waxQKm5Jt0jeCprmOHuUSdnJ98s2CiWZi3vW4MpmvLYTl6ii_oofs6QS391e0jctb6eQSFR3fId0sCUeoI52kuL9PL4mPCqDc9ulZDCSuHfGBm7mqebA87wSceSwjQFzS0UcWs9Ri_KXZtK3fp_2Bok8bhFLO-pUuTMWgB9NFdPbbUtJcuRYHmyl6vxpelyLdzHGRZoM1WgeLpNCrQ6T98fNnBKuuUQwtxnnYwFOQkuzlg02qQ1QvjEJ0NspEYRLhn8YCZrx4mIvSSq02KuVjSVplm9zAyeb27t6oSnj7ePODS9k2pbAiNHhJEFNnkFzJiuhnf2WslOm8qdraVX7CI-jF3HPXmco6dayw1H9ngdgsJG0f_C4vLgTABEOmGp66nGmaz9DONkuRs2A0YsoigckUNJ36sBlLEbRX6QeT2OwoLYB34cUrbqoXyt8cAZgWWCBWazBKQbpxYJxL-WI0g5GyxJYKhmeC9Zw2I4pKuz0GdqWLJlt4M51DrChMwvfXGsHBMEdR43YQfIIcYto0zR5ThfFhPU8V_8G7AiChLIDijzt29ULuCJs4BABTwY4-1qZTtrg=w1000-h1333-no)
+
 </figure>
 
 Finally, it is the matter of converting the flow diagram into the lines into lines of code. Even now, there are few missing pieces, but the confidence of coming this far will power things through.
@@ -111,7 +113,9 @@ Changes at this point are costly. Mostly because you have to work through anothe
 While unittest gets you through module-level stability.  Any software is never complete without components working in harmony, so add doses of integration tests 
 
 <figure>
+
 ![gif on integration testing](https://i.imgur.com/weFRZgO.png)
+
 </figure>
 
 #### Performance
