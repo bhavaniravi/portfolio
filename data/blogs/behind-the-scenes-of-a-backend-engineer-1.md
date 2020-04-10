@@ -18,7 +18,11 @@ draft: false
 
 Eight months back, when I crafted my backend skills well at Orangescape. I wanted more. I started looking out for other opportunities. So when I interviewed Saama technologies, I told [Malaikannan](https://www.linkedin.com/in/malaikannan/), my current manager, that I want to work on challenging projects. He promised that I would work on things, where Google searches won't be enough. Six months and three complex projects later, I think he took the promise way too seriously. I want to share what happens behind the scenes when I build backend systems because it's so much fun.
 
+<figure>
+
 ![My workspace](https://lh3.googleusercontent.com/_ujDOYZN1_9CcfoMO2jfmbNhM2K5h76rlk5xNbipl-bshlPCSA5sP2lmhGmYwQmoiljakAgoyAbKg_OA5oNAn29xLCQchvZi26i0K71BuqVl0TnFxFw1fUaL8iZVI16SYkkX57uXgF9cKzVUS0jX0UruRs2qsiGx_QD8gLaP4k8Hcoy490t3FVWOMoyKmOIIRExg3agrVXLfA6D5QHNM9FHEi6bAbgisuZeA8BFiQSPGD91LPYswHyVFsrfBWYMvq7UkBLmRtz7P_IYMP-lQo9KoTfuLsWCRorVxA-SRVlwARxFa7TK6OuJYUJBd1ExNboZ28qok3eZgQIFwhHANrfkAo91qQu0g7lrAhQ1Rtsxg5GV9KV2VNgmB_epzf6TLE_SDrJwVF1VxbO23OmD84u2IvdSySnz1EqRX0yxhw6yROTqguqJGz6cfD5To_HUQciwiWLhMD7zeTmUC5_QRGS89qEih3o2h2PI_Z7E8xx7qui05FHL3E0qR4Esrjg4OobsN2wAPT1aPG5t6Pco8eQs8aq7BT6861XYids0guErkD4oCdqZ4eOMqFGkjiNccx91JWXQYHkDRvOBGZWnWPm8DN3GiQY2DgazXSt4atqA7mTiXuWFUfDpKrYln1w_VahzkvDRD-43GVCvCd1hvywMImAOLxYRL09FHD73f7Y_3LYvxnvkJsASDUxfo6g=w2144-h1608-no)
+
+</figure>
 
 ## Why now?
 
@@ -70,8 +74,9 @@ For example, The current project involves a total of 7 components/services. We g
 
 Sounds easy, right? Now that I look at it, yes, it is not so hard. But two weeks back, I had the tiniest clue what the six components did, whether they had the necessary functionality. It took me two weeks to understand if the six components match the requirement. The flow diagram on the paper had gone through 4 iterations last week. 
 
+<figure>
 ![](https://lh3.googleusercontent.com/4iHQ374d8I1Pa49P6rG7Jdki8kZuV1Z5sVzx-cBTMEDquoRjYEKobkE7LpNRU3TQk5QIwtmDu1vm6AfKtvm7SDeyjFeJ5pCj0nvX6ixP02FqRG7Zr0Ts23waxQKm5Jt0jeCprmOHuUSdnJ98s2CiWZi3vW4MpmvLYTl6ii_oofs6QS391e0jctb6eQSFR3fId0sCUeoI52kuL9PL4mPCqDc9ulZDCSuHfGBm7mqebA87wSceSwjQFzS0UcWs9Ri_KXZtK3fp_2Bok8bhFLO-pUuTMWgB9NFdPbbUtJcuRYHmyl6vxpelyLdzHGRZoM1WgeLpNCrQ6T98fNnBKuuUQwtxnnYwFOQkuzlg02qQ1QvjEJ0NspEYRLhn8YCZrx4mIvSSq02KuVjSVplm9zAyeb27t6oSnj7ePODS9k2pbAiNHhJEFNnkFzJiuhnf2WslOm8qdraVX7CI-jF3HPXmco6dayw1H9ngdgsJG0f_C4vLgTABEOmGp66nGmaz9DONkuRs2A0YsoigckUNJ36sBlLEbRX6QeT2OwoLYB34cUrbqoXyt8cAZgWWCBWazBKQbpxYJxL-WI0g5GyxJYKhmeC9Zw2I4pKuz0GdqWLJlt4M51DrChMwvfXGsHBMEdR43YQfIIcYto0zR5ThfFhPU8V_8G7AiChLIDijzt29ULuCJs4BABTwY4-1qZTtrg=w1000-h1333-no)
-
+</figure>
 
 Finally, it is the matter of converting the flow diagram into the lines into lines of code. Even now, there are few missing pieces, but the confidence of coming this far will power things through.
 
