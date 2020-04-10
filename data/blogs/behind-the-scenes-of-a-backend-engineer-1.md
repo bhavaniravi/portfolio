@@ -1,5 +1,5 @@
 ---
-title: Behind the Scenes of a Backend Engineer
+title: Backend Engineer - Behind the Scenes
 sub_title: What goes into building a backend system?
 slug: backend-engineer-behind-the-scenes
 tags:
@@ -79,31 +79,64 @@ Finally, it is the matter of converting the flow diagram into the lines into lin
 
 The most straightforward segment of software development stages is to convert your ideas into code. Of course, no design is set in stone. There might be decisions that you might have to take on the fly. But there are a few things that you can't get wrong.
 
-- Writing good code, following the standards(Linting, documentation, naming conventions)
-- Test-Driven Development - A project as complicated the one I am building is bound to change, so it is essential to make sure your test suite is created along with the codebase.
-- Deployment scripts - Trust me on this, if you have Docker and Kubernetes involved in your production, make it a habit to set it up on Day 1 and test your code there. Saves hours of debugging later.
-- Dissecting your technology choices - It is an essential step before starting development. Create a checklist of things expected from your technology choices, create a matrix of what's supported and what's not. It is important to understand where things won't work than where things will.
-- While you can get away with Stackoverflow-ing but, be ready and open to read beyond documentation and other codebases.
-- Avoid spec/architecture change. Changes at this point are costly. Mostly because you have to work through another 2 weeks of uncertainty. So don't start coding until the product owners are sold on your architecture design
-- Integration testing, while unittest gets you through module-level stability.  Any software is never complete without components working in harmony, so add doses of integration tests 
+#### Writing good code
+
+Following the standards(Linting, documentation, naming conventions) should always be your priority
+
+#### Test-Driven Development 
+
+A project as complicated the one I am building is bound to change, so it is essential to make sure your test suite is created along with the codebase.
+
+#### Deployment scripts
+
+Trust me on this, if you have Docker and Kubernetes involved in your production, make it a habit to set it up on Day 1 and test your code there. Saves hours of debugging later.
+
+#### Dissecting your technology choices 
+
+It is an essential step before starting development. Create a checklist of things expected from your technology choices, create a matrix of what's supported and what's not. It is important to understand where things won't work than where things will.
+
+While you can get away with Stackoverflow-ing but, be ready and open to read beyond documentation and other codebases.
+
+#### Avoid spec/architecture change
+
+Changes at this point are costly. Mostly because you have to work through another 2 weeks of uncertainty. So don't start coding until the product owners are sold on your architecture design
+
+#### Integration testing
+
+While unittest gets you through module-level stability.  Any software is never complete without components working in harmony, so add doses of integration tests 
 
 ![](https://i.imgur.com/weFRZgO.png)
 
-- Performance - Always keep performance in mind. When we talk about performance, think of latency(time taken for 1 task to complete) vs. Scalability(No of tasks completed per sec)
+#### Performance
 
+Always keep performance in mind. When we talk about performance, think of latency(time taken for 1 task to complete) vs. Scalability(No of tasks completed per sec)
 
 
 It is tempting to jump in and fire those git commits but what's going to save you significant time is the time you spend on designing is what makes development a smooth experience.
 
 ### Pre & Post Production
 
-The crucial step of any software product is taking it to production. Things you might want to keep tabs on here.
+The crucial step of any software product is taking it to production. I am not a pro at the following but from what I learned from my peers these are the things that you would keep tabs on.
 
-1. Continuous Deployment strategies - Once things hit production, you would want to move fast, be it bug fixes or new features things start to roll, and the stakes are high. Hence having a solid CI/CD pipeline comes handy
-3. Security and Compliance - The projects of Saama involves high confidentiality, therefore following the compliance guidelines and keeping the team aware of it is crucial
-4. Monitoring and Logging - The turn-around time to find and fix things in production is short. That's when a reliable tracking and logging framework comes handy
-5. Documentation - Document every piece of your production setup. It can be a bunch of ansible scripts with setup guidelines.
-6. Risk management - What's the backup strategy, how to handle when a particular cloud-zone goes down, what's your business continuity plan during calamities
+#### Continuous Deployment strategies 
+
+Once things hit production, you would want to move fast, be it bug fixes or new features things start to roll, and the stakes are high. Hence having a solid CI/CD pipeline comes handy
+
+#### Security and Compliance
+
+The projects of Saama involves high confidentiality, therefore following the compliance guidelines and keeping the team aware of it is crucial
+
+#### Monitoring and Logging 
+
+The turn-around time to find and fix things in production is short. That's when a reliable tracking and logging framework comes handy
+
+#### Documentation
+
+Document every piece of your production setup. It can be a bunch of ansible scripts with setup guidelines.
+
+#### Risk management
+
+What's the backup strategy, how to handle when a particular cloud-zone goes down, what's your business continuity plan during calamities
 
 
 ### Learn, Unlearn, Repeat
@@ -112,3 +145,6 @@ Post-release as the users start using the product bug counts are bound to increa
 
 
 None of this might sound easy or humanly possible. Yes, there are deadlines, uncertainties that put pressure on you. The process of dissecting a complicated problem into solvable pieces is what makes this job so exciting and lovable.
+
+
+
