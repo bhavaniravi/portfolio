@@ -112,7 +112,7 @@ While unittest gets you through module-level stability.  Any software is never c
 
 <figure>
 ![gif on integration testing](https://i.imgur.com/weFRZgO.png)
-<figure>
+</figure>
 
 #### Performance
 
