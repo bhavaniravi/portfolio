@@ -11,7 +11,7 @@ isexternal: true
 published_date: '2020-03-30'
 created_date: '2020-04-10'
 description: ' The process of dissecting a complicated problem into solvable pieces is what makes this job so interesting and lovable.'
-draft: true
+draft: false
 ---
 # Backend Engineer Behind the Scenes
 
