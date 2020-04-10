@@ -110,7 +110,9 @@ Changes at this point are costly. Mostly because you have to work through anothe
 
 While unittest gets you through module-level stability.  Any software is never complete without components working in harmony, so add doses of integration tests 
 
-![](https://i.imgur.com/weFRZgO.png)
+<figure>
+![gif on integration testing](https://i.imgur.com/weFRZgO.png)
+<figure>
 
 #### Performance
 
