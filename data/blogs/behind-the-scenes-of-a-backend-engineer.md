@@ -1,5 +1,5 @@
 ---
-title: Behind the Scenes of a Backend Engineer
+title: Backend Engineer Behind the Scenes
 sub_title: What goes into building a backend system?
 slug: backend-engineer-behind-the-scenes
 tags:
@@ -10,7 +10,7 @@ isexternal: true
 published_date: '2020-03-30'
 created_date: '2020-03-30'
 description: ' The process of dissecting a complicated problem into solvable pieces is what makes this job so interesting and lovable.'
-draft: true
+draft: false
 ---
 I don't talk about this much, but let me start by talking about what goes on my head when I build backend systems. The current one I'm building for [Saama](https://www.linkedin.com/feed/#) is one of the challenging projects I have worked on.
 
