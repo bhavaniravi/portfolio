@@ -4,6 +4,7 @@ import SEO from "../seo"
 import Share from "../share/share"
 import Layout from "../layout"
 import "./blog_page.css"
+import { NewsLetter } from "../footer"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     if (post.frontmatter.is_medium) {
       canonical = (<p>The blog was originally publushed in
-            <a href={this.post.frontmatter.medium_url}></a>
+        <a href={this.post.frontmatter.medium_url}></a>
       </p>)
     }
     const title = post.frontmatter.title
@@ -30,10 +31,6 @@ class BlogPostTemplate extends React.Component {
             />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <hr />
-            <em>I recently moved my blogs from medium. Find more of my writing
-          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@bhavaniravi"> here.</a>
-            </em>
-
             <Share
               socialConfig={{
                 twitterHandle,
@@ -56,6 +53,8 @@ class BlogPostTemplate extends React.Component {
               padding: 0,
             }}
           >
+
+
             <li style={{ "textAlign": "left" }}>
               {previous && (
                 <Link to={"/blog/" + previous.frontmatter.slug} rel="prev">
@@ -67,11 +66,20 @@ class BlogPostTemplate extends React.Component {
               {next && (
                 <Link to={"/blog/" + next.frontmatter.slug} rel="next">
                   {next.frontmatter.title} →
-              </Link>
+                </Link>
               )}
             </li>
           </ul>
+
+          <em>
+            <p>I recently moved my blogs from medium. Find more of my writing
+                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@bhavaniravi"> here.</a>
+            </p>
+          </em>
+
         </div>
+
+
 
       </Layout>
     )
