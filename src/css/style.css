@@ -3629,11 +3629,12 @@ h6 {
   color: #777777;
   margin-bottom: 15px;
 }
+
 .news_widget .input-group input {
   height: 40px;
   background: transparent;
   border-radius: 0px;
-  width: 80%;
+  width: 65%;
   border: none;
   padding: 0px 15px;
   border: 1px solid #eee;
@@ -3649,6 +3650,7 @@ h6 {
   font-weight: normal;
   color: #cccccc;
 }
+
 .news_widget .input-group input:-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -3681,6 +3683,8 @@ h6 {
   color: #222222;
   background-color: #fff;
 }
+
+
 
 .sub-btn .lnr-arrow-right{
   font-weight: bolder !important;

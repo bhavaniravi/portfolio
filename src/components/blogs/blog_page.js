@@ -30,20 +30,32 @@ class BlogPostTemplate extends React.Component {
               isexternal={post.frontmatter.isexternal}
             />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            <hr />
-            <Share
-              socialConfig={{
-                twitterHandle,
-                config: {
-                  url: `${this.props.data.site.siteMetadata.url}/blog/${post.frontmatter.slug}`,
-                  title,
-                },
-              }}
-              tags={post.frontmatter.tags}
-            />
-            {canonical}
-            <hr />
           </article>
+          <hr />
+          <Share
+            socialConfig={{
+              twitterHandle,
+              config: {
+                url: `${this.props.data.site.siteMetadata.url}/blog/${post.frontmatter.slug}`,
+                title,
+              },
+            }}
+            tags={post.frontmatter.tags}
+          />
+          {canonical}
+          <hr />
+          <div style={{ display: "grid", justifyContent: "center" }}>
+            <div class="social-header" style={{
+              fontSize: "16px",
+              fontWeight: "bold",
+              fontFamily: "Heebo, sans-serif",
+              marginBottom: "0px"
+            }}>
+              Join my NewsLetter!
+		          </div>
+            <NewsLetter></NewsLetter>
+          </div>
+          <hr />
           <ul
             style={{
               display: `grid`,
@@ -80,8 +92,7 @@ class BlogPostTemplate extends React.Component {
         </div>
 
 
-
-      </Layout>
+      </Layout >
     )
   }
 }

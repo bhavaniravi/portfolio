@@ -59,6 +59,9 @@ class ExtendedNavbar extends React.Component {
                             <MenuItem target="_blank" rel="noopener noreferrer"
                                 href="https://drive.google.com/file/d/1bYZexJDCfm4dGuk4BPWfF7_UsrtIAjFd/view?usp=sharing"
                                 title="Resume"></MenuItem>
+                            <MenuItem target="_blank" rel="noopener noreferrer"
+                                href="https://mailchi.mp/e1cea5c7347f/thelearningdev"
+                                title="Newsletter"></MenuItem>
                             {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>
