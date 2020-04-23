@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     /* I'm using 440px instead of 740px as it makes it easier to view it in the Scrimba simulator additive-symbols: */
-    grid-template-columns: 1fr 1fr 10px 60% 10px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 10px 55% 10px 1fr 1fr;
 }
 
 .article_div > * {
@@ -26,36 +26,40 @@ html, body {
     line-height: 1.4;
 }
 
+
 article > div >  * {
     min-width: 0;
-    color: rgba(0,0,0,.84);
-    
-}
-
-article > div > h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6{
-    font-weight: normal;
-}
-
-article > div > h1 {
-    font-family: "medium-content-title-font,Georgia,Cambria,Times New Roman,Times,serif";
-    font-style: normal;
-    font-size:42px;
-}
-
-article > div > p, li, p > * {    
-    --x-height-multiplier: 0.375;
-    --baseline-multiplier: 0.17;
-    font-family: "Georgia,Cambria,Times New Roman,Times,serif";
-    letter-spacing: .01rem;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 21px;
-    line-height: 1.58;
-    letter-spacing: -.003em;
-    color: rgba(0,0,0,.84);
+    font-size: 17px;
+    line-height: 1.8em;
+    color: #444;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
+    margin-bottom: 2rem;
 }
+
+article > div > h1, 
+article > div > h2, 
+article > div > h3, 
+article > div > h4, 
+article > div > h5, 
+article > div > h6
+{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.18;
+}
+
+article > div > h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+
 
 article > .aside {
     font-family: "Lucida Grande";
@@ -77,12 +81,14 @@ figure > p > img {
     padding-right: 1em;
 }
 
-code {
+article > div > pre > code {
     background: #eee;
     padding: 2px 5px;
+    font-size: 13px;
+    line-height: 0px;
 }
 
-pre {
+article > div > pre {
     background: #eee;
     padding: 10px 15px;
     overflow: auto;
@@ -100,7 +106,7 @@ figure {
 figure figcaption {
     color: #666;
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.2em;
 }
 
 @media (max-width: 575px){
@@ -109,16 +115,12 @@ figure figcaption {
     }
 }
 
-article > div > h1, h2, h3, h4, h5, h6 {
-    line-height: 1.18;
-}
-
 article > div > h2 + h3 {
     padding-top: 20px;
 }
 
 article > div > h2, h3 {
-    font-family: "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
