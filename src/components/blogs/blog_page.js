@@ -45,7 +45,7 @@ class BlogPostTemplate extends React.Component {
           {canonical}
           <hr />
           <div style={{ display: "grid", justifyContent: "center" }}>
-            <div class="social-header" style={{
+            <div className="social-header" style={{
               fontSize: "16px",
               fontWeight: "bold",
               fontFamily: "Heebo, sans-serif",
