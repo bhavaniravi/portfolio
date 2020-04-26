@@ -236,7 +236,7 @@
 
 	.post-social {
 		display: grid;
-		grid-template-columns: 40% repeat(4,10%);
+		grid-template-columns: repeat(4,10%);
 	}
 }
 @media (max-width:767px){
@@ -400,7 +400,7 @@
 	}
 	.post-social {
 		display: grid;
-		grid-template-columns: 40% repeat(4,10%);
+		grid-template-columns: repeat(4,10%);
 	}
 }
 
@@ -461,6 +461,6 @@
 
 	.post-social {
 		display: grid;
-		grid-template-columns: 40% repeat(4,10%);
+		grid-template-columns: repeat(4,10%);
 	}
 }
