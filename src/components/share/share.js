@@ -10,7 +10,7 @@ import './share.css';
 
 const Share = ({ socialConfig, tags }) => (
 	<div>
-		<div class="social-header">
+		<div className="social-header">
 			Sharing is Caring
 		</div>
 		<div className="post-social">

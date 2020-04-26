@@ -14,7 +14,6 @@ export class TalkBox extends Component {
             color: "#222",
             backgroundColor: "#e8e8e8"
         }
-        console.log(this.props)
         let frontmatter = this.props.talk //.frontmatter
 
         let slide_badge = frontmatter.slides_link ? <Badge color="secondary" color="primary" href={frontmatter.slides_link} style={badge_style}>Slide</Badge> : ""
@@ -52,7 +51,6 @@ export class TalkBox extends Component {
 class TalksArea extends Component {
 
     render() {
-        console.log(this.props)
         const talks = this.props.talks
         return (
             <section className="feature_area p_120" id="talks" style={{
