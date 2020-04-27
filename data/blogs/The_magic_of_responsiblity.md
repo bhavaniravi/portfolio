@@ -48,8 +48,4 @@ I was that curious kid who asked a million questions and bothered my managers [A
 
 It all didn’t happen in a day. But finally, after a year, I see that I have learned, evolved, existed, extended, sometimes even stretched. It was all worth it. It was not a cake walk but a walk filled with a lot of cakes(That’s how we celebrate).
 
-<figure tabindex="0" contenteditable="false" name="5bf3" class="graf graf--figure graf--iframe graf-after--p is-defaultValue">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">1-year <a href="https://twitter.com/OrangeScape?ref_src=twsrc%5Etfw">@OrangeScape</a> working on major modules of <a href="https://twitter.com/kissflow?ref_src=twsrc%5Etfw">@kissflow</a>.  <br><br>It helped me learn, evolve, exist, extend sometimes even stretch, In the end, it was all worth it. <a href="https://t.co/NoNdgGMieb">pic.twitter.com/NoNdgGMieb</a></p>&mdash; Bhavani Ravi (@geeky_bhavani) <a href="https://twitter.com/geeky_bhavani/status/1130512904896126980?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</figure>
-
+https://twitter.com/geeky_bhavani/status/1130512904896126980

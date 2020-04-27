@@ -57,7 +57,7 @@ export default class BlogIndex extends React.Component {
     return (
       <Layout navFixed={true}>
         <div className="med_blog_list_container">
-          <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
+          <SectionTitle title={"Bhavani's Blog"} sub_title={"A sneak peak into my head"}></SectionTitle>
           {posts.slice(0, this.state.postsToShow).map(post_data => (
             <InBuiltBlogPost key={post_data.node.frontmatter.slug}
               post={post_data.node}></InBuiltBlogPost>
