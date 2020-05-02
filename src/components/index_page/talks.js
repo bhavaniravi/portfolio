@@ -3,8 +3,7 @@ import { Badge } from "reactstrap";
 import { StaticQuery } from "gatsby";
 import { graphql } from 'gatsby';
 import SectionTitle from "../section_title";
-import { formatDate } from "../utils"
-import { TwitterFollowButton } from 'react-twitter-embed'
+import { socialComponents } from "../utils"
 
 export class TalkBox extends Component {
     render() {
@@ -14,12 +13,10 @@ export class TalkBox extends Component {
             color: "#222",
             backgroundColor: "#e8e8e8"
         }
-        console.log(this.props)
         let frontmatter = this.props.talk //.frontmatter
 
         let slide_badge = frontmatter.slides_link ? <Badge color="secondary" color="primary" href={frontmatter.slides_link} style={badge_style}>Slide</Badge> : ""
         let video_badge = frontmatter.video ? <Badge color="secondary" color="success" href={frontmatter.video} style={badge_style}>Video</Badge> : ""
-        // frontmatter.skills = []
         return (
             <div className={this.props.layout}>
                 <div className="feature_item" style={{
@@ -52,47 +49,54 @@ export class TalkBox extends Component {
 class TalksArea extends Component {
 
     render() {
-        console.log(this.props)
+        let section_margins = {
+            paddingTop: "100px",
+            paddingBottom: "0px",
+            backgroundColor: "white"
+        }
         const talks = this.props.talks
+        const workshops = this.props.workshops
         return (
-            <section className="feature_area p_120" id="talks" style={{
-                backgroundColor: "white"
-            }}>
-                <SectionTitle title="Talks"
-                    sub_title="Learning multiplies when you share what you know."></SectionTitle>
-                <div className="container">
-                    <div className="feature_inner row">
+            <React.Fragment>
+                <section className="feature_area p_120" id="talks" style={section_margins}>
+                    <SectionTitle title="Talks"
+                        sub_title="Learning multiplies when you share what you know."></SectionTitle>
+                    <div className="container">
+                        <div className="feature_inner row">
 
-                        {talks.map(talk_data => (
-                            <TalkBox talk={talk_data} layout="col-lg-4 col-md-6"></TalkBox>
-                        ))}
+                            {talks.map(talk_data => (
+                                <TalkBox talk={talk_data} layout="col-lg-4 col-md-6"></TalkBox>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                </section>
+
+                <section className="feature_area p_120" id="talks" style={section_margins}>
+                    <SectionTitle title="Workshops"></SectionTitle>
+                    <div className="container">
+                        <div className="feature_inner row">
+                            {workshops.map(workshop => (
+                                <TalkBox talk={workshop} layout="col-lg-4 col-md-6"></TalkBox>
+                            ))}
+                        </div>
+                    </div>
+                </section>
                 <div className="container">
                     <div className="feature_inner row" style={{ justifyContent: "center", marginTop: "60px" }}>
                         <p style={{ textAlign: "center", lineHeight: "2rem" }}>Want me to speak at your next event?
                         <br />
                             Drop a DM
                         <br />
-                            {/* <TwitterFollowButton screenName={'geeky_bhavani'} /> */}
                             <div className="personal_text">
-                                <ul className="list personal_social" style={{ marginTop: "10px" }}>
-                                    {this.props.social_icons.map(social => (
-                                        <li><a target="_blank"
-                                            rel="noopener noreferrer"
-                                            href={social.url}>
-                                            <i className={`fa ${social.className}`}></i>
-                                            {social.name}
-                                        </a></li>
-                                    ))}
-
+                                <ul className="list personal_social" style={{ marginTop: "10px", marginBottom: "40px" }}>
+                                    {socialComponents(this.props.social_icons)}
                                 </ul>
                             </div>
                         </p>
 
                     </div>
                 </div>
-            </section >
+            </React.Fragment>
         )
     }
 }
@@ -112,6 +116,15 @@ export default ({ props }) => (
                     title
                     description
                     icon_path
+                    location
+                    date
+                    skills
+                    slides_link
+                    video
+                },
+                workshops{
+                    title
+                    description
                     location
                     date
                     skills

@@ -107,14 +107,16 @@ module.exports = {
         "date": "Mar 2017",
         "skills": ["Python", "Dialogflow"]
       },
-
+    ],
+    "workshops": [
       {
         "title": "Chatbots 101 Worshop",
         "description": `A 3 hour workshop that walks you through building chatbots`,
         "url": "",
-        // "icon_path":"fa-table", 
         "location": "PyConf Hyderabad",
-        "date": "2017",
+        "date": "2018",
+        "slides_link": "",
+        "video": "",
         "skills": ["Python", "RasaNLU", "Dialogflow"]
       },
       {
@@ -122,7 +124,7 @@ module.exports = {
         "description": `One day workshop on building web-application using Pandas`,
         "url": "",
         // "icon_path":"fa-table", 
-        "location": "PyConf Hyderabad",
+        "location": "St.Josephs College of Engineering",
         "date": "2019",
         "skills": ["Python", "Flask", "Databases"]
       },
@@ -131,12 +133,10 @@ module.exports = {
         "description": `One day workshop that helps you become a better technical speaker`,
         "url": "",
         // "icon_path":"fa-table", 
-        "location": "PyConf Hyderabad",
+        "location": "Chennai",
         "date": "2020",
         "skills": ["public-speaking", "technical-speaker"]
       },
-
-
     ],
     "projects": [
       {
