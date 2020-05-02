@@ -12,7 +12,8 @@
 article > div > figure,
 article > div > iframe {
     grid-column: 1 / -1;
-    margin: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 70px;
 }
 
 article > .aside {
@@ -32,13 +33,13 @@ article > div >  * {
     min-width: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.8em;
     color: #444;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 article > div > h1, 
@@ -84,7 +85,6 @@ figure > p > img, iframe {
 
 article > div > pre > code {
     background: #eee;
-    padding: 2px 5px;
     font-size: 13px;
     line-height: 0px;
 }
