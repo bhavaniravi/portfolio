@@ -12,7 +12,7 @@ module.exports = {
     },
     "previewImgUrl": "img/pp.jpeg",
     "tagline": `A Backend Engineer with Crazy Passion for Products`,
-    "description": "Here is where you find the professional walk of Ms. Bhavani Ravi",
+    "description": "A sneak peak into my head",
     "twitterHandle": '@geeky_bhavani',
     url: 'https://bhavaniravi.com',
     siteUrl: 'https://bhavaniravi.com',
@@ -350,7 +350,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
+                  date: edge.node.frontmatter.published_date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
@@ -358,29 +358,29 @@ module.exports = {
               })
             },
             query: `
-                  {
-                    allMarkdownRemark(
-                      sort: { order: DESC, fields: [frontmatter___published_date] },
-                      limit:100,
-                      filter:{frontmatter:{draft:{eq: false},
-                                       published_date:{gt: "2019-06-04"}        
-                                      }
-                      }
-                  
-                    ) {
-                      edges {
-                        node {
-                          excerpt
-                          html
-                          fields { slug }
-                          frontmatter {
-                            title
-                            published_date
-                          }
-                        }
-                      }
+            {
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___published_date] },
+                limit: 100,
+                filter:{fields: {sourceName: {eq: "blog"}}, 
+                        frontmatter: {draft: {eq: false}}})
+              {       
+                edges {
+                  node {
+                    excerpt
+                    html
+                    fields { slug }
+                    frontmatter {
+                      title
+                      description
+                      subtitle
+                      tags
+                      published_date
                     }
-                    }
+                  }
+                }
+              }
+              }
                   `,
             output: "/rss.xml",
             title: "Bhavani Ravi's Blog Feed",
