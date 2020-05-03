@@ -252,14 +252,24 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify-cms`,
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: 'gatsby-plugin-preconnect',
       options: {
-        custom: {
-          families: ["Inter"],
-          urls: ["/css/inter.css"],
-        },
+        domains: ['https://twitter.com', 'https://google.com',
+          "https://marketingplatform.google.com/",
+          "https://www.google-analytics.com/",
+          "https://platform.twitter.com/",
+          "https://cdn.syndication.twimg.com/"],
       },
     },
+    // {
+    //   resolve: "gatsby-plugin-web-font-loader",
+    //   options: {
+    //     custom: {
+    //       families: ["Inter"],
+    //       urls: ["/css/inter.css"],
+    //     },
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
