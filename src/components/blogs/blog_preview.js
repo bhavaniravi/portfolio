@@ -25,7 +25,7 @@ export class InBuiltBlogPost extends Component {
                                 </div>
                             </span>
                             <span className="med_blog_info med_date_read_time">
-                                <div style={{ fontSize: "12px", fontColor: "#222222" }}
+                                <div style={{ fontSize: "12px", color: "#222222" }}
                                 ><a>{formatDate(this.props.post.frontmatter.published_date)}
                                     </a> . {this.props.post.timeToRead} mins
                             </div></span>
@@ -36,7 +36,8 @@ export class InBuiltBlogPost extends Component {
                             <section className="med_preview_section">
                                 <div className="img_container" >
                                     <div className="padding_div">
-                                        <img alt=""
+                                        <img async alt={this.props.post.frontmatter.title + "Featured Image"} 
+                                        loading="lazy"
                                             src={`${this.props.post.frontmatter.featuredImgPath}`}
                                             rel={referer}
                                             className="med_preview_img" />

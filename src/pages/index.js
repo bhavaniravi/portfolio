@@ -16,12 +16,6 @@ async function importIcons(){
   import("../css/font-awesome.min.css")
 }
 
-async function importCSS(){
-  // import("../css/bootstrap.min.css")
-  // import("../css/style.css")
-  // import("../css/responsive.css")
-}
-
 class IndexComponent extends React.Component{
   render(){
     const site = this.props.data.site

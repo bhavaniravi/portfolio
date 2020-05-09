@@ -8,11 +8,11 @@ import { NewsLetter } from "../footer"
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const canonical = ''
+    var canonical = ''
     const post = this.props.data.markdownRemark
     if (post.frontmatter.is_medium) {
       canonical = (<p>The blog was originally publushed in
-        <a href={this.post.frontmatter.medium_url}></a>
+        <a href={this.post.frontmatter.medium_url}>{this.post.frontmatter.medium_url}</a>
       </p>)
     }
     const title = post.frontmatter.title

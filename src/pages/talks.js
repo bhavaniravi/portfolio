@@ -1,5 +1,5 @@
 import React from "react"
-import TalkIndex from "../components/blogs/talk_list"
+// import TalkIndex from "../components/blogs/talk_list"
 import { graphql } from 'gatsby'
 
 // export default function blog_page(props) {

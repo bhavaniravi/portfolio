@@ -13,7 +13,9 @@ export function socialComponents(icons) {
             <li><a target="_blank"
                 rel="noopener noreferrer"
                 href={social.url}>
-                <i className={`fa ${social.className}`}></i>
+                <span>
+                    <i className={`fa ${social.className}`}></i>
+                </span>
                 {social.name}
             </a></li>
         ))
