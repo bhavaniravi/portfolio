@@ -13,7 +13,7 @@ class NumericalAchieveMent extends Component {
                     target={this.props.target}
                     href={this.props.link}>
                     <div className="wel_item">
-                        <i className={`lnr lnr-${this.props.icon}`}>
+                        <i className={this.props.icon}>
                             {` ${this.props.achievement}`}
                         </i>
 
@@ -61,21 +61,21 @@ class WelcomeArea extends Component {
                                         link="#projects"
                                         achievement="Code"
                                         label="Projects"
-                                        icon="rocket">
+                                        icon="fa fa-rocket">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent
                                         count={18}
                                         link="#talks"
                                         achievement="Speak"
                                         label="Talks"
-                                        icon="mic">
+                                        icon="fa fa-microphone">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent target="_blank"
                                         count={45}
                                         link="/blog"
                                         achievement="Write"
                                         label="Blogs"
-                                        icon="book">
+                                        icon="fa fa-book">
                                     </NumericalAchieveMent>
 
                                 </div>

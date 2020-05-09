@@ -19,15 +19,15 @@ class Social extends Component {
     render() {
         return (
             <div className="col-lg-2">
-                <aside className="f_widget social_widget">
+                {/* <aside className="f_widget social_widget">
                     <div className="f_title">
                         <h3>Follow Me</h3>
                     </div>
                     <p>Let us be social</p>
                     <ul className="list">
-                        {/* <TwitterFollowButton screenName={'geeky_bhavani'} /> */}
+                        <TwitterFollowButton screenName={'geeky_bhavani'} /> 
                     </ul>
-                </aside>
+                </aside> */}
             </div>
         )
     }
@@ -84,7 +84,7 @@ export class NewsLetter extends Component {
                             onChange={this._handleEmailChange}
                             required="" type="email" />
                         <button className="btn sub-btn" aria-label="SignUp">
-                            <span className="lnr lnr-arrow-right">
+                            <span className="fa fa-angle-right">
                             </span>
                         </button>
                     </div>

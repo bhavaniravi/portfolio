@@ -12,7 +12,8 @@ export function socialComponents(icons) {
         icons.map(social => (
             <li><a target="_blank"
                 rel="noopener noreferrer"
-                href={social.url}>
+                href={social.url}
+                aria-label={social.url}>
                 <span>
                     <i className={`fa ${social.className}`}></i>
                 </span>

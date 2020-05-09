@@ -14,7 +14,7 @@ export class InBuiltBlogPost extends Component {
                 <div className="med_dummy_div_iniside_post">
                     <div className="med_writer_flex">
                         <div>
-                            <a href={`${blog_url}`}>
+                            <a href={`${blog_url}`} aria-label="my-profile-image"> 
                                 <ProfileImage className="med_profile_pic"></ProfileImage>
                             </a>
                         </div>
