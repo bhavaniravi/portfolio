@@ -41,7 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+/* @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap:300,400,700,900|Roboto:300,400,500,700"); */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -412,7 +412,7 @@ button:focus {
   align-self: center;
 }
 
-.blog_banner {
+/* .blog_banner {
   min-height: 780px;
   position: relative;
   z-index: 1;
@@ -458,7 +458,7 @@ button:focus {
   line-height: 42px;
   padding: 0px 45px;
   border-radius: 5px;
-}
+} */
 
 .banner_box {
   max-width: 1620px;
@@ -528,7 +528,7 @@ button:focus {
 /*----------------------------------------------------*/
 /* Latest Blog Area css
 ============================================================================================ */
-.latest_blog_inner {
+/* .latest_blog_inner {
   margin-bottom: -30px;
 }
 
@@ -558,7 +558,7 @@ button:focus {
 }
 .l_blog_item:hover h4 {
   color: #766dff;
-}
+} */
 
 /* End Latest Blog Area css
 ============================================================================================ */
@@ -664,7 +664,7 @@ button:focus {
   opacity: 0.851;
 }
 
-/*============ blog_left_sidebar css ==============*/
+============ blog_left_sidebar css ==============
 .blog_item {
   margin-bottom: 40px;
 }
@@ -1426,8 +1426,9 @@ button:focus {
   cursor: pointer;
 }
 
-/* Contact Success and error Area css
+ /* Contact Success and error Area css
 ============================================================================================ */
+/*
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -1462,7 +1463,7 @@ button:focus {
 }
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
-}
+} */
 
 /* End Contact Success and error Area css
 ============================================================================================ */
@@ -3726,9 +3727,9 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
-
+/* 
 @font-face {
   font-family: 'Arvo';
-  font-display: auto;
+  font-display: swap;
   src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
+} */

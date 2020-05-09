@@ -13,9 +13,9 @@ class MenuItem extends React.Component {
     render() {
         return (
             <NavItem>
-                <NavLink
-                    target={this.props.target}
-                    href={this.props.href}>{this.props.title}</NavLink>
+                <NavLink target={this.props.target} href={this.props.href} rel={this.props.rel}>
+                        {this.props.title}
+                    </NavLink>
             </NavItem>
         )
     }
@@ -40,9 +40,6 @@ class ExtendedNavbar extends React.Component {
         return (
             <Navbar className="navbar-expand-lg" light={true}>
                 <div className="container box_1620">
-                    <NavbarBrand href="index.html">
-                        {/* <img src="img/preview_icon/favicon.ico" alt=""/> */}
-                    </NavbarBrand>
                     <NavbarToggler araia-label="Toggle For Menu" className="navbar-toggler" onClick={this.toggle}>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>

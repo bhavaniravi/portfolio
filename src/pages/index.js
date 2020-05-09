@@ -7,24 +7,32 @@ import TimeLine from "../components/index_page/timeline";
 import ProjectsArea from "../components/index_page/projects";
 import TalksArea from "../components/index_page/talks";
 import SEO from "../components/seo"
-import {graphql} from "gatsby"
-
-import "../css/flaticon/_flaticon.css"
-import "../css/linericon/style.css"
-import "../css/font-awesome.min.css"
-import "../css/bootstrap.min.css"
+import {graphql} from "gatsby" 
+import "../css/bootstrap.min.css" 
 import "../css/style.css"
 import "../css/responsive.css"
+
+async function importIcons(){
+  import("../css/font-awesome.min.css")
+}
+
+async function importCSS(){
+  // import("../css/bootstrap.min.css")
+  // import("../css/style.css")
+  // import("../css/responsive.css")
+}
 
 class IndexComponent extends React.Component{
   render(){
     const site = this.props.data.site
+    // importCSS()
+    importIcons()
     return (
       <Layout navFixed={false}>
         <SEO
           title={site.siteMetadata.title}
           description={site.siteMetadata.tagline || site.frontmatter.description}
-          previewImgUrl={site.siteMetadata.previewImgUrl}
+          previewImgUrl={ "/" + site.siteMetadata.previewImgUrl}
         />
         <Banner/>
         <WelcomeArea></WelcomeArea>

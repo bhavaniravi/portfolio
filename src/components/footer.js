@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { TwitterFollowButton } from 'react-twitter-embed'
+// import { TwitterFollowButton } from 'react-twitter-embed'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 // class SocialLink extends Component{
@@ -25,7 +25,7 @@ class Social extends Component {
                     </div>
                     <p>Let us be social</p>
                     <ul className="list">
-                        <TwitterFollowButton screenName={'geeky_bhavani'} />
+                        {/* <TwitterFollowButton screenName={'geeky_bhavani'} /> */}
                     </ul>
                 </aside>
             </div>
