@@ -10,7 +10,7 @@ module.exports = {
     social: {
       twitter: `geeky_bhavani`,
     },
-    "previewImgUrl": "img/pp.jpeg",
+    "previewImgUrl": "img/pp.png",
     "tagline": `A Backend Engineer with Crazy Passion for Products`,
     "description": "A sneak peak into my head",
     "twitterHandle": '@geeky_bhavani',
@@ -261,15 +261,6 @@ module.exports = {
           "https://cdn.syndication.twimg.com/"],
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-web-font-loader",
-    //   options: {
-    //     custom: {
-    //       families: ["Inter"],
-    //       urls: ["/css/inter.css"],
-    //     },
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -287,24 +278,25 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static//media/`,
+        path: `${__dirname}/static/media/`,
         name: `images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static//img/`,
+        path: `${__dirname}/static/img/`,
         name: `images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-    },
+    // {
+    //   resolve: `gatsby-plugin-sass`,
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-79887847-2",
+        defer: true,
       },
     },
     {
@@ -398,13 +390,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-remark-copy-linked-files`,
+    // `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-sitemap",
     'gatsby-plugin-robots-txt',
     "gatsby-plugin-react-helmet",
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-remark-source-name`,
   ]
 }
