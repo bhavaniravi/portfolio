@@ -11,7 +11,7 @@ created_date: '2020-05-14'
 description: >-
   Secrets and token stored as Python config or secrets file has a chance of
   being exposed via pyc files when commited to GitHub repository
-draft: true
+draft: false
 ---
 # Are your Secrets Safe In Python? 
 
