@@ -42,6 +42,10 @@ article > div >  * {
     margin-bottom: 1rem;
 }
 
+article > div >  ul,  article > div >  ol{
+    padding-left: 18px;
+}
+
 article > div > h1, 
 article > div > h2, 
 article > div > h3, 

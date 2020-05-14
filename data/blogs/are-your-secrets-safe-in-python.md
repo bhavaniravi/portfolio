@@ -54,13 +54,13 @@ GITHUB_KEY = <GITHUB_ACCESS_TOKEN>
 g = Github(GITHUB_KEY)
 ```
 
-2. Get all repos given an organization
+3. Get all repos given an organization
 
 ```
 repos  = g.get_organization(<ORGANIZATION>).get_repos(type="private")
 ```
 
-3. Find files with *.pyc extension
+4. Find files with *.pyc extension
 
 ```
 for repo in repos:
@@ -78,14 +78,14 @@ for repo in repos:
             items.append(file_)
 ```
 
-4. If there are no `pyc` files, you are good to go
+5. If there are no `pyc` files, you are good to go
 
 ```
 if not items:
     print ("No files found, you are good!")
 ```
 
-5. If any `pyc` files might contain secrets decompile and print them out
+6. If any `pyc` files might contain secrets decompile and print them out
 
 ```
 for item in items:

@@ -6,8 +6,14 @@ import Layout from "../layout"
 import "./blog_page.css"
 import { NewsLetter } from "../footer"
 
+
+async function importIcons(){
+  import("../../css/font-awesome.min.css")
+}
+
 class BlogPostTemplate extends React.Component {
   render() {
+    importIcons()
     var canonical = ''
     const post = this.props.data.markdownRemark
     if (post.frontmatter.is_medium) {
