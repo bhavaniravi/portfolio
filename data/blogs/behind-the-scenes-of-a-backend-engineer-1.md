@@ -23,6 +23,8 @@ Eight months back, when I crafted my backend skills well at Orangescape. I wante
 
 </figure>
 
+</figure>
+
 ## Why now?
 
 Why not write this post three months back when I cracked my first project? 
@@ -78,6 +80,7 @@ Sounds easy, right? Now that I look at it, yes, it is not so hard. But two weeks
 
 </figure>
 
+</figure>
 
 Finally, it is the matter of converting the flow diagram into the lines into lines of code. Even now, there are few missing pieces, but the confidence of coming this far will power things through.
 
