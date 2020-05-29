@@ -311,6 +311,12 @@ module.exports = {
         gfm: true,
         plugins: [
           {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              theme: "vscode",
+            }
+          },
+          {
             resolve: "gatsby-remark-embed-video",
             options: {
               width: 800,

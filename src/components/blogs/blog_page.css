@@ -1,3 +1,7 @@
+body {
+    color: #444 !important
+}
+
 .article_div {
     width: 100%;
     display: grid;
@@ -35,7 +39,7 @@ article > div >  * {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.8em;
-    color: #444;
+    /* color: #444; */
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
@@ -63,16 +67,6 @@ article > div > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
-}
-
-
-
-article > .aside {
-    font-family: "Lucida Grande";
-    margin: 30px 20px;
-    color: #666;
-    font-size: 0.8em;
-    font-weight: normal;
 }
 
 figure > p > img, iframe {

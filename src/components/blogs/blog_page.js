@@ -5,7 +5,8 @@ import Share from "../share/share"
 import Layout from "../layout"
 import "./blog_page.css"
 import { NewsLetter } from "../footer"
-
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 async function importIcons(){
   import("../../css/font-awesome.min.css")
