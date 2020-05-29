@@ -37,17 +37,17 @@ Imagine you have an ML model that does twitter sentiment analysis. Now you want 
 As you can see, the data flows from one end of the pipeline to the other end. There can be branches, but no cycles.
 
 
-## What problems does AirflowAirflow solve?
+## What problems does Airflow solve?
 
 Crons are an age-old way of scheduling tasks.
 
-1. With cron creating and maintaining a relationship between tasks is a nightmare, whereas, in AirflowAirflow, it is as simple as writing Python code.
+1. With cron creating and maintaining a relationship between tasks is a nightmare, whereas, in Airflow, it is as simple as writing Python code.
 2. Cron needs external support to log, track, and manage tasks. Airflow UI to track and monitor the workflow execution
-3. Cron jobs are not reproducible unless externally configured. The AirflowAirflow keeps an audit trail of all tasks executed.
+3. Cron jobs are not reproducible unless externally configured. The Airflow keeps an audit trail of all tasks executed.
 4. Scalable
 
 
-## How to define a workflow in AirflowAirflow?
+## How to define a workflow in Airflow?
 
 Workflows are defined using Python files. 
 
@@ -182,7 +182,7 @@ LocalExecutor is the same as the Sequential Executor, except it can run multiple
 
 Celery is used for running distributed asynchronous python tasks. 
 
-Hence, CeleryExecutor has been a part of AirflowAirflow for a long time, even before Kubernetes. 
+Hence, CeleryExecutor has been a part of Airflow for a long time, even before Kubernetes. 
 
 CeleryExecutors has a fixed number of workers running to pick-up the tasks as they get scheduled.
 
@@ -193,7 +193,7 @@ CeleryExecutors has a fixed number of workers running to pick-up the tasks as th
 
 #### Cons
 
-1. Celery needs RabbitMQ/Redis to for queuing the task, which is reinventing the wheel of what AirflowAirflow already supports.
+1. Celery needs RabbitMQ/Redis to for queuing the task, which is reinventing the wheel of what Airflow already supports.
 2. The above dependency also makes the setup complex.
 
 ### KubernetesExecutor
@@ -207,7 +207,7 @@ KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike Celery
 
 #### Cons
 
-1. Kubernetes is new to AirflowAirflow, and the documentation is not straightforward.
+1. Kubernetes is new to Airflow, and the documentation is not straightforward.
 
 ---
 
