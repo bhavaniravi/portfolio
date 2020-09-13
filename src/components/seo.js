@@ -46,8 +46,16 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
           content: description,
         },
         {
+          property: `og:site_name`,
+          content: title,
+        },
+        {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:updatedtime`,
+          content: new Date().getTime(),
         },
         {
           property: `og:description`,
@@ -55,10 +63,22 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
         },
         {
           property: `og:type`,
-          content: `blog`,
+          content: `article`,
+        },
+        {
+          property: `og:image:width`,
+          content: 300,
+        },
+        {
+          property: `og:image:height`,
+          content: 200,
         },
         {
           property: `og:image`,
+          content: featureImg,
+        },
+        {
+          property: `og:image:secure_url`,
           content: featureImg,
         },
         {
