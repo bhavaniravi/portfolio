@@ -16,10 +16,6 @@ description: >-
   is one of the healthiest things you can do for your financial well-being.
 draft: false
 ---
-featuredImgUrl: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1371&q=80
-
-- - -
-
 # Shopping Like a Stingy-Minimalist
 
 > If you are here looking for financial advice or money-saving tactics, I am sorry. This piece aims to capture my thoughts as I get myself through the new year shopping spree.
