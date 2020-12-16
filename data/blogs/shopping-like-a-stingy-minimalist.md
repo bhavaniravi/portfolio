@@ -16,7 +16,11 @@ description: >-
   is one of the healthiest things you can do for your financial well-being.
 draft: false
 ---
+featuredImgUrl: https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1371&q=80
 
+- - -
+
+# Shopping Like a Stingy-Minimalist
 
 > If you are here looking for financial advice or money-saving tactics, I am sorry. This piece aims to capture my thoughts as I get myself through the new year shopping spree.
 
@@ -30,7 +34,7 @@ For me, though, I want to spend money on the right things PERIOD. The process of
 
 ## Let's begin
 
-Now, this might sound a little weird. Every year I plan out and make a list of everything I would need for the next year. There are the usuals like Journal, Color pens. Before you settle for *that's reasonable* I also plan out my clothing. Thank god I don't do it for my cheeses or chocolates. 
+Now, this might sound a little weird. Every year I plan out and make a list of everything I would need for the next year. There are the usuals like Journal, Color pens. Before you settle for *that's reasonable,* I also plan out my clothing. Thank god I don't do it for my cheeses or chocolates. 
 
 For me, shopping does not begin in amazon or a shop. It begins in my Journal. I create a shopping list page and start listing down all the items.
 
@@ -50,38 +54,37 @@ So I have this list complete. I wish the process ends there, but it doesn't. Nex
 
 Shopping for the items that you get from a store is relatively easy compared to online. It goes like this.
 
-A Physical store  -> Pick items 
--> Add to cart 
--> Checkout
+A Physical store  
 
-<figure>
+* Pick items
+* Add to cart
+* Checkout
 
 ![](https://i.imgur.com/WDCqpAM.png)
 
-</figure>
-
 An online store 
 
-\-> Pick item  -> Read reviews 
--> Read bad reviews 
--> Compare with other products 
--> Read other reviews 
--> Settle on someting 
--> Add item to the cart 
--> Stare at it for weeks 
--> Add/edit/Move to wishlist 
--> One eternity later 
--> Checkout
+* Pick item
+* Read reviews
+* Read bad reviews 
+* Compare with other products 
+* Read other reviews 
+* Settle on something 
+* Add item to the cart 
+* Stare at it for weeks 
+* Add/edit/Move to wishlist 
+* One eternity later 
+* Checkout
 
 and the rest is history 
 
 ## Reflections
 
-You are likely to make some bad shopping choices and it's okay.
+You are likely to make some bad shopping choices, and it's okay.
 
 You are going to lose some money while experimenting to find the right products that fit you. Don't think twice before throwing out things that don't work.
 
-Branded clothes have worked wonders for me. A 4k jean would be so comfortable and feel like floating whereas a 400 bucks jeans makes you feel like a snail in a shell. When it comes to clothing, always go for comfort, quality and confidence. Buying expensive clothes is cheaper in the long run.
+Branded clothes have worked wonders for me. A 4k pair of jeans would be so comfortable and feel like floating, whereas 400 bucks jeans make you feel like a snail in a shell. When it comes to clothing, always go for comfort, quality, and confidence. Buying expensive clothes is cheaper in the long run.
 
 I asked around and found out this is a normal shopping pattern for most people. They have been given names as a stingy, close-fisted, indecisive, perfectionist.
 
