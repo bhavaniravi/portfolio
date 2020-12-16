@@ -56,7 +56,11 @@ A Physical store
 * Add to cart
 * Checkout
 
+<figure> 
+
 ![](https://i.imgur.com/WDCqpAM.png)
+
+</figure>
 
 An online store 
 
