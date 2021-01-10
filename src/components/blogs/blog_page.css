@@ -2,38 +2,7 @@ body {
     color: #444 !important
 }
 
-.article_div {
-    width: 100%;
-    display: grid;
-    /* I'm using 440px instead of 740px as it makes it easier to view it in the Scrimba simulator additive-symbols: */
-    grid-template-columns: 1fr 1fr 10px 55% 10px 1fr 1fr;
-}
-
-.article_div > * {
-    grid-column: 4;
-}
-
-article > div > figure,
-article > div > iframe {
-    grid-column: 1 / -1;
-    margin-top: 40px;
-    margin-bottom: 70px;
-}
-
-article > .aside {
-    grid-column: 5 / -1;
-}
-
-/* General styling */
-
-html, body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.4;
-}
-
-
-article > div >  * {
+article>div>* {
     min-width: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -46,30 +15,63 @@ article > div >  * {
     margin-bottom: 1rem;
 }
 
-article > div >  ul,  article > div >  ol{
+.article_div {
+    width: 100%;
+    display: grid;
+    /* I'm using 440px instead of 740px as it makes it easier to view it in the Scrimba simulator additive-symbols: */
+    grid-template-columns: 1fr 1fr 10px 55% 10px 1fr 1fr;
+}
+
+.article_div>* {
+    grid-column: 4;
+}
+
+article>div>figure,
+article>div>iframe {
+    grid-column: 1 / -1;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+article>.aside {
+    grid-column: 5 / -1;
+}
+
+
+/* General styling */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+article>div>ul,
+article>div>ol {
     padding-left: 18px;
 }
 
-article > div > h1, 
-article > div > h2, 
-article > div > h3, 
-article > div > h4, 
-article > div > h5, 
-article > div > h6
-{
+article>div>h1,
+article>div>h2,
+article>div>h3,
+article>div>h4,
+article>div>h5,
+article>div>h6 {
     font-weight: bold;
     margin-bottom: 1rem;
     line-height: 1.18;
 }
 
-article > div > h1 {
+article>div>h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 42px;
 }
 
-figure > p > img, iframe {
+figure>p>img,
+iframe {
     width: 100%;
     /* height: 500px; */
     object-fit: cover;
@@ -81,23 +83,24 @@ figure > p > img, iframe {
     padding-right: 1em;
 }
 
-article > div > pre > code {
+article>div>pre>code {
     background: #eee;
     font-size: 13px;
     line-height: 0px;
 }
 
-article > div > pre {
+article>div>pre {
     background: #eee;
     padding: 10px 15px;
     overflow: auto;
 }
 
-pre > code {
+pre>code {
     padding: 0;
 }
 
-figure, iframe {
+figure,
+iframe {
     margin: 0;
     text-align: center
 }
@@ -108,28 +111,29 @@ figure figcaption {
     font-size: 0.2em;
 }
 
-@media (max-width: 575px){
+@media (max-width: 575px) {
     .article_div {
         grid-template-columns: 1fr 1fr 10px 80% 10px 1fr 1fr
     }
 }
 
-article > div > h2 + h3 {
+article>div>h2+h3 {
     padding-top: 20px;
 }
 
-article > div > h2, h3 {
+article>div>h2,
+h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
-article > div > h2 {
+article>div>h2 {
     font-size: 26px;
 }
 
-article > div > h3 {
-    font-size: 20px;
-    font-weight: 600;
+article>div>h3 {
+    font-size: 23px;
+    font-weight: 800;
 }
 
 blockquote {
@@ -138,14 +142,22 @@ blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
-  }
-  blockquote:before {
+}
+
+blockquote:before {
     color: #ccc;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
-  blockquote p {
+}
+
+blockquote p {
     display: inline;
-  }
+}
+
+article>div>deckgo-highlight-code {
+    box-shadow: none;
+    margin-top: 2rem;
+    margin-bottom: 3em;
+}
