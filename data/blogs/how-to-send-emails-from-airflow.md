@@ -14,7 +14,7 @@ description: >-
   task. There is no one size fit all solution when it comes to sending emails
   from airflow. We will deep dive into all the methods available and the pros
   and cons of each in the following sections.
-draft: true
+draft: false
 ---
 # How to Send Emails from Airflow
 
