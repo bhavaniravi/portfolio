@@ -40,6 +40,8 @@ smtp_port = 25
 smtp_mail_from = omid@example.com
 ```
 
+
+
 ## Email Operator
 
 Airflow comes with an operator to send emails. Import the operator, configure the subject and the email body, you have an email ready to be sent.
@@ -56,6 +58,8 @@ email = EmailOperator(
 )
 
 ```
+
+
 
 ## Operator Options
 
@@ -107,6 +111,8 @@ def send_email(**context):
 
 ```
 
+
+
 ### Task Level callback
 
 Each task in Airflow comes with callbacks for `success` or `failure` of tasks. We can define this callback function to send an email per task.
@@ -127,6 +133,8 @@ python_task = PythonOperator(
     )
 ```
 
+
+
 ### DAG level Callback
 
 Just like tasks, DAGs also have callbacks. This method will be called after the completion of all tasks on the DAG.
@@ -138,6 +146,8 @@ dag = DAG(
     on_failure_callback=send_email
 )
 ```
+
+
 
 While callbacks completely fit our purpose, there is still one problem. With callbacks, we lose the advantage we have by treating them as an independent task.
 
