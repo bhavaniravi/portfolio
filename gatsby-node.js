@@ -36,7 +36,7 @@ function create_pages(graphql, actions, sourceName) {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
       createPage({
-        path: "/" + post.node.fields.sourceName + "/" + post.node.frontmatter.slug,
+        path: "/" + post.node.fields.sourceName + "/" + post.node.frontmatter.slug + "/",
         component: BlogPost,
         context: {
           slug: post.node.fields.slug,
