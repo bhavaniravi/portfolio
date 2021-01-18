@@ -10,9 +10,9 @@ module.exports = {
     social: {
       twitter: `geeky_bhavani`,
     },
-    "previewImgUrl": "img/pp.jpeg",
+    "previewImgUrl": "img/pp.png",
     "tagline": `A Backend Engineer with Crazy Passion for Products`,
-    "description": "Here is where you find the professional walk of Ms. Bhavani Ravi",
+    "description": "A sneak peak into my head",
     "twitterHandle": '@geeky_bhavani',
     url: 'https://bhavaniravi.com',
     siteUrl: 'https://bhavaniravi.com',
@@ -23,55 +23,63 @@ module.exports = {
         "className": "fa-twitter",
         "url": "https://twitter.com/geeky_bhavani"
       },
+      {
+        "name": "LinkedIn",
+        "className": "fa-linkedin",
+        "url": "https://linkedin.com/in/bhavanir"
+      },
+      {
+        "name": "Youtube",
+        "className": "fa-youtube",
+        "url": "https://youtube.com/bhavaniravi"
+      },
 
       {
         "name": "Medium",
         "className": "fa-medium",
         "url": "https://medium.com/@bhavaniravi"
       },
-
-      {
-        "name": "LinkedIn",
-        "className": "fa-linkedin",
-        "url": "https://linkedin.com/in/bhavanir"
-      },
-
       {
         "name": "Github",
         "className": "fa-github",
         "url": "https://github.com/bhavaniravi"
-      },
-
-      {
-        "name": "StackOverflow",
-        "className": "fa-stack-overflow",
-        "url": "https://stackoverflow.com/users/6340775/bhavani-ravi?tab=profile"
-      },
+      }
     ],
     "talks": [
       {
-        "name": "Stand Out as a Developer",
-        "description": `Software devs are so common that to Stand out as a developer, coding is not enough. The talk shed light on the complementary skills that helps you to stand out in a developer crowd.`,
-        "url": "https://hackernoon.com/developers-deficiency-a238eebbd73c",
+        "title": "All About Chatbots",
+        "description": `Let's start from the basics and understand everything around chatbots and NLU engine that powers it`,
         // "icon_path":"fa-table", 
         "slides_link": "https://docs.google.com/presentation/d/1ZcnAOPtY1I2NZZX7zQBru9Njr8JYiqly0ASDLM2z7n8/edit?usp=sharing",
         "location": "Guvi Chennai",
         "date": "Aug 2019",
-        "skills": ["Software Developer", "Skill Development"]
+        "skills": ["Chatbots", "Rasa"],
+        "video": ""
       },
       {
-        "name": "Combat Unconsious Bias",
-        "description": `Unconsious bias are ingrained in our everyday decisions. To create Acceptance, Awarness and Action on how to combat and bring more diversity in our teams`,
+        "title": "Stand Out as a Developer",
+        "description": `What are the complementary skills that a newbie can build stand out in a developer crowd.`,
+        // "icon_path":"fa-table", 
+        "slides_link": "https://docs.google.com/presentation/d/1ZcnAOPtY1I2NZZX7zQBru9Njr8JYiqly0ASDLM2z7n8/edit?usp=sharing",
+        "location": "Guvi Chennai",
+        "date": "Aug 2019",
+        "skills": ["Software Developer", "Skill Development"],
+        "video": ""
+      },
+      {
+        "title": "Combat Unconsious Bias",
+        "description": `To create Acceptance, Awarness and Action on how to combat and bring more diversity in our teams`,
         "url": "https://medium.com/@saran_io/global-diversity-cfp-day-chennai-chapter-a2640dc50e7a",
         // "icon_path":"fa-table", 
         "slides_link": "https://speakerdeck.com/bhavaniravi",
         "location": "Global Diversity CFP Day : Chennai",
         "date": "Aug 2019",
-        "skills": ["WomenInTech", "Diversity"]
+        "skills": ["WomenInTech", "Diversity"],
+        "video": ""
       },
       {
-        "name": "WomenInTech - Be the Outlier",
-        "description": `The talk is used to orient and motivate women coding clubs across engineering colleges. It sheds light on what it is to be a womenintech how to have a successful career in the tech industry`,
+        "title": "WomenInTech - Be the Outlier",
+        "description": `The talk is used to orient and motivate women coding clubs across engineering colleges.`,
         "url": "https://medium.com/womenintech-chennai",
         "slides_link": "https://speakerdeck.com/bhavaniravi",
         "location": "Hindustan University, KCG, St.Joseph's",
@@ -79,20 +87,19 @@ module.exports = {
         "skills": ["WomenInTech", "Diversity"]
       },
       {
-        "name": "ML Behind Chatbots",
-        "description": "My quest to build a chatbot engine and what I understood by demystifying an opensource chatbot engine",
+        "title": "ML Behind Chatbots",
+        "description": "Let's break open chatbot engines and understand the machine learning models that drives chatbots",
         "url": "",
         "icon_path": "fa-table",
         "slides_link": "https://bit.ly/ml_behind_chatbots",
         "location": "Global Azure BootCamp",
         "date": "May 2019",
-        "skills": ["Python", "RasaNLU", "Machine Learning", "Sklearn", "Spacy"]
+        "skills": ["RasaNLU", "Machine Learning"]
       },
 
       {
-        "name": "DialogFlow & Free Text",
-        "description": `When you build a todo chatbot, you can’t be sure what the user is going to type — a “free-text”. 
-                           the talk covers the hacks to acheive it with Dialogflow`,
+        "title": "DialogFlow & Free Text",
+        "description": `Input to a todo-list bot is a “free-text”. The talk covers the hacks to acheive it with Dialogflow`,
         "url": "",
         // "icon_path":"fa-table", 
         "slides_link": "https://speakerdeck.com/bhavaniravi",
@@ -100,23 +107,40 @@ module.exports = {
         "date": "Mar 2017",
         "skills": ["Python", "Dialogflow"]
       },
-
+    ],
+    "workshops": [
       {
-        "name": "Chatbots 101 Worshop",
-        "description": `A 3 hour workshop that walks you through 0 to 1 of building chatbot. We build an echo bot, google search bot then a draw bot incorportating NLP the workshop intensifies`,
+        "title": "Chatbots 101 Worshop",
+        "description": `A 3 hour workshop that walks you through building chatbots`,
         "url": "",
-        // "icon_path":"fa-table", 
-        "slides_link": "https://speakerdeck.com/bhavaniravi",
         "location": "PyConf Hyderabad",
-        "date": "2017",
+        "date": "2018",
+        "slides_link": "",
+        "video": "",
         "skills": ["Python", "RasaNLU", "Dialogflow"]
       },
-
-
+      {
+        "title": "Web Application using Python",
+        "description": `One day workshop on building web-application using Pandas`,
+        "url": "",
+        // "icon_path":"fa-table", 
+        "location": "St.Josephs College of Engineering",
+        "date": "2019",
+        "skills": ["Python", "Flask", "Databases"]
+      },
+      {
+        "title": "Become a Technical Speaker",
+        "description": `One day workshop that helps you become a better technical speaker`,
+        "url": "",
+        // "icon_path":"fa-table", 
+        "location": "Chennai",
+        "date": "2020",
+        "skills": ["public-speaking", "technical-speaker"]
+      },
     ],
     "projects": [
       {
-        "name": "Kissflow Case",
+        "title": "Kissflow Case",
         "description": "A Case management module that comes with Kissflow Suite",
         "url": "https://kissflow.com",
         "github_url": "",
@@ -125,7 +149,7 @@ module.exports = {
       },
 
       {
-        "name": "Kissflow Projects",
+        "title": "Kissflow Projects",
         "description": "A Project management module that comes with Kissflow Suite",
         "url": "https://kissflow.com",
         "github_url": "",
@@ -134,7 +158,7 @@ module.exports = {
       },
 
       {
-        "name": "Kissflow Reports",
+        "title": "Kissflow Reports",
         "description": "A reporting platform that enables users to create reports out of the workflow apps created using Kissflow",
         "url": "https://kissflow.com",
         "github_url": "",
@@ -143,7 +167,7 @@ module.exports = {
       },
 
       {
-        "name": "Interviewbot",
+        "title": "Interviewbot",
         "description": "A chatbot that automates technical interview process, Enabling recruiters to screen applicants before setting a formal interview.",
         "url": "https://interviewbots.com",
         "github_url": "",
@@ -152,7 +176,7 @@ module.exports = {
       },
 
       {
-        "name": "iKeepLog",
+        "title": "iKeepLog",
         "description": `A chatbot that logs your work and learning everyday. 
                             PS: This project won second place in WomenTechFab hackathon`,
         "url": "https://docs.google.com/presentation/d/1k3hE6AmTcxix5iPPXCrE38Jh44-XXi3osDqWLWlXqpw/edit?usp=sharing",
@@ -162,7 +186,7 @@ module.exports = {
       },
 
       {
-        "name": "Rasa Site Bot",
+        "title": "Rasa Site Bot",
         "description": `A bot that answers the FAQ questions that you get. It was built as a demo for PyConf Hyderbad by scraping their event details.`,
         "url": "https://github.com/bhavaniravi/rasa-site-bot",
         "github_url": "",
@@ -190,7 +214,8 @@ module.exports = {
       { "name": "Python", "percentage": 85 },
       { "name": "Flask/Django", "percentage": 85 },
       { "name": "Chatbots & NLP", "percentage": 80 },
-      { "name": "MongoDB", "percentage": 70 }
+      { "name": "MongoDB", "percentage": 70 },
+      { "name": "Cloud Deployment", "percentage": 70 }
     ],
     "experience": [
       {
@@ -225,6 +250,17 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: 'gatsby-plugin-preconnect',
+      options: {
+        domains: ['https://twitter.com', 'https://google.com',
+          "https://marketingplatform.google.com/",
+          "https://www.google-analytics.com/",
+          "https://platform.twitter.com/",
+          "https://cdn.syndication.twimg.com/"],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -235,24 +271,32 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static//media/`,
+        path: `${__dirname}/data/talks/`,
+        name: `talks`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/media/`,
         name: `images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static//img/`,
+        path: `${__dirname}/static/img/`,
         name: `images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-sass`,
-    },
+    // {
+    //   resolve: `gatsby-plugin-sass`,
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-79887847-2",
+        defer: true,
       },
     },
     {
@@ -266,6 +310,12 @@ module.exports = {
       options: {
         gfm: true,
         plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              theme: "vscode",
+            }
+          },
           {
             resolve: "gatsby-remark-embed-video",
             options: {
@@ -308,7 +358,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
+                  date: edge.node.frontmatter.published_date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
@@ -316,29 +366,29 @@ module.exports = {
               })
             },
             query: `
-                  {
-                    allMarkdownRemark(
-                      sort: { order: DESC, fields: [frontmatter___published_date] },
-                      limit:100,
-                      filter:{frontmatter:{draft:{eq: false},
-                                       published_date:{gt: "2019-06-04"}        
-                                      }
-                      }
-                  
-                    ) {
-                      edges {
-                        node {
-                          excerpt
-                          html
-                          fields { slug }
-                          frontmatter {
-                            title
-                            published_date
-                          }
-                        }
-                      }
+            {
+              allMarkdownRemark(
+                sort: { order: DESC, fields: [frontmatter___published_date] },
+                limit: 100,
+                filter:{fields: {sourceName: {eq: "blog"}}, 
+                        frontmatter: {draft: {eq: false}}})
+              {       
+                edges {
+                  node {
+                    excerpt
+                    html
+                    fields { slug }
+                    frontmatter {
+                      title
+                      description
+                      subtitle
+                      tags
+                      published_date
                     }
-                    }
+                  }
+                }
+              }
+              }
                   `,
             output: "/rss.xml",
             title: "Bhavani Ravi's Blog Feed",
@@ -346,12 +396,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-remark-copy-linked-files`,
+    // `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-sharp`,
     "gatsby-plugin-sitemap",
     'gatsby-plugin-robots-txt',
     "gatsby-plugin-react-helmet",
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-remark-source-name`,
   ]
 }

@@ -8,6 +8,7 @@
     padding-right: 24px;
     padding-left:24px;
     margin-top: 130px;
+    padding-bottom: 25.5rem;
 }
 
 @media (max-width: 991px){
@@ -59,7 +60,7 @@
     /* font-size: 15.8px; */
     line-height: 20px;
     font-style: normal;
-    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     display: block;
 }
 
@@ -108,10 +109,10 @@
         font-size: 24px; 
         padding-left: 35px;
         padding-right: 30px;
-        font-weight: 400;
+        font-weight: 600;
         color: rgba(0, 0, 0, 0.84);
         font-style: normal;
-        font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+        font-family: 'Inter', sans-serif;
 }
 
 .med_subtitle{
@@ -125,7 +126,7 @@
     padding-right: 30px;
     color: rgba(0, 0, 0, 0.54);
     font-style: normal;
-    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .img_container {

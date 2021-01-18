@@ -41,7 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+/* @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700"); */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -3571,6 +3571,10 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: #222;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .f_title {

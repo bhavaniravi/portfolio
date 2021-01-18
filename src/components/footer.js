@@ -1,5 +1,5 @@
-import React, {Component} from "react"
-import {TwitterFollowButton} from 'react-twitter-embed'
+import React, { Component } from "react"
+// import { TwitterFollowButton } from 'react-twitter-embed'
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 // class SocialLink extends Component{
@@ -15,32 +15,32 @@ import addToMailchimp from 'gatsby-plugin-mailchimp'
 // }
 
 
-class Social extends Component{
-    render(){
-        return(
+class Social extends Component {
+    render() {
+        return (
             <div className="col-lg-2">
-                <aside className="f_widget social_widget">
+                {/* <aside className="f_widget social_widget">
                     <div className="f_title">
                         <h3>Follow Me</h3>
                     </div>
                     <p>Let us be social</p>
                     <ul className="list">
-                    <TwitterFollowButton screenName={'geeky_bhavani'}/>
+                        <TwitterFollowButton screenName={'geeky_bhavani'} /> 
                     </ul>
-                </aside>
+                </aside> */}
             </div>
         )
     }
 }
 
-class NewsLetter extends Component{
-    constructor(props){
+export class NewsLetter extends Component {
+    constructor(props) {
         // props.placeholder = "Email Address" 
         super(props);
         this.state = {
             "placeholder": "Email Address",
-            "email":"",
-            "submit_message":""
+            "email": "",
+            "submit_message": ""
         }
     }
 
@@ -54,7 +54,7 @@ class NewsLetter extends Component{
         });
     }
 
-    _on_focus = (e) =>{
+    _on_focus = (e) => {
         this.setState({
             placeholder: ""
         });
@@ -65,70 +65,64 @@ class NewsLetter extends Component{
     _handleSubmit = async (e) => {
         e.preventDefault();
         const result = await addToMailchimp(this.state.email)
-        this.setState({"submit_message":result.msg})
+        this.setState({ "submit_message": result.msg })
         // I recommend setting `result` to React state
         // but you can do whatever you want
     }
 
-    render(){
+    render() {
         return (
-            <div className="col-lg-5 col-sm-6">
-                <aside className="f_widget news_widget">
-                    <div className="f_title">
-                        <h3>Newsletter</h3>
+            <div id="mc_embed_signup" style={this.props.style}>
+                <form onSubmit={this._handleSubmit} method="POST" className="subscribe_form relative">
+                    <div className="input-group d-flex flex-row">
+                        <input type="hidden" name="u" value="d20357716d3689cee26657b8a" />
+                        <input type="hidden" name="id" value="189cad7f10"></input>
+                        <input name="email" id="email" araia-label="Email"
+                            placeholder={this.state.placeholder}
+                            onFocus={this._on_focus}
+                            onBlur={this._on_blur}
+                            onChange={this._handleEmailChange}
+                            required="" type="email" />
+                        <button className="btn sub-btn" aria-label="SignUp">
+                            <span className="fa fa-angle-right">
+                            </span>
+                        </button>
                     </div>
-                    <p>Stay updated with my recent blogs</p>
-                    
-                    <div id="mc_embed_signup">
-                        <form onSubmit={this._handleSubmit} method="POST" className="subscribe_form relative">
-                            <div className="input-group d-flex flex-row">
-                                <input type="hidden" name="u" value="d20357716d3689cee26657b8a"/>
-                                <input type="hidden"  name="id" value="189cad7f10"></input>
-                                <input name="email" id="email" araia-label="Email"
-                                placeholder={this.state.placeholder} 
-                                onFocus={this._on_focus}
-                                onBlur={this._on_blur}
-                                onChange={this._handleEmailChange}
-                                required="" type="email"/>
-                                <button className="btn sub-btn" aria-label="SignUp">
-                                    <span className="lnr lnr-arrow-right">
-                                    </span>
-                                </button>		
-                            </div>				
-                            <div className="mt-10 info">{this.state.submit_message}</div>
-                        </form>
-                    </div>
-                </aside>
+                    <div className="mt-10" dangerouslySetInnerHTML={{ __html: this.state.submit_message }} />
+                </form>
             </div>
         )
     }
 }
 
-export default class FooterArea extends Component{
-    render(){
-        return(
+export default class FooterArea extends Component {
+    render() {
+        return (
             <footer className="footer_area p_120">
-        	<div className="container">
-                <div className="row footer_inner">
-        		<NewsLetter></NewsLetter>
-        		<Social></Social>
-                </div>
-                {/* <div className="row footer_inner">
-                    <div className="col-lg-5 col-sm-6">
-                        <aside className="f_widget ab_widget">
-                            <p>
-                                Copyright &copy;<script>document.write(new Date().getFullYear());
-                                    </script> All rights reserved | This template is made with  
-                                    <i className="fa fa-heart-o" aria-hidden="true"></i> by 
-                                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <div className="container">
+                    <div className="row footer_inner">
+                        <div className="col-lg-5 col-sm-6 news_widget" style={this.props.style}>
+                            <div className="f_title">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <p>Stay updated with my recent blogs</p>
+                            <NewsLetter></NewsLetter>
+                        </div>
 
-                            </p> 
-                        </aside>
+
+                        <Social></Social>
+                        <div className="col-lg-5 col-sm-6" style={{ "paddingLeft": "15%" }}>
+                            <p style={{ fontSize: "16px" }}>
+                                Copyright &copy; {new Date().getFullYear()} &nbsp;All rights reserved &nbsp;
+                                <a style={{ fontSize: "16px" }} href="https://twitter.com/geeky_bhavani">@geeky_bhavani</a>
+
+                            </p>
+                        </div>
                     </div>
-                </div> */}
-            </div>
-        </footer>
+
+                </div >
+            </footer >
         )
     }
-    
+
 }

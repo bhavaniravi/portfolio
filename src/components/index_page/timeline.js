@@ -1,6 +1,5 @@
 import React,  { Component } from "react";
-import {Nav, NavLink, NavItem, TabContent, TabPane} from "reactstrap";
-import classnames from 'classnames';
+import {TabContent, TabPane} from "reactstrap";
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
 import SectionTitle from "../section_title"

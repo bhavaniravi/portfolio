@@ -52,12 +52,13 @@ export default class BlogIndex extends React.Component {
   }
 
   render() {
+    console.log(this.props)
     const { data } = this.props
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout navFixed={true}>
         <div className="med_blog_list_container">
-          <SectionTitle title="Bhavani's Blogs" sub_title="A Sneak Peak into my head"></SectionTitle>
+          <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
           {posts.slice(0, this.state.postsToShow).map(post_data => (
             <InBuiltBlogPost key={post_data.node.frontmatter.slug}
               post={post_data.node}></InBuiltBlogPost>
@@ -70,15 +71,15 @@ export default class BlogIndex extends React.Component {
 
 export const pageQuery = graphql`
 query {
-  allMarkdownRemark(sort: { fields: [frontmatter___published_date], order: DESC }, 
-                    limit:100,
-                    filter:{frontmatter:{draft:{eq: false},
-                                         published_date:{gt: "2019-06-04"}        
-                                        }
-                            }
-                    ) {
+  allMarkdownRemark(sort: {fields: [frontmatter___published_date], order: DESC}, 
+    limit: 1, 
+    filter: {fields: {sourceName: {eq: "blogs"}}, 
+      frontmatter: {draft: {eq: false}}}) {
     edges {
       node {
+        fields{
+          sourceName
+        }
         timeToRead
         frontmatter {
           published_date
@@ -89,6 +90,7 @@ query {
           tags
           draft
           featuredImgPath
+          isexternal
         }
       }
     }

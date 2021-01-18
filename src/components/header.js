@@ -3,7 +3,6 @@ import {
     Navbar,
     NavbarToggler,
     NavItem,
-    NavbarBrand,
     Collapse,
     Nav,
     NavLink
@@ -13,9 +12,9 @@ class MenuItem extends React.Component {
     render() {
         return (
             <NavItem>
-                <NavLink
-                    target={this.props.target}
-                    href={this.props.href}>{this.props.title}</NavLink>
+                <NavLink target={this.props.target} href={this.props.href} rel={this.props.rel}>
+                        {this.props.title}
+                    </NavLink>
             </NavItem>
         )
     }
@@ -40,9 +39,6 @@ class ExtendedNavbar extends React.Component {
         return (
             <Navbar className="navbar-expand-lg" light={true}>
                 <div className="container box_1620">
-                    <NavbarBrand href="index.html">
-                        {/* <img src="img/preview_icon/favicon.ico" alt=""/> */}
-                    </NavbarBrand>
                     <NavbarToggler araia-label="Toggle For Menu" className="navbar-toggler" onClick={this.toggle}>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
@@ -55,10 +51,13 @@ class ExtendedNavbar extends React.Component {
                             <MenuItem href="/#about_me" title="About Me"></MenuItem>
                             <MenuItem href="/#experience" title="Experience"></MenuItem>
                             <MenuItem href="/blog" title="Blogs"></MenuItem>
-                            <MenuItem href="/#talks" title="Talks"></MenuItem>
+                            <MenuItem href="/talks" title="Talks"></MenuItem>
                             <MenuItem target="_blank" rel="noopener noreferrer"
                                 href="https://drive.google.com/file/d/1bYZexJDCfm4dGuk4BPWfF7_UsrtIAjFd/view?usp=sharing"
                                 title="Resume"></MenuItem>
+                            <MenuItem target="_blank" rel="noopener noreferrer"
+                                href="https://mailchi.mp/e1cea5c7347f/thelearningdev"
+                                title="Newsletter"></MenuItem>
                             {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>

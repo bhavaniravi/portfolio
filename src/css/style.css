@@ -41,7 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+/* @import url("https://fonts.googleapis.com/css?family=Heebo&display=swap:300,400,700,900|Roboto:300,400,500,700"); */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -78,8 +78,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 
 .h1, .h2, .h3, .h4, .h5, .h6{
-  font-family: "Heebo", sans-serif;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+
+}
+
+h4, h5, h6 
+.h4, .h5, .h6{
+    font-weight: bold;
 }
 
 button:focus {
@@ -291,6 +296,7 @@ button:focus {
 }
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 70px;
+  font-weight: 500;
 }
 
 .top_menu {
@@ -407,7 +413,7 @@ button:focus {
   align-self: center;
 }
 
-.blog_banner {
+/* .blog_banner {
   min-height: 780px;
   position: relative;
   z-index: 1;
@@ -453,7 +459,7 @@ button:focus {
   line-height: 42px;
   padding: 0px 45px;
   border-radius: 5px;
-}
+} */
 
 .banner_box {
   max-width: 1620px;
@@ -523,7 +529,7 @@ button:focus {
 /*----------------------------------------------------*/
 /* Latest Blog Area css
 ============================================================================================ */
-.latest_blog_inner {
+/* .latest_blog_inner {
   margin-bottom: -30px;
 }
 
@@ -553,7 +559,7 @@ button:focus {
 }
 .l_blog_item:hover h4 {
   color: #766dff;
-}
+} */
 
 /* End Latest Blog Area css
 ============================================================================================ */
@@ -659,7 +665,7 @@ button:focus {
   opacity: 0.851;
 }
 
-/*============ blog_left_sidebar css ==============*/
+============ blog_left_sidebar css ==============
 .blog_item {
   margin-bottom: 40px;
 }
@@ -1421,8 +1427,9 @@ button:focus {
   cursor: pointer;
 }
 
-/* Contact Success and error Area css
+ /* Contact Success and error Area css
 ============================================================================================ */
+/*
 .modal-message .modal-dialog {
   position: absolute;
   top: 36%;
@@ -1457,7 +1464,7 @@ button:focus {
 }
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
-}
+} */
 
 /* End Contact Success and error Area css
 ============================================================================================ */
@@ -3587,7 +3594,11 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: #222;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
+
 
 .f_title {
   margin-bottom: 35px;
@@ -3624,11 +3635,12 @@ h6 {
   color: #777777;
   margin-bottom: 15px;
 }
+
 .news_widget .input-group input {
   height: 40px;
   background: transparent;
   border-radius: 0px;
-  width: 80%;
+  width: 65%;
   border: none;
   padding: 0px 15px;
   border: 1px solid #eee;
@@ -3644,6 +3656,7 @@ h6 {
   font-weight: normal;
   color: #cccccc;
 }
+
 .news_widget .input-group input:-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -3676,6 +3689,8 @@ h6 {
   color: #222222;
   background-color: #fff;
 }
+
+
 
 .sub-btn .lnr-arrow-right{
   font-weight: bolder !important;
@@ -3717,9 +3732,9 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
-
+/* 
 @font-face {
   font-family: 'Arvo';
-  font-display: auto;
+  font-display: swap;
   src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
+} */

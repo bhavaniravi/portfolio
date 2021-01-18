@@ -205,6 +205,7 @@ You might often confused between the terms `Redis`, `Celery` and `RabbitMQ`. The
 **Worker**
 
 When you start a `celery worker`, it creates a supervisor process which in turn spins up a bunch of other `executors` these are called `execution pool`. The number of tasks that can be executed by a celery worker depends on the number of processes in the execution pool
+
 <figure>
 
 ![](http://2.bp.blogspot.com/-iAwTD0E_wjw/VhDg3edfHmI/AAAAAAAAAYg/SxaJTBKHgl4/s1600/django_celery_architecture.png)
@@ -250,7 +251,9 @@ RabbitMQ is just a queuing system. It is built over AMQP protocol. In comparison
 
 #### Architecture
 
+<figure>
 ![exchanges-topic-fanout-direct](https://i2.wp.com/blog.knoldus.com/wp-content/uploads/2018/12/exchanges-topic-fanout-direct.png?resize=810%2C494&ssl=1)
+</figure>
 
 ### Components
 
@@ -290,11 +293,11 @@ While Pub/Sub is close to asynchrous execution, Google PubSub primarily focuses 
 
 At this point it is valid to ask, why can't we implement the Pub/Sub model with Task queue, both are asynchronous and both execute tasks right? Google provides us with a clear distinction
 
-# Choosing between Cloud Tasks and Cloud Pub/Sub
+## Choosing between Cloud Tasks and Cloud Pub/Sub
 
 Both  [Cloud Tasks](https://cloud.google.com/tasks/docs/dual-overview)  and  [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/overview)  can be used to implement message passing and asynchronous integration. Although they are conceptually similar, each is designed for a different set of use case. [This page](https://cloud.google.com/pubsub/docs/tasks-vs-pubsub) helps you choose the right product for your use case.
 
-## Key Differences
+### Key Differences
 
 The core difference between Cloud Pub/Sub and Cloud Tasks is in the notion of implicit vs. explicit invocation.
 

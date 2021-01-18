@@ -1,50 +1,50 @@
 import React, { Component } from "react"
 import CountUp from 'react-countup';
-import {Progress} from "reactstrap";
-import {StaticQuery} from "gatsby";
+import { Progress } from "reactstrap";
+import { StaticQuery } from "gatsby";
 import { graphql } from 'gatsby';
 
-class NumericalAchieveMent extends Component{
-    render(){
+class NumericalAchieveMent extends Component {
+    render() {
         return (
             <div className="col-md-4">
-            <a className="well_item_a" 
-                rel="noopener noreferrer"
-                target={this.props.target} 
-                href={this.props.link}>
-                <div className="wel_item">
-                    <i className={`lnr lnr-${this.props.icon}`}>
-                    {` ${this.props.achievement}`} 
-                    </i>
+                <a className="well_item_a"
+                    rel="noopener noreferrer"
+                    target={this.props.target}
+                    href={this.props.link}>
+                    <div className="wel_item">
+                        <i className={this.props.icon}>
+                            {` ${this.props.achievement}`}
+                        </i>
 
-                    <div>
-                    <h4>
-                        <CountUp end={this.props.count} 
-                        duration={this.props.count/20}
-                        suffix={`+ ${this.props.label}`}/> 
-                    </h4>
+                        <div>
+                            <h4>
+                                <CountUp end={this.props.count}
+                                    duration={this.props.count / 20}
+                                    suffix={`+ ${this.props.label}`} />
+                            </h4>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
             </div>
         )
     }
 }
 
-class SkillItem extends Component{
-    render(){
+class SkillItem extends Component {
+    render() {
         return (
             <div className="skill_item">
                 <h4>{this.props.skill} <span className="counter"></span></h4>
-                <Progress value={this.props.percentage}/>
+                <Progress value={this.props.percentage} />
             </div>
         )
     }
 }
 
 
-class WelcomeArea extends Component{
-    render(){
+class WelcomeArea extends Component {
+    render() {
         return (
             <section className="welcome_area p_120" id="about_me">
                 <div className="container">
@@ -58,61 +58,64 @@ class WelcomeArea extends Component{
                                 <p>{`${this.props.about_me}`}</p>
                                 <div className="row">
                                     <NumericalAchieveMent count={6}
-                                                        link="#projects"
-                                                        achievement="Code" 
-                                                        label="Projects"
-                                                        icon="rocket">
+                                        link="#projects"
+                                        achievement="Code"
+                                        label="Projects"
+                                        icon="fa fa-rocket">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent
-                                                        count={18} 
-                                                        link="#speak"
-                                                        achievement="Speak" 
-                                                        label="Talks"
-                                                        icon="mic">
+                                        count={18}
+                                        link="#talks"
+                                        achievement="Speak"
+                                        label="Talks"
+                                        icon="fa fa-microphone">
                                     </NumericalAchieveMent>
                                     <NumericalAchieveMent target="_blank"
-                                                            count={45} 
-                                                            link="https://medium.com/@bhavaniravi"
-                                                            achievement="Write" 
-                                                            label="Blogs"
-                                                            icon="book">
+                                        count={45}
+                                        link="/blog"
+                                        achievement="Write"
+                                        label="Blogs"
+                                        icon="fa fa-book">
                                     </NumericalAchieveMent>
-                                    
+
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="tools_expert">
                                 <div className="skill_main">
-                                    <SkillItem skill={"Python"} percentage={80}></SkillItem>
-                                    <SkillItem skill={"Chatbots"} percentage={85}></SkillItem>
-                                    <SkillItem skill={"Django/Flask"} percentage={95}></SkillItem>
-                                    <SkillItem  skill={"MongoDB"} percentage={95}>></SkillItem>
+                                    {this.props.skills.map(skill => (
+                                        <SkillItem skill={skill.name} percentage={skill.percentage}></SkillItem>
+                                    ))}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-    
+
         )
     }
 }
 
 export default ({ props }) => (
-	<StaticQuery
-	  query={graphql`
+    <StaticQuery
+        query={graphql`
 		query {
 		  site {
 			siteMetadata {
 			  title,
 			  about_me,
-			  tagline
+              tagline,
+              skills{
+                name
+                percentage
+              }
 			}
 		  }
 		}
 	  `
-  }
-	  render={({ site }) => <WelcomeArea {...site.siteMetadata} {...props} />}
-	/>
+        }
+        render={({ site }) => <WelcomeArea {...site.siteMetadata} {...props} />}
+    />
 );

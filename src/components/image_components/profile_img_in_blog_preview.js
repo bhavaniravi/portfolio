@@ -9,7 +9,6 @@ class ProfileImage extends React.Component {
             "display": "block",
             "verticalAlign": "middle"
         }
-        console.log(this.props.data)
         return (
             <Img fixed={this.props.data.file.childImageSharp.fixed} 
             imgStyle={style}/>
@@ -22,7 +21,7 @@ export default () => (
     <StaticQuery
       query={graphql`
       query {
-        file(relativePath: { eq: "pp.jpg" }) {
+        file(relativePath: { eq: "pp.png" }) {
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.

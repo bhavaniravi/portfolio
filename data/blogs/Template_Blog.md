@@ -1,6 +1,6 @@
 ---
-slug: ''
-published_date: null
+slug: ""
+published_date:  2019-06-07
 created_date: null
 title: ''
 template: post
@@ -8,7 +8,8 @@ draft: true
 description: null
 subtitle: null
 tags: []
-featuredImgPath: null
+featuredImgPath: 
+isexternal: true
 ---
 
 # Title
