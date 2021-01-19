@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import Layout from "../components/layout"
 import { TagCloud } from 'react-tagcloud'
 
@@ -10,7 +10,7 @@ function SimpleCloud (data) {
       minSize={12}
       maxSize={35}
       tags={data}
-      onClick={tag => alert(`'${tag.value}' was selected!`)}
+      onClick={tag =>  navigate(`/tags/${tag.value}`)}
     />)
 }
 
