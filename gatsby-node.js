@@ -57,6 +57,7 @@ function create_pages(graphql, actions, sourceName) {
       filter:{frontmatter:{draft:{eq: false},
                            published_date:{gt: "2019-06-04"}        
                           }
+              fields: { sourceName: { eq: "${sourceName}" } }
               },
       sort: { fields: [frontmatter___published_date], order: DESC }
       ) {
@@ -78,33 +79,36 @@ function create_pages(graphql, actions, sourceName) {
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges
 
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
-      createPage({
-        path: "/" + post.node.fields.sourceName + "/" + post.node.frontmatter.slug + "/",
-        component: BlogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
+    
+      posts.forEach((post, index) => {
+        const previous = index === posts.length - 1 ? null : posts[index + 1].node
+        const next = index === 0 ? null : posts[index - 1].node
+        createPage({
+          path: "/" + post.node.fields.sourceName + "/" + post.node.frontmatter.slug + "/",
+          component: BlogPost,
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+          },
+        })
       })
-    })
 
+    if (sourceName == "blog") {
     // Extract tag data from query
-    const tags = result.data.tagsGroup.group
-    // Make tag pages
-    tags.forEach(tag => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
-        component: tagTemplate,
-        context: {
-          tag: tag.fieldValue,
-        },
+      const tags = result.data.tagsGroup.group
+      // Make tag pages
+      tags.forEach(tag => {
+        createPage({
+          path: `/tags/${_.kebabCase(tag.fieldValue)}/`,
+          component: tagTemplate,
+          context: {
+            tag: tag.fieldValue,
+          },
+        })
       })
-    })
 
+    }
     return null
   })
 }

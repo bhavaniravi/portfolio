@@ -14,7 +14,6 @@ tags:
   - entrepreneurship
   - women in tech
   - outliers
-  - empowerment
   - motivation
 featuredImgPath: /media/where-do-outliers-live-0.png
 ---

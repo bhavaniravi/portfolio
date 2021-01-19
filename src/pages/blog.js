@@ -72,8 +72,8 @@ export default class BlogIndex extends React.Component {
 export const pageQuery = graphql`
 query {
   allMarkdownRemark(sort: {fields: [frontmatter___published_date], order: DESC}, 
-    limit: 1, 
-    filter: {fields: {sourceName: {eq: "blogs"}}, 
+    limit: 1000, 
+    filter: {fields: {sourceName: {eq: "blog"}}, 
       frontmatter: {draft: {eq: false}}}) {
     edges {
       node {

@@ -4,7 +4,6 @@ sub_title: 'Comparison between Python, Docker and Kubernetes Airflow Operator'
 slug: airflow-operators-comparison
 tags:
   - airflow
-  - tech
 featuredImgPath: 'https://i.imgur.com/UvlPSAW.png'
 isexternal: true
 published_date: '2021-01-12'
@@ -13,7 +12,7 @@ description: >-
   Airflow provides a variety of operators to couple your business logic into
   executable tasks in a workflow. Often times it is confusing to decide when to
   use what. In this article we will discuss the pros and cons of each in detail.
-draft: true
+draft: false
 ---
 
 

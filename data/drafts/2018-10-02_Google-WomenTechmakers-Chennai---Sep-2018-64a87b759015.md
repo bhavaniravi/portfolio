@@ -10,11 +10,9 @@ subtitle: |2-
    A meetup where we connected, created and celebrated women in tech
   A meetup where we connected, created and celebrated women in tech. 
 tags:
-  - women in tech
+  - womenintech
   - software
-  - women techmakers
-  - tech
-  - user experience
+  - womentechmakers
 featuredImgPath: /media/google-womentechmakers-chennai-sep-2018-featured.png
 ---
 # Google WomenTechmakers Chennai — Sep 2018

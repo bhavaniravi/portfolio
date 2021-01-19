@@ -15,8 +15,6 @@ tags:
   - search
   - full-text-search
   - elasticsearch
-  - solr
-  - mysql
 featuredImgPath: /media/fts/fts-featured.png
 ---
 

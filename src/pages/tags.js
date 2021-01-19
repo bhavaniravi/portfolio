@@ -55,7 +55,9 @@ export const pageQuery = graphql`
     }
     tagsGroup: allMarkdownRemark(
       limit: 2000,
-      filter:{frontmatter:{draft:{eq: false}}},
+      filter:{frontmatter:{draft:{eq: false}}
+      fields: { sourceName: { eq: "blog" } }
+    },
       sort: { fields: [frontmatter___published_date], order: DESC }
       ) {
       group(field: frontmatter___tags) {

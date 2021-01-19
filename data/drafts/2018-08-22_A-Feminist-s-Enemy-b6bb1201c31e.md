@@ -12,7 +12,6 @@ description: >-
 subtitle: ' From my personal experience '
 tags:
   - feminism
-  - empowerment
   - women
 featuredImgPath: /media/a-feminists-enemy-featured.png
 ---

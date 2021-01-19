@@ -13,8 +13,6 @@ tags:
   - community
   - meetup
   - conference
-  - tech
-  - groups
 featuredImgPath: >-
   https://images.idgesg.net/images/article/2019/05/audience_listens_to_speaker_lecture_at_a_conference_presentation_by_toxawww_gettyimages-974238866_2400x1600-100796682-large.jpg
 isexternal: true

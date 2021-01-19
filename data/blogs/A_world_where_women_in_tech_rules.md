@@ -11,8 +11,6 @@ description: >-
 subtitle: What are the societal changes an empowered woman in tech will bring
 tags:
   - womenintech
-  - technology
-  - empowerment
   - womenwhocode
 featuredImgPath: 'https://cdn.pixabay.com/photo/2013/09/23/03/05/high-tech-185146_960_720.jpg'
 isexternal: true
