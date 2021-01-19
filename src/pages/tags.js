@@ -35,7 +35,8 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___published_date], order: DESC }
       limit: 100
       filter: {
-        frontmatter: { draft: { eq: false } }
+        fields: {sourceName: {eq: "blogs"}},
+        frontmatter: { draft: { eq: false }}
       }
     ) {
       edges {
