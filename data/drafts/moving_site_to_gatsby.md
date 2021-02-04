@@ -130,7 +130,7 @@ The takeaway, apparently I won’t be a bad full-stack developer, but I prefer b
 
 <figure name="8fd9" id="8fd9" class="graf graf--figure graf--iframe graf-after--p">
 
-> [](https://twitter.com/geeky_bhavani/status/1082530131216719872)
+> [](https://twitter.com/BhavaniRavi_/status/1082530131216719872)
 
 </figure>
 

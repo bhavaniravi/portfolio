@@ -6,14 +6,14 @@ module.exports = {
     "about_me": `🔸 Backend Systems - Chatbots - Machine Learning 🔸
                      🔸 Ambassador - WomenTechMakers Chennai 🔸
                      🔸 Community Head - Build2Learn.in 🔸`,
-    twitterHandle: "@geeky_bhavani",
+    twitterHandle: "@BhavaniRavi_",
     social: {
-      twitter: `geeky_bhavani`,
+      twitter: `BhavaniRavi_`,
     },
     "previewImgUrl": "img/pp.png",
     "tagline": `A Backend Engineer with Crazy Passion for Products`,
     "description": "A sneak peak into my head",
-    "twitterHandle": '@geeky_bhavani',
+    "twitterHandle": '@BhavaniRavi_',
     url: 'https://bhavaniravi.com',
     siteUrl: 'https://bhavaniravi.com',
 
@@ -21,7 +21,7 @@ module.exports = {
       {
         "name": "Twitter",
         "className": "fa-twitter",
-        "url": "https://twitter.com/geeky_bhavani"
+        "url": "https://twitter.com/BhavaniRavi_"
       },
       {
         "name": "LinkedIn",

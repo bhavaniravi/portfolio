@@ -269,6 +269,6 @@ The final output is your intent and entity predicted and given to you in the for
 [_In the_ **_next part,_** We will digger deeper and understand the Entity Extractor.](https://medium.com/@bhavaniravi/entity-extraction-demistifying-rasanlu-part-3-13a460451573)
 
 **Was this post useful to you?   
-**_Hold the clap button and give a shout out to me on_ [_twitter_](https://twiiter.com/@geeky_bhavani)_. ❤️_
+**_Hold the clap button and give a shout out to me on_ [_twitter_](https://twiiter.com/@BhavaniRavi_)_. ❤️_
 
 

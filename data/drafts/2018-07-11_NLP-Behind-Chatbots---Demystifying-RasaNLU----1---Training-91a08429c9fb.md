@@ -274,7 +274,7 @@ model_metadata.json
 ```
 
 **Was the post useful to you?   
-**_Hold the clap button and give a shout out to me on_ [_twitter_](https://twiiter.com/@geeky_bhavani)_. ❤️_
+**_Hold the clap button and give a shout out to me on_ [_twitter_](https://twiiter.com/@BhavaniRavi_)_. ❤️_
 
 [_In the_ **_next part,_** _I will cover how Rasa NLU enables you to consume these ML models via an API._](https://hackernoon.com/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-7704afc74d1f)
 
