@@ -61,4 +61,4 @@ Here are two options
 
 ## Got More Questions?
 
-Write them to my [twitter](https://twitter.com/geeky_bhavani)/[email](bhava0895@gmail.com)/[linkedin](https://linkedin.com/in/bhavanir).
+Write them to my [twitter](https://twitter.com/BhavaniRavi_)/[email](bhava0895@gmail.com)/[linkedin](https://linkedin.com/in/bhavanir).

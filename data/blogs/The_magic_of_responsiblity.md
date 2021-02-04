@@ -51,4 +51,4 @@ I was that curious kid who asked a million questions and bothered my managers [A
 
 It all didn’t happen in a day. But finally, after a year, I see that I have learned, evolved, existed, extended, sometimes even stretched. It was all worth it. It was not a cake walk but a walk filled with a lot of cakes(That’s how we celebrate).
 
-https://twitter.com/geeky_bhavani/status/1130512904896126980
+https://twitter.com/BhavaniRavi_/status/1130512904896126980

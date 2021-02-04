@@ -25,7 +25,7 @@ class Social extends Component {
                     </div>
                     <p>Let us be social</p>
                     <ul className="list">
-                        <TwitterFollowButton screenName={'geeky_bhavani'} /> 
+                        <TwitterFollowButton screenName={'BhavaniRavi_'} /> 
                     </ul>
                 </aside> */}
             </div>
@@ -114,7 +114,7 @@ export default class FooterArea extends Component {
                         <div className="col-lg-5 col-sm-6" style={{ "paddingLeft": "15%" }}>
                             <p style={{ fontSize: "16px" }}>
                                 Copyright &copy; {new Date().getFullYear()} &nbsp;All rights reserved &nbsp;
-                                <a style={{ fontSize: "16px" }} href="https://twitter.com/geeky_bhavani">@geeky_bhavani</a>
+                                <a style={{ fontSize: "16px" }} href="https://twitter.com/BhavaniRavi_">@BhavaniRavi_</a>
 
                             </p>
                         </div>

@@ -20,7 +20,7 @@ class Banner extends React.Component {
 									<div className="personal_text">
 										<h3>Hi, I'm {this.props.title} 👋</h3>
 										<h4>{this.props.tagline}</h4>
-										{/* <TwitterFollowButton screenName={'geeky_bhavani'} /> */}
+										{/* <TwitterFollowButton screenName={'BhavaniRavi_'} /> */}
 
 										<ul className="list personal_social">
 											{socialComponents(this.props.social_icons)}

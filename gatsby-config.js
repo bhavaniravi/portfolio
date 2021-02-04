@@ -4,14 +4,14 @@ module.exports = {
     "title": "Bhavani Ravi",
     "author": "Bhavani Ravi",
     "about_me": ` `,
-    twitterHandle: "@geeky_bhavani",
+    twitterHandle: "@BhavaniRavi_",
     social: {
-      twitter: `geeky_bhavani`,
+      twitter: `BhavaniRavi_`,
     },
     "previewImgUrl": "img/pp.png",
     "tagline": `Software Engineer, Community Lead, Blogger, Technical Speaker`,
     "description": "A sneak peak into my head",
-    "twitterHandle": '@geeky_bhavani',
+    "twitterHandle": '@BhavaniRavi_',
     url: 'https://bhavaniravi.com',
     siteUrl: 'https://bhavaniravi.com',
 
@@ -19,7 +19,7 @@ module.exports = {
       {
         "name": "Twitter",
         "className": "fa-twitter",
-        "url": "https://twitter.com/geeky_bhavani"
+        "url": "https://twitter.com/BhavaniRavi_"
       },
       {
         "name": "LinkedIn",

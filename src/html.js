@@ -14,8 +14,8 @@ export default class HTML extends React.Component {
           />
           <meta name="google-site-verification" content="7AW50PusvVdoc_XrPFyKtEmfSNOIDRpXPqyANxnLl_s" />
           <title>Bhavani's Portfolio</title>
-          <meta name="twitter:site" content="@geeky_bhavani" />
-          <meta name="twitter:creator" content="@geeky_bhavani" />
+          <meta name="twitter:site" content="@BhavaniRavi_" />
+          <meta name="twitter:creator" content="@BhavaniRavi_" />
           <link rel="shortcut icon" href="/img/preview_icon/favicon.ico" type="image/x-icon" />
           {this.props.headComponents}
         </head>

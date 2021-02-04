@@ -39,7 +39,7 @@ That’s how she got herself out of the mess. It was all [PMS](https://www.healt
 ```
 **Bhavani Ravi | Techie By Profession | Everything else by passion.**  
                             
-          [**@geeky_bhavani**](https://twitter.com/geeky_bhavani)
+          [**@BhavaniRavi_**](https://twitter.com/BhavaniRavi_)
 ```
 <figure>
 

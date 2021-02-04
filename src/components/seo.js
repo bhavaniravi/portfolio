@@ -87,11 +87,11 @@ function SEO({ description, lang, meta, title, previewImgUrl, isexternal }) {
         },
         {
           name: `twitter:creator`,
-          content: "@geeky_bhavani",
+          content: "@BhavaniRavi_",
         },
         {
           name: `twitter:site`,
-          content: "@geeky_bhavani",
+          content: "@BhavaniRavi_",
         },
         {
           name: `twitter:title`,
