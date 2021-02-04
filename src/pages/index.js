@@ -11,16 +11,11 @@ import {graphql} from "gatsby"
 import "../css/bootstrap.min.css" 
 import "../css/style.css"
 import "../css/responsive.css"
-
-async function importIcons(){
-  // import("../css/font-awesome.min.css")
-}
+import "../css/font-awesome.min.css"
 
 class IndexComponent extends React.Component{
   render(){
     const site = this.props.data.site
-    // importCSS()
-    importIcons()
     return (
       <Layout navFixed={false}>
         <SEO
@@ -30,9 +25,8 @@ class IndexComponent extends React.Component{
         />
         <Banner/>
         <WelcomeArea></WelcomeArea>
-        <TimeLine></TimeLine>
+        <TimeLine></TimeLine> 
         <ProjectsArea></ProjectsArea>
-        <TalksArea/>
       </Layout>
     )
   }
