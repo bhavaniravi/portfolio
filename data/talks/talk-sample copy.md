@@ -1,25 +1,19 @@
 ---
 slug: "stand-out-as-an-engineer"
 published_date: 2019-08-01
-title: "Stand Out as an Engineer"
+title: "Chatbots with Rasa - Hands-On workshop"
 template: "post"
 draft: true
-location: ["Guvi.in"]
-description: "Why is it important to build complementary skills beyond coding and how to build them"
+location: ["Codeland Conference"]
+description: "In this workshop we will build 3 simple chatbots thereby understanding the basics and what differentiates chatbots webapps"
 tags: ["talk"]
 ---
 
-# Stand Out as an Engineer
+# Chatbots with Rasa - Hands-On workshop
 
-Software devs are so common that to Stand out as a developer, coding is not enough. The talk shed light on the complementary skills that helps you to stand out in a developer crowd.
+I have been building chatbots for past 3 years using existing platforms like Google's Dialogflow, Wit.ai, Recast.ai. Over the years I have fallen in love with open source frameworks and Rasa is one of the best to build chatbots. In this workshop we will build 3 simple chatbots thereby understanding the basics and what differentiates chatbots webapps
 
-## Slides
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSixf_1J9efSK_DyBdofmPmVyR3pObphDpl7QgHymiK1_teCGaoJTo_Ne0aeOR02Ckw6IqYYAfTR175/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
-
-
+**Location** :: Codeland Conference
 
 
 
