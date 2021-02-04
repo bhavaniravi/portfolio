@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProfileImage from "../image_components/profile_img_in_blog_preview"
 import { formatDate } from "../utils"
+import {Badge} from "reactstrap"
 
 export class InBuiltBlogPost extends Component {
     render() {
@@ -44,7 +45,8 @@ export class InBuiltBlogPost extends Component {
                                     </div>
                                 </div>
                                 <h1 className="med_title">{this.props.post.frontmatter.title}</h1>
-                                <h2 className="med_subtitle">{this.props.post.frontmatter.subtitle}</h2>
+                                {/* <h2 className="med_subtitle">{this.props.post.frontmatter.sub_title}</h2> */}
+                               
                             </section>
                         </div>
                     </a>

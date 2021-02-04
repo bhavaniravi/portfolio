@@ -66,12 +66,11 @@ export default class TalkIndex extends React.Component {
         const posts = data.allMarkdownRemark.edges
         return (
             <Layout navFixed={true}>
-                <div className="med_blog_list_container">
+                <div className="med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (
                         talk_post(post_data)
                     ))}
-
                 </div>
             </Layout>
         )

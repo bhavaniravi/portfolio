@@ -3,7 +3,7 @@ import TalkIndex from "../components/blogs/talk_list"
 import { graphql } from 'gatsby'
 
 export default function blog_page(props) {
-  return <TalkIndex title="Talks" data={props.data}></TalkIndex>
+  return <TalkIndex title="Talks & Workshops" data={props.data}></TalkIndex>
 }
 
 export const pageQuery = graphql`
@@ -28,6 +28,7 @@ query {
             draft
             featuredImgPath
             isexternal
+            location
           }
         }
       }
