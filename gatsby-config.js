@@ -3,15 +3,13 @@ module.exports = {
   siteMetadata: {
     "title": "Bhavani Ravi",
     "author": "Bhavani Ravi",
-    "about_me": `🔸 Backend Systems - Chatbots - Machine Learning 🔸
-                     🔸 Ambassador - WomenTechMakers Chennai 🔸
-                     🔸 Community Head - Build2Learn.in 🔸`,
+    "about_me": ` `,
     twitterHandle: "@geeky_bhavani",
     social: {
       twitter: `geeky_bhavani`,
     },
     "previewImgUrl": "img/pp.png",
-    "tagline": `A Backend Engineer with Crazy Passion for Products`,
+    "tagline": `Software Engineer, Community Lead, Blogger, Technical Speaker`,
     "description": "A sneak peak into my head",
     "twitterHandle": '@geeky_bhavani',
     url: 'https://bhavaniravi.com',
