@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import { TagCloud } from 'react-tagcloud'
 
 
-import "../../css/medium_blog.css"
+import "../css/medium_blog.css"
 
 function SimpleCloud (data) {
     return (<TagCloud
