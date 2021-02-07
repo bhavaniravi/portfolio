@@ -1,14 +1,14 @@
 ---
-slug: "python-learning-path"
+slug: python-learning-path
 published_date: null
 created_date: null
-title: "Learning Path for Python"
-template: "post"
+title: Learning Path for Python
+template: post
 draft: true
-description: 
-subtitle: 
+description: null
+subtitle: null
 tags: []
-featuredImgPath: 
+featuredImgPath: null
 ---
 
 # Learning Path - Python

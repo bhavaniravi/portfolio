@@ -1,15 +1,21 @@
 ---
-slug: "its-okay"
+slug: its-okay
 published_date: 2019-03-13T18:54:01.538Z
 created_date: 2019-03-13T18:54:01.538Z
-title: "It’s Okay."
-template: "post"
+title: It’s Okay.
+template: post
 draft: false
-description: "I have been recently daunted by lots of stories about domestic violence. Everyone has a story around one or the other. Abuses can come in the form of verbal, physical, mental or sexual. It is not…"
-subtitle: "
-Sometimes it’s Ok to do things that are not Ok.
-"
-tags: [Domestic Violence,Abuse,Women,Mental Health,Relationships]
+description: >-
+  I have been recently daunted by lots of stories about domestic violence.
+  Everyone has a story around one or the other. Abuses can come in the form of
+  verbal, physical, mental or sexual. It is not…
+subtitle: ' Sometimes it’s Ok to do things that are not Ok. '
+tags:
+  - domestic violence
+  - abuse
+  - women
+  - mental health
+  - relationships
 featuredImgPath: /media/its-okay-featured.png
 ---
 # It’s Okay.

@@ -1,14 +1,21 @@
 ---
-slug: "caching-in-python"
-published_date: 2019-08-26
-created_date: 2019-08-26
-title: "Caching in Python"
-template: "post"
+slug: caching-in-python
+published_date: 2019-08-26T00:00:00.000Z
+created_date: 2019-08-26T00:00:00.000Z
+title: Caching in Python
+template: post
 draft: false
-description: "Caching, is a concept that was gifted to software world from the hardware world, A temporary storage for fast and easy access of data."
-subtitle: "A blog to help you understand caches in detail"
-tags: ["Python", "Redis", "Distributed Systems", "memcaches", "Caching"]
-featuredImgPath: "/media/caching-in-python.png"
+description: >-
+  Caching, is a concept that was gifted to software world from the hardware
+  world, A temporary storage for fast and easy access of data.
+subtitle: A blog to help you understand caches in detail
+tags:
+  - python
+  - redis
+  - distributed systems
+  - memcaches
+  - caching
+featuredImgPath: /media/caching-in-python.png
 ---
 
 # Caching in Python

@@ -1,15 +1,21 @@
 ---
-slug: "machine-learning-nlp-vectorization-techniques"
+slug: machine-learning-nlp-vectorization-techniques
 published_date: 2019-05-30T11:28:31.037Z
 created_date: 2019-05-30T11:28:31.037Z
-title: "Machine Learning — NLP Vectorization Techniques"
-template: "post"
+title: Machine Learning — NLP Vectorization Techniques
+template: post
 draft: false
-description: "Whenever you start with any ML algorithm that involves text you should convert the text into a bunch of numbers. This is obvious because ML algorithms usually build a probabilistic model(which is…"
-subtitle: "
-Whenever you start with any ML algorithm that involves text you should convert the text into a bunch of numbers. This is obvious because…
-"
-tags: [Machine Learning,Naturallanguageprocessing,Deep Learning,Chatbots,NLP]
+description: >-
+  Whenever you start with any ML algorithm that involves text you should convert
+  the text into a bunch of numbers. This is obvious because ML algorithms
+  usually build a probabilistic model(which is…
+subtitle: ' Whenever you start with any ML algorithm that involves text you should convert the text into a bunch of numbers. This is obvious because… '
+tags:
+  - machine learning
+  - natural language processing
+  - deep learning
+  - chatbots
+  - nlp
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
 # Machine Learning — NLP Vectorization Techniques

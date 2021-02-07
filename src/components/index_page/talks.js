@@ -13,33 +13,20 @@ export class TalkBox extends Component {
             color: "#222",
             backgroundColor: "#e8e8e8"
         }
-        let frontmatter = this.props.talk //.frontmatter
-
-        let slide_badge = frontmatter.slides_link ? <Badge color="secondary" color="primary" href={frontmatter.slides_link} style={badge_style}>Slide</Badge> : ""
-        let video_badge = frontmatter.video ? <Badge color="secondary" color="success" href={frontmatter.video} style={badge_style}>Video</Badge> : ""
+        let frontmatter = this.props.talk.frontmatter
+        console.log(frontmatter)
         return (
             <div className={this.props.layout}>
-                <div className="feature_item" style={{
-                    backgroundColor: "#f9f9ff"
+                <div className="feature_item talk_item" style={{
+                    backgroundColor: "rgb(243 243 243)",
+                    padding: "40px 25px"
                 }}>
                     <div className="row feature_title">
                         <h4 className="col-sm-12">{frontmatter.title}</h4>
                     </div>
-                    <p>{frontmatter.description}</p>
-                    <br />
-                    {frontmatter.skills.map(skill => (
-                        <Badge color="secondary" style={badge_style}>{skill}</Badge>
-                    ))}
-                    <div style={{ marginTop: "20px", marginBottom: "20px" }}>
-                        <div>
-                            {frontmatter.location}
-                        </div>
-                        <div>
-                            {frontmatter.date}
-                        </div>
-                    </div>
-                    {video_badge}
-                    {slide_badge}
+                    <p style={{color: "#222222", marginBottom: "7px"}}>{frontmatter.description}</p>
+                    <p style={{color: "#222222", marginBottom: "20px"}}><b>Event ::</b> {frontmatter.location}</p>
+                    <button>Video & Slides</button>
                 </div>
             </div>
         )

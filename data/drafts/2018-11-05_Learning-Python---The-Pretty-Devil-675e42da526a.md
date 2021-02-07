@@ -1,15 +1,21 @@
 ---
-slug: "learning-python-the-pretty-devil"
+slug: learning-python-the-pretty-devil
 published_date: 2018-11-05T17:43:27.763Z
 created_date: 2018-11-05T17:43:27.763Z
-title: "Learning Python — The Pretty Devil"
-template: "post"
+title: Learning Python — The Pretty Devil
+template: post
 draft: false
-description: "Switching from Java to python was not difficult for me. Though my code was not pythonic, I could code and have it up and running without any problem. When I was working at Focus infotech we used to…"
-subtitle: "
-Common problems that beginners face while learning Python
-"
-tags: [Programming,Coding,Learning,Python,Software Development]
+description: >-
+  Switching from Java to python was not difficult for me. Though my code was not
+  pythonic, I could code and have it up and running without any problem. When I
+  was working at Focus infotech we used to…
+subtitle: ' Common problems that beginners face while learning Python '
+tags:
+  - programming
+  - coding
+  - learning
+  - python
+  - software development
 featuredImgPath: /media/learning-python-the-pretty-devil-featured.png
 ---
 # Learning Python — The Pretty Devil

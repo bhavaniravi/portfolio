@@ -4,7 +4,6 @@ sub_title: Email task status or Send reports from Airflow
 slug: sending-emails-from-airflow
 tags:
   - airflow
-  - tech
 featuredImgPath: 'https://i.imgur.com/BBjdWBE.png'
 isexternal: true
 published_date: '2021-01-10'

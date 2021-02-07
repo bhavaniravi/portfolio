@@ -1,17 +1,25 @@
 ---
-slug: "driving-drives-productivity"
+slug: driving-drives-productivity
 published_date: 2018-11-03T17:06:36.310Z
 created_date: 2018-11-03T17:06:36.310Z
-title: "Driving Drives Productivity"
-template: "post"
+title: Driving Drives Productivity
+template: post
 draft: false
-description: "Find and do those little things that will make you happy, and keep your energy up. You will find the push to strike off the items from your task list. Think through and plan things ahead."
-subtitle: "
-Wondering what’s stopping you from accomplishing your tasks. This could be it.
-
-Find and do those little things that will make you happy, and keep your energy up. You will find the push to strike off the items from your task list. Think through and plan things ahead.
-"
-tags: [Productivity,Task Management,Goals,Work,Procrastination]
+description: >-
+  Find and do those little things that will make you happy, and keep your energy
+  up. You will find the push to strike off the items from your task list. Think
+  through and plan things ahead.
+subtitle: >2-
+   Wondering what’s stopping you from accomplishing your tasks. This could be it.
+  Find and do those little things that will make you happy, and keep your energy
+  up. You will find the push to strike off the items from your task list. Think
+  through and plan things ahead. 
+tags:
+  - productivity
+  - task management
+  - goals
+  - work
+  - procrastination
 featuredImgPath: /media/driving-drives-productivity-featured.png
 ---
 # Driving Drives Productivity

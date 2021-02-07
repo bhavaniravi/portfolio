@@ -1,13 +1,21 @@
 ---
-slug: "5-reasons-why-you-should-start-your-fitness-routineasap"
+slug: 5-reasons-why-you-should-start-your-fitness-routineasap
 published_date: null
 created_date: null
-title: "5 Reasons Why You Should Start your Fitness Routine ASAP?"
-template: "post"
+title: 5 Reasons Why You Should Start your Fitness Routine ASAP?
+template: post
 draft: true
-description: "Who doesn’t want an healthy life? Always imagine yourself running around even at your 60s then you are bound to spend time on your fitness routine. I will do it from tomorrow. No you will not. The…"
-subtitle: "Fitness is not about staying slim it's about staying healthy."
-tags: ["fitness", "workout", "health", "cardio", "excercises"]
+description: >-
+  Who doesn’t want an healthy life? Always imagine yourself running around even
+  at your 60s then you are bound to spend time on your fitness routine. I will
+  do it from tomorrow. No you will not. The…
+subtitle: Fitness is not about staying slim it's about staying healthy.
+tags:
+  - fitness
+  - workout
+  - health
+  - cardio
+  - excercises
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---
 # What's stopping you from being fit and How to overcome it?

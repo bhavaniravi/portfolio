@@ -1,15 +1,20 @@
 ---
-slug: "hitting-rock-bottom"
+slug: hitting-rock-bottom
 published_date: 2018-09-27T18:10:52.742Z
 created_date: 2018-09-27T18:10:52.742Z
-title: "The Beauty of Hitting Rock Bottom"
-template: "post"
+title: The Beauty of Hitting Rock Bottom
+template: post
 draft: false
-description: "Hit rock bottom, You will find some Diamonds. “The Beauty of Hitting Rock Bottom” is published by Bhavani Ravi in Fiction Flows"
-subtitle: "
-Hit rock bottom, You will find some Diamonds.
-"
-tags: [Life Lessons,Self Improvement,Motivation,Poetry,Poetry On Medium]
+description: >-
+  Hit rock bottom, You will find some Diamonds. “The Beauty of Hitting Rock
+  Bottom” is published by Bhavani Ravi in Fiction Flows
+subtitle: ' Hit rock bottom, You will find some Diamonds. '
+tags:
+  - life lessons
+  - self improvement
+  - motivation
+  - poetry
+  - poetry on medium
 featuredImgPath: /media/hitting-rock-bottom-0.png
 ---
 # The Beauty of Hitting Rock Bottom

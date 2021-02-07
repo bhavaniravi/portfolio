@@ -46,17 +46,27 @@ class SkillItem extends Component {
 class WelcomeArea extends Component {
     render() {
         return (
-            <section className="welcome_area p_120" id="about_me">
+            <section className="welcome_area" id="about_me">
                 <div className="container">
                     <div className="row welcome_inner">
-                        <div className="col-lg-6">
+                        <div className="col-lg-8">
                             <div className="welcome_text">
-                                <h4>What do I do?</h4>
-                                {/* {this.props.about_me.map(me => (
-                                    <p>{me}</p>
-                                ))} */}
-                                <p>{`${this.props.about_me}`}</p>
-                                <div className="row">
+                                <h4>About me</h4>
+                                <p>I am a Software Engineer currently working Saama Technologies. I have expertise in <b>Backend Systems, Chatbots.</b> </p>
+                                <p>I am a part of Google Developer Group Chennai and have given <a href="/talks">talks</a> in international conference</p> 
+                                <h5>Technologies</h5>
+                                <p>Python, Flask, Docker, Kubernetes</p>
+                                
+                                <h5>Databases</h5>
+                                <p>MySQL, Postgres, Mongo</p>
+
+                                <h5>Software Engineering</h5>
+                                <p>System Design, TDD, Git workflow</p>
+
+                                <h5>Infrastructure</h5>
+                                <p>AWS, GCP</p>
+
+                                {/* <div className="row">
                                     <NumericalAchieveMent count={6}
                                         link="#projects"
                                         achievement="Code"
@@ -78,10 +88,10 @@ class WelcomeArea extends Component {
                                         icon="fa fa-book">
                                     </NumericalAchieveMent>
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        {/* <div className="col-lg-6">
                             <div className="tools_expert">
                                 <div className="skill_main">
                                     {this.props.skills.map(skill => (
@@ -89,7 +99,7 @@ class WelcomeArea extends Component {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

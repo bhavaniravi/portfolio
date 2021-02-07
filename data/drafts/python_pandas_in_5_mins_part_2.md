@@ -1,14 +1,22 @@
 ---
-slug: "python-pandas-tutorial-part-2"
+slug: python-pandas-tutorial-part-2
 published_date: 2019-02-07T10:31:00.748Z
 created_date: 2019-02-07T10:31:00.748Z
-title: "Python Pandas In 5 minutes - Part 2"
-template: "post"
+title: Python Pandas In 5 minutes - Part 2
+template: post
 draft: false
-description: "In the last blog, I hope I have sold you the idea that Pandas is an amazing library for quick and easy data analysis and it’s much easier to use than you thought."
-subtitle: "_More use cases open up more functionalities."
-tags: [Python,Machine Learning,Data Science,Data Visualization,Deep Learning]
-featuredImgPath: https://cdn-images-1.medium.com/max/2560/1*DORL1J_q5VpQbj1IMxjcJw.png
+description: >-
+  In the last blog, I hope I have sold you the idea that Pandas is an amazing
+  library for quick and easy data analysis and it’s much easier to use than you
+  thought.
+subtitle: _More use cases open up more functionalities.
+tags:
+  - python
+  - machine learning
+  - data science
+  - data visualization
+  - deep learning
+featuredImgPath: 'https://cdn-images-1.medium.com/max/2560/1*DORL1J_q5VpQbj1IMxjcJw.png'
 ---
 <header>
 

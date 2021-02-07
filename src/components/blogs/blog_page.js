@@ -5,11 +5,12 @@ import Share from "../share/share"
 import Layout from "../layout"
 import "./blog_page.css"
 import { NewsLetter } from "../footer"
+import {Badge} from "reactstrap"
 import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 deckDeckGoHighlightElement();
 
 async function importIcons(){
-  import("../../css/font-awesome.min.css")
+  // import("../../css/font-awesome.min.css")
 }
 
 class BlogPostTemplate extends React.Component {
@@ -22,9 +23,14 @@ class BlogPostTemplate extends React.Component {
         <a href={this.post.frontmatter.medium_url}>{this.post.frontmatter.medium_url}</a>
       </p>)
     }
+
     const title = post.frontmatter.title
     const { previous, next } = this.props.pageContext
     const twitterHandle = this.props.data.site.siteMetadata.twitterHandle
+    var tags_badge = post.frontmatter.tags.map(tag => (
+      <Badge color="info" href={"/tags/" + tag}>{tag}</Badge>
+    ));
+
     return (
       <Layout navFixed={true}>
         <div className="article_div">
@@ -36,6 +42,9 @@ class BlogPostTemplate extends React.Component {
               previewImgUrl={post.frontmatter.featuredImgPath}
               isexternal={post.frontmatter.isexternal}
             />
+            <div class="blogBadge">
+            {tags_badge}
+            </div>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </article>
           <hr />
@@ -127,6 +136,7 @@ export const pageQuery = graphql`
         published_date(formatString: "MMMM DD, YYYY")
         description
         slug
+        tags
         isexternal
       }
     }

@@ -1,17 +1,25 @@
 ---
-slug: "build-your-1st-python-web-app-with-flask"
+slug: build-your-1st-python-web-app-with-flask
 published_date: 2019-03-17T18:16:36.155Z
 created_date: 2019-03-17T18:16:36.155Z
-title: "Build Your 1st Python Web App With Flask"
-template: "post"
+title: Build Your 1st Python Web App With Flask
+template: post
 draft: false
-description: "n this blog, I am going to take you through a step by step guided tutorial on How to build a ToDo List App using Flask? We are not just going to code together but also think through and solve problems"
-subtitle: "
-Step by Step tutorial to build your first web application with Python.
-
-n this blog, I am going to take you through a step by step guided tutorial on How to build a ToDo List App using Flask? We are not just going to code together but also think through and solve problems
-"
-tags: [Python,Flask,Web Development,Rest,Programming]
+description: >-
+  n this blog, I am going to take you through a step by step guided tutorial on
+  How to build a ToDo List App using Flask? We are not just going to code
+  together but also think through and solve problems
+subtitle: >2-
+   Step by Step tutorial to build your first web application with Python.
+  n this blog, I am going to take you through a step by step guided tutorial on
+  How to build a ToDo List App using Flask? We are not just going to code
+  together but also think through and solve problems 
+tags:
+  - python
+  - flask
+  - web development
+  - rest
+  - programming
 featuredImgPath: /media/build-your-1st-python-web-app-with-flask-featured.png
 ---
 # Build Your 1st Python Web App With Flask

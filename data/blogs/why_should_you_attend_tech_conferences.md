@@ -1,14 +1,20 @@
 ---
-slug: "why-should-you-attend-tech-conferences"
-published_date: 2019-06-13
-created_date: 2019-06-13
-title: "Why Should you Attend Tech Conferences?"
-template: "post"
+slug: why-should-you-attend-tech-conferences
+published_date: 2019-06-13T00:00:00.000Z
+created_date: 2019-06-13T00:00:00.000Z
+title: Why Should you Attend Tech Conferences?
+template: post
 draft: false
-description: 
-subtitle: "Learning multiples when a number of brain comes together in the name of Conferences, Meetups, and Communities" 
-tags: ["Community", "Meetup", "Conference", "Tech","Groups"]
-featuredImgPath: https://images.idgesg.net/images/article/2019/05/audience_listens_to_speaker_lecture_at_a_conference_presentation_by_toxawww_gettyimages-974238866_2400x1600-100796682-large.jpg
+description: null
+subtitle: >-
+  Learning multiples when a number of brain comes together in the name of
+  Conferences, Meetups, and Communities
+tags:
+  - community
+  - meetup
+  - conference
+featuredImgPath: >-
+  https://images.idgesg.net/images/article/2019/05/audience_listens_to_speaker_lecture_at_a_conference_presentation_by_toxawww_gettyimages-974238866_2400x1600-100796682-large.jpg
 isexternal: true
 ---
 

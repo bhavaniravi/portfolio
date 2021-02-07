@@ -2,11 +2,11 @@
 slug: ""
 published_date:  2019-06-07
 created_date: null
-title: ""
-template: "post"
+title: ''
+template: post
 draft: true
-description: 
-subtitle: 
+description: null
+subtitle: null
 tags: []
 featuredImgPath: 
 isexternal: true

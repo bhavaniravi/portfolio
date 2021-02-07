@@ -1,15 +1,21 @@
 ---
-slug: "how-to-get-better-at-blogging"
+slug: how-to-get-better-at-blogging
 published_date: 2019-04-16T13:07:40.696Z
 created_date: 2019-04-16T13:07:40.696Z
-title: "How to get better at Blogging?"
-template: "post"
+title: How to get better at Blogging?
+template: post
 draft: false
-description: "I haven’t taken blogging seriously until last year. I started it as a way of sharing my technical knowledge with the world, later found out that writing brings the best out of me as a person more…"
-subtitle: "
-The Ali Spittel way
-"
-tags: [Blogging,Writing,Writing Tips,Blog,Writer]
+description: >-
+  I haven’t taken blogging seriously until last year. I started it as a way of
+  sharing my technical knowledge with the world, later found out that writing
+  brings the best out of me as a person more…
+subtitle: ' The Ali Spittel way '
+tags:
+  - blogging
+  - writing
+  - writing tips
+  - blog
+  - writer
 featuredImgPath: /media/how-to-get-better-at-blogging-featured.png
 ---
 # How to get Better at Blogging

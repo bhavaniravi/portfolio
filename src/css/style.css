@@ -1781,13 +1781,14 @@ button:focus {
     margin-top: 30px;
   }
 }
-b,
+
 sup,
 sub,
 u,
 del {
   color: #f8b600;
 }
+
 
 h1 {
   font-size: 36px;
@@ -3062,6 +3063,11 @@ h6 {
 /*----------------------------------------------------*/
 /* Welcome Area css
 ============================================================================================ */
+
+.welcome_area{
+  padding-bottom: 34px;
+}
+
 .welcome_inner .welcome_img {
   background: #eeeeee;
   margin-left: 40px;
@@ -3077,14 +3083,17 @@ h6 {
   color: #222222;
   font-family: "Heebo", sans-serif;
   font-size: 36px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   /* text-transform: uppercase; */
 }
 .welcome_text p {
-  max-width: 495px;
   font-family: "Roboto", sans-serif;
-  margin-bottom: 40px;
-  white-space: pre-line;
+  /* margin-bottom: 40px; */
+  /* white-space: pre-line; */
+}
+
+.welcome_text p > b{
+  color: black
 }
 
 .well_item_a:hover{
@@ -3369,7 +3378,7 @@ h6 {
   color: #22222266;
 }
 .personal_text h3 {
-  font-size: 48px;
+  font-size: 38px;
   margin-bottom: 0px;
   color: #222222;
   font-family: "Nutrino", sans-serif;
@@ -3594,7 +3603,10 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: #222;
+  width: 100%;
+  position: absolute;
 }
+
 
 .f_title {
   margin-bottom: 35px;

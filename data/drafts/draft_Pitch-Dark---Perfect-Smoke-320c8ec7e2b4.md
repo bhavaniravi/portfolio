@@ -1,14 +1,14 @@
 ---
-slug: "pitch-dark--perfectsmoke"
+slug: pitch-dark--perfectsmoke
 published_date: null
 created_date: null
-title: "Pitch Dark & Perfect Smoke"
-template: "post"
+title: Pitch Dark & Perfect Smoke
+template: post
 draft: true
-description: "Depression in the room. “Pitch Dark & Perfect Smoke” is published by Bhavani Ravi"
-subtitle: "
-Depression in the room
-"
+description: >-
+  Depression in the room. “Pitch Dark & Perfect Smoke” is published by Bhavani
+  Ravi
+subtitle: ' Depression in the room '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

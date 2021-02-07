@@ -11,15 +11,12 @@ if (typeof window !== `undefined`) {
 }
 
 function talk_post(props) {
-    console.log(props)
     props.node.skills = []
     return (
-        // <div className="container">
-        <a href={props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
+        <a href={"/"+ props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
             <TalkBox key={props.node.slug} talk={props.node} layout="col-lg-12 col-md-12" />
             {/* <div className="talk-title">{props.node.frontmatter.title}</div> */}
         </a>
-        // </div>
     )
 }
 
@@ -69,12 +66,11 @@ export default class TalkIndex extends React.Component {
         const posts = data.allMarkdownRemark.edges
         return (
             <Layout navFixed={true}>
-                <div className="med_blog_list_container" style={{ marginBottom: "6%" }}>
+                <div className="med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (
                         talk_post(post_data)
                     ))}
-
                 </div>
             </Layout>
         )

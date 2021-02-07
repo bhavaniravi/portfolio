@@ -1,15 +1,20 @@
 ---
-slug: "click-and-tap"
+slug: click-and-tap
 published_date: 2018-10-29T12:38:40.422Z
 created_date: 2018-10-29T12:38:40.422Z
-title: "Click and Tap"
-template: "post"
+title: Click and Tap
+template: post
 draft: false
-description: "A new age dance show. “Click and Tap” is published by Bhavani Ravi in Fiction Flows"
-subtitle: "
-A new age dance show
-"
-tags: [Poetry,Writing,Poetry On Medium,Writer,Writers On Writing]
+description: >-
+  A new age dance show. “Click and Tap” is published by Bhavani Ravi in Fiction
+  Flows
+subtitle: ' A new age dance show '
+tags:
+  - poetry
+  - writing
+  - poetry on medium
+  - writer
+  - writers on writing
 featuredImgPath: /media/click-and-tap-featured.png
 ---
 # Click and Tap

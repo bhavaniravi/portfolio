@@ -1,14 +1,12 @@
 ---
-slug: "voids-have-a-voice"
+slug: voids-have-a-voice
 published_date: null
 created_date: null
-title: "Voids have a Voice"
-template: "post"
+title: Voids have a Voice
+template: post
 draft: true
-description: "Your Voids have a Voice"
-subtitle: "
-Love is overrated
-"
+description: Your Voids have a Voice
+subtitle: ' Love is overrated '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

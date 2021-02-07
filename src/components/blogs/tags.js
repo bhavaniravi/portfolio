@@ -1,16 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { InBuiltBlogPost } from "../components/blogs/blog_preview"
-import SectionTitle from "../components/section_title"
-import Layout from "../components/layout"
+import { InBuiltBlogPost } from "./blog_preview"
+import SectionTitle from "../section_title"
+import Layout from "../layout"
 
-import "../css/medium_blog.css"
+import "../../css/medium_blog.css"
 
 if (typeof window !== `undefined`) {
   window.postsToShow = 6
 }
 
-export default class BlogIndex extends React.Component {
+export default class TagIndex extends React.Component {
   constructor(props) {
     super(props)
     let postsToShow = 6
@@ -52,13 +52,12 @@ export default class BlogIndex extends React.Component {
   }
 
   render() {
-    console.log(this.props)
     const { data } = this.props
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout navFixed={true}>
         <div className="med_blog_list_container">
-          <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
+          <SectionTitle title="Bhavani's Blogs" sub_title="A Sneak Peak into my head"></SectionTitle>
           {posts.slice(0, this.state.postsToShow).map(post_data => (
             <InBuiltBlogPost key={post_data.node.frontmatter.slug}
               post={post_data.node}></InBuiltBlogPost>
@@ -70,11 +69,14 @@ export default class BlogIndex extends React.Component {
 }
 
 export const pageQuery = graphql`
-query {
-  allMarkdownRemark(sort: {fields: [frontmatter___published_date], order: DESC}, 
-    limit: 1000, 
-    filter: {fields: {sourceName: {eq: "blog"}}, 
-      frontmatter: {draft: {eq: false}}}) {
+query($tag: String) {
+  allMarkdownRemark(sort: { fields: [frontmatter___published_date], order: DESC }, 
+                    limit:100,
+                    filter:{frontmatter:{draft:{eq: false},
+                                         tags: { in: [$tag] }     
+                                        }
+                            }
+                    ) {
     edges {
       node {
         fields{
@@ -90,10 +92,11 @@ query {
           tags
           draft
           featuredImgPath
-          isexternal
         }
       }
     }
   }
 }
 `
+
+

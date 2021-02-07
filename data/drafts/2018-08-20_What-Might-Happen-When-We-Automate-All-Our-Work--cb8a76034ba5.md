@@ -1,16 +1,21 @@
 ---
-slug: "what-might-happen-when-we-automate-all-our-work"
+slug: what-might-happen-when-we-automate-all-our-work
 published_date: 2018-08-20T05:04:48.232Z
 created_date: 2018-08-20T05:04:48.232Z
-title: "What Might Happen When We Automate All Our Work?"
-template: "post"
+title: What Might Happen When We Automate All Our Work?
+template: post
 draft: false
-description: "Have you ever imagined a world where things get done for you rather than having to do it yourself? You might be like, “I am already in a world like that. My father/mother/wife does everything for…"
-subtitle: "
-Have you ever imagined a world where things get done for you rather than having to do it yourself? You might be like, “I am already in a…
-"
-tags: [Life Lessons,Automation,Thoughts]
-featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
+description: >-
+  Have you ever imagined a world where things get done for you rather than
+  having to do it yourself? You might be like, “I am already in a world like
+  that. My father/mother/wife does everything for…
+subtitle: ' Have you ever imagined a world where things get done for you rather than having to do it yourself? You might be like, “I am already in a… '
+tags:
+  - life lessons
+  - automation
+  - thoughts
+featuredImgPath: >-
+  /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
 # What Might Happen When We Automate All Our Work?
 

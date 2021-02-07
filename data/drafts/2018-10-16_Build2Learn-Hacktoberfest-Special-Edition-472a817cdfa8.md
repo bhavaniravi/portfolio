@@ -1,15 +1,21 @@
 ---
-slug: "build2learn-hacktoberfest-special-edition"
+slug: build2learn-hacktoberfest-special-edition
 published_date: 2018-10-16T19:10:57.861Z
 created_date: 2018-10-16T19:10:57.861Z
-title: "Build2Learn Hacktoberfest Special Edition"
-template: "post"
+title: Build2Learn Hacktoberfest Special Edition
+template: post
 draft: false
-description: "Build2Learn is a brainchild of Dorai Thodla, a community of tech-enthusiasts and learners who crack technology by building micro-products. Dorai and I have been running workshops for the past two…"
-subtitle: "
-Micro products to open source
-"
-tags: [Open Source,Github,Programming,Software Development,Community]
+description: >-
+  Build2Learn is a brainchild of Dorai Thodla, a community of tech-enthusiasts
+  and learners who crack technology by building micro-products. Dorai and I have
+  been running workshops for the past two…
+subtitle: ' Micro products to open source '
+tags:
+  - open source
+  - github
+  - programming
+  - software development
+  - community
 featuredImgPath: /media/build2learn-hacktoberfest-special-edition-featured.jpg
 ---
 # Build2Learn Hacktoberfest Special Edition

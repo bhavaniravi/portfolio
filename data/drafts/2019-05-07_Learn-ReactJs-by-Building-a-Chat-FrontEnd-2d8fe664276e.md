@@ -1,15 +1,21 @@
 ---
-slug: "learn-reactjs-by-building-a-chat-frontend"
+slug: learn-reactjs-by-building-a-chat-frontend
 published_date: 2019-05-07T10:55:08.600Z
 created_date: 2019-05-07T10:55:08.600Z
-title: "Learn ReactJs by Building a Chat FrontEnd"
-template: "post"
+title: Learn ReactJs by Building a Chat FrontEnd
+template: post
 draft: false
-description: "You need to have an understanding of front-end technologies like HTML, CSS, and JS. You don’t have to master all of them. If you know how to put them together and create a webpage, you’re good to go…"
-subtitle: "
-Building a Chat application from scratch using ReactJs
-"
-tags: [JavaScript,React,Front End Development,Learning To Code,Programming]
+description: >-
+  You need to have an understanding of front-end technologies like HTML, CSS,
+  and JS. You don’t have to master all of them. If you know how to put them
+  together and create a webpage, you’re good to go…
+subtitle: ' Building a Chat application from scratch using ReactJs '
+tags:
+  - javascript
+  - react
+  - front end development
+  - learning to code
+  - programming
 featuredImgPath: /media/learn-reactjs-by-building-a-chat-frontend-featured.jpg
 ---
 # Learn ReactJs by Building a Chat FrontEnd

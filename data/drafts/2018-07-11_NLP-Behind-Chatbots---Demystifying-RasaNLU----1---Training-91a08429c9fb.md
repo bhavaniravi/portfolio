@@ -1,17 +1,23 @@
 ---
-slug: "demystifying-rasa-nlu-1-training"
-published_date: 2018-07-11
-created_date: 2018-07-11
-title: "NLP Behind Chatbots - Demystifying RasaNLU - #1 - Training"
-template: "post"
+slug: demystifying-rasa-nlu-1-training
+published_date: 2018-07-11T00:00:00.000Z
+created_date: 2018-07-11T00:00:00.000Z
+title: 'NLP Behind Chatbots - Demystifying RasaNLU - #1 - Training'
+template: post
 draft: false
-description: "This blog is for the ones who want to understand the ML concepts that drive the chatbot technologies. If you are a complete newbie to chatbots & NLP,"
-subtitle: "
-NLP that drives chatbots
-
-This blog is for the ones who want to understand the ML concepts that drive the chatbot technologies. If you are a complete newbie to chatbots & NLP,
-"
-tags: [Machine Learning,NLP,Chatbots,Bots,Artificial Intelligence]
+description: >-
+  This blog is for the ones who want to understand the ML concepts that drive
+  the chatbot technologies. If you are a complete newbie to chatbots & NLP,
+subtitle: >2-
+   NLP that drives chatbots
+  This blog is for the ones who want to understand the ML concepts that drive
+  the chatbot technologies. If you are a complete newbie to chatbots & NLP, 
+tags:
+  - machine learning
+  - nlp
+  - chatbots
+  - bots
+  - artificial intelligence
 featuredImgPath: /media/demystifying-rasa-nlu-1-training-featured.png
 ---
 # NLP Behind Chatbots — Demystifying RasaNLU — #1 — Training

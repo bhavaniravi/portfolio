@@ -1,15 +1,21 @@
 ---
-slug: "ml-experiment-epic-failure"
+slug: ml-experiment-epic-failure
 published_date: 2018-04-22T10:00:07.000Z
 created_date: 2018-04-22T10:00:07.000Z
-title: "ML Experiment & Epic Failure"
-template: "post"
+title: ML Experiment & Epic Failure
+template: post
 draft: false
-description: "From the moment ML gained its hype, many of us jumped in and started learning it. Traversing from Andrew Ng to Siraj Raval, linear algebra to deep learning and neural nets, I have seen it all, but it…"
-subtitle: "
-I always love to write about my failed experiments so that people who experiment a lot will know that they are not alone. This blog is one…
-"
-tags: [Machine Learning,Sklearn,Python,Deep Learning,Ml Experiment]
+description: >-
+  From the moment ML gained its hype, many of us jumped in and started learning
+  it. Traversing from Andrew Ng to Siraj Raval, linear algebra to deep learning
+  and neural nets, I have seen it all, but it…
+subtitle: ' I always love to write about my failed experiments so that people who experiment a lot will know that they are not alone. This blog is one… '
+tags:
+  - machine learning
+  - sklearn
+  - python
+  - deep learning
+  - ml experiment
 featuredImgPath: /media/ml-experiment-epic-failure-0.png
 ---
 # ML Experiment & Epic Failure

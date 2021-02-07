@@ -1,14 +1,15 @@
 ---
-slug: "committing-to-agodzilla"
+slug: committing-to-agodzilla
 published_date: null
 created_date: null
-title: "Committing to a Godzilla"
-template: "post"
+title: Committing to a Godzilla
+template: post
 draft: true
-description: "There have been a million analogies as to why marriage is the worst social structure. Some of the famous ones being a suicidal attack, Falling in a well etc., Here is yet another one."
-subtitle: "
-There have been a million analogies as to why marriage is the worst social structure. Some of the famous ones being a suicidal attack…
-"
+description: >-
+  There have been a million analogies as to why marriage is the worst social
+  structure. Some of the famous ones being a suicidal attack, Falling in a well
+  etc., Here is yet another one.
+subtitle: ' There have been a million analogies as to why marriage is the worst social structure. Some of the famous ones being a suicidal attack… '
 tags: []
 featuredImgPath: /media/machine-learning-nlp-vectorization-techniques-featured.png
 ---

@@ -1,15 +1,21 @@
 ---
-slug: "the-best-way-to-learn-any-technology"
+slug: the-best-way-to-learn-any-technology
 published_date: 2018-10-19T04:29:42.271Z
 created_date: 2018-10-19T04:29:42.271Z
-title: "The Best Way To Learn Any Technology"
-template: "post"
+title: The Best Way To Learn Any Technology
+template: post
 draft: false
-description: "IT industry is not like college. Our syllabus is so old that people have already taught it a million times and there are enough resources online. The industry, however, is moving fast. There are…"
-subtitle: "
-How to crack programming languages within weeks.
-"
-tags: [Programming,Software Development,Learning To Code,100daysofcode,Learning]
+description: >-
+  IT industry is not like college. Our syllabus is so old that people have
+  already taught it a million times and there are enough resources online. The
+  industry, however, is moving fast. There are…
+subtitle: ' How to crack programming languages within weeks. '
+tags:
+  - programming
+  - software development
+  - learning to code
+  - 100daysofcode
+  - learning
 featuredImgPath: /media/the-best-way-to-learn-any-technology-featured.png
 ---
 # The Best Way To Learn Any Technology

@@ -1,15 +1,21 @@
 ---
-slug: "unclassified-pain"
+slug: unclassified-pain
 published_date: 2018-11-01T15:12:45.835Z
 created_date: 2018-11-01T15:12:45.835Z
-title: "Unclassified Pain"
-template: "post"
+title: Unclassified Pain
+template: post
 draft: false
-description: "The go-getter. The fun lover. The lucky charm was recently down. No matter how much she tried to pick herself up, something pulled her down. The smile she always chose to wore had worn off. Even her…"
-subtitle: "
-Penning down the pain that people fear to talk about.
-"
-tags: [Depression,Periods,Women,Health,Healthcare]
+description: >-
+  The go-getter. The fun lover. The lucky charm was recently down. No matter how
+  much she tried to pick herself up, something pulled her down. The smile she
+  always chose to wore had worn off. Even her…
+subtitle: ' Penning down the pain that people fear to talk about. '
+tags:
+  - depression
+  - periods
+  - women
+  - health
+  - healthcare
 featuredImgPath: /media/unclassified-pain-featured.jpeg
 ---
 # Unclassified Pain

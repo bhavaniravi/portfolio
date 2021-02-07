@@ -1,15 +1,21 @@
 ---
-slug: "orangescapes-famous-writer-s-workshop"
+slug: orangescapes-famous-writer-s-workshop
 published_date: 2019-02-25T11:31:00.706Z
 created_date: 2019-02-25T11:31:00.706Z
-title: "OrangeScape’s Famous Writer’s Workshop"
-template: "post"
+title: OrangeScape’s Famous Writer’s Workshop
+template: post
 draft: false
-description: "Writers’ workshop started out as an experiment to bring out the voice of Orangescape Engineers. Three workshops down and now it has become a part of our culture. We have a workshop every 6 months…"
-subtitle: "
-Writers’ workshop started out as an experiment to bring out the voice of Orangescape Engineers.
-"
-tags: [Writing,Learning,Training,Leadership,Writers On Writing]
+description: >-
+  Writers’ workshop started out as an experiment to bring out the voice of
+  Orangescape Engineers. Three workshops down and now it has become a part of
+  our culture. We have a workshop every 6 months…
+subtitle: ' Writers’ workshop started out as an experiment to bring out the voice of Orangescape Engineers. '
+tags:
+  - writing
+  - learning
+  - training
+  - leadership
+  - writers on writing
 featuredImgPath: /media/orangescapes-famous-writer-s-workshop-featured.jpg
 ---
 # OrangeScape’s Famous Writer’s Workshop

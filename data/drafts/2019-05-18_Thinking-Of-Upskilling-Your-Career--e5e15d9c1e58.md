@@ -1,15 +1,21 @@
 ---
-slug: "thinking-of-upskilling-your-career"
+slug: thinking-of-upskilling-your-career
 published_date: 2019-05-18T04:21:18.483Z
 created_date: 2019-05-18T04:21:18.483Z
-title: "Thinking Of Upskilling Your Career?"
-template: "post"
+title: Thinking Of Upskilling Your Career?
+template: post
 draft: false
-description: "Career is a major part of everyone’s life. Both in terms of time and passion, career is where most of our life experiences revolve around. Hence making career choices seems critical and the most…"
-subtitle: "
-Career is a major part of everyone’s life. Both in terms of time and passion, career is where most of our life experiences revolve around…
-"
-tags: [Skills Development,Skills,Learning,Education,Software]
+description: >-
+  Career is a major part of everyone’s life. Both in terms of time and passion,
+  career is where most of our life experiences revolve around. Hence making
+  career choices seems critical and the most…
+subtitle: ' Career is a major part of everyone’s life. Both in terms of time and passion, career is where most of our life experiences revolve around… '
+tags:
+  - skills development
+  - skills
+  - learning
+  - education
+  - software
 featuredImgPath: /media/thinking-of-upskilling-your-career-featured.jpeg
 ---
 # Thinking Of Upskilling Your Career?

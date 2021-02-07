@@ -47,18 +47,16 @@ class ExtendedNavbar extends React.Component {
                     </NavbarToggler>
                     <Collapse isOpen={this.state.isOpen} navbar id="navbarSupportedContent">
                         <Nav className="nav navbar-nav menu_nav ml-auto" navbar>
-                            <MenuItem href="/" title="Home"></MenuItem>
-                            <MenuItem href="/#about_me" title="About Me"></MenuItem>
-                            <MenuItem href="/#experience" title="Experience"></MenuItem>
+                            {/* <MenuItem href="/" title="Home"></MenuItem> */}
+                            <MenuItem href="/" title="About Me"></MenuItem>
+                            {/* <MenuItem href="/#experience" title="Experience"></MenuItem> */}
                             <MenuItem href="/blog" title="Blogs"></MenuItem>
-                            <MenuItem href="/#talks" title="Talks"></MenuItem>
-                            <MenuItem target="_blank" rel="noopener noreferrer"
-                                href="https://drive.google.com/file/d/1bYZexJDCfm4dGuk4BPWfF7_UsrtIAjFd/view?usp=sharing"
-                                title="Resume"></MenuItem>
-                            <MenuItem target="_blank" rel="noopener noreferrer"
+                            <MenuItem href="/talks" title="Talks"></MenuItem>
+                            <MenuItem href="/resume" title="Resume"></MenuItem>
+                            {/* <MenuItem target="_blank" rel="noopener noreferrer" 
                                 href="https://mailchi.mp/e1cea5c7347f/thelearningdev"
                                 title="Newsletter"></MenuItem>
-                            {/* <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
+                             <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
                         </Nav>
                     </Collapse>
                 </div>
@@ -95,8 +93,9 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            // <header id="header_area" className='header_area navbar_fixed'></header>
-            <header id="header_area" className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed' : "header_area"}>
+            <header id="header_area" 
+                    className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed' : "header_area"}
+                    >
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>

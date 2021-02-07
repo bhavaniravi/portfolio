@@ -1,16 +1,23 @@
 ---
-slug: "deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server"
+slug: deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server
 published_date: 2018-07-31T16:28:05.940Z
 created_date: 2018-07-31T16:28:05.940Z
-title: "NLP Behind Chatbots — Demystifying RasaNLU — #2 — Serve"
-template: "post"
+title: 'NLP Behind Chatbots — Demystifying RasaNLU — #2 — Serve'
+template: post
 draft: false
-description: "This blog is the 2nd in the series of Demystifying RasaNLU. In Part 1 we have explored the various pipeline stages that the training data goes through before getting converted into a trained ML…"
-subtitle: "
-Deploying chatbot NLP model
-"
-tags: [Machine Learning,Chatbots,NLP,Artificial Intelligence,Bots]
-featuredImgPath: /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
+description: >-
+  This blog is the 2nd in the series of Demystifying RasaNLU. In Part 1 we have
+  explored the various pipeline stages that the training data goes through
+  before getting converted into a trained ML…
+subtitle: ' Deploying chatbot NLP model '
+tags:
+  - machine learning
+  - chatbots
+  - nlp
+  - artificial intelligence
+  - bots
+featuredImgPath: >-
+  /media/deploying-a-chatbot-nlp-model-demystifying-rasanlu-2-server-featured.png
 ---
 # NLP Behind Chatbots — Demystifying RasaNLU — #2 — Serve
 

@@ -1,17 +1,22 @@
 ---
-slug: "a-trained-extrovert"
+slug: a-trained-extrovert
 published_date: 2018-09-18T17:22:58.908Z
 created_date: 2018-09-18T17:22:58.908Z
-title: "A Trained Extrovert"
-template: "post"
+title: A Trained Extrovert
+template: post
 draft: false
-description: "How a mentor can come by and cast the magic spell and make you do things you never thought you had in you."
-subtitle: "
-Importance of a mentor in your life
-
-How a mentor can come by and cast the magic spell and make you do things you never thought you had in you.
-"
-tags: [Mentorship,Self Improvement,Introvert,Confidence]
+description: >-
+  How a mentor can come by and cast the magic spell and make you do things you
+  never thought you had in you.
+subtitle: >2-
+   Importance of a mentor in your life
+  How a mentor can come by and cast the magic spell and make you do things you
+  never thought you had in you. 
+tags:
+  - mentorship
+  - self improvement
+  - introvert
+  - confidence
 featuredImgPath: /media/a-trained-extrovert-featured.jpg
 ---
 # A Trained Extrovert

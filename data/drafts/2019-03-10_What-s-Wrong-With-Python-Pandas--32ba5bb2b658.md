@@ -1,15 +1,21 @@
 ---
-slug: "whats-wrong-with-python-pandas"
+slug: whats-wrong-with-python-pandas
 published_date: 2019-03-10T18:10:38.033Z
 created_date: 2019-03-10T18:10:38.033Z
-title: "What’s Wrong With Python Pandas?"
-template: "post"
+title: What’s Wrong With Python Pandas?
+template: post
 draft: false
-description: "In my previous blog, I nudged you to get started with pandas and showed why it is important to get a good hold of it before moving on to machine learning. But there are a few things you need to watch…"
-subtitle: "
-Watch out for these problems, or raise issues and fix them!
-"
-tags: [Data Science,Python,Pandas,Data Visualization,Analytics]
+description: >-
+  In my previous blog, I nudged you to get started with pandas and showed why it
+  is important to get a good hold of it before moving on to machine learning.
+  But there are a few things you need to watch…
+subtitle: ' Watch out for these problems, or raise issues and fix them! '
+tags:
+  - data science
+  - python
+  - pandas
+  - data visualization
+  - analytics
 featuredImgPath: /media/whats-wrong-with-python-pandas-featured.png
 ---
 # What’s Wrong With Python Pandas?

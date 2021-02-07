@@ -1,17 +1,18 @@
 ---
-slug: "google-womentechmakers-chennai-sep-2018"
+slug: google-womentechmakers-chennai-sep-2018
 published_date: 2018-10-02T17:30:24.167Z
 created_date: 2018-10-02T17:30:24.167Z
-title: "Google WomenTechmakers Chennai — Sep 2018"
-template: "post"
+title: Google WomenTechmakers Chennai — Sep 2018
+template: post
 draft: false
-description: "A meetup where we connected, created and celebrated women in tech."
-subtitle: "
-A meetup where we connected, created and celebrated women in tech
-
-A meetup where we connected, created and celebrated women in tech.
-"
-tags: [Women In Tech,Software,Women Techmakers,Tech,User Experience]
+description: 'A meetup where we connected, created and celebrated women in tech.'
+subtitle: |2-
+   A meetup where we connected, created and celebrated women in tech
+  A meetup where we connected, created and celebrated women in tech. 
+tags:
+  - womenintech
+  - software
+  - womentechmakers
 featuredImgPath: /media/google-womentechmakers-chennai-sep-2018-featured.png
 ---
 # Google WomenTechmakers Chennai — Sep 2018

@@ -1,13 +1,20 @@
 ---
-slug: "challenges-in-full-text-search"
-published_date: 2019-09-08
-created_date: 2019-09-01
-title: "Challenges In Full-Text-Search Systems"
-template: "post"
+slug: challenges-in-full-text-search
+published_date: 2019-09-08T00:00:00.000Z
+created_date: 2019-09-01T00:00:00.000Z
+title: Challenges In Full-Text-Search Systems
+template: post
 draft: false
-description: "While Full-text-search is famous for search through documents at a faster rate, there are other intresting ways in which these systems handle scale, synonyms, abbrevations, misspellings etc., we will take an indepth view of the same in this blog"
-subtitle: "An Indepth view of search problems and how Full-Text-Search Solves them"
-tags: ["search", "full-text-search", "ElasticSearch", "Solr", "MySQL"]
+description: >-
+  While Full-text-search is famous for search through documents at a faster
+  rate, there are other intresting ways in which these systems handle scale,
+  synonyms, abbrevations, misspellings etc., we will take an indepth view of the
+  same in this blog
+subtitle: An Indepth view of search problems and how Full-Text-Search Solves them
+tags:
+  - search
+  - full-text-search
+  - elasticsearch
 featuredImgPath: /media/fts/fts-featured.png
 ---
 

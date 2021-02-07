@@ -1,13 +1,17 @@
 ---
-slug: "stand-your-ground-once-in-a-while"
+slug: stand-your-ground-once-in-a-while
 published_date: 2019-04-30T16:23:13.000Z
 created_date: 2019-04-30T16:23:13.000Z
-title: "Stand Your Ground. Once In a While"
-template: "post"
+title: Stand Your Ground. Once In a While
+template: post
 draft: false
-description: ""
-subtitle: "Anger is my Armour"
-tags: [SelfRespect, Privacy, Family, Boundaries]
+description: ''
+subtitle: Anger is my Armour
+tags:
+  - selfrespect
+  - privacy
+  - family
+  - boundaries
 featuredImgPath: /media/stand-your-ground-once-in-a-while-featured.jpg
 ---
 # Stand Your Ground. Once In a While.

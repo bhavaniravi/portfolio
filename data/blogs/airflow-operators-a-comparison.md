@@ -4,7 +4,6 @@ sub_title: 'Comparison between Python, Docker and Kubernetes Airflow Operator'
 slug: airflow-operators-comparison
 tags:
   - airflow
-  - tech
 featuredImgPath: 'https://i.imgur.com/UvlPSAW.png'
 isexternal: true
 published_date: '2021-01-12'

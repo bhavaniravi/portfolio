@@ -1,17 +1,24 @@
 ---
-slug: "chatbots-101-architecture-and-terminologies"
+slug: chatbots-101-architecture-and-terminologies
 published_date: 2016-10-30T16:23:13.000Z
 created_date: 2016-10-30T16:23:13.000Z
-title: "Chatbots 101- Architecture & Terminologies"
-template: "post"
+title: Chatbots 101- Architecture & Terminologies
+template: post
 draft: false
-description: "In this blog we will start with what is a chatbot? and why do we need them?. From there we will explore the chatbot's architecture and common terminologies of the domain"
-subtitle: "
-What is a Chatbot?
-
-In this blog we will start with what is a chatbot? and why do we need them?. From there we will explore the chatbot's architecture and common terminologies of the domain
-"
-tags: [Bots,Chatbots,Machine Learning,NLP]
+description: >-
+  In this blog we will start with what is a chatbot? and why do we need them?.
+  From there we will explore the chatbot's architecture and common terminologies
+  of the domain
+subtitle: >2-
+   What is a Chatbot?
+  In this blog we will start with what is a chatbot? and why do we need them?.
+  From there we will explore the chatbot's architecture and common terminologies
+  of the domain 
+tags:
+  - bots
+  - chatbots
+  - machine learning
+  - nlp
 featuredImgPath: /media/chatbots-101-architecture-and-terminologies-featured.jpg
 ---
 # Chatbots 101— Architecture & Terminologies

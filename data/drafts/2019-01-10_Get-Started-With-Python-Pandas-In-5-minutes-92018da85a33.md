@@ -1,17 +1,23 @@
 ---
-slug: "python-pandas-tutorial"
+slug: python-pandas-tutorial
 published_date: 2019-01-10T07:04:34.485Z
 created_date: 2019-01-10T07:04:34.485Z
-title: "Get Started With Python Pandas In 5 minutes"
-template: "post"
+title: Get Started With Python Pandas In 5 minutes
+template: post
 draft: false
-description: "In this blog, I am going to take you through Pandas functionalities by cracking specific use cases that you would need to achieve with a given data."
-subtitle: "
-Tutorial walkthrough that gets you up and running with Python Pandas Library
-
-In this blog, I am going to take you through Pandas functionalities by cracking specific use cases that you would need to achieve with a given data.
-"
-tags: [Python,Machine Learning,Data Science,Data Visualization,Deep Learning]
+description: >-
+  In this blog, I am going to take you through Pandas functionalities by
+  cracking specific use cases that you would need to achieve with a given data.
+subtitle: >2-
+   Tutorial walkthrough that gets you up and running with Python Pandas Library
+  In this blog, I am going to take you through Pandas functionalities by
+  cracking specific use cases that you would need to achieve with a given data. 
+tags:
+  - python
+  - machine learning
+  - data science
+  - data visualization
+  - deep learning
 featuredImgPath: /media/python-pandas-tutorial-featured.png
 ---
 # Get Started With Pandas In 5 mins
