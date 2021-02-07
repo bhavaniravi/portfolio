@@ -5,7 +5,7 @@ title: "Introduction to MLOps"
 template: "post"
 draft: false
 location: ["DevFest India 2020"]
-description: "Why is it important to build complementary skills beyond coding and how to build them"
+description: "A walkthrough on how to consturuct a CI/CD pipeline for your Machine learning projects and deoply them in a containerized environment using Docker and Kuberenetes"
 tags: ["talk"]
 ---
 
