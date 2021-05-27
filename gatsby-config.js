@@ -138,6 +138,22 @@ module.exports = {
     ],
     "projects": [
       {
+        "title": "Smart Data Query",
+        "description": "Finding Discrepencey in Clinical trials data, the project was used for Pfizer COVID vaccine trials",
+        "url": "https://www.saama.com/news-post/how-a-novel-incubation-sandbox-helped-speed-up-data-analysis-in-pfizers-covid-19-vaccine-trial/",
+        "github_url": "",
+        "icon_path": "fa-tasks",
+        "skills": ["Airflow", "Flask", "Postgres", "Docker", "Kubernetes"]
+      },
+      {
+        "title": "Analyza",
+        "description": "A POC application that converts plain english to SQL queries, inspired by Google's Analyza research",
+        "url": "https://research.google/pubs/pub45791/",
+        "github_url": "",
+        "icon_path": "fa-tasks",
+        "skills": ["Python", "NLP", "Spacy"]
+      },
+      {
         "title": "Kissflow Case",
         "description": "A Case management module that comes with Kissflow Suite",
         "url": "https://kissflow.com",

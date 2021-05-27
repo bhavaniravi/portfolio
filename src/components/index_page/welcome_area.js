@@ -52,8 +52,8 @@ class WelcomeArea extends Component {
                         <div className="col-lg-8">
                             <div className="welcome_text">
                                 <h4>About me</h4>
-                                <p>I am a Software Engineer currently working Saama Technologies. I have expertise in <b>Backend Systems, Chatbots.</b> </p>
-                                <p>I am a part of Google Developer Group Chennai and have given <a href="/talks">talks</a> in international conference</p> 
+                                <p>I working as a <b>Senior Software Engineer</b> at Saama Technologies. I have expertise in <b>Backend Systems, Chatbots and Deploying ML models.</b> </p>
+                                <p>I am a part of Google Developer Group Chennai and have given <a href="/talks">talks</a> at international conferences</p> 
                                 <h5>Technologies</h5>
                                 <p>Python, Flask, Docker, Kubernetes</p>
                                 
