@@ -7,10 +7,12 @@ import "../css/bootstrap.min.css"
 export default () => (
     <Layout navFixed={true}>
         <Helmet>
-            <script src="https://gumroad.com/js/gumroad-embed.js"></script>
+            <script rel="preload" src="https://gumroad.com/js/gumroad-embed.js" as="script"></script>
         </Helmet>
-        <div class="container gumroad-product-embed" data-outbound-embed="true">
-            <a href="https://gumroad.com/l/LaFSj">Loading...</a>
+        <div class="article_div gumroad-product-embed" 
+        style={{ "marginTop": "130px", "marginBottom": "100px" }} data-outbound-embed="true">
+            <a href="https://gumroad.com/l/LaFSj">
+                Hold on... This is gonna take a moment...</a>
         </div>
     </Layout>
 )
