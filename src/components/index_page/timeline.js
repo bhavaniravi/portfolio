@@ -57,7 +57,7 @@ class TimeLine extends Component{
         	<div className="container">
         		<div className="tabs_inner">
                 <SectionTitle title="Experience"  
-                sub_title="The Path I Travelled."/>
+                sub_title="Professional Path from 2016 - Present"/>
                     {/* <Nav tabs>
                         <NavItem>
                             <NavLink className={classnames({ active: this.state.activeTab === '1' })}

@@ -138,6 +138,14 @@ module.exports = {
     ],
     "projects": [
       {
+        "title": "Smart Automapper",
+        "description": "Automatically maps the raw clinical trial data into pre-conformance and conformance format",
+        "url": "https://www.saama.com/news-post/how-a-novel-incubation-sandbox-helped-speed-up-data-analysis-in-pfizers-covid-19-vaccine-trial/",
+        "github_url": "",
+        "icon_path": "fa-tasks",
+        "skills": ["Airflow", "Flask", "Postgres", "Docker", "Kubernetes"]
+      },
+      {
         "title": "Smart Data Query",
         "description": "Finding Discrepencey in Clinical trials data, the project was used for Pfizer COVID vaccine trials",
         "url": "https://www.saama.com/news-post/how-a-novel-incubation-sandbox-helped-speed-up-data-analysis-in-pfizers-covid-19-vaccine-trial/",
@@ -151,7 +159,7 @@ module.exports = {
         "url": "https://research.google/pubs/pub45791/",
         "github_url": "",
         "icon_path": "fa-tasks",
-        "skills": ["Python", "NLP", "Spacy"]
+        "skills": ["Python", "NLP", "Spacy", "Flask"]
       },
       {
         "title": "Kissflow Case",
@@ -173,7 +181,7 @@ module.exports = {
 
       {
         "title": "Kissflow Reports",
-        "description": "A reporting platform that enables users to create reports out of the workflow apps created using Kissflow",
+        "description": "A reporting platform that enables users to create reports for their workflows",
         "url": "https://kissflow.com",
         "github_url": "",
         "icon_path": "fa-table",
@@ -191,8 +199,7 @@ module.exports = {
 
       {
         "title": "iKeepLog",
-        "description": `A chatbot that logs your work and learning everyday. 
-                            PS: This project won second place in WomenTechFab hackathon`,
+        "description": `A chatbot that logs your work and learning everyday. This project won 2nd place in WomenTechFab hackathon`,
         "url": "https://docs.google.com/presentation/d/1k3hE6AmTcxix5iPPXCrE38Jh44-XXi3osDqWLWlXqpw/edit?usp=sharing",
         "github_url": "",
         "icon_path": "fa-comments",
@@ -233,7 +240,11 @@ module.exports = {
     ],
     "experience": [
       {
-        "time": "October 2019 to Present",
+        "time": "Jul 2021 to Present",
+        "title": "Independent Software Consultant"
+      },
+      {
+        "time": "October 2019 to Jul 2021",
         "title": "Research Engineer @ Saama Technologies"
       },
 
@@ -241,22 +252,10 @@ module.exports = {
         "time": "May 2018 to Aug 2019",
         "title": "Software Engineer @ Orangescape"
       },
-
-      {
-        "time": "Sep 2018 to Present",
-        "title": "Community Lead - WomenTechMakers"
-      },
-
-      {
-        "time": "Jan 2018 to present",
-        "title": "Community Lead - Build2Learn"
-      },
-
       {
         "time": "May 2016 to Apr 2018",
         "title": "Product Developement Engineer @ Focus Infotech"
       },
-
       {
         "time": "Aug 2012 to Apr 2016",
         "title": "Computer Science Engineering @ KCG College of technology"
