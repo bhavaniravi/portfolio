@@ -48,17 +48,17 @@ class ExtendedNavbar extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar id="navbarSupportedContent">
                         <Nav className="nav navbar-nav menu_nav ml-auto" navbar>
                             {/* <MenuItem href="/" title="Home"></MenuItem> */}
-                            <MenuItem href="/masterclass" title="Masterclass"></MenuItem>
+                            <MenuItem target="_blank" rel="noopener noreferrer"  href="https://gumroad.com/l/LaFSj" title="Masterclass"></MenuItem>
                             <MenuItem href="/" title="About Me"></MenuItem>
                             {/* <MenuItem href="/#experience" title="Experience"></MenuItem> */}
                             <MenuItem href="/blog" title="Blogs"></MenuItem>
                             <MenuItem href="/talks" title="Talks"></MenuItem>
                            
                             {/* <MenuItem href="/resume" title="Resume"></MenuItem> */}
-                            {/* <MenuItem target="_blank" rel="noopener noreferrer" 
+                            <MenuItem target="_blank" rel="noopener noreferrer" 
                                 href="https://mailchi.mp/e1cea5c7347f/thelearningdev"
                                 title="Newsletter"></MenuItem>
-                             <MenuItem href="#contact_me" title="Contact Me"></MenuItem> */}
+                             <MenuItem href="#contact_me" title="Contact Me"></MenuItem>
                         </Nav>
                     </Collapse>
                 </div>

@@ -9,7 +9,7 @@ module.exports = {
       twitter: `BhavaniRavi_`,
     },
     "previewImgUrl": "img/pp.png",
-    "tagline": `Software Engineer, Community Lead, Blogger, Technical Speaker`,
+    "tagline": `Independent Software Engineer, Instructor, Tech Blogger & Speaker`,
     "description": "A sneak peak into my head",
     "twitterHandle": '@BhavaniRavi_',
     url: 'https://bhavaniravi.com',
