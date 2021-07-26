@@ -43,194 +43,6 @@ module.exports = {
         "url": "https://github.com/bhavaniravi"
       }
     ],
-    "talks": [
-      {
-        "title": "All About Chatbots",
-        "description": `Let's start from the basics and understand everything around chatbots and NLU engine that powers it`,
-        // "icon_path":"fa-table", 
-        "slides_link": "https://docs.google.com/presentation/d/1ZcnAOPtY1I2NZZX7zQBru9Njr8JYiqly0ASDLM2z7n8/edit?usp=sharing",
-        "location": "Guvi Chennai",
-        "date": "Aug 2019",
-        "skills": ["Chatbots", "Rasa"],
-        "video": ""
-      },
-      {
-        "title": "Stand Out as a Developer",
-        "description": `What are the complementary skills that a newbie can build stand out in a developer crowd.`,
-        // "icon_path":"fa-table", 
-        "slides_link": "https://docs.google.com/presentation/d/1ZcnAOPtY1I2NZZX7zQBru9Njr8JYiqly0ASDLM2z7n8/edit?usp=sharing",
-        "location": "Guvi Chennai",
-        "date": "Aug 2019",
-        "skills": ["Software Developer", "Skill Development"],
-        "video": ""
-      },
-      {
-        "title": "Combat Unconsious Bias",
-        "description": `To create Acceptance, Awarness and Action on how to combat and bring more diversity in our teams`,
-        "url": "https://medium.com/@saran_io/global-diversity-cfp-day-chennai-chapter-a2640dc50e7a",
-        // "icon_path":"fa-table", 
-        "slides_link": "https://speakerdeck.com/bhavaniravi",
-        "location": "Global Diversity CFP Day : Chennai",
-        "date": "Aug 2019",
-        "skills": ["WomenInTech", "Diversity"],
-        "video": ""
-      },
-      {
-        "title": "WomenInTech - Be the Outlier",
-        "description": `The talk is used to orient and motivate women coding clubs across engineering colleges.`,
-        "url": "https://medium.com/womenintech-chennai",
-        "slides_link": "https://speakerdeck.com/bhavaniravi",
-        "location": "Hindustan University, KCG, St.Joseph's",
-        "date": "Aug 2019",
-        "skills": ["WomenInTech", "Diversity"]
-      },
-      {
-        "title": "ML Behind Chatbots",
-        "description": "Let's break open chatbot engines and understand the machine learning models that drives chatbots",
-        "url": "",
-        "icon_path": "fa-table",
-        "slides_link": "https://bit.ly/ml_behind_chatbots",
-        "location": "Global Azure BootCamp",
-        "date": "May 2019",
-        "skills": ["RasaNLU", "Machine Learning"]
-      },
-
-      {
-        "title": "DialogFlow & Free Text",
-        "description": `Input to a todo-list bot is a “free-text”. The talk covers the hacks to acheive it with Dialogflow`,
-        "url": "",
-        // "icon_path":"fa-table", 
-        "slides_link": "https://speakerdeck.com/bhavaniravi",
-        "location": "Womentechmakers IWD Chennai",
-        "date": "Mar 2017",
-        "skills": ["Python", "Dialogflow"]
-      },
-    ],
-    "workshops": [
-      {
-        "title": "Chatbots 101 Worshop",
-        "description": `A 3 hour workshop that walks you through building chatbots`,
-        "url": "",
-        "location": "PyConf Hyderabad",
-        "date": "2018",
-        "slides_link": "",
-        "video": "",
-        "skills": ["Python", "RasaNLU", "Dialogflow"]
-      },
-      {
-        "title": "Web Application using Python",
-        "description": `One day workshop on building web-application using Pandas`,
-        "url": "",
-        // "icon_path":"fa-table", 
-        "location": "St.Josephs College of Engineering",
-        "date": "2019",
-        "skills": ["Python", "Flask", "Databases"]
-      },
-      {
-        "title": "Become a Technical Speaker",
-        "description": `One day workshop that helps you become a better technical speaker`,
-        "url": "",
-        // "icon_path":"fa-table", 
-        "location": "Chennai",
-        "date": "2020",
-        "skills": ["public-speaking", "technical-speaker"]
-      },
-    ],
-    "projects": [
-      {
-        "title": "Smart Automapper",
-        "description": "Automatically maps the raw clinical trial data into pre-conformance and conformance format",
-        "url": "https://www.saama.com/news-post/how-a-novel-incubation-sandbox-helped-speed-up-data-analysis-in-pfizers-covid-19-vaccine-trial/",
-        "github_url": "",
-        "icon_path": "fa-tasks",
-        "skills": ["Airflow", "Flask", "Postgres", "Docker", "Kubernetes"]
-      },
-      {
-        "title": "Smart Data Query",
-        "description": "Finding Discrepencey in Clinical trials data, the project was used for Pfizer COVID vaccine trials",
-        "url": "https://www.saama.com/news-post/how-a-novel-incubation-sandbox-helped-speed-up-data-analysis-in-pfizers-covid-19-vaccine-trial/",
-        "github_url": "",
-        "icon_path": "fa-tasks",
-        "skills": ["Airflow", "Flask", "Postgres", "Docker", "Kubernetes"]
-      },
-      {
-        "title": "Analyza",
-        "description": "A POC application that converts plain english to SQL queries, inspired by Google's Analyza research",
-        "url": "https://research.google/pubs/pub45791/",
-        "github_url": "",
-        "icon_path": "fa-tasks",
-        "skills": ["Python", "NLP", "Spacy", "Flask"]
-      },
-      {
-        "title": "Kissflow Case",
-        "description": "A Case management module that comes with Kissflow Suite",
-        "url": "https://kissflow.com",
-        "github_url": "",
-        "icon_path": "fa-tasks",
-        "skills": ["Flask", "MongoDB", "Docker"]
-      },
-
-      {
-        "title": "Kissflow Projects",
-        "description": "A Project management module that comes with Kissflow Suite",
-        "url": "https://kissflow.com",
-        "github_url": "",
-        "icon_path": "fa-list",
-        "skills": ["Flask", "MongoDB", "Docker"]
-      },
-
-      {
-        "title": "Kissflow Reports",
-        "description": "A reporting platform that enables users to create reports for their workflows",
-        "url": "https://kissflow.com",
-        "github_url": "",
-        "icon_path": "fa-table",
-        "skills": ["Flask", "MongoDB", "Pandas", "Docker"]
-      },
-
-      {
-        "title": "Interviewbot",
-        "description": "A chatbot that automates technical interview process, Enabling recruiters to screen applicants before setting a formal interview.",
-        "url": "https://interviewbots.com",
-        "github_url": "",
-        "icon_path": "fa-comments",
-        "skills": ["Django", "NLP", "Microsoft LUIS", "AWS"]
-      },
-
-      {
-        "title": "iKeepLog",
-        "description": `A chatbot that logs your work and learning everyday. This project won 2nd place in WomenTechFab hackathon`,
-        "url": "https://docs.google.com/presentation/d/1k3hE6AmTcxix5iPPXCrE38Jh44-XXi3osDqWLWlXqpw/edit?usp=sharing",
-        "github_url": "",
-        "icon_path": "fa-comments",
-        "skills": ["Flask", "ReactJS", "Slack API", "Dialogflow"]
-      },
-
-      {
-        "title": "Rasa Site Bot",
-        "description": `A bot that answers the FAQ questions that you get. It was built as a demo for PyConf Hyderbad by scraping their event details.`,
-        "url": "https://github.com/bhavaniravi/rasa-site-bot",
-        "github_url": "",
-        "icon_path": "fa-user",
-        "skills": ["Flask", "NLP", "RasaHQ"]
-      },
-
-      // {"name":"ML Behind Chatbots", 
-      // "description": "A Research project, where I read the whole code base of RasaNLU and created a blog series", 
-      // "url": "https://medium.com/series/nlp-behind-chatbots-demystifying-rasanlu-318a8adb39ed", 
-      // "github_url": "", 
-      // "icon_path":"fa-search", 
-      // "skills":[ "RasaNLU"]},
-
-      // {"name":"QMiner", 
-      // "description": `A scraper app that goes through MCQ questions 
-      //                 and creates a knowledge base for chatbots. 
-      //                 It was my first python project.`, 
-      // "url": "https://interviewbots.com", 
-      // "github_url": "", 
-      // "icon_path":"fa-question-circle", 
-      // "skills":["Python", "BeautifulSoup", "MySQL"]},
-    ],
     "skills": [
       { "name": "Python", "percentage": 85 },
       { "name": "Flask/Django", "percentage": 85 },
@@ -263,6 +75,7 @@ module.exports = {
     ]
   },
   plugins: [
+    `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     {
       resolve: 'gatsby-plugin-preconnect',
@@ -286,6 +99,13 @@ module.exports = {
       options: {
         path: `${__dirname}/data/talks/`,
         name: `talks`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/data/projects/`,
+        name: `projects`,
       },
     },
     {

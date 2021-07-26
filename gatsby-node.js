@@ -28,6 +28,7 @@ const BlogPost = path.resolve(`./src/components/blogs/blog_page.js`)
 const tagTemplate = path.resolve("src/components/blogs/tags.js")
 
 function create_pages(graphql, actions, sourceName) {
+  console.log("\n\n\n creating "+ sourceName)
   var blog_query = `
   {
     allMarkdownRemark(
@@ -137,13 +138,15 @@ exports.onCreateWebpackConfig = ({
 
 
 exports.createPages = ({ graphql, actions }) => {
+  create_pages(graphql, actions, "projects")
   create_pages(graphql, actions, "blog")
   create_pages(graphql, actions, "talks")
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
+  console.log(node.internal.type)
+  if (node.internal.type === `MarkdownRemark` || node.internal.type === 'Mdx') {
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
