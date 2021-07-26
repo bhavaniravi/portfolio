@@ -23,8 +23,6 @@ class IndexComponent extends React.Component{
         />
         <Banner/>
         <WelcomeArea></WelcomeArea>
-        {/* <TimeLine></TimeLine>  */}
-        {/* <ProjectsArea></ProjectsArea> */}
       </Layout>
     )
   }

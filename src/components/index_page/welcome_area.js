@@ -110,8 +110,8 @@ export default class WelcomeArea extends Component {
                 <div className="container">
                     <div className="feature_inner row">
                         <ProjectBox project={{"title": "Consult", "description": "Convert your product idea into a functional prototypes", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
-                        <ProjectBox project={{"title": "Coach", "description": "Mentor you or your team to level up your Software Engineering skills", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
-                        <ProjectBox project={{"title": "Community", "description": "Setting up engagement pipelines for your community", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
+                        <ProjectBox project={{"title": "Coach", "description": "Mentor your team to level up your Software Engineering skills", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
+                        <ProjectBox project={{"title": "Community", "description": "Set your community ground up with engagement pipelines", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
                         
                     </div>
                 </div>

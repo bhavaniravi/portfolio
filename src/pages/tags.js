@@ -16,7 +16,6 @@ function SimpleCloud (data) {
 }
 
 export default function blog_page(props) {
-    console.log(props)
     let tags = props.data.tagsGroup.group
     var resultArray = tags.map(function(tag) {
         return { "value": tag.fieldValue, "count": tag.totalCount};

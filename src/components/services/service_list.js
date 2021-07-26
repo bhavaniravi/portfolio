@@ -1,8 +1,6 @@
 import React from "react"
 import SectionTitle from "../section_title"
 import Layout from "../layout"
-import { TalkBox } from "../index_page/talks"
-
 
 import "../../css/medium_blog.css"
 
@@ -10,17 +8,35 @@ if (typeof window !== `undefined`) {
     window.postsToShow = 10
 }
 
-function talk_post(props) {
-    props.node.skills = []
+export class ProjectBox extends React.Component {
+    render() {
+        let frontmatter = this.props.project.frontmatter
+        let content = this.props.project.html
+        return (
+            <div className={this.props.layout} id={this.props.project.frontmatter.title}>
+                <div className="feature_item talk_item" style={{
+                    backgroundColor: "rgb(243 243 243)",
+                    padding: "40px 25px"
+                }}>
+                    <div className="row feature_title">
+                        <h1 className="col-sm-12">{frontmatter.title}</h1>          
+                    </div>
+                    <div dangerouslySetInnerHTML={{ __html: content }} />
+                </div>
+            </div>
+        )
+    }
+}
+
+function project_post(props) {
     return (
-        <a href={"/"+ props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
-            <TalkBox key={props.node.slug} talk={props.node} layout="col-lg-12 col-md-12" />
-            {/* <div className="talk-title">{props.node.frontmatter.title}</div> */}
-        </a>
+        // <a href={"/"+ props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
+        <ProjectBox key={props.node.slug} project={props.node} layout="col-lg-12 col-md-12" />
+        
     )
 }
 
-export default class TalkIndex extends React.Component {
+export default class ProjectIndex extends React.Component {
     constructor(props) {
         super(props)
         let postsToShow = 10
@@ -69,7 +85,7 @@ export default class TalkIndex extends React.Component {
                 <div className="list_container med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (
-                        talk_post(post_data)
+                        project_post(post_data)
                     ))}
                 </div>
             </Layout>

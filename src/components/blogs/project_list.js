@@ -18,11 +18,9 @@ export class ProjectBox extends React.Component {
             backgroundColor: "#e8e8e8"
         }
         let frontmatter = this.props.project.frontmatter
-        console.log(frontmatter)
         var tags_badge = frontmatter.tech.map(tech => (
             <Badge color="info" style={{marginRight: "2px"}}>{tech}</Badge>
         ))
-        // console.log(tags_badge)
         return (
             <div className={this.props.layout}>
                 <div className="feature_item talk_item" style={{
@@ -32,8 +30,7 @@ export class ProjectBox extends React.Component {
                     <div className="row feature_title">
                         <h4 className="col-sm-12">{frontmatter.title}</h4>
                     </div>
-                    <p style={{color: "#222222", marginBottom: "20px"}}>{this.props.project.excerpt}</p>
-
+                    <p style={{color: "#222222", marginBottom: "20px"}}>{frontmatter.description}</p>
                     <p style={{color: "#222222", marginBottom: "10px"}}><b>Client</b>  :: {frontmatter.client}</p>
                     <p style={{color: "#222222", marginBottom: "20px"}}><b>Tech Stack</b> :: <span> </span>  
                         {tags_badge}  
@@ -46,7 +43,6 @@ export class ProjectBox extends React.Component {
 }
 
 function project_post(props) {
-    props.node.skills = []
     return (
         <a href={"/"+ props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
             <ProjectBox key={props.node.slug} project={props.node} layout="col-lg-12 col-md-12" />
@@ -100,7 +96,7 @@ export default class ProjectIndex extends React.Component {
         const posts = data.allMarkdownRemark.edges
         return (
             <Layout navFixed={true}>
-                <div className="med_blog_list_container talk_list_container">
+                <div className="list_container med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (
                         project_post(post_data)

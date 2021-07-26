@@ -7,5 +7,5 @@ tags: ["projects"]
 published_date: "2019-01-01"
 client: "Orangescape"
 client_url : "kissflow.com"
+description: Trello like Project management suite for Kissflow Digital workspace product
 ---
-A Project management module that comes with Kissflow Suite

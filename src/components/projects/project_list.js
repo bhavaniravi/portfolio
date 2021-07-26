@@ -1,8 +1,7 @@
 import React from "react"
 import SectionTitle from "../section_title"
 import Layout from "../layout"
-import { TalkBox } from "../index_page/talks"
-
+import {Badge} from "reactstrap"
 
 import "../../css/medium_blog.css"
 
@@ -10,17 +9,50 @@ if (typeof window !== `undefined`) {
     window.postsToShow = 10
 }
 
-function talk_post(props) {
+export class ProjectBox extends React.Component {
+    render() {
+        let badge_style = {
+            marginRight: "5px",
+            fontSize: "90%",
+            color: "#222",
+            backgroundColor: "#e8e8e8"
+        }
+        let frontmatter = this.props.project.frontmatter
+        var tags_badge = frontmatter.tech.map(tech => (
+            <Badge color="info" style={{marginRight: "2px"}}>{tech}</Badge>
+        ))
+        return (
+            <div className={this.props.layout}>
+                <div className="feature_item talk_item" style={{
+                    backgroundColor: "rgb(243 243 243)",
+                    padding: "40px 25px"
+                }}>
+                    <div className="row feature_title">
+                        <h4 className="col-sm-12">{frontmatter.title}</h4>
+                    </div>
+                    <p style={{color: "#222222", marginBottom: "20px"}}>{frontmatter.description}</p>
+
+                    <p style={{color: "#222222", marginBottom: "10px"}}><b>Client</b>  :: {frontmatter.client}</p>
+                    <p style={{color: "#222222", marginBottom: "20px"}}><b>Tech Stack</b> :: <span> </span>  
+                        {tags_badge}  
+                    </p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        )
+    }
+}
+
+function project_post(props) {
     props.node.skills = []
     return (
         <a href={"/"+ props.node.fields.sourceName + "/" + props.node.frontmatter.slug}>
-            <TalkBox key={props.node.slug} talk={props.node} layout="col-lg-12 col-md-12" />
-            {/* <div className="talk-title">{props.node.frontmatter.title}</div> */}
+            <ProjectBox key={props.node.slug} project={props.node} layout="col-lg-12 col-md-12" />
         </a>
     )
 }
 
-export default class TalkIndex extends React.Component {
+export default class ProjectIndex extends React.Component {
     constructor(props) {
         super(props)
         let postsToShow = 10
@@ -69,7 +101,7 @@ export default class TalkIndex extends React.Component {
                 <div className="list_container med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (
-                        talk_post(post_data)
+                        project_post(post_data)
                     ))}
                 </div>
             </Layout>

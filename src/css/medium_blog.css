@@ -11,6 +11,10 @@
     padding-bottom: 5.0rem;
 }
 
+.list_container{
+    min-height: 70vh;
+}
+
 .talk_list_container{
     max-width: 950px;
 }
@@ -154,7 +158,12 @@ li > p{
    margin-bottom: 0px 
 }
 
-.blogBadge > .badge-info {
+.blogBadge > .badge{
     margin-right: 3px;
 
+}
+
+.contentBadge > .badge{
+    margin-right: 3px;
+    font-size: 90%;
 }

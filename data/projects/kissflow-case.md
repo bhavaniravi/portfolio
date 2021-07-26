@@ -7,5 +7,5 @@ tags: ["projects"]
 published_date: "2019-01-01"
 client: "Orangescape"
 client_url : "kissflow.com"
+description: Case management module that comes with Kissflow Suite
 ---
-A Case management module that comes with Kissflow Suite

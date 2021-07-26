@@ -85,14 +85,14 @@ class BlogPostTemplate extends React.Component {
 
             <li style={{ "textAlign": "left" }}>
               {previous && (
-                <Link to={"/blog/" + previous.frontmatter.slug} rel="prev">
+                <Link to={"/"+post.fields.sourceName+"/" + previous.frontmatter.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li style={{ "textAlign": "right" }}>
               {next && (
-                <Link to={"/blog/" + next.frontmatter.slug} rel="next">
+                <Link to={"/"+post.fields.sourceName+"/" + next.frontmatter.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>
               )}
@@ -129,6 +129,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields{
+        sourceName
+      }
       frontmatter {
         title
         subtitle

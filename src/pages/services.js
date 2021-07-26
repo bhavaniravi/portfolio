@@ -1,9 +1,9 @@
 import React from "react"
-import ProjectIndex from "../components/projects/project_list"
+import ServicePage from "../components/services/service_list"
 import { graphql } from 'gatsby'
 
 export default function blog_page(props) {
-  return <ProjectIndex title="Projects" sub_title="The source of my Tech Experience" data={props.data}></ProjectIndex>
+  return <ServicePage title="Services" sub_title="There are 3 main reasons companies hire me to work with them." data={props.data}></ServicePage>
 }
 
 export const pageQuery = graphql`
@@ -11,20 +11,16 @@ query {
     allMarkdownRemark(
       sort: {fields: [frontmatter___published_date], order: DESC}, 
       limit: 100, 
-      filter: {fields: {sourceName: {eq: "projects"}}, 
-        frontmatter: {draft: {eq: false}, sideproject: {ne: true} }}) {
+      filter: {fields: {sourceName: {eq: "services"}}}) {
       edges {
         node {
           fields{
             sourceName
           }
           excerpt(pruneLength: 160)
+          html
           frontmatter {
             title
-            client
-            client_url
-            tech
-            description
             slug
           }
         }

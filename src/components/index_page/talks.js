@@ -14,7 +14,6 @@ export class TalkBox extends Component {
             backgroundColor: "#e8e8e8"
         }
         let frontmatter = this.props.talk.frontmatter
-        console.log(frontmatter)
         return (
             <div className={this.props.layout}>
                 <div className="feature_item talk_item" style={{
