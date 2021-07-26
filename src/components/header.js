@@ -38,8 +38,9 @@ class ExtendedNavbar extends React.Component {
     render() {
         return (
             <Navbar className="navbar-expand-lg" light={true}>
-                <div className="container box_1620">
+                <div className="container box_1620 menu_bar">
                     <NavbarToggler araia-label="Toggle For Menu" className="navbar-toggler" onClick={this.toggle}>
+                        <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
@@ -50,11 +51,9 @@ class ExtendedNavbar extends React.Component {
                             {/* <MenuItem href="/" title="Home"></MenuItem> */}
                             <MenuItem target="_blank" rel="noopener noreferrer"  href="https://gumroad.com/l/LaFSj" title="Masterclass"></MenuItem>
                             <MenuItem href="/" title="About Me"></MenuItem>
-                            {/* <MenuItem href="/#experience" title="Experience"></MenuItem> */}
-                            <MenuItem href="/blog" title="Blogs"></MenuItem>
+                            <MenuItem href="/blog" title="Blog"></MenuItem>
                             <MenuItem href="/talks" title="Talks"></MenuItem>
-                           
-                            {/* <MenuItem href="/resume" title="Resume"></MenuItem> */}
+                            <MenuItem href="/projects" title="Projects"></MenuItem>
                             <MenuItem target="_blank" rel="noopener noreferrer" 
                                 href="https://mailchi.mp/e1cea5c7347f/thelearningdev"
                                 title="Newsletter"></MenuItem>
@@ -75,29 +74,27 @@ export default class Header extends React.Component {
         };
     }
 
-    listenScrollEvent = e => {
-        var scroll = window.scrollY;
-        if (scroll >= 150) {
-            this.setState({
-                isScroll: true
-            });
-        }
-        else {
-            this.setState({
-                isScroll: false
-            });
-        }
-    }
+    // listenScrollEvent = e => {
+    //     var scroll = window.scrollY;
+    //     if (scroll >= 150) {
+    //         this.setState({
+    //             isScroll: true
+    //         });
+    //     }
+    //     else {
+    //         this.setState({
+    //             isScroll: false
+    //         });
+    //     }
+    // }
 
-    componentDidMount() {
-        window.addEventListener('scroll', this.listenScrollEvent)
-    }
+    // componentDidMount() {
+    //     window.addEventListener('scroll', this.listenScrollEvent)
+    // }
 
     render() {
         return (
-            <header id="header_area" 
-                    className={this.state.isScroll || this.props.navFixed ? 'header_area navbar_fixed' : "header_area"}
-                    >
+            <header id="header_area" className= 'header_area navbar_fixed'>
                 <div className="main_menu">
                     <ExtendedNavbar></ExtendedNavbar>
                 </div>

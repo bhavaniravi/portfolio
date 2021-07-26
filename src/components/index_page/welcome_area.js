@@ -1,8 +1,6 @@
 import React, { Component } from "react"
 import CountUp from 'react-countup';
 import { Progress } from "reactstrap";
-import { StaticQuery } from "gatsby";
-import { graphql } from 'gatsby';
 import {ProjectBox} from "./projects";
 import SectionTitle from "../section_title"
 class NumericalAchieveMent extends Component {

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Badge } from "reactstrap";
-import { StaticQuery } from "gatsby";
-import { graphql } from 'gatsby';
 import SectionTitle from "../section_title"
 
 export class ProjectBox extends Component {
@@ -50,24 +48,24 @@ class ProjectsArea extends Component {
 }
 
 
-export default ({ props }) => (
-    <StaticQuery
-        query={graphql`
-		query {
-		  site {
-			siteMetadata {
-			  projects{
-                  title
-                  description
-                  url
-                  skills
-                  icon_path
-              }
-			}
-		  }
-		}
-	  `
-        }
-        render={({ site }) => <ProjectsArea {...site.siteMetadata} {...props} />}
-    />
-);
+// export default ({ props }) => (
+//     <StaticQuery
+//         query={graphql`
+// 		query {
+// 		  site {
+// 			siteMetadata {
+// 			  projects{
+//                   title
+//                   description
+//                   url
+//                   skills
+//                   icon_path
+//               }
+// 			}
+// 		  }
+// 		}
+// 	  `
+//         }
+//         render={({ site }) => <ProjectsArea {...site.siteMetadata} {...props} />}
+//     />
+// );
