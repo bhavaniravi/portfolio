@@ -99,7 +99,7 @@ button:focus {
 
 .p_120 {
   padding-top: 75px;
-  padding-bottom: 120px;
+  padding-bottom: 2%;
 }
 
 .p_100 {
@@ -3299,9 +3299,9 @@ h6 {
   background: #fff;
 }
 
-.feature_inner {
+/* .feature_inner {
   margin-bottom: -30px;
-}
+} */
 
 .feature_item {
   padding: 50px 35px;

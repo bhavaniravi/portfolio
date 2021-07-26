@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import {ProjectBox} from "../../../unused/projects";
 import SectionTitle from "../section_title"
+import {Link} from "gatsby"
 
 
 export default class ServiceArea extends Component {
@@ -16,6 +17,12 @@ export default class ServiceArea extends Component {
                         <ProjectBox project={{"title": "Community", "description": "Set your community ground up with engagement pipelines", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
                         
                     </div>
+                    <div className="row" style={{"justifyContent": "center"}}>
+                        <Link to="/services">
+                            <button>More Details</button>
+                        </Link>
+                    </div>
+
                 </div>
             </section>
         )

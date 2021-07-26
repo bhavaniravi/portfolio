@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import {ProjectBox} from "../../../unused/projects";
 import SectionTitle from "../section_title"
-import { StaticQuery } from "gatsby";
+import { StaticQuery, Link } from "gatsby";
 
 export default class BlogsArea extends Component {
     render() {
@@ -10,6 +10,8 @@ export default class BlogsArea extends Component {
                 <SectionTitle title="Recent Posts"/>
                 <div className="container">
                     <div className="feature_inner row">
+                        
+                    
                     <StaticQuery
                                     query={graphql`
                                     query {
@@ -48,6 +50,13 @@ export default class BlogsArea extends Component {
                                         ))
                               )}  
                         />
+                    </div>
+                    <div className="row" style={{"justifyContent": "center"}}>
+                        <Link to="/blog">
+                            <button>
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
