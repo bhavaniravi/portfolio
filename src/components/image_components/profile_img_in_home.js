@@ -15,11 +15,11 @@ export default () => (
     <StaticQuery
       query={graphql`
       query {
-        file(relativePath: { eq: "pp.png" }) {
+        file(relativePath: { eq: "pp1.png" }) {
           childImageSharp {
             # Specify the image processing specifications right in the query.
             # Makes it trivial to update as your page's design changes.
-            fluid(maxWidth: 300, maxHeight: 300) {
+            fluid(maxWidth: 5000, maxHeight: 5000) {
               ...GatsbyImageSharpFluid
             }
           }
