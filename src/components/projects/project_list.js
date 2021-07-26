@@ -11,12 +11,6 @@ if (typeof window !== `undefined`) {
 
 export class ProjectBox extends React.Component {
     render() {
-        let badge_style = {
-            marginRight: "5px",
-            fontSize: "90%",
-            color: "#222",
-            backgroundColor: "#e8e8e8"
-        }
         let frontmatter = this.props.project.frontmatter
         var tags_badge = frontmatter.tech.map(tech => (
             <Badge color="info" style={{marginRight: "2px"}}>{tech}</Badge>

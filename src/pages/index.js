@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 import Banner from "../components/index_page/about_me"
-import WelcomeArea from "../components/index_page/welcome_area"
+import WelcomeArea from "../components/index_page/services"
 import SEO from "../components/seo"
 import {graphql} from "gatsby" 
 

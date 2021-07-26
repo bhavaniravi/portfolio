@@ -42,19 +42,19 @@ class Banner extends React.Component {
 export default ({ props }) => (
 	<StaticQuery
 		query={graphql`
-		query {
-		  site {
-			siteMetadata {
-			  title,
-			  about_me,
-				tagline,
-				social_icons{
-					url
-					className
-				}
+	query {
+		site {
+		siteMetadata {
+			title,
+			about_me,
+			tagline,
+			social_icons{
+				url
+				className
 			}
-		  }
 		}
+		}
+	}
 	  `
 		}
 		render={({ site }) => <Banner {...site.siteMetadata} {...props} />}

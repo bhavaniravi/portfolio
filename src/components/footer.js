@@ -1,37 +1,7 @@
 import React, { Component } from "react"
-// import { TwitterFollowButton } from 'react-twitter-embed'
+import { StaticQuery, graphql } from "gatsby"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-
-// class SocialLink extends Component{
-//     render(){
-//         return(
-//             <li>
-//                 <a target="_blank" 
-//                 rel="noopener noreferrer" 
-//                 href={this.props.social_url}>
-//                 <i className={`fa ${this.props.social_icon_class}`}></i></a></li>
-//         )
-//     }
-// }
-
-
-class Social extends Component {
-    render() {
-        return (
-            <div className="col-lg-2">
-                {/* <aside className="f_widget social_widget">
-                    <div className="f_title">
-                        <h3>Follow Me</h3>
-                    </div>
-                    <p>Let us be social</p>
-                    <ul className="list">
-                        <TwitterFollowButton screenName={'BhavaniRavi_'} /> 
-                    </ul>
-                </aside> */}
-            </div>
-        )
-    }
-}
+import { socialComponents } from "./utils"
 
 export class NewsLetter extends Component {
     constructor(props) {
@@ -109,14 +79,35 @@ export default class FooterArea extends Component {
                             <NewsLetter></NewsLetter>
                         </div>
 
-
-                        <Social></Social>
                         <div className="col-lg-5 col-sm-6" style={{ "paddingLeft": "15%" }}>
                             <p style={{ fontSize: "16px" }}>
                                 Copyright &copy; {new Date().getFullYear()} &nbsp;All rights reserved &nbsp;
-                                <a style={{ fontSize: "16px" }} href="https://twitter.com/BhavaniRavi_">@BhavaniRavi_</a>
+                                <a style={{ fontSize: "16px" }} href="bhavaniravi.com">bhavaniravi.com</a>
 
                             </p>
+                            <div className="f_title">
+                                <h3>Contact Me</h3>
+                            </div>
+                            <ul className="list personal_social">
+                                <StaticQuery
+                                    query={graphql`
+                                        query SocialQuery {
+                                            site {
+                                            siteMetadata {
+                                                social_icons{
+                                                    url
+                                                    className
+                                                }
+                                            }
+                                            }
+                                        }
+                                    `}
+                                    render={data => (
+                                        socialComponents(data.site.siteMetadata.social_icons)
+                                    )}
+                                />
+							
+						    </ul>
                         </div>
                     </div>
 

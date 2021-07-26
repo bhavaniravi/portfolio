@@ -3409,17 +3409,17 @@ h6 {
 .personal_text .basic_info li:last-child {
   margin-bottom: 0px;
 }
-.personal_text .personal_social {
+.personal_social {
   margin-top: 45px;
 }
-.personal_text .personal_social li {
+.personal_social li {
   display: inline-block;
   margin-right: 7px;
 }
-.personal_text .personal_social li:last-child {
+.personal_social li:last-child {
   margin-right: 0px;
 }
-.personal_text .personal_social li a {
+.personal_social li a {
   line-height: 40px;
   width: 40px;
   border-radius: 5px;
@@ -3430,7 +3430,8 @@ h6 {
   background: #e8e8e8;
   color: #222;
 }
-.personal_text .personal_social li:hover a {
+
+.personal_social li:hover a {
   color: #e8e8e8;
   background-color: #222;
   }
