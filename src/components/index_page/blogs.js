@@ -44,7 +44,8 @@ export default class BlogsArea extends Component {
                                     render={data => (
                                         data.allMarkdownRemark.edges.map(edge => (
                                             <ProjectBox project={{"title": edge.node.frontmatter.title, 
-                                            "description": edge.node.frontmatter.description, "icon_path": null, 
+                                            "description": edge.node.frontmatter.description, 
+                                            "url": "/blog/"+ edge.node.frontmatter.slug ,"icon_path": null, 
                                             "skills": []}}></ProjectBox>
                         
                                         ))
@@ -54,7 +55,7 @@ export default class BlogsArea extends Component {
                     <div className="row" style={{"justifyContent": "center"}}>
                         <Link to="/blog">
                             <button>
-                                Read More
+                                Read All
                             </button>
                         </Link>
                     </div>

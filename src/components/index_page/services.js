@@ -12,9 +12,9 @@ export default class ServiceArea extends Component {
                     sub_title="Are you looking for a Software Engineer who" />
                 <div className="container">
                     <div className="feature_inner row">
-                        <ProjectBox project={{"title": "Consult", "description": "Convert your product idea into a functional prototypes", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
-                        <ProjectBox project={{"title": "Coach", "description": "Mentor your team to level up your Software Engineering skills", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
-                        <ProjectBox project={{"title": "Community", "description": "Set your community ground up with engagement pipelines", "icon_path": null, "url": "/services", "skills": []}}></ProjectBox>
+                        <ProjectBox project={{"title": "Consult", "description": "Convert your product idea into a functional prototypes", "icon_path": null, "url": "/services#code", "skills": []}}></ProjectBox>
+                        <ProjectBox project={{"title": "Coach", "description": "Mentor your team to level up your Software Engineering skills", "icon_path": null, "url": "/services#coach", "skills": []}}></ProjectBox>
+                        <ProjectBox project={{"title": "Community", "description": "Set your community ground up with engagement pipelines", "icon_path": null, "url": "/services#community", "skills": []}}></ProjectBox>
                         
                     </div>
                     <div className="row" style={{"justifyContent": "center"}}>
