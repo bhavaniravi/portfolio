@@ -3,7 +3,7 @@ import {ProjectBox} from "../../../unused/projects";
 import SectionTitle from "../section_title"
 
 
-export default class WelcomeArea extends Component {
+export default class ServiceArea extends Component {
     render() {
         return (
             <section className="feature_area p_120" id="services">

@@ -2,7 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 
 import Banner from "../components/index_page/about_me"
-import WelcomeArea from "../components/index_page/services"
+import ServiceArea from "../components/index_page/services"
+import BlogsArea from "../components/index_page/blogs"
 import SEO from "../components/seo"
 import {graphql} from "gatsby" 
 
@@ -22,7 +23,8 @@ class IndexComponent extends React.Component{
           previewImgUrl={ "/" + site.siteMetadata.previewImgUrl}
         />
         <Banner/>
-        <WelcomeArea></WelcomeArea>
+        <ServiceArea></ServiceArea>
+        <BlogsArea></BlogsArea>
       </Layout>
     )
   }
