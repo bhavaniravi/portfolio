@@ -35,7 +35,7 @@ export class ProjectBox extends React.Component {
                     <p style={{color: "#222222", marginBottom: "20px"}}><b>Tech Stack</b> :: <span> </span>  
                         {tags_badge}  
                     </p>
-                    <button>Read More</button>
+                    {/* <button>Read More</button> */}
                 </div>
             </div>
         )

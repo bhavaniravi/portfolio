@@ -1,6 +1,7 @@
 ---
 title: Coach
 slug: coach
+order: 2
 ---
 
 You team is incorporating Python into your software development process. You want an introductory and advanced Python session to help your team get started.

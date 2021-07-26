@@ -9,7 +9,7 @@ export default function blog_page(props) {
 export const pageQuery = graphql`
 query {
     allMarkdownRemark(
-      sort: {fields: [frontmatter___published_date], order: DESC}, 
+      sort: {fields: [frontmatter___order], order: ASC}, 
       limit: 100, 
       filter: {fields: {sourceName: {eq: "services"}}}) {
       edges {
