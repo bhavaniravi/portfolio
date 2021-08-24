@@ -19,7 +19,7 @@ description: Oauth2 is an authentication protocol that allows external
   support applications not listed in the providers, Auth0 has a generic
   connector. For the rest of the blog posts, let's see how to configure and
   connect them.
-draft: true
+draft: false
 ---
 # How to Connect to Custom Oauth2 Provider Using Auth0?
 
