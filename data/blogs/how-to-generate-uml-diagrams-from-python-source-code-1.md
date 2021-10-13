@@ -6,7 +6,7 @@ tags:
   - python
 featuredImgPath: https://i.imgur.com/iWtiiYx.png
 isexternal: true
-published_date: 2021-10-12
+published_date: 2021-10-13
 created_date: 2021-10-12
 description: Trust me code moves faster than the digrams that you created
   for   the documentation. How about a Python tool that you can add to your
