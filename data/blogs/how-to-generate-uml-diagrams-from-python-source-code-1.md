@@ -51,5 +51,9 @@ pyreverse -o png <path_to_src>
 
 The generated image looks something like this.
 
+<figure>
+
 ![](https://i.imgur.com/ucWHkb5.jpg)
+
+</figure>
 
