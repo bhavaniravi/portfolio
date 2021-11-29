@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import CountUp from 'react-countup';
 import { Progress } from "reactstrap";
 import {ProjectBox} from "./projects";
-import SectionTitle from "../section_title"
+import SectionTitle from "../src/components/section_title"
 class NumericalAchieveMent extends Component {
     render() {
         return (

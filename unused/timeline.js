@@ -2,7 +2,7 @@ import React,  { Component } from "react";
 import {TabContent, TabPane} from "reactstrap";
 import {StaticQuery} from "gatsby";
 import { graphql } from 'gatsby';
-import SectionTitle from "../section_title"
+import SectionTitle from "../src/components/section_title"
 
 // class TimeLineTab extends Component{
 //     render(){

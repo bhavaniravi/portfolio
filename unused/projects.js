@@ -1,27 +1,29 @@
 import React, { Component } from "react";
 import { Badge } from "reactstrap";
-import SectionTitle from "../section_title"
+import SectionTitle from "../src/components/section_title"
 
 export class ProjectBox extends Component {
     render() {
         return (
             <div className="col-lg-4 col-md-6">
-                <div className="feature_item">
-                    <a href={this.props.project.url}>
-                        <i className={`fa ${this.props.project.icon_path}`}></i>
-                        <h4>{this.props.project.title}</h4>
-                        <p style={{ color: "#222" }}>{this.props.project.description}</p>
-                        <br />
-                        {this.props.project.skills.map(skill => (
-                            <Badge color="primary" style={{
-                                marginRight: "5px",
-                                fontSize: "90%",
-                                backgroundColor: "#8bc4f97a",
-                                color: "#222"
-                            }}>{skill}</Badge>
-                        ))}
-                    </a>
-                </div>
+                <a href={this.props.project.url}>
+                    <div className="feature_item">
+                    
+                            <i className={`fa ${this.props.project.icon_path}`}></i>
+                            <h4>{this.props.project.title}</h4>
+                            <p style={{ color: "#222" }}>{this.props.project.description}</p>
+                            <br />
+                            {this.props.project.skills.map(skill => (
+                                <Badge color="primary" style={{
+                                    marginRight: "5px",
+                                    fontSize: "90%",
+                                    backgroundColor: "#8bc4f97a",
+                                    color: "#222"
+                                }}>{skill}</Badge>
+                            ))}
+                        
+                    </div>
+                </a>
             </div>
         )
     }

@@ -1,36 +1,8 @@
 import React, { Component } from "react";
-import { Badge } from "reactstrap";
-import { StaticQuery } from "gatsby";
-import { graphql } from 'gatsby';
-import SectionTitle from "../section_title";
-import { socialComponents } from "../utils"
+import SectionTitle from "../src/components/section_title";
+import { socialComponents } from "../src/components/utils"
 
-export class TalkBox extends Component {
-    render() {
-        let badge_style = {
-            marginRight: "5px",
-            fontSize: "90%",
-            color: "#222",
-            backgroundColor: "#e8e8e8"
-        }
-        let frontmatter = this.props.talk.frontmatter
-        return (
-            <div className={this.props.layout}>
-                <div className="feature_item talk_item" style={{
-                    backgroundColor: "rgb(243 243 243)",
-                    padding: "40px 25px"
-                }}>
-                    <div className="row feature_title">
-                        <h4 className="col-sm-12">{frontmatter.title}</h4>
-                    </div>
-                    <p style={{color: "#222222", marginBottom: "7px"}}>{frontmatter.description}</p>
-                    <p style={{color: "#222222", marginBottom: "20px"}}><b>Event ::</b> {frontmatter.location}</p>
-                    <button>Video & Slides</button>
-                </div>
-            </div>
-        )
-    }
-}
+
 
 class TalksArea extends Component {
 

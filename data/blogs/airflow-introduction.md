@@ -5,7 +5,7 @@ created_date: 2020-05-28
 title: "An Introduction to Apache Airflow"
 template: "post"
 draft: false
-description: "Airflow is a platform created by the community to programmatically author, schedule, and monitor workflows. In this blog we will underestand the basics of airflow"
+description: "Airflow is a platform to programmatically author, schedule, and monitor workflows. In this blog we will underestand the basics of airflow"
 subtitle: "Introduction to basic airflow concepts"
 tags: ["airflow", "python"]
 featuredImgPath: "https://i.imgur.com/lYt622N.png"

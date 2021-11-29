@@ -13,7 +13,7 @@ export class ProjectBox extends React.Component {
         let frontmatter = this.props.project.frontmatter
         let content = this.props.project.html
         return (
-            <div className={this.props.layout} id={this.props.project.frontmatter.title}>
+            <div className={this.props.layout} id={this.props.project.frontmatter.title.toLowerCase()}>
                 <div className="feature_item talk_item" style={{
                     backgroundColor: "rgb(243 243 243)",
                     padding: "40px 25px"

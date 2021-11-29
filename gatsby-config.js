@@ -8,7 +8,7 @@ module.exports = {
     social: {
       twitter: `BhavaniRavi_`,
     },
-    "previewImgUrl": "img/pp.png",
+    "previewImgUrl": "img/pp1.png",
     "tagline": `Independent Software Engineer, Instructor, Tech Blogger & Speaker`,
     "description": "A sneak peak into my head",
     "twitterHandle": '@BhavaniRavi_',
@@ -41,38 +41,13 @@ module.exports = {
         "name": "Github",
         "className": "fa-github",
         "url": "https://github.com/bhavaniravi"
+      },
+      {
+        "name": "RSS",
+        "className": "fa-rss",
+        "url": "https://bhavaniravi.com/rss.xml"
       }
     ],
-    "skills": [
-      { "name": "Python", "percentage": 85 },
-      { "name": "Flask/Django", "percentage": 85 },
-      { "name": "Chatbots & NLP", "percentage": 80 },
-      { "name": "MongoDB", "percentage": 70 },
-      { "name": "Cloud Deployment", "percentage": 70 }
-    ],
-    "experience": [
-      {
-        "time": "Jul 2021 to Present",
-        "title": "Independent Software Consultant"
-      },
-      {
-        "time": "October 2019 to Jul 2021",
-        "title": "Research Engineer @ Saama Technologies"
-      },
-
-      {
-        "time": "May 2018 to Aug 2019",
-        "title": "Software Engineer @ Orangescape"
-      },
-      {
-        "time": "May 2016 to Apr 2018",
-        "title": "Product Developement Engineer @ Focus Infotech"
-      },
-      {
-        "time": "Aug 2012 to Apr 2016",
-        "title": "Computer Science Engineering @ KCG College of technology"
-      }
-    ]
   },
   plugins: [
     `gatsby-plugin-mdx`,

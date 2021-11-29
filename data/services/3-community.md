@@ -1,6 +1,7 @@
 ---
 title: Community
 slug: community
+order: 3
 ---
 
 You want someone to understand your technical audience and set up a community and outreach pipeline for them
