@@ -5,7 +5,11 @@ import {
     NavItem,
     Collapse,
     Nav,
-    NavLink
+    NavLink, 
+    Dropdown,
+    DropdownToggle,
+    DropdownItem,
+    DropdownMenu,
 } from "reactstrap"
 
 class MenuItem extends React.Component {
@@ -55,8 +59,7 @@ class ExtendedNavbar extends React.Component {
                             <MenuItem href="/about-me" title="About Me"></MenuItem>
                             <MenuItem href="/blog" title="Blog"></MenuItem>
                             <MenuItem href="/talks" title="Talks"></MenuItem>
-                            <MenuItem href="/projects" title="Projects"></MenuItem>
-                            
+                            <MenuItem href="/projects" title="Projects"></MenuItem>            
                         </Nav>
                     </Collapse>
                 </div>

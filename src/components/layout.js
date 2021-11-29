@@ -7,7 +7,7 @@ export default ({ navFixed, children }) => (
       <Header navFixed={navFixed}></Header>
       <div style={{position:"relative"}}>
         {children}
-        </div>
+      </div>
       <FooterArea></FooterArea>  
     </React.Fragment>
 )

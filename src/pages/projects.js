@@ -8,27 +8,29 @@ export default function blog_page(props) {
 
 export const pageQuery = graphql`
 query {
-    allMarkdownRemark(
-      sort: {fields: [frontmatter___published_date], order: DESC}, 
-      limit: 100, 
-      filter: {fields: {sourceName: {eq: "projects"}}, 
-        frontmatter: {draft: {eq: false}, sideproject: {ne: true} }}) {
-      edges {
-        node {
-          fields{
-            sourceName
-          }
-          excerpt(pruneLength: 160)
-          frontmatter {
-            title
-            client
-            client_url
-            tech
-            description
-            slug
-          }
+  allMarkdownRemark(
+    sort: {fields: [frontmatter___published_date], order: DESC}, 
+    limit: 100, 
+    filter: {fields: {sourceName: {in: ["projects", "opensource"] }}, 
+      frontmatter: {draft: {eq: false}, sideproject: {ne: true} }}) 
+  {	group(field: fields___sourceName) {
+    edges {
+      node {
+        fields{
+          sourceName
+        }
+        excerpt(pruneLength: 160)
+        frontmatter {
+          title
+          client
+          client_url
+          tech
+          description
+          slug
         }
       }
     }
+  }
+}
 }
 `

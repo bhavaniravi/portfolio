@@ -19,6 +19,12 @@ export default class OpenSourceArea extends Component {
                         <ProjectBox project={{"title": "Docker", "description": "Docker for Python Development - A tutorial Guide for Python Developers", "icon_path": null, "url": "/opensource/docker", "skills": ["documentation"]}}></ProjectBox>
                         <ProjectBox project={{"title": "OwnFlask", "description": "Built a Flask like framework to understand internals of Flask", "icon_path": null, "url": "blog/building-own-flask-1/", "skills": ["code"]}}></ProjectBox>
                     </div>
+                    <div className="row" style={{"justifyContent": "center"}}>
+                        <Link to="/projects/#opensource">
+                            <button>More Details</button>
+                        </Link>
+                    </div>
+
                 </div>
             </section>
         )
