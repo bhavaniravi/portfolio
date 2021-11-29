@@ -10,6 +10,7 @@ import "../css/bootstrap.min.css"
 import "../css/style.css"
 import "../css/responsive.css"
 import "../css/font-awesome.min.css"
+import OpenSourceArea from "../components/index_page/opensource"
 
 class IndexComponent extends React.Component{
   render(){
@@ -22,7 +23,9 @@ class IndexComponent extends React.Component{
           previewImgUrl={ "/" + site.siteMetadata.previewImgUrl}
         />
         <Banner/>
-        <WelcomeArea></WelcomeArea>
+        <OpenSourceArea></OpenSourceArea>
+        <ServiceArea></ServiceArea>
+        <BlogsArea></BlogsArea>
       </Layout>
     )
   }
