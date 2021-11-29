@@ -14,7 +14,6 @@ async function importIcons(){
 }
 
 function get_title(post){
-  console.log(post.fields.sourceName, post.fields.sourceName == "opensource")
   if (post.fields.sourceName == "opensource") {
     return post.frontmatter.title
   }

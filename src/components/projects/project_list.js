@@ -94,7 +94,11 @@ export default class ProjectIndex extends React.Component {
       postsToShow = window.postsToShow;
     }
     let currentActiveTab = 1
-    var path = window.location.href.split("#")[1];
+
+    const isBrowser = () => typeof window !== "undefined"
+    if (isBrowser()) {
+        var path = window.location.href.split("#")[1];
+    }
     if (path && path == "opensource") { 
         currentActiveTab = "2"
     }
@@ -107,7 +111,6 @@ export default class ProjectIndex extends React.Component {
 
   // Toggle active state for Tab
   toggleTab(tab) {
-    console.log(tab, this.state.currentActiveTab);
     if (this.state.currentActiveTab !== tab) {
       this.setState({
         currentActiveTab: tab,
