@@ -10,7 +10,7 @@ published_date: 2021-11-29
 created_date: 2021-11-29
 description: "Docker let's you packages application and it's associated packages
   and libraries to be ran anywhere without much hassle. "
-draft: true
+draft: false
 ---
 ## The Art of Shipping Software
 
