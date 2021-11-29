@@ -76,6 +76,13 @@ module.exports = {
         name: `services`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/data/opensource/`,
+        name: `opensource`,
+      },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,

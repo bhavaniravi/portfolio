@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby'
 import React, { Component } from "react"
 import {ProjectBox} from "../../../unused/projects";
 import SectionTitle from "../section_title"

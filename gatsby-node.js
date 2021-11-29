@@ -141,6 +141,7 @@ exports.createPages = ({ graphql, actions }) => {
   create_pages(graphql, actions, "projects")
   create_pages(graphql, actions, "blog")
   create_pages(graphql, actions, "talks")
+  create_pages(graphql, actions, "opensource")
   // create_pages(graphql, actions, "services")
 }
 

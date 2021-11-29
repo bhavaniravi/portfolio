@@ -13,6 +13,13 @@ async function importIcons(){
   // import("../../css/font-awesome.min.css")
 }
 
+function get_title(post){
+  console.log(post.fields.sourceName, post.fields.sourceName == "opensource")
+  if (post.fields.sourceName == "opensource") {
+    return post.frontmatter.title
+  }
+}
+
 class BlogPostTemplate extends React.Component {
   render() {
     importIcons()
@@ -27,9 +34,11 @@ class BlogPostTemplate extends React.Component {
     const title = post.frontmatter.title
     const { previous, next } = this.props.pageContext
     const twitterHandle = this.props.data.site.siteMetadata.twitterHandle
-    var tags_badge = post.frontmatter.tags.map(tag => (
-      <Badge color="info" href={"/tags/" + tag}>{tag}</Badge>
-    ));
+    if (post.frontmatter.tags) {
+      var tags_badge = post.frontmatter.tags.map(tag => (
+        <Badge color="info" href={"/tags/" + tag}>{tag}</Badge>
+      ));
+    }
 
     return (
       <Layout navFixed={true}>
@@ -42,9 +51,10 @@ class BlogPostTemplate extends React.Component {
               previewImgUrl={post.frontmatter.featuredImgPath}
               isexternal={post.frontmatter.isexternal}
             />
-            <div class="blogBadge">
+            <div className="blogBadge">
             {tags_badge}
             </div>
+            <h1>{get_title(post)}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </article>
           <hr />
