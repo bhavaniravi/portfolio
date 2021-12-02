@@ -2,7 +2,9 @@
 title: Docker
 slug: docker
 draft: false
+skills: ["tutorial", "documentation"]
 ---
+
 
 Contributing to Docker was a long standing dream so when I saw an opportinity to contribute some docs I dived in head first. 
 

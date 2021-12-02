@@ -12,6 +12,7 @@ import "../css/style.css"
 import "../css/responsive.css"
 import "../css/font-awesome.min.css"
 import OpenSourceArea from "../components/index_page/opensource"
+import ProductArea from "../components/index_page/products"
 
 class IndexComponent extends React.Component{
   render(){
@@ -25,6 +26,7 @@ class IndexComponent extends React.Component{
         />
         <Banner/>
         <OpenSourceArea></OpenSourceArea>
+        <ProductArea></ProductArea>
         <ServiceArea></ServiceArea>
         <BlogsArea></BlogsArea>
       </Layout>

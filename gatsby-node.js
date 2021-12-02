@@ -27,6 +27,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const tagTemplate = path.resolve("src/components/blogs/tags.js")
 
 function create_pages(graphql, actions, sourceName) {
+  console.log("create_pages", sourceName)
   var blog_query = `
   {
     allMarkdownRemark(
@@ -142,7 +143,7 @@ exports.createPages = ({ graphql, actions }) => {
   create_pages(graphql, actions, "blog")
   create_pages(graphql, actions, "talks")
   create_pages(graphql, actions, "opensource")
-  // create_pages(graphql, actions, "services")
+  create_pages(graphql, actions, "products")
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

@@ -2,6 +2,7 @@
 title: Django All Auth
 slug: django-allauth
 draft: false
+skills: ["code"]
 ---
 
 After 2018, I have recently started working on Django for a few projects. One of them came up as a result of hosting my [PythonToProject Bootcamp](https://bhavaniravi.gumroad.com/l/LaFSj) in Gumroad. 
