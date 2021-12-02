@@ -2,6 +2,7 @@
 title: Apache Airflow
 slug: airflow
 draft: false
+skills: ["code", "documentation"]
 ---
 
 I have started using Apache Airflow in 2020 as a part of [Smart Data Query](/projects/smart-data-query/) project. It is amazing tool for building distributed data pipelines. It's seamless integration and working with Kubernetes and Docker is what made it the tool of choice. I started created [tutorials and guides for it](http://localhost:8000/talks/distributed-data-pipelines-in-python/).
