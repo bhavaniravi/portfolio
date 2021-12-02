@@ -1,5 +1,5 @@
 ---
-slug: how-to-start-journaling?
+slug: how-to-start-journaling
 title: How to Start Journaling?
 subtitle: Start the Life Changing habit of journaling Today
 draft: false
