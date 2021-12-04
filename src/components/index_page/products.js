@@ -11,7 +11,7 @@ export class ProductBox extends Component {
   render() {
     let product = this.props.product;
     return (
-        <div className="col-lg-6 col-md-6">
+        <div className="col-lg-4 col-md-4">
           <Card className="feature_item">
           <CardImg top width="100%" src={`${product.preview_img}`} />
           <CardBody>
