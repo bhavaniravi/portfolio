@@ -12,6 +12,8 @@ description: "Docker let's you packages application and it's associated packages
   and libraries to be ran anywhere without much hassle. "
 draft: false
 ---
+# Introduction to Docker - The What, Why and How
+
 ## The Art of Shipping Software
 
 The core of Docker and its success is in its ability to solve the long-standing problem of Shipping Software. As we saw in the introductory video, deploying software involved a lot of "It works on my machine" There was no concrete way to ship software and its associated packages and libraries until then.
