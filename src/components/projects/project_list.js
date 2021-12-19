@@ -93,7 +93,7 @@ export default class ProjectIndex extends React.Component {
     if (typeof window !== `undefined`) {
       postsToShow = window.postsToShow;
     }
-    let currentActiveTab = 1
+    let currentActiveTab = "1"
 
     const isBrowser = () => typeof window !== "undefined"
     if (isBrowser()) {
@@ -110,12 +110,11 @@ export default class ProjectIndex extends React.Component {
   }
 
   // Toggle active state for Tab
-  toggleTab(tab) {
-    if (this.state.currentActiveTab !== tab) {
-      this.setState({
-        currentActiveTab: tab,
-      });
-    }
+  toggleTab(tab) {  
+    this.setState({
+      ...this.state,
+      "currentActiveTab": tab,
+    });
   }
 
   update() {
@@ -137,6 +136,9 @@ export default class ProjectIndex extends React.Component {
 
   componentDidMount() {
     window.addEventListener(`scroll`, this.handleScroll);
+    console.log("trying to toggle")
+    console.log(this.state)
+    this.toggleTab(this.state.currentActiveTab);
   }
 
   componentWillUnmount() {
