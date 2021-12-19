@@ -10,6 +10,7 @@ import {
   NavLink,
 
 } from "reactstrap";
+import classnames from 'classnames';
 
 import "../../css/medium_blog.css";
 
@@ -87,32 +88,31 @@ function project_post(props) {
 
 export default class ProjectIndex extends React.Component {
   constructor(props) {
-    super(props);
-    this.toggleTab = this.toggleTab.bind(this);
     let postsToShow = 10;
     if (typeof window !== `undefined`) {
       postsToShow = window.postsToShow;
     }
-    let currentActiveTab = "1"
+    let currentActiveTab = '1'
 
     const isBrowser = () => typeof window !== "undefined"
     if (isBrowser()) {
         var path = window.location.href.split("#")[1];
     }
     if (path && path == "opensource") { 
-        currentActiveTab = "2"
+        currentActiveTab = '2'
     }
+    super(props);
+    this.toggleTab = this.toggleTab.bind(this);
     this.state = {
-      showingMore: true,
-      postsToShow,
-      currentActiveTab: currentActiveTab,
+      "showingMore": true,
+      "postsToShow": postsToShow,
+      "currentActiveTab": currentActiveTab,
     };
   }
 
   // Toggle active state for Tab
   toggleTab(tab) {  
     this.setState({
-      ...this.state,
       "currentActiveTab": tab,
     });
   }
@@ -136,9 +136,7 @@ export default class ProjectIndex extends React.Component {
 
   componentDidMount() {
     window.addEventListener(`scroll`, this.handleScroll);
-    console.log("trying to toggle")
-    console.log(this.state)
-    this.toggleTab(this.state.currentActiveTab);
+    this.toggleTab(this.state.currentActiveTab)
   }
 
   componentWillUnmount() {
@@ -159,9 +157,9 @@ export default class ProjectIndex extends React.Component {
           <Nav tabs>
             <NavItem>
               <NavLink
-                className={ this.state.currentActiveTab === "1" ? "active" : "" }
+                className={classnames({ active: this.state.currentActiveTab === '2' }) }
                 onClick={() => {
-                  this.toggleTab("1");
+                  this.toggleTab('2');
                 }}
               >
                 Production
@@ -169,9 +167,9 @@ export default class ProjectIndex extends React.Component {
             </NavItem>
             <NavItem>
               <NavLink
-                className={ this.state.currentActiveTab === "2" ? "active" : "" }
+                className={classnames({ active: this.state.currentActiveTab === '1' })}
                 onClick={() => {
-                  this.toggleTab("2");
+                  this.toggleTab('1');
                 }}
               >
                 Open Source
@@ -179,12 +177,12 @@ export default class ProjectIndex extends React.Component {
             </NavItem>
           </Nav>
           <TabContent activeTab={this.state.currentActiveTab}>
-            <TabPane tabId="1" key="production">
+            <TabPane tabId="2" key="production">
               {posts[1].edges
                 .slice(0, this.state.postsToShow)
                 .map((post_data) => project_post(post_data))}
             </TabPane>
-            <TabPane tabId="2" key="opensource" id="opensource">
+            <TabPane tabId="1" key="opensource">
               {posts[0].edges
                 .slice(0, this.state.postsToShow)
                 .map((post_data) => project_post(post_data))}
