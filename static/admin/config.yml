@@ -2,8 +2,6 @@ backend:
     name: gitlab
     repo: bhava/portfolio2018
     branch: master
-    auth_type: implicit
-    app_id: 99f63d523c6b4c68b834ff9a1eb7a3e1d0e0def3b35ba58ff537e8ec6180e5fc
   
 media_folder: static/media
 public_folder: /media
