@@ -41,6 +41,7 @@ class ExtendedNavbar extends React.Component {
 
     render() {
         return (
+            <React.Fragment>
             <Navbar className="navbar-expand-lg" light={true}>
                 <div className="container box_1620 menu_bar">
                     <NavbarToggler araia-label="Toggle For Menu" className="navbar-toggler" onClick={this.toggle}>
@@ -63,7 +64,19 @@ class ExtendedNavbar extends React.Component {
                         </Nav>
                     </Collapse>
                 </div>
+                
             </Navbar>
+            <section align="center">
+                <a target="_blank" rel="noopener noreferrer"  href="https://gumroad.com/l/LaFSj?utm_source=website-banner&utm_medium=website&utm_campaign=website-banner">
+                <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height="" loop="7" scrollamount="2" scrolldelay="1" width="100%">
+
+                <span style={{"font-size": "18px", "color": "#FFFFFF"}}> 
+                    Build a Python Web Application in 30 days - Join PythonToProject Online Bootcamp starts Feb 12th 2022 (4 spots left)
+                </span>
+                </marquee>
+                </a>
+            </section>
+            </React.Fragment>
         )
     }
 }
