@@ -11,7 +11,7 @@ created_date: 2022-01-29
 description: Airflow had many AWS providers that weren't following the latest
   conventions. The resolution involes merging multiple modules into single
   Python file. I wrote this script to automate the task.
-draft: true
+draft: false
 ---
 # Merging Python Modules
 
