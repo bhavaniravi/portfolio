@@ -71,7 +71,7 @@ class ExtendedNavbar extends React.Component {
                 <marquee behavior="alternate" bgcolor="#bb3434" direction="left" height="" loop="7" scrollamount="2" scrolldelay="1" width="100%">
 
                 <span style={{"font-size": "18px", "color": "#FFFFFF"}}> 
-                    Wanna build your own Python Project? - Join 4 week PythonToProject Bootcamp starts Feb 12th 2022 (4 spots left)
+                    Wanna build your own Python Project? - Join 4 week PythonToProject Bootcamp
                 </span>
                 </marquee>
                 </a>
