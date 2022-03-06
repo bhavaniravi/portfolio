@@ -13,7 +13,7 @@ subtitle: A blog to help you understand authentication systems in detail
 tags:
   - python
   - authnetication
-  - distributed systems
+  - distributed-systems
   - authorization
   - security
 featuredImgPath: /media/auth_systems/featured.png

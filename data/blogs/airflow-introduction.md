@@ -29,7 +29,7 @@ Imagine you have an ML model that does twitter sentiment analysis. Now you want 
 
 <figure>
 
-![](https://i.imgur.com/qgSw3xW.png)
+![workflow as a graph with nodes](https://i.imgur.com/qgSw3xW.png)
 
 </figure>
 

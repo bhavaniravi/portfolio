@@ -121,8 +121,8 @@ Indexes are built based on the data in the databases. In any real time system th
 
 ## Full-Text-Search In Distributed Systems
 As the system scales and when you adapt to a microservices architecture next set of challenges occurs. 
-1. [How to search through the data which is spread across different microservices?]([https://slack.engineering/search-at-slack-431f8c80619e](https://slack.engineering/search-at-slack-431f8c80619e))
-2. As the data scales a user with less data might get his response faster, when compared to one whose drive is overflowing. [how to efficiently index the documents so that the latency does not vary for different users.]([https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)) 
+1. [How to search through the data which is spread across different microservices?](https://slack.engineering/search-at-slack-431f8c80619e)
+2. As the data scales a user with less data might get his response faster, when compared to one whose drive is overflowing. [how to efficiently index the documents so that the latency does not vary for different users.](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)
  
 ## How to get Started?
 

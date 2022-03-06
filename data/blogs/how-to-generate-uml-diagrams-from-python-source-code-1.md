@@ -1,5 +1,5 @@
 ---
-title: How to Generate UML Diagrams from Python Source Code
+title: How to Generate UML Diagrams from Python Source Code?
 sub_title: Add UML diagrams along with every version of your code
 slug: generate-uml-diagrams-from-python-code
 tags:

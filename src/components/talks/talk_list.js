@@ -1,7 +1,7 @@
 import React from "react"
 import SectionTitle from "../section_title"
 import Layout from "../layout"
-
+import SEO from "../seo"
 import "../../css/medium_blog.css"
 
 
@@ -87,6 +87,13 @@ export default class TalkIndex extends React.Component {
         const posts = data.allMarkdownRemark.edges
         return (
             <Layout navFixed={true}>
+                <SEO
+              title="Talks Archive - Bhavani Ravi"
+              subtitle="Learning never happens in isolation. It happens by sharing and exchaning ideas"
+              description="List of talks I have given at various meetups and conferences"
+              previewImgUrl=""
+              isexternal={false}
+        />
                 <div className="list_container med_blog_list_container talk_list_container">
                     <SectionTitle title={this.props.title} sub_title={this.props.sub_title}></SectionTitle>
                     {posts.slice(0, this.state.postsToShow).map(post_data => (

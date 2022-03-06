@@ -1,5 +1,5 @@
 ---
-title: How to Send Emails from Airflow
+title: How to Send Email Alerts from Airflow?
 sub_title: Email task status or Send reports from Airflow
 slug: sending-emails-from-airflow
 tags:

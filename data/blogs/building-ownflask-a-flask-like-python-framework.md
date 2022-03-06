@@ -104,7 +104,7 @@ class Flask:
 In `demo.py`, change `from flask` to `from ownflask` to work with the module we just created and run `demo.py`. On hitting the `http://127.0.0.1:8000` from the browser, you get a 501 error since we haven't implemented anything to handle the incoming request.
 
 
-![](https://i.imgur.com/HryJiE1.png)
+![Error response on running ownflask](https://i.imgur.com/HryJiE1.png) 
 
 
 ### Mapping Requests

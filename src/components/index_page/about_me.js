@@ -17,8 +17,8 @@ class Banner extends React.Component {
 								</div>
 								<div className="media-body">
 									<div className="personal_text">
-										<h3>Hi, I'm {this.props.title} 👋</h3>
-										<h4>{this.props.tagline}</h4>
+										<h1>Hi, I'm {this.props.title} 👋</h1>
+										<h2>{this.props.tagline}</h2>
 										{/* <TwitterFollowButton screenName={'BhavaniRavi_'} /> */}
 									    <Link to="/about-me">
 											<button>More About Me </button>

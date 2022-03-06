@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "../section_title";
 import Layout from "../layout";
+import SEO from "../seo"
 import {
   Badge,
   Nav,
@@ -149,6 +150,13 @@ export default class ProjectIndex extends React.Component {
     const posts = data.allMarkdownRemark.group;
     return (
       <Layout navFixed={true}>
+        <SEO
+              title="Project Archive - Bhavani Ravi"
+              subtitle="The source of my Tech Experience"
+              description="All my projects are built with Python backend and React frontend. I deploy my applications in cloud."
+              previewImgUrl=""
+              isexternal={false}
+        />
         <div className="list_container med_blog_list_container talk_list_container">
           <SectionTitle
             title={this.props.title}

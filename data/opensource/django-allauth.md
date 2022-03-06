@@ -1,5 +1,5 @@
 ---
-title: Django All Auth
+title: Django All-Auth
 slug: django-allauth
 draft: false
 skills: ["code"]

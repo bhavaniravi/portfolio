@@ -17,7 +17,7 @@ draft: false
 
 When the internet became a thing, we started hosting things on bare metal servers. In the last five years, we have moved from there to this fancy thing called Docker that changed our lives.
 
-So far, we have discussed various [aspects of the DevOps system](https://youtu.be/m31asTwC_s8) and [Docker's what, why, and how](blog/docker-introduction/). To delve deeper into Docker's internals, we need to understand a few operating system terms.
+So far, we have discussed various [aspects of the DevOps system](https://youtu.be/m31asTwC_s8) and [Docker's what, why, and how](/blog/docker-introduction/). To delve deeper into Docker's internals, we need to understand a few operating system terms.
 
 Oh no! It sounds boring! I thought so too, but actually, it's not. But to make our lives easier, we are only going to learn two things.
 

@@ -1,5 +1,5 @@
 ---
-title: " Sending Email Alerts in Apache Airflow with Sendgrid"
+title: "Sending Email Alerts in Apache Airflow with Sendgrid"
 sub_title: Step-by-Step instructions on setting up sendgrid and airflow to send emails
 slug: emails-alerts-airflow-with-sendgrid
 tags:

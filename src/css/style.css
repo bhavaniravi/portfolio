@@ -141,13 +141,18 @@ button:focus {
   max-width: 670px;
   margin: 0px auto 75px;
 }
-.main_title h2 {
+.main_title h1 {
   font-family: "Heebo", sans-serif;
   font-size: 36px;
   color: #222222;
   margin-bottom: 15px;
   /* text-transform: uppercase; */
 }
+
+.main_title h2 {
+  font-size: 20px;
+}
+
 .main_title p {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -3361,7 +3366,7 @@ h6 {
   padding-left: 95px;
 }
 
-.personal_text h6 {
+.personal_text h3 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2.1px;
@@ -3369,7 +3374,7 @@ h6 {
   margin-bottom: 12px;
   color: #222222;
 }
-.personal_text h4 {
+.personal_text h2 {
   font-size: 18px;
   /* font-weight: 500; */
   font-family: "Roboto", sans-serif;
@@ -3377,7 +3382,7 @@ h6 {
   margin-bottom: 20px;
   color: #22222266;
 }
-.personal_text h3 {
+.personal_text h1 {
   font-size: 38px;
   margin-bottom: 0px;
   color: #222222;

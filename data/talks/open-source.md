@@ -5,7 +5,7 @@ title: "Getting Started With Open Source"
 template: "post"
 draft: false
 location: ["GDG DevFest Banglore"]
-description: "How I made my first Open source contribution and how you could too"
+description: "Most people ask you to start with 'good first issues', I think that's a problem. In this talk I share 5 simple steps to contribute to any opensource project."
 tags: ["talk"]
 ---
 

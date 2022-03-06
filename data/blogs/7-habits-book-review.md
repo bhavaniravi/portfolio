@@ -82,7 +82,7 @@ The idea can be explained with a simple image. List down your tasks into these f
 
 <figure>
 
-![](https://i.imgur.com/hhzaq1P.png)
+![4 quadrant time management system](https://i.imgur.com/hhzaq1P.png)
 
 </figure>
 

@@ -1,6 +1,6 @@
 ---
-title: End Goal
-sub_title: How to set goals and track them
+title: End Goal - How to set goals and track them?
+sub_title: Logging my thought stream on goal setting and tracking
 slug: how-to-set-goals
 tags:
   - goals

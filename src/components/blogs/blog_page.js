@@ -53,7 +53,6 @@ class BlogPostTemplate extends React.Component {
             <div className="blogBadge">
             {tags_badge}
             </div>
-            <h1>{get_title(post)}</h1>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </article>
           <hr />

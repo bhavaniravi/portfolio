@@ -32,7 +32,7 @@ The rest of this blog sheds light on conventional task queue systems, and where 
 
 <figure>
 
-![](/media/async-task-python.png)
+![Blog preview image](/media/async-task-python.png)
 
 </figure>
 

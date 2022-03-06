@@ -12,12 +12,11 @@ subtitle: A blog to help you understand caches in detail
 tags:
   - python
   - redis
-  - distributed systems
+  - distributed-systems
   - memcaches
   - caching
 featuredImgPath: /media/caching-in-python.png
 ---
-
 # Caching in Python
 
 Caching, is a concept that was gifted to software world from the hardware world. A cache is a temporary storage area that stores the used items for easy access. To put it in layman’s terms, it is the chair we all have.

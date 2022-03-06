@@ -53,11 +53,12 @@ export default class TagIndex extends React.Component {
 
   render() {
     const { data } = this.props
+    console.log(this.state)
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout navFixed={true}>
         <div className="med_blog_list_container">
-          <SectionTitle title="Bhavani's Blogs" sub_title="A Sneak Peak into my head"></SectionTitle>
+          <SectionTitle title={`${this.state.tag} Blogs`}></SectionTitle>
           {posts.slice(0, this.state.postsToShow).map(post_data => (
             <InBuiltBlogPost key={post_data.node.frontmatter.slug}
               post={post_data.node}></InBuiltBlogPost>
