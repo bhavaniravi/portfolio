@@ -41,7 +41,8 @@ export default class OpenSourceArea extends Component {
                                         data.allMarkdownRemark.edges.map(edge => (
                                             <ProjectBox project={{"title": edge.node.frontmatter.title, 
                                             "description": edge.node.excerpt, 
-                                            "url": "/" + edge.node.fields.sourceName + "/"+ edge.node.frontmatter.slug ,"icon_path": null, 
+                                            "url": "/" + edge.node.fields.sourceName + "/"+ edge.node.frontmatter.slug ,
+                                            "icon_path": null, 
                                             "skills": edge.node.frontmatter.skills}}></ProjectBox>
                         
                                         ))

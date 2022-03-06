@@ -198,7 +198,7 @@ CeleryExecutors has a fixed number of workers running to pick-up the tasks as th
 
 ### KubernetesExecutor
 
-KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike CeleryCelery, [it spins up worker pods on demand](https://bhavaniravi.com/blog/deploying-airflow-on-kubernetes/), hence enabling maximum usage of resources.
+KubernetesExecutor runs each task in an individual Kubernetes pod. Unlike CeleryCelery, [it spins up worker pods on demand](/deploying-airflow-on-kubernetes/), hence enabling maximum usage of resources.
 
 #### Pros
 

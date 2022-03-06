@@ -35,7 +35,7 @@ When thinking about authentication, the common imagery people have is a login HT
 	- [Cookie/Session Based](#cookiesession-based-authentication)
 	- [Token Based](#token-based-authentication)
 	- [SSO](#sso)
-	- [Oauth2](oauth2)
+	- [Oauth2](#oauth2)
 	- [Two Factor Authentication](#two-factor-authentication)
 2. [Authorization](#authorization)
 	- Access Control
@@ -107,7 +107,7 @@ It is an upgraded version of Basic auth. It overcomes the security vulnerabiliti
 
 ### Advantages
 1. Prevents passwords sent as plain-texts
-2. Avoids [Phisiing]([https://en.wikipedia.org/wiki/Phishing](https://en.wikipedia.org/wiki/Phishing))
+2. Avoids [Phising](https://en.wikipedia.org/wiki/Phishing)
 
 ### Disadvantages
 1. Digest method is still vulnerable to man in the middle attacks.

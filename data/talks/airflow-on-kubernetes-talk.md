@@ -15,7 +15,7 @@ Airflow is an opensource platform to create, schedule and monitor workflows. In 
 
 ## Blog Post
 
-[Checkout the step by step implementation](/blog/airflow-on-kubernetes) 
+[Checkout the step by step implementation](/blog/deploying-airflow-on-kubernetes) 
 
 ## Slides
 

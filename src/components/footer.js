@@ -82,7 +82,7 @@ export default class FooterArea extends Component {
                         <div className="col-lg-5 col-sm-6" style={{ "paddingLeft": "15%" }}>
                             <p style={{ fontSize: "16px" }}>
                                 Copyright &copy; {new Date().getFullYear()} &nbsp;All rights reserved &nbsp;
-                                <a style={{ fontSize: "16px" }} href="bhavaniravi.com">bhavaniravi.com</a>
+                                <a style={{ fontSize: "16px" }} href="/">bhavaniravi.com</a>
 
                             </p>
                             <div className="f_title">

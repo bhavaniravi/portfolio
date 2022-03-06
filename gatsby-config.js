@@ -53,6 +53,15 @@ module.exports = {
     `gatsby-plugin-mdx`,
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-autolink-headers',
+          'gatsby-remark-check-links'
+        ]
+      }
+    },
+    {
       resolve: 'gatsby-plugin-preconnect',
       options: {
         domains: ['https://twitter.com', 'https://google.com',

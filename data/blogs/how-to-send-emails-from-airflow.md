@@ -17,7 +17,7 @@ draft: false
 ---
 # How to Send Emails from Airflow
 
-Airflow is an open-source workflow management software by apache if you are new to Airflow [check out the introduction blog](https://bhavaniravi.com/blog/apache-airflow-introduction).
+Airflow is an open-source workflow management software by apache if you are new to Airflow [check out the introduction blog](/blog/apache-airflow-introduction).
 
 Now that you understood what Airflow is let's discuss how you can send emails to update your team about the status of a task or send reports using airflow.
 

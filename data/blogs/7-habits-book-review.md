@@ -8,7 +8,7 @@ draft: false
 description: ""
 subtitle: "Things I learned by reading 7 Habits of Highly Effective People"
 tags: ["book-summary"]
-featuredImgPath: "https://www.thedailyslog.com/wp-content/uploads/2018/05/The-7-Habits-of-Highly-Effective-People-938x489.jpg"
+featuredImgPath: "https://i.imgur.com/RlofT9N.png"
 isexternal: true
 ---
 
@@ -27,7 +27,7 @@ isexternal: true
 Trust me, the book is intense, even for someone who reads nothing but self-help and psychological books over the years. But the book is so fluidly written that you won’t even know you are learning so much. The book does something to your personality that’s beyond explanation. Everyone should read this book at least once in their life, and I can guarantee you would want to reread it.
 
 ## Why should you read this book?
-Most self-help books in the market are focused on "*how to improve your social image*" rather than "*how to be a great human being*." This is the same idea discussed in the first chapter of [Atomic habits](https://bhavaniravi.com/blog/atomic-habits-book-summary). To be that person, to build an identity as a fitness freak or a nonsmoker. But the seven habits go more in-depth and talks about concepts that lay the groundwork for building such habit systems.
+Most self-help books in the market are focused on "*how to improve your social image*" rather than "*how to be a great human being*." This is the same idea discussed in the first chapter of [Atomic habits](/blog/atomic-habits-book-summary). To be that person, to build an identity as a fitness freak or a nonsmoker. But the seven habits go more in-depth and talks about concepts that lay the groundwork for building such habit systems.
 
 Reading self-help books without understanding seven habits is like applying band-aid over a deep wound, will only fix the outside.
 

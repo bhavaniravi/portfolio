@@ -134,6 +134,6 @@ As the system scales and when you adapt to a microservices architecture next set
 3. [https://www.youtube.com/watch?v=FM2e2J7OJpM](https://www.youtube.com/watch?v=FM2e2J7OJpM)
 4. [How does a Lucene Query work?](https://www.youtube.com/watch?v=Z-yG-KvIuD8)
 5. [Do Not Use MySQL indexes](https://hackernoon.com/dont-waste-your-time-with-mysql-full-text-search-61f644a54dfa)
-6. [How does FTS work what can it do?](https://www.slideshare.net/Couchbase/fulltext-search-how-it-works-and-what-it-can-do])
+6. [How does FTS work what can it do?](https://www.youtube.com/watch?v=VBc4qammHrY)
 7. [https://conferences.xeraa.net/videos/ovUA3r](https://conferences.xeraa.net/videos/ovUA3r)
 8. [How dropbox solves full text search](https://blogs.dropbox.com/tech/2015/03/firefly-instant-full-text-search-engine/)

@@ -25,7 +25,7 @@ From the time I got the book, to writing this summary, I thought the title of th
 
 Went too philosophical there, didn't I? 
 
-Unlike the first two books I read [Atomic habits](https://bhavaniravi.com/blog/seven-habits-book-summary) and [7 habits of highly effective people](https://bhavaniravi.com/blog/atomic-habits-book-summary), this book is not a self-help book, not a practical guide that would change your life. It is a book filled with case studies to prove that our conventional ideas can be questioned and proved wrong.
+Unlike the first two books I read [Atomic habits](/blog/seven-habits-book-summary) and [7 habits of highly effective people](/blog/atomic-habits-book-summary), this book is not a self-help book, not a practical guide that would change your life. It is a book filled with case studies to prove that our conventional ideas can be questioned and proved wrong.
 
 ## Question the Conventional Wisdom
 
