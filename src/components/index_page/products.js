@@ -13,7 +13,7 @@ export class ProductBox extends Component {
     return (
         <div className="col-lg-4 col-md-4">
           <Card className="feature_item">
-          <CardImg top width="100%" src={`${product.preview_img}`} />
+          <CardImg top width="100%" alt={`${product.title} Preview image`} src={`${product.preview_img}`} />
           <CardBody>
             <CardTitle tag="h4">{product.title}</CardTitle>
             <CardSubtitle tag="h5" className="mb-2 text-muted">{product.subtitle}</CardSubtitle>
