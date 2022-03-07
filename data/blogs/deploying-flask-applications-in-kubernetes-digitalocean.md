@@ -9,9 +9,9 @@ featuredImgPath: https://i.imgur.com/uTbgOJD.png
 isexternal: true
 published_date: 2022-03-06
 created_date: 2022-03-06
-description: The word "kubernetes" and the keywords around it are scary for
-  people. In this blog, we will demystify what those words mean and how to
-  deploy a web application in kuberenetes environment
+description: The word "kubernetes" and it's keywords are scary for people. In
+  this blog, we will demystify what those words mean and how to deploy a web
+  application in kuberenetes environment
 draft: false
 ---
 # Introduction to Deploying Flask Applications in Kubernetes
