@@ -14,7 +14,7 @@ description: The word "kubernetes" and it's keywords are scary for people. In
   application in kuberenetes environment
 draft: false
 ---
-# Introduction to Deploying Flask Applications in Kubernetes
+# Deploying Flask Applications in Kubernetes (Digitalocean)
 
 ## What is Kubernetes?
 
