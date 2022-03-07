@@ -164,7 +164,7 @@ kubectl create namespace todoapp
 kubectl config set-context --current --namespace=todoapp 
 ```
 
-2. Create Pod, deployment spec
+2. Create Pod, deployment spec. Create a file `deployment.yaml` 
 
 ```
 
@@ -195,7 +195,7 @@ spec:
 
 ```
 
-3. Create a service spec to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
+3. Create a service spec in file `service.yaml` to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
 
 ```
 apiVersion: v1
@@ -218,6 +218,8 @@ spec:
 You can check the running pods and services using the following command
 
 ```
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
 kubectl get pods
 kubectl get service # wait until external IP is set
 ```
