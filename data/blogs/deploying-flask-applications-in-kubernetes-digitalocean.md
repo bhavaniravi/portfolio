@@ -10,7 +10,7 @@ isexternal: true
 published_date: 2022-03-06
 created_date: 2022-03-06
 description: The word "kubernetes" and the keywords around it are scary for
-  people. In this blog, we will demistify what those words mean and how to
+  people. In this blog, we will demystify what those words mean and how to
   deploy a web application in kuberenetes environment
 draft: false
 ---
