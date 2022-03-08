@@ -23,7 +23,8 @@ The advantage of using a container is that it's OS independent, lightweight, shi
 
 Yes, Kubernetes is too much to wrap your head around. So let's take it to step by step.
 
----
+- - -
+
 ## Kubernetes Resources
 
 Let's repeat this Kubernetes is a container orchestration tool. It will create, run and destroy containers. It is not an OS. It is not a physical/virtual machine. For Kubernetes to run the containers, it needs an external physical or virtual machine. These machines are called **Nodes**
@@ -38,13 +39,12 @@ Once the application is running inside the Pod, you will  expose it to the outsi
 
 With that, we have got a high-level understanding of the most used Kubernetes keywords
 
-- Pod
-- Deployment
-- Service
-- Node
-- Cluster
-- Namespace
-
+* Pod
+* Deployment
+* Service
+* Node
+* Cluster
+* Namespace
 
 We will see more resources as we go along this journey. For now, let's see how to set up a cluster and expose it using the resources mentioned earlier on Digitalocean.
 
@@ -52,7 +52,7 @@ We will see more resources as we go along this journey. For now, let's see how t
 
 Because I have some free credits, you can spin up one at just 10$/month. 
 
-[With my referral link, get 100\$ worth credits instantly](https://m.do.co/c/41c2c624a048)
+[With my referral link, get 100$ worth credits instantly](https://m.do.co/c/41c2c624a048)
 
 ## Sample Application
 
@@ -88,15 +88,15 @@ doctl auth init -t $DO_TOKEN
 
 Now for the fun part. What do you need to deploy?
 
-- Dockerized sample application
-- Kubectl access
-- Kubernetes spec
+* Dockerized sample application
+* Kubectl access
+* Kubernetes spec
 
 Let's do this one by done.
 
-### Sample Application
+### Dockerize Application
 
-Download the sample application from Github and see if you can run it.
+Download the [sample application from Github](https://github.com/bhavaniravi/flask-tutorial) and see if you can run it.
 
 ```
 # -t stands for tag
@@ -114,10 +114,9 @@ Now the application runs on your local machine. You need it somewhere on the clo
 
 To create a registry in Digitalocean.
 
-1. Go to [https://cloud.digitalocean.com/registry](https://cloud.digitalocean.com/registry)
+1. Go to <https://cloud.digitalocean.com/registry>
 2. Give a registry name
 3. Select a plan and click "Create registry."
-
 
 The docker images can be referenced by registry, image, and tag. Currently, we have created the `flask-tutorial:0.0.1` tag. Let's map it to a registry tag. Let's re-tag this image in the `<registry-name>/<image-name>/<image-tag>`
 
@@ -161,10 +160,9 @@ kubectl create namespace todoapp
 kubectl config set-context --current --namespace=todoapp 
 ```
 
-2. Create Pod, deployment spec
+2. Create Pod, deployment spec. Create a file `deployment.yaml` 
 
 ```
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -189,10 +187,9 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8888
-
 ```
 
-3. Create a service spec to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
+3. Create a service spec in file `service.yaml` to expose your application to the outside world. I have created a service of type `LoadBalancer` for ease of usage. But it is always a good idea to have an ingress installed at the Cluster and route your request to a `ClusterIP` type service.
 
 ```
 apiVersion: v1
@@ -209,12 +206,13 @@ spec:
   type: LoadBalancer
 ```
 
-
 ## Running Application
 
 You can check the running pods and services using the following command
 
 ```
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
 kubectl get pods
 kubectl get service # wait until external IP is set
 ```
