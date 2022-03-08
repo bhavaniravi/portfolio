@@ -68,7 +68,7 @@ export default class ProductArea extends Component {
                                     `}
                                     render={data => (
                                         data.allMarkdownRemark.edges.map(edge => (
-                                            <ProductBox product={{...edge.node.frontmatter, ...edge.node.fields}} key={edge.node.fields.slug} />
+                                            <ProductBox product={{...edge.node.frontmatter, ...edge.node.fields}} key={edge.node.frontmatter.slug} />
                                         )) 
                                     )}
                                           />
